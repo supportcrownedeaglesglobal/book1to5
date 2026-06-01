@@ -7,120 +7,120 @@
    "order": 1,
    "level": 1,
    "title": "Title Page",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 198.83,
    "estSec": 161.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/001-front.mp3"
   },
   {
    "id": "003-pre-foreword",
    "order": 3,
    "level": 1,
    "title": "PRE-FOREWORD",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 97.96,
    "estSec": 87.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/003-pre-foreword.mp3"
   },
   {
    "id": "004-foreword",
    "order": 4,
    "level": 1,
    "title": "FOREWORD",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 81.22,
    "estSec": 75.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/004-foreword.mp3"
   },
   {
    "id": "005-top-5-testimonies-of-divine-power-witness-the-impossible",
    "order": 5,
    "level": 1,
    "title": "TOP 5 TESTIMONIES OF DIVINE POWER - WITNESS THE IMPOSSIBLE!",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 353.53,
    "estSec": 346.4,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/005-top-5-testimonies-of-divine-power-witness-the-impossible.mp3"
   },
   {
    "id": "006-how-to-read-this-book",
    "order": 6,
    "level": 1,
    "title": "HOW TO READ THIS BOOK",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 107.67,
    "estSec": 104.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/006-how-to-read-this-book.mp3"
   },
   {
    "id": "007-preface",
    "order": 7,
    "level": 1,
    "title": "PREFACE",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 183.95,
    "estSec": 186.4,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/007-preface.mp3"
   },
   {
    "id": "008-a-brief-glossary-of-terms",
    "order": 8,
    "level": 1,
    "title": "A BRIEF GLOSSARY OF TERMS",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 43.46,
    "estSec": 37.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/008-a-brief-glossary-of-terms.mp3"
   },
   {
    "id": "009-the-divine-bibliography",
    "order": 9,
    "level": 1,
    "title": "THE DIVINE BIBLIOGRAPHY",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 165.45,
    "estSec": 159.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/009-the-divine-bibliography.mp3"
   },
   {
    "id": "010-prologue",
    "order": 10,
    "level": 1,
    "title": "PROLOGUE",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 219.1,
    "estSec": 206.4,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/010-prologue.mp3"
   },
   {
    "id": "011-introduction",
    "order": 11,
    "level": 1,
    "title": "INTRODUCTION",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 192.96,
    "estSec": 190.4,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/011-introduction.mp3"
   },
   {
    "id": "012-part-1",
    "order": 12,
    "level": 1,
    "title": "PART 1",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 18.63,
    "estSec": 8.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/012-part-1.mp3"
   },
   {
    "id": "013-act-1-scene-1-the-desperate",
    "order": 13,
    "level": 2,
    "title": "ACT 1, SCENE 1 THE DESPERATE!",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 140.19,
    "estSec": 124.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/013-act-1-scene-1-the-desperate.mp3"
   },
   {
    "id": "014-chapter-1-1",
@@ -137,774 +137,774 @@
    "order": 15,
    "level": 2,
    "title": "UNDERSTANDING PROPHETIC EXPECTATION OF RESURRECTION POWER",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 279.93,
    "estSec": 278.4,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/015-understanding-prophetic-expectation-of-resurrection-power.mp3"
   },
   {
    "id": "016-chapter-1-2",
    "order": 16,
    "level": 2,
    "title": "CHAPTER 1.2",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 251.51,
    "estSec": 222.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/016-chapter-1-2.mp3"
   },
   {
    "id": "017-chapter-1-3",
    "order": 17,
    "level": 2,
    "title": "CHAPTER 1.3",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 542.47,
    "estSec": 615.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/017-chapter-1-3.mp3"
   },
   {
    "id": "018-reflection",
    "order": 18,
    "level": 2,
    "title": "REFLECTION",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 182.59,
    "estSec": 169.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/018-reflection.mp3"
   },
   {
    "id": "019-part-2",
    "order": 19,
    "level": 1,
    "title": "PART 2",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 19.78,
    "estSec": 9.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/019-part-2.mp3"
   },
   {
    "id": "020-act-2-scene-1",
    "order": 20,
    "level": 2,
    "title": "ACT 2, SCENE 1",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 157.17,
    "estSec": 162.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/020-act-2-scene-1.mp3"
   },
   {
    "id": "021-chapter-2-1-the-deceased",
    "order": 21,
    "level": 2,
    "title": "CHAPTER 2.1 THE DECEASED",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 308.32,
    "estSec": 308.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/021-chapter-2-1-the-deceased.mp3"
   },
   {
    "id": "022-chapter-2-2",
    "order": 22,
    "level": 2,
    "title": "CHAPTER 2.2",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 161.3,
    "estSec": 127.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/022-chapter-2-2.mp3"
   },
   {
    "id": "023-chapter-2-3",
    "order": 23,
    "level": 2,
    "title": "CHAPTER 2.3",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 114.0,
    "estSec": 99.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/023-chapter-2-3.mp3"
   },
   {
    "id": "024-reflection-2",
    "order": 24,
    "level": 2,
    "title": "REFLECTION",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 122.33,
    "estSec": 116.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/024-reflection-2.mp3"
   },
   {
    "id": "025-part-3",
    "order": 25,
    "level": 1,
    "title": "PART 3",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 19.76,
    "estSec": 10.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/025-part-3.mp3"
   },
   {
    "id": "026-act-3-scene-1-the-absurd",
    "order": 26,
    "level": 2,
    "title": "ACT 3, SCENE 1 THE ABSURD!",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 169.79,
    "estSec": 151.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/026-act-3-scene-1-the-absurd.mp3"
   },
   {
    "id": "027-practical-reflection-aligning-with-divine-will",
    "order": 27,
    "level": 2,
    "title": "PRACTICAL REFLECTION: ALIGNING WITH DIVINE WILL",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 97.07,
    "estSec": 86.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/027-practical-reflection-aligning-with-divine-will.mp3"
   },
   {
    "id": "028-chapter-3-1",
    "order": 28,
    "level": 2,
    "title": "CHAPTER 3.1",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 102.13,
    "estSec": 92.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/028-chapter-3-1.mp3"
   },
   {
    "id": "029-chapter-3-2",
    "order": 29,
    "level": 2,
    "title": "CHAPTER 3.2",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 112.73,
    "estSec": 97.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/029-chapter-3-2.mp3"
   },
   {
    "id": "030-chapter-3-3",
    "order": 30,
    "level": 2,
    "title": "CHAPTER 3.3",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 179.47,
    "estSec": 177.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/030-chapter-3-3.mp3"
   },
   {
    "id": "031-reflection-3",
    "order": 31,
    "level": 2,
    "title": "REFLECTION",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 146.38,
    "estSec": 138.4,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/031-reflection-3.mp3"
   },
   {
    "id": "032-part-4",
    "order": 32,
    "level": 1,
    "title": "PART 4",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 22.71,
    "estSec": 10.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/032-part-4.mp3"
   },
   {
    "id": "033-act-4-scene-1",
    "order": 33,
    "level": 2,
    "title": "ACT 4, SCENE 1",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 169.65,
    "estSec": 168.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/033-act-4-scene-1.mp3"
   },
   {
    "id": "034-divine-forces-behind-the-rise-and-fall-of-nations-unleashing",
    "order": 34,
    "level": 2,
    "title": "Divine Forces Behind the Rise and Fall of Nations - Unleashing",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 149.17,
    "estSec": 101.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/034-divine-forces-behind-the-rise-and-fall-of-nations-unleashing.mp3"
   },
   {
    "id": "035-spiritual-disciplines-for-resurrection-power",
    "order": 35,
    "level": 2,
    "title": "SPIRITUAL DISCIPLINES FOR RESURRECTION POWER",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 245.4,
    "estSec": 247.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/035-spiritual-disciplines-for-resurrection-power.mp3"
   },
   {
    "id": "036-chapter-4-1",
    "order": 36,
    "level": 2,
    "title": "CHAPTER 4.1",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 109.54,
    "estSec": 99.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/036-chapter-4-1.mp3"
   },
   {
    "id": "037-chapter-4-2",
    "order": 37,
    "level": 2,
    "title": "CHAPTER 4.2",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 118.88,
    "estSec": 110.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/037-chapter-4-2.mp3"
   },
   {
    "id": "038-chapter-4-3",
    "order": 38,
    "level": 2,
    "title": "CHAPTER 4.3",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 114.84,
    "estSec": 109.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/038-chapter-4-3.mp3"
   },
   {
    "id": "039-reflection-4",
    "order": 39,
    "level": 2,
    "title": "REFLECTION",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 250.18,
    "estSec": 233.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/039-reflection-4.mp3"
   },
   {
    "id": "040-part-5",
    "order": 40,
    "level": 1,
    "title": "PART 5",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 21.75,
    "estSec": 8.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/040-part-5.mp3"
   },
   {
    "id": "041-act-5-scene-1",
    "order": 41,
    "level": 2,
    "title": "ACT 5, SCENE 1",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 172.74,
    "estSec": 166.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/041-act-5-scene-1.mp3"
   },
   {
    "id": "042-addressing-doctrinal-controversies",
    "order": 42,
    "level": 2,
    "title": "ADDRESSING DOCTRINAL CONTROVERSIES",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 129.4,
    "estSec": 130.4,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/042-addressing-doctrinal-controversies.mp3"
   },
   {
    "id": "043-chapter-5-1",
    "order": 43,
    "level": 2,
    "title": "CHAPTER 5.1",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 125.16,
    "estSec": 107.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/043-chapter-5-1.mp3"
   },
   {
    "id": "044-chapter-5-2",
    "order": 44,
    "level": 2,
    "title": "CHAPTER 5.2",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 98.66,
    "estSec": 91.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/044-chapter-5-2.mp3"
   },
   {
    "id": "045-chapter-5-3",
    "order": 45,
    "level": 2,
    "title": "CHAPTER 5.3",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 88.04,
    "estSec": 70.4,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/045-chapter-5-3.mp3"
   },
   {
    "id": "046-reflection-5",
    "order": 46,
    "level": 2,
    "title": "REFLECTION",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 149.68,
    "estSec": 144.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/046-reflection-5.mp3"
   },
   {
    "id": "047-part-6",
    "order": 47,
    "level": 1,
    "title": "PART 6",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 24.12,
    "estSec": 10.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/047-part-6.mp3"
   },
   {
    "id": "048-act-6-scene-1-the-price",
    "order": 48,
    "level": 2,
    "title": "ACT 6, SCENE 1 THE PRICE!",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 177.81,
    "estSec": 173.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/048-act-6-scene-1-the-price.mp3"
   },
   {
    "id": "049-universal-yearning-for-resurrection",
    "order": 49,
    "level": 2,
    "title": "UNIVERSAL YEARNING FOR RESURRECTION",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 183.22,
    "estSec": 166.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/049-universal-yearning-for-resurrection.mp3"
   },
   {
    "id": "050-chapter-6-1",
    "order": 50,
    "level": 2,
    "title": "CHAPTER 6.1",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 95.4,
    "estSec": 81.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/050-chapter-6-1.mp3"
   },
   {
    "id": "051-chapter-6-2",
    "order": 51,
    "level": 2,
    "title": "CHAPTER 6.2",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 85.67,
    "estSec": 67.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/051-chapter-6-2.mp3"
   },
   {
    "id": "052-chapter-6-3",
    "order": 52,
    "level": 2,
    "title": "CHAPTER 6.3",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 76.79,
    "estSec": 58.4,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/052-chapter-6-3.mp3"
   },
   {
    "id": "053-reflection-6",
    "order": 53,
    "level": 2,
    "title": "REFLECTION",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 120.22,
    "estSec": 114.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/053-reflection-6.mp3"
   },
   {
    "id": "054-part-7",
    "order": 54,
    "level": 1,
    "title": "PART 7",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 21.84,
    "estSec": 8.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/054-part-7.mp3"
   },
   {
    "id": "055-act-7-scene-1",
    "order": 55,
    "level": 2,
    "title": "ACT 7, SCENE 1",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 438.99,
    "estSec": 442.4,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/055-act-7-scene-1.mp3"
   },
   {
    "id": "056-doctrinal-foundations-for-resurrection",
    "order": 56,
    "level": 2,
    "title": "DOCTRINAL FOUNDATIONS FOR RESURRECTION",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 143.85,
    "estSec": 126.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/056-doctrinal-foundations-for-resurrection.mp3"
   },
   {
    "id": "057-chapter-7-1",
    "order": 57,
    "level": 2,
    "title": "CHAPTER 7.1",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 112.25,
    "estSec": 95.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/057-chapter-7-1.mp3"
   },
   {
    "id": "058-chapter-7-2",
    "order": 58,
    "level": 2,
    "title": "CHAPTER 7.2",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 115.05,
    "estSec": 99.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/058-chapter-7-2.mp3"
   },
   {
    "id": "059-chapter-7-3",
    "order": 59,
    "level": 2,
    "title": "CHAPTER 7.3",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 88.9,
    "estSec": 75.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/059-chapter-7-3.mp3"
   },
   {
    "id": "060-reflection-7",
    "order": 60,
    "level": 2,
    "title": "REFLECTION",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 158.68,
    "estSec": 149.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/060-reflection-7.mp3"
   },
   {
    "id": "061-global-events-as-reflections-of-cosmic-judgment-a-wake-up-ca",
    "order": 61,
    "level": 1,
    "title": "GLOBAL EVENTS AS REFLECTIONS OF COSMIC JUDGMENT: A WAKE- UP CALL TO THE WORLD",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 194.58,
    "estSec": 184.4,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/061-global-events-as-reflections-of-cosmic-judgment-a-wake-up-ca.mp3"
   },
   {
    "id": "062-divine-summon-step-into-your-eternal",
    "order": 62,
    "level": 1,
    "title": "DIVINE SUMMON STEP INTO YOUR ETERNAL",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 444.25,
    "estSec": 398.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/062-divine-summon-step-into-your-eternal.mp3"
   },
   {
    "id": "063-appendix-1",
    "order": 63,
    "level": 1,
    "title": "APPENDIX 1",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 112.9,
    "estSec": 97.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/063-appendix-1.mp3"
   },
   {
    "id": "064-appendix-2",
    "order": 64,
    "level": 1,
    "title": "APPENDIX 2",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 2508.49,
    "estSec": 2511.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/064-appendix-2.mp3"
   },
   {
    "id": "065-the-50-benefits-of-upholding-the-50-protocols-of-heaven",
    "order": 65,
    "level": 2,
    "title": "THE 50 BENEFITS OF UPHOLDING THE 50 PROTOCOLS OF HEAVEN:",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 259.51,
    "estSec": 226.4,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/065-the-50-benefits-of-upholding-the-50-protocols-of-heaven.mp3"
   },
   {
    "id": "066-the-seven-words-to-metamorphosis-into-our-archangel-the",
    "order": 66,
    "level": 2,
    "title": "\"THE SEVEN WORDS\" TO METAMORPHOSIS INTO OUR ARCHANGEL, THE",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 313.31,
    "estSec": 315.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/066-the-seven-words-to-metamorphosis-into-our-archangel-the.mp3"
   },
   {
    "id": "067-appendix-3",
    "order": 67,
    "level": 1,
    "title": "APPENDIX 3",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 86.14,
    "estSec": 82.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/067-appendix-3.mp3"
   },
   {
    "id": "068-basic-training-of-the-144-000",
    "order": 68,
    "level": 2,
    "title": "BASIC TRAINING OF THE 144,000",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 103.76,
    "estSec": 106.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/068-basic-training-of-the-144-000.mp3"
   },
   {
    "id": "069-appendix-4",
    "order": 69,
    "level": 1,
    "title": "APPENDIX 4",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 355.77,
    "estSec": 375.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/069-appendix-4.mp3"
   },
   {
    "id": "070-appendix-5",
    "order": 70,
    "level": 1,
    "title": "APPENDIX 5",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 1429.1,
    "estSec": 1533.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/070-appendix-5.mp3"
   },
   {
    "id": "071-appendix-6",
    "order": 71,
    "level": 1,
    "title": "APPENDIX 6",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 376.13,
    "estSec": 402.4,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/071-appendix-6.mp3"
   },
   {
    "id": "072-appendix-7",
    "order": 72,
    "level": 1,
    "title": "APPENDIX 7",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 1792.65,
    "estSec": 1872.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/072-appendix-7.mp3"
   },
   {
    "id": "073-appendix-8",
    "order": 73,
    "level": 1,
    "title": "APPENDIX 8",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 16378.51,
    "estSec": 17607.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/073-appendix-8.mp3"
   },
   {
    "id": "074-questions-of-men-and-answers-from-the-trinity",
    "order": 74,
    "level": 1,
    "title": "QUESTIONS OF MEN AND ANSWERS FROM THE TRINITY",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 3321.62,
    "estSec": 3524.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/074-questions-of-men-and-answers-from-the-trinity.mp3"
   },
   {
    "id": "075-how-to-pray-for-yourself-and-others",
    "order": 75,
    "level": 1,
    "title": "HOW TO PRAY FOR YOURSELF AND OTHERS",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 1589.62,
    "estSec": 1646.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/075-how-to-pray-for-yourself-and-others.mp3"
   },
   {
    "id": "076-bring-fruits-meet-for-repentance",
    "order": 76,
    "level": 1,
    "title": "BRING FRUITS MEET FOR REPENTANCE",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 178.89,
    "estSec": 198.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/076-bring-fruits-meet-for-repentance.mp3"
   },
   {
    "id": "077-the-medallion-chant",
    "order": 77,
    "level": 1,
    "title": "THE MEDALLION CHANT",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 4.05,
    "estSec": 1.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/077-the-medallion-chant.mp3"
   },
   {
    "id": "078-the-warrior-victory-proclaimation",
    "order": 78,
    "level": 2,
    "title": "THE WARRIOR VICTORY PROCLAIMATION!!!",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 651.37,
    "estSec": 643.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/078-the-warrior-victory-proclaimation.mp3"
   },
   {
    "id": "079-finalogue",
    "order": 79,
    "level": 1,
    "title": "FINALOGUE",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 584.09,
    "estSec": 527.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/079-finalogue.mp3"
   },
   {
    "id": "080-final-call-to-action-a-cosmic-decree-that",
    "order": 80,
    "level": 1,
    "title": "FINAL CALL TO ACTION A COSMIC DECREE THAT",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 436.62,
    "estSec": 433.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/080-final-call-to-action-a-cosmic-decree-that.mp3"
   },
   {
    "id": "081-testimonies",
    "order": 81,
    "level": 1,
    "title": "TESTIMONIES",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 18518.92,
    "estSec": 17640.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/081-testimonies.mp3"
   },
   {
    "id": "082-additional-testimonies",
    "order": 82,
    "level": 1,
    "title": "ADDITIONAL TESTIMONIES",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 179.93,
    "estSec": 159.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/082-additional-testimonies.mp3"
   },
   {
    "id": "083-final-cosmic-decree-the-last-seal-of-fate",
    "order": 83,
    "level": 1,
    "title": "FINAL COSMIC DECREE THE LAST SEAL OF FATE",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 224.43,
    "estSec": 225.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/083-final-cosmic-decree-the-last-seal-of-fate.mp3"
   },
   {
    "id": "084-glossary-of-terms-part-1",
    "order": 84,
    "level": 1,
    "title": "GLOSSARY OF TERMS PART 1",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 3215.13,
    "estSec": 2645.2,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/084-glossary-of-terms-part-1.mp3"
   },
   {
    "id": "085-glossary-of-terms-part-2",
    "order": 85,
    "level": 1,
    "title": "GLOSSARY OF TERMS PART 2",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 10486.81,
    "estSec": 9438.4,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/085-glossary-of-terms-part-2.mp3"
   },
   {
    "id": "086-glossary-of-terms-part-3",
    "order": 86,
    "level": 1,
    "title": "GLOSSARY OF TERMS PART 3",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 1037.22,
    "estSec": 960.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/086-glossary-of-terms-part-3.mp3"
   },
   {
    "id": "087-handover-declaration",
    "order": 87,
    "level": 1,
    "title": "HANDOVER DECLARATION",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 26.32,
    "estSec": 16.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/087-handover-declaration.mp3"
   },
   {
    "id": "088-about-the-authors",
    "order": 88,
    "level": 1,
    "title": "ABOUT THE AUTHORS",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 155.35,
    "estSec": 148.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/088-about-the-authors.mp3"
   },
   {
    "id": "089-appreciation-with-thanks",
    "order": 89,
    "level": 1,
    "title": "APPRECIATION WITH THANKS",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 166.43,
    "estSec": 160.0,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/089-appreciation-with-thanks.mp3"
   },
   {
    "id": "090-other-books",
    "order": 90,
    "level": 1,
    "title": "OTHER BOOKS",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 14.73,
    "estSec": 5.6,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/090-other-books.mp3"
   },
   {
    "id": "091-music",
    "order": 91,
    "level": 1,
    "title": "MUSIC",
-   "ready": false,
-   "durationSec": 0.0,
+   "ready": true,
+   "durationSec": 99.08,
    "estSec": 76.8,
-   "audioUrl": null
+   "audioUrl": "audio/book-5/091-music.mp3"
   }
  ],
- "readyCount": 1,
+ "readyCount": 90,
  "totalCount": 90,
- "totalSec": 213.8,
+ "totalSec": 74037.8,
  "estTotalSec": 72404.4
 }
