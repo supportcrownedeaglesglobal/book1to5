@@ -1,0 +1,12 @@
+# Generated audio — hosted on object storage (e.g. Cloudflare R2), NOT in git.
+# The pipeline regenerates these locally; the live site streams them from the CDN.
+audiobook/out/
+audio/book-5/*.mp3
+
+# Python / OS
+__pycache__/
+*.pyc
+.env
+.DS_Store
+Thumbs.db
+*.log

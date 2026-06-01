@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+<meta name="theme-color" content="#070815">
+<title>Behold My Messenger 5 — The Resurrection of the Dead · Audiobook</title>
+<meta name="description" content="Listen free to the audiobook of Behold My Messenger 5 — The Resurrection of the Dead by Shekinaih Siew Sin Yap & J Aaron K David. Narrated in full, chapter by chapter, in a six-voice cast. A Crowned Eagles Global work.">
+<link rel="canonical" href="https://shekinaih-jaaronkdavid.com/book-5-audiobook.html">
+<meta property="og:type" content="book">
+<meta property="og:title" content="Behold My Messenger 5 — The Resurrection of the Dead · Audiobook">
+<meta property="og:description" content="The doctrine of the power of the age to come, narrated in full. A Crowned Eagles Global work.">
+<meta property="og:image" content="images/book-5/cover.jpg">
+<link rel="preload" as="image" href="images/book-5/cover.jpg" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#070815; --ink2:#0B0F24; --ink3:#141A40;
+  --gold:#C8923A; --gold2:#E8B86D; --gold3:#F0C660; --gold-bright:#F7DC96;
+  --silver:#DCE4F5; --silver2:#F1F5FF; --silver-dim:#A6B1CE;
+  --royal:#2C3C8E;
+  --border:rgba(214,226,250,.12);
+  --gold-metal:linear-gradient(104deg,#F7DC96 0%,#E8B86D 30%,#F3CE74 52%,#CC9233 76%,#F7DC96 100%);
+  --silver-metal:linear-gradient(104deg,#FFFFFF 0%,#D7E0F3 32%,#AEB9DA 54%,#EEF3FF 80%,#C7D1EC 100%);
+  --player-h:96px;
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:'DM Sans',system-ui,sans-serif;
+  background:var(--ink); color:var(--silver);
+  line-height:1.7; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+  padding-bottom:calc(var(--player-h) + env(safe-area-inset-bottom));
+  overflow-x:hidden; min-height:100vh;
+}
+
+/* ---------- atmospheric background ---------- */
+.bg, .stars, .grain{position:fixed; inset:0; pointer-events:none; z-index:0}
+.bg{
+  background:
+    radial-gradient(125% 85% at 50% -12%, rgba(247,220,150,.22), rgba(232,184,109,.06) 26%, transparent 52%),
+    radial-gradient(85% 65% at 8% 112%, rgba(44,60,142,.34), transparent 58%),
+    radial-gradient(75% 60% at 104% 104%, rgba(200,146,58,.16), transparent 56%),
+    linear-gradient(180deg,#0A0F28 0%, #070815 56%, #04050E 100%);
+}
+.bg::before{
+  content:""; position:absolute; left:50%; top:-20%; width:90vw; height:90vw; max-width:1100px; max-height:1100px;
+  transform:translateX(-50%);
+  background:radial-gradient(circle, rgba(247,220,150,.16) 0%, rgba(232,184,109,.05) 34%, transparent 60%);
+  animation:drift 26s var(--ease) infinite;
+}
+.stars{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='340' height='340'%3E%3Cg fill='%23F1F5FF'%3E%3Ccircle cx='28' cy='52' r='.8' opacity='.9'/%3E%3Ccircle cx='120' cy='30' r='.6' opacity='.6'/%3E%3Ccircle cx='210' cy='80' r='.9' opacity='.85'/%3E%3Ccircle cx='300' cy='44' r='.5' opacity='.5'/%3E%3Ccircle cx='70' cy='150' r='.7' opacity='.7'/%3E%3Ccircle cx='180' cy='190' r='.6' opacity='.55'/%3E%3Ccircle cx='265' cy='160' r='.8' opacity='.8'/%3E%3Ccircle cx='320' cy='240' r='.6' opacity='.6'/%3E%3Ccircle cx='40' cy='270' r='.9' opacity='.85'/%3E%3Ccircle cx='150' cy='300' r='.5' opacity='.5'/%3E%3Ccircle cx='230' cy='320' r='.7' opacity='.7'/%3E%3Ccircle cx='100' cy='230' r='.5' opacity='.45'/%3E%3C/g%3E%3C/svg%3E");
+  opacity:.55;
+}
+.grain{z-index:1; opacity:.05; mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+@keyframes drift{0%{transform:translateX(-50%) translateY(0) scale(1)}50%{transform:translateX(-48%) translateY(3%) scale(1.09)}100%{transform:translateX(-50%) translateY(0) scale(1)}}
+
+.wrap{position:relative; z-index:2; max-width:1080px; margin:0 auto; padding:0 24px}
+
+/* ---------- page-load choreography ---------- */
+@keyframes rise{from{opacity:0; transform:translateY(20px)}to{opacity:1; transform:none}}
+@keyframes glowIn{from{opacity:0; transform:translateY(26px) scale(.96)}to{opacity:1; transform:none}}
+.reveal{opacity:0; animation:rise .9s var(--ease) forwards}
+.d1{animation-delay:.05s}.d2{animation-delay:.16s}.d3{animation-delay:.28s}
+.d4{animation-delay:.42s}.d5{animation-delay:.56s}.d6{animation-delay:.72s}
+
+/* ---------- hero ---------- */
+.hero{display:grid; grid-template-columns:minmax(0,0.86fr) minmax(0,1.14fr); gap:clamp(34px,5vw,72px);
+  align-items:center; padding:clamp(56px,9vw,104px) 0 clamp(40px,5vw,68px)}
+.hero-art{position:relative; justify-self:center; animation:glowIn 1.1s var(--ease) both; animation-delay:.1s}
+.hero-art::before{content:""; position:absolute; inset:-22% -18%; z-index:-1;
+  background:radial-gradient(circle, rgba(247,220,150,.3), rgba(232,184,109,.08) 42%, transparent 68%);
+  filter:blur(6px)}
+.cover-frame{display:block; width:clamp(248px,30vw,392px); border-radius:8px; overflow:hidden;
+  padding:5px; background:var(--gold-metal);
+  box-shadow:0 40px 90px rgba(0,0,0,.6), 0 0 0 1px rgba(247,220,150,.4), 0 0 50px rgba(232,184,109,.25);
+  transition:transform .5s var(--ease), box-shadow .5s var(--ease)}
+.cover-frame img{display:block; width:100%; height:auto; border-radius:5px}
+.cover-frame:hover{transform:translateY(-8px) rotate(-.6deg);
+  box-shadow:0 56px 120px rgba(0,0,0,.7), 0 0 0 1px rgba(247,220,150,.55), 0 0 70px rgba(232,184,109,.4)}
+
+.hero-copy{min-width:0}
+.eyebrow{font-family:'Cinzel',serif; font-size:clamp(10px,1.05vw,12px); letter-spacing:5px; text-transform:uppercase;
+  color:var(--gold3); font-weight:600; margin-bottom:22px; opacity:.92; display:flex; align-items:center; gap:12px}
+.eyebrow::after{content:""; height:1px; flex:1; max-width:80px; background:linear-gradient(90deg,var(--gold),transparent)}
+h1{font-family:'Cinzel',serif; font-weight:800; font-size:clamp(32px,5.4vw,62px); line-height:1.04; letter-spacing:.012em; text-wrap:balance}
+h1 .gold{background:var(--gold-metal); -webkit-background-clip:text; background-clip:text;
+  -webkit-text-fill-color:transparent; color:transparent;
+  filter:drop-shadow(0 2px 20px rgba(247,220,150,.45)) drop-shadow(0 0 2px rgba(247,220,150,.5))}
+h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:italic; font-weight:500;
+  text-transform:none; letter-spacing:.005em; font-size:.5em; margin-top:.32em; color:var(--gold2);
+  text-shadow:0 1px 16px rgba(232,184,109,.35)}
+.byline{font-family:'Cinzel',serif; font-size:clamp(11px,1.35vw,14px); letter-spacing:1.5px; margin:24px 0 0}
+.byline .amp{color:rgba(220,228,245,.28); margin:0 .5em}
+.name-gold{background:var(--gold-metal); -webkit-background-clip:text; background-clip:text;
+  -webkit-text-fill-color:transparent; color:transparent; font-weight:700; letter-spacing:.05em; text-transform:uppercase;
+  filter:drop-shadow(0 1px 10px rgba(247,220,150,.4))}
+.name-silver{background:var(--silver-metal); -webkit-background-clip:text; background-clip:text;
+  -webkit-text-fill-color:transparent; color:transparent; font-weight:700; letter-spacing:.05em; text-transform:uppercase;
+  filter:drop-shadow(0 0 14px rgba(190,205,235,.45))}
+.blurb{font-family:'Cormorant Garamond',serif; font-size:clamp(18px,2vw,23px); font-style:italic;
+  color:var(--silver); max-width:50ch; margin:26px 0 0; line-height:1.5; text-wrap:pretty}
+.meta-row{display:flex; gap:12px 26px; margin-top:26px; flex-wrap:wrap; color:var(--silver-dim); font-size:13px; letter-spacing:.4px}
+.meta-row b{color:var(--silver2); font-weight:600}
+
+/* ---------- buttons ---------- */
+.cta-row{display:flex; gap:13px; margin-top:32px; flex-wrap:wrap; align-items:center}
+.btn{display:inline-flex; align-items:center; justify-content:center; gap:9px; cursor:pointer; border:none; white-space:nowrap;
+  font-family:'Cinzel',serif; font-size:12px; letter-spacing:1.4px; text-transform:uppercase; font-weight:600; line-height:1;
+  padding:15px 28px; border-radius:100px; text-decoration:none;
+  transition:transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s, color .3s}
+.btn .arr{font-weight:400; font-size:1.05em; transition:transform .3s var(--ease)}
+.btn-gold{background:var(--gold-metal); color:#231706;
+  box-shadow:0 10px 30px rgba(200,146,58,.28), inset 0 1px 0 rgba(255,255,255,.5)}
+.btn-gold:hover{transform:translateY(-3px); box-shadow:0 18px 48px rgba(200,146,58,.42), inset 0 1px 0 rgba(255,255,255,.5)}
+.btn-gold:hover .arr{transform:translate(2px,-2px)}
+.btn-ghost{background:rgba(220,228,245,.04); color:var(--silver2); border:1px solid var(--border); backdrop-filter:blur(4px)}
+.btn-ghost:hover{transform:translateY(-3px); border-color:var(--gold); color:var(--gold3)}
+.resume{display:none}
+.resume.show{display:inline-flex}
+.resume .rttl{font-family:'Cormorant Garamond',serif; font-style:italic; text-transform:none; letter-spacing:.01em;
+  font-weight:600; font-size:15px; color:var(--gold3); max-width:180px; overflow:hidden; text-overflow:ellipsis}
+
+/* ---------- section heading ---------- */
+.sec{padding:clamp(54px,8vw,92px) 0}
+.sec-title{font-family:'Cormorant Garamond',serif; font-weight:600; font-size:clamp(28px,4vw,46px);
+  color:var(--silver2); line-height:1.1; text-wrap:balance}
+.sec-title em{font-style:italic; color:var(--gold2)}
+
+/* ---------- table of contents ---------- */
+#listen{scroll-margin-top:20px}
+.toc{padding-top:18px}
+.toc-head{font-family:'Cinzel',serif; font-size:11px; letter-spacing:3px; text-transform:uppercase;
+  color:var(--gold); margin:6px 0 6px; padding-bottom:14px; border-bottom:1px solid var(--border);
+  display:flex; justify-content:space-between; align-items:baseline}
+.toc-head .count{color:var(--silver-dim); letter-spacing:1px; font-size:10.5px}
+.row{display:flex; align-items:center; gap:16px; width:100%; text-align:left;
+  background:none; border:none; cursor:pointer; color:inherit; font:inherit;
+  padding:14px 14px; border-radius:12px; transition:background .25s var(--ease); position:relative}
+.row:hover{background:rgba(220,228,245,.045)}
+.row.active{background:linear-gradient(90deg, rgba(232,184,109,.14), rgba(232,184,109,.03))}
+.row .idx{font-family:'Cinzel',serif; font-size:11px; color:var(--gold); width:24px; flex:none; text-align:center; opacity:.85}
+.row .ttl{flex:1; font-family:'Cormorant Garamond',serif; font-size:clamp(18px,2.1vw,22px); color:var(--silver2); line-height:1.32; font-weight:500}
+.row.active .ttl{color:var(--gold3)}
+.row .dur{font-size:12.5px; color:var(--silver-dim); flex:none; font-variant-numeric:tabular-nums; min-width:42px; text-align:right}
+.row .bars{width:15px; height:13px; flex:none; display:none}
+.row.active .bars{display:block}
+.row .bars rect{fill:var(--gold3)}
+.row.part{margin-top:30px; border-top:1px solid var(--border); border-radius:0; padding-top:22px}
+.row.part .ttl{font-family:'Cinzel',serif; font-size:13px; letter-spacing:2.5px; text-transform:uppercase; color:var(--gold); font-weight:700}
+.row.part .chev{flex:none; width:16px; color:var(--gold); opacity:.7; transition:transform .3s var(--ease)}
+.row.part.collapsed .chev{transform:rotate(-90deg)}
+.row.child{padding-left:42px}
+.row.child .ttl{font-size:clamp(16px,2vw,19px)}
+.kids{overflow:hidden; transition:max-height .4s var(--ease)}
+.kids.collapsed{max-height:0 !important}
+.row.pending{cursor:default}
+.row.pending:hover{background:none}
+.row.pending .ttl{color:var(--silver-dim); opacity:.7}
+.row.pending .idx{color:var(--silver-dim); opacity:.4}
+.soon{font-family:'Cinzel',serif; font-size:9px; letter-spacing:1.5px; text-transform:uppercase;
+  color:var(--silver-dim); border:1px solid var(--border); border-radius:100px; padding:3px 9px; flex:none}
+.row .play-dot{width:7px;height:7px;border-radius:50%;background:var(--gold3);flex:none; box-shadow:0 0 10px rgba(247,220,150,.7); display:none}
+.row.ready:not(.active):hover .play-dot{display:block}
+
+/* ---------- closing CTA band ---------- */
+.band{text-align:center; border-top:1px solid var(--border); margin-top:clamp(40px,6vw,72px);
+  padding:clamp(56px,8vw,96px) 0 clamp(40px,6vw,64px)}
+.band .sec-title{margin-bottom:18px}
+.band p{color:var(--silver-dim); max-width:52ch; margin:0 auto 30px}
+.credit{text-align:center; padding:30px 0 12px; color:var(--silver-dim); font-size:12.5px; letter-spacing:.4px}
+.credit a{color:var(--gold3); text-decoration:none; border-bottom:1px solid rgba(240,198,96,.3)}
+.credit a:hover{border-color:var(--gold3)}
+
+/* ---------- player ---------- */
+.player{position:fixed; left:0; right:0; bottom:0; z-index:60; height:var(--player-h);
+  padding-bottom:env(safe-area-inset-bottom);
+  background:rgba(7,9,22,.72); backdrop-filter:blur(26px) saturate(1.4); -webkit-backdrop-filter:blur(26px) saturate(1.4);
+  border-top:1px solid rgba(232,184,109,.18); box-shadow:0 -20px 60px rgba(0,0,0,.5)}
+.seek{position:absolute; top:-1px; left:0; right:0; height:3px; cursor:pointer; background:rgba(220,228,245,.08)}
+.seek .fill{height:100%; width:0; background:var(--gold-metal); box-shadow:0 0 12px rgba(247,220,150,.6)}
+.pbar{max-width:1080px; margin:0 auto; height:var(--player-h); display:flex; align-items:center; gap:18px; padding:0 24px}
+.pinfo{flex:1; min-width:0}
+.pinfo .now{font-family:'Cormorant Garamond',serif; font-size:20px; color:var(--silver2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.pinfo .sub{font-size:11.5px; color:var(--silver-dim); letter-spacing:.5px; font-variant-numeric:tabular-nums; margin-top:2px}
+.ctrls{display:flex; align-items:center; gap:6px}
+.cbtn{background:none; border:none; color:var(--silver); cursor:pointer; padding:9px; border-radius:50%; display:grid; place-items:center; transition:background .2s,color .2s}
+.cbtn:hover{background:rgba(220,228,245,.08); color:var(--silver2)}
+.cbtn svg{display:block}
+.cbtn.skip{position:relative}
+.cbtn.skip span{position:absolute; font-size:8px; font-weight:700; font-family:'DM Sans'}
+.play{background:var(--gold-metal); color:#1A1205; width:54px; height:54px; border-radius:50%;
+  box-shadow:0 8px 26px rgba(200,146,58,.42), inset 0 1px 0 rgba(255,255,255,.45); transition:transform .25s var(--ease)}
+.play:hover{transform:scale(1.06); color:#1A1205}
+.rate,.sleep{font-family:'Cinzel',serif; font-size:11px; letter-spacing:1px; color:var(--silver); background:none;
+  border:1px solid var(--border); border-radius:100px; padding:7px 11px; cursor:pointer; transition:border-color .2s,color .2s}
+.rate:hover,.sleep:hover{border-color:var(--gold); color:var(--gold3)}
+.sleep.on{border-color:var(--gold); color:var(--gold3)}
+
+@media(max-width:860px){
+  .hero{grid-template-columns:1fr; gap:36px; text-align:center; padding-top:clamp(48px,12vw,80px)}
+  .eyebrow{justify-content:center}.eyebrow::after{display:none}
+  .cta-row, .meta-row{justify-content:center}
+  .blurb{margin-left:auto;margin-right:auto}
+}
+@media(max-width:640px){
+  .pinfo .now{font-size:16px}
+  .lbl-hide{display:none}
+  .pbar{gap:9px; padding:0 12px}
+  .cbtn{padding:7px}
+  .play{width:48px; height:48px}
+  .sleep{display:none}
+  .wrap{padding:0 18px}
+  .btn{flex:1; justify-content:center; padding:15px 18px; letter-spacing:1.2px}
+  .resume .rttl{display:none}
+}
+.empty{text-align:center; color:var(--silver-dim); padding:60px 0; font-style:italic; font-family:'Cormorant Garamond',serif; font-size:20px}
+
+@media (prefers-reduced-motion: reduce){
+  .reveal,.hero-art{opacity:1; animation:none; transform:none}
+  .bg::before{animation:none}
+  *{scroll-behavior:auto}
+  .row .bars rect{animation:none}
+}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<div class="stars"></div>
+<div class="grain"></div>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="hero-art">
+      <a class="cover-frame" href="#listen" aria-label="Listen to the audiobook">
+        <img src="images/book-5/cover.jpg" width="1000" height="1496"
+             alt="Behold My Messenger 5, The Resurrection of the Dead — cover. Shekinaih Siew Sin Yap and J Aaron K David in golden robes beneath a descending dove, above a field of white crosses.">
+      </a>
+    </div>
+    <div class="hero-copy">
+      <p class="eyebrow reveal d1">Crowned Eagles Global · The Audiobook</p>
+      <h1 class="reveal d2"><span class="gold">Behold My Messenger 5</span><span class="small">The Resurrection of the Dead</span></h1>
+      <p class="byline reveal d3"><span class="name-gold">Shekinaih Siew Sin Yap</span><span class="amp">&amp;</span><span class="name-silver">J Aaron K David</span></p>
+      <p class="blurb reveal d4">The doctrine of the power of the age to come, narrated in full, that it may be heard as it was meant to be received.</p>
+      <div class="meta-row reveal d4">
+        <span><b id="m-chapters">—</b> chapters</span>
+        <span><b id="m-runtime">—</b> total</span>
+        <span><b>Six-voice cast</b></span>
+      </div>
+      <div class="cta-row reveal d5">
+        <a class="btn btn-gold" href="https://www.crownedeaglesglobal.org/book" target="_blank" rel="noopener">Get the Book <span class="arr">↗</span></a>
+        <button class="btn btn-ghost resume" id="resumeBtn">▸&nbsp;Resume<span class="rttl" id="resumeTtl"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="sec" id="listen">
+    <h2 class="sec-title">Listen, <em>chapter by chapter</em></h2>
+    <nav class="toc" id="toc"><p class="empty">Loading chapters…</p></nav>
+  </section>
+
+  <section class="band">
+    <h2 class="sec-title">Read it in print and digital</h2>
+    <p>The full library of the messengers lives on the Crowned Eagles Global network.</p>
+    <a class="btn btn-gold" href="https://www.crownedeaglesglobal.org/book" target="_blank" rel="noopener">Visit Crowned Eagles Global ↗</a>
+    <p class="credit">An audiobook from <a href="https://www.crownedeaglesglobal.org/book" target="_blank" rel="noopener">Crowned Eagles Global</a> · Singapore</p>
+  </section>
+
+</div>
+
+<div class="player" id="player">
+  <div class="seek" id="seek"><div class="fill" id="seekFill"></div></div>
+  <div class="pbar">
+    <div class="ctrls">
+      <button class="cbtn skip" id="back15" title="Back 15 seconds"><span style="top:17px">15</span>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M11 8 7 12l4 4"/><path d="M7 12h7a4 4 0 0 1 0 8H9"/></svg></button>
+      <button class="cbtn play" id="playBtn" title="Play">
+        <svg id="playIco" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
+      <button class="cbtn skip" id="fwd15" title="Forward 15 seconds"><span style="top:17px">15</span>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 8l4 4-4 4"/><path d="M17 12h-7a4 4 0 0 0 0 8h5"/></svg></button>
+    </div>
+    <div class="pinfo">
+      <div class="now" id="nowTtl">Select a chapter to begin</div>
+      <div class="sub"><span id="curTime">0:00</span> / <span id="totTime">0:00</span><span class="lbl-hide" id="remTime"></span></div>
+    </div>
+    <button class="rate" id="rateBtn" title="Playback speed">1×</button>
+    <button class="sleep" id="sleepBtn" title="Sleep timer">☾</button>
+  </div>
+</div>
+
+<audio id="audio" preload="metadata"></audio>
+
+<script>
+const M_URL = "audio/book-5/manifest.json";
+const A = document.getElementById('audio');
+const RATES = [0.85,1,1.15,1.3];
+const SLEEPS = [0,15,30,45,60]; // minutes
+const KEY = "bm5-audiobook";
+let chapters = [], idx = -1, rateI = 1, sleepI = 0, sleepTimer = null, sleepEndsAt = 0;
+
+const fmt = s => { s=Math.max(0,Math.round(s||0)); const m=Math.floor(s/60),x=s%60; return m+":"+String(x).padStart(2,'0'); };
+const fmtLong = s => { s=Math.round(s||0); const h=Math.floor(s/3600),m=Math.round(s%3600/60); return h?`${h}h ${m}m`:`${m} min`; };
+const save = () => localStorage.setItem(KEY, JSON.stringify({id:chapters[idx]?.id, t:A.currentTime, rateI, done:[...done]}));
+const load = () => { try{return JSON.parse(localStorage.getItem(KEY))||{}}catch{return{}} };
+let done = new Set();
+
+const BARS = `<svg class="bars" viewBox="0 0 15 13"><rect x="0" y="4" width="3" height="9"><animate attributeName="height" values="9;3;9" dur="0.9s" repeatCount="indefinite"/></rect><rect x="6" y="0" width="3" height="13"><animate attributeName="height" values="13;5;13" dur="0.7s" repeatCount="indefinite"/></rect><rect x="12" y="2" width="3" height="11"><animate attributeName="height" values="11;4;11" dur="1.1s" repeatCount="indefinite"/></rect></svg>`;
+const CHEV = `<svg class="chev" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6l4 4 4-4"/></svg>`;
+let META = {};
+
+const nextReady = i => { for(let j=i+1;j<chapters.length;j++) if(chapters[j].ready) return j; return -1; };
+
+async function init(){
+  let data;
+  try{ data = await (await fetch(M_URL,{cache:"no-store"})).json(); }
+  catch(e){ document.getElementById('toc').innerHTML='<p class="empty">Audio manifest not found yet. Run the render + master pipeline.</p>'; return; }
+  META = data;
+  chapters = data.chapters;
+  document.getElementById('m-chapters').textContent = data.totalCount ?? chapters.length;
+  document.getElementById('m-runtime').textContent = "≈ "+fmtLong(data.estTotalSec || data.totalSec || 0);
+
+  const st = load(); done = new Set(st.done||[]); rateI = st.rateI ?? 1;
+  document.getElementById('rateBtn').textContent = RATES[rateI]+"×";
+
+  renderTOC();
+
+  if(st.id){
+    const k = chapters.findIndex(c=>c.id===st.id);
+    if(k>=0 && chapters[k].ready){
+      const rb=document.getElementById('resumeBtn');
+      rb.classList.add('show');
+      document.getElementById('resumeTtl').textContent = "· "+chapters[k].title;
+      rb.onclick = ()=>{ select(k,false); A.currentTime=st.t||0; play(); document.getElementById('listen').scrollIntoView(); };
+    }
+  }
+}
+
+function rowEl(c, i, kind){
+  const b=document.createElement('button');
+  b.className="row "+kind+(c.ready?" ready":" pending");
+  b.dataset.i=i;
+  const tail = c.ready
+    ? `${BARS}<span class="play-dot"></span><span class="dur">${fmt(c.durationSec)}</span>`
+    : `<span class="soon">soon</span>`;
+  b.innerHTML = `<span class="idx">${c.ready?'❖':'◦'}</span><span class="ttl">${c.title}</span>${tail}`;
+  if(c.ready) b.onclick=()=>select(i,true);
+  return b;
+}
+
+function renderTOC(){
+  const toc = document.getElementById('toc'); toc.innerHTML="";
+  const head=document.createElement('div'); head.className="toc-head";
+  head.innerHTML=`<span>Table of Contents</span><span class="count">${META.readyCount||0} of ${META.totalCount||chapters.length} recorded</span>`;
+  toc.appendChild(head);
+
+  let kids=null;
+  chapters.forEach((c,i)=>{
+    if(c.level===1){
+      let hasKids=false;
+      for(let j=i+1;j<chapters.length && chapters[j].level!==1;j++){ if(chapters[j].level===2){hasKids=true;break;} }
+      if(hasKids){
+        const hdr=document.createElement('button'); hdr.className="row part"; hdr.dataset.i=i;
+        hdr.innerHTML=`${CHEV}<span class="ttl">${c.title}</span>`;
+        const wrap=document.createElement('div'); wrap.className="kids";
+        hdr.onclick=()=>{ hdr.classList.toggle('collapsed'); wrap.classList.toggle('collapsed'); };
+        toc.appendChild(hdr); toc.appendChild(wrap); kids=wrap;
+      } else {
+        kids=null; toc.appendChild(rowEl(c,i,""));
+      }
+    } else {
+      (kids||toc).appendChild(rowEl(c,i,kids?"child":""));
+    }
+  });
+}
+
+function select(i, autoplay){
+  const c=chapters[i];
+  if(!c || !c.ready || !c.audioUrl) return;
+  idx=i;
+  A.src=c.audioUrl; A.playbackRate=RATES[rateI];
+  document.getElementById('nowTtl').textContent=c.title;
+  document.querySelectorAll('.row').forEach(r=>r.classList.toggle('active', +r.dataset.i===i));
+  if(autoplay) play();
+  setMedia(c);
+  save();
+}
+function play(){ A.play(); }
+function toggle(){ if(!A.src){ const f=nextReady(-1); if(f>=0) select(f,true); return;} A.paused?A.play():A.pause(); }
+
+document.getElementById('playBtn').onclick=toggle;
+document.getElementById('back15').onclick=()=>A.currentTime=Math.max(0,A.currentTime-15);
+document.getElementById('fwd15').onclick=()=>A.currentTime=Math.min(A.duration||1e9,A.currentTime+15);
+document.getElementById('rateBtn').onclick=()=>{ rateI=(rateI+1)%RATES.length; A.playbackRate=RATES[rateI]; document.getElementById('rateBtn').textContent=RATES[rateI]+"×"; save(); };
+
+const sleepBtn=document.getElementById('sleepBtn');
+sleepBtn.onclick=()=>{
+  sleepI=(sleepI+1)%SLEEPS.length; const mins=SLEEPS[sleepI];
+  if(sleepTimer){clearTimeout(sleepTimer); sleepTimer=null;}
+  if(mins){ sleepEndsAt=Date.now()+mins*60000; sleepTimer=setTimeout(()=>{A.pause(); sleepBtn.classList.remove('on'); sleepBtn.textContent="☾"; sleepI=0;}, mins*60000);
+    sleepBtn.classList.add('on'); sleepBtn.textContent=mins+"m"; }
+  else { sleepBtn.classList.remove('on'); sleepBtn.textContent="☾"; }
+};
+
+const playIco=document.getElementById('playIco');
+A.addEventListener('play', ()=>{ playIco.innerHTML='<rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/>'; });
+A.addEventListener('pause',()=>{ playIco.innerHTML='<path d="M8 5v14l11-7z"/>'; });
+A.addEventListener('timeupdate', ()=>{
+  const d=A.duration||0, t=A.currentTime;
+  document.getElementById('seekFill').style.width=(d?100*t/d:0)+"%";
+  document.getElementById('curTime').textContent=fmt(t);
+  document.getElementById('totTime').textContent=fmt(d);
+  document.getElementById('remTime').textContent = d?("  ·  −"+fmt(d-t)+" left"):"";
+  if(t%5<0.3) save();
+});
+A.addEventListener('ended', ()=>{
+  if(idx>=0){ done.add(chapters[idx].id); }
+  const n=nextReady(idx); if(n>=0) select(n,true); save();
+});
+const seek=document.getElementById('seek');
+seek.addEventListener('click', e=>{ const r=seek.getBoundingClientRect(); A.currentTime=(e.clientX-r.left)/r.width*(A.duration||0); });
+
+function setMedia(c){
+  if(!('mediaSession' in navigator)) return;
+  navigator.mediaSession.metadata=new MediaMetadata({
+    title:c.title, artist:"Shekinaih Siew Sin Yap & J Aaron K David",
+    album:"Behold My Messenger 5 — The Resurrection of the Dead",
+    artwork:[{src:"images/book-5/cover.jpg", sizes:"1000x1496", type:"image/jpeg"}]});
+  navigator.mediaSession.setActionHandler('play',()=>A.play());
+  navigator.mediaSession.setActionHandler('pause',()=>A.pause());
+  navigator.mediaSession.setActionHandler('seekbackward',()=>A.currentTime-=15);
+  navigator.mediaSession.setActionHandler('seekforward',()=>A.currentTime+=15);
+  navigator.mediaSession.setActionHandler('previoustrack',()=>{ if(idx>0) select(idx-1,true); });
+  navigator.mediaSession.setActionHandler('nexttrack',()=>{ if(idx+1<chapters.length) select(idx+1,true); });
+}
+document.addEventListener('keydown', e=>{
+  if(e.target.tagName==='INPUT') return;
+  if(e.code==='Space'){ e.preventDefault(); toggle(); }
+  if(e.code==='ArrowLeft') A.currentTime-=15;
+  if(e.code==='ArrowRight') A.currentTime+=15;
+});
+init();
+</script>
+</body>
+</html>
