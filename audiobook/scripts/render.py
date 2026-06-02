@@ -12,6 +12,7 @@ so the job is resumable.
 import argparse, asyncio, json, re, sys
 import edge_tts
 import config as C
+import scripture
 
 # --- pronunciation respelling ----------------------------------------------
 _LEX = sorted(C.LEXICON.items(), key=lambda kv: -len(kv[0]))
@@ -79,6 +80,7 @@ async def render_track(track):
         if seg["role"] == "chapter_title":
             spoken = re.sub(r"\s+", " ", text)
         spoken = apply_lexicon(spoken)
+        spoken = scripture.expand(spoken)      # "Isa 6:1" -> "Isaiah chapter 6 verse 1"
         out = tdir / f"{i:04d}-{seg['role']}.mp3"
         plan.append({"file": out.name, "role": seg["role"], "text": text})
         if out.exists() and out.stat().st_size > 0:

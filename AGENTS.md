@@ -78,6 +78,23 @@ Note: the audio was rendered from the **22 Dec `.docx`**; the **13 July PDF** is
 bookmark reference. They align closely, but a section that the docx did not tag as a
 heading cannot be split from the audio without re-rendering from the newer source.
 
+## Convention: read Bible references in full
+
+Abbreviated scripture references **MUST be narrated in full form**:
+
+- `Isa 6:1` → "Isaiah chapter 6 verse 1"
+- `1 PETER 5:5-6` → "First Peter chapter 5, verses 5 to 6"
+- `Psa 19:12` → "Psalm 19, verse 12" (Psalms are spoken without "chapter")
+
+This is a render-time text transform (the display text in `chapters.json` is left
+abbreviated). `scripture.expand()` in `audiobook/scripts/scripture.py` holds the
+book-abbreviation map (handling inconsistent forms in the manuscript: `Psa`/`Ps`,
+`Mat`/`Matt`/`MATHEW`, `Joh`/`John`, `1Co`/`1Cor`, full UPPERCASE names, etc.).
+`render.py` applies it after the pronunciation lexicon, so every future render
+expands references automatically. Whenever the abbreviation map changes, re-render
+the affected segments with `fix_scripture.py` (re-synthesizes only the segments whose
+text changes, then re-masters only the affected tracks/children).
+
 ## Deployment
 
 Live via **GitHub Pages** at <https://supportcrownedeaglesglobal.github.io/book5/>
