@@ -25,6 +25,10 @@ def main():
     tracks = json.loads(C.CHAPTERS_JSON.read_text(encoding="utf-8"))
     chapters = []
     ready_total = est_total = 0.0
+    # Per-chapter cache-bust versions (edit data/versions.json; default 1). Appended to
+    # the audio URL as ?v=<version> by the site so a bumped chapter beats the CDN cache.
+    versions = json.loads((C.DATA / "versions.json").read_text(encoding="utf-8")) \
+        if (C.DATA / "versions.json").exists() else {}
     for t in tracks:
         # skip the bare "Table of Contents" artifact — the interface IS the TOC
         if t["title"].strip().lower() == "table of contents":
@@ -42,6 +46,7 @@ def main():
             "title": t["title"], "ready": ready,
             "durationSec": dur, "estSec": est,
             "audioUrl": f"audio/book-5/{t['id']}.mp3" if ready else None,
+            "version": versions.get(t["id"], 1),
         })
     manifest = {
         "title": C.BOOK_TITLE, "subtitle": C.BOOK_SUBTITLE,

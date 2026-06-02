@@ -57,6 +57,7 @@ async def rerender(dry):
 
 
 _ALL = False   # set by --all: re-master every track (e.g. after a full voice swap)
+_CHILDREN_ONLY = False  # set by --children-only: re-master only split children
 
 
 def needs_remaster(text):
@@ -102,7 +103,10 @@ def remaster(dry):
         has_own = (own / "segments.json").exists()
         if t["level"] == 2 and not has_own:
             split_k += 1                                # position within parent's split children
-        if t["id"] not in aff:
+        if _CHILDREN_ONLY:
+            if not (t["level"] == 2 and not has_own):
+                continue                                # only split children
+        elif t["id"] not in aff:
             continue
         if t["id"] in split_parents:
             segs = json.loads((own / "segments.json").read_text(encoding="utf-8"))["segments"]
@@ -134,11 +138,15 @@ async def main():
                     help="skip re-synthesis; only re-master affected tracks (segments already current)")
     ap.add_argument("--all", action="store_true",
                     help="re-master every track (use with --remaster-only after a full voice swap)")
+    ap.add_argument("--children-only", action="store_true",
+                    help="re-master ONLY split children (forces regen, bypassing the resume skip)")
     args = ap.parse_args()
-    global _PATTERN, _ALL
+    global _PATTERN, _ALL, _CHILDREN_ONLY
     if args.pattern:
         _PATTERN = re.compile(args.pattern)
     _ALL = args.all
+    _CHILDREN_ONLY = args.children_only
+    SP.FORCE = True            # any fix_scripture re-master must regenerate, not skip the resume cache
 
     if not args.remaster_only:
         await rerender(args.dry)

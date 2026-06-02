@@ -1,0 +1,4 @@
+{
+  "_README": "Audio cache-busting versions. Each value is appended to that chapter's URL as ?v=<n>. To push a content update past Cloudflare's 1-year immutable cache: (1) re-master and re-upload that chapter's .mp3 to R2, (2) raise its number below by 1, (3) run `python build_manifest.py` and redeploy. Chapters not listed default to version 1. The id is the track id (the mp3 filename without .mp3).",
+  "001-front": 1
+}

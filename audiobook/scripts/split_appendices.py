@@ -114,15 +114,16 @@ def assemble_slice(seg_dir: Path, seg_slice):
 
 
 CHILD_ID = re.compile(r"^\d+-\d+-")     # e.g. 073-04-... (a split child, not a parent)
+FORCE = False     # set True by callers that must REGENERATE children (e.g. after a
+                  # voice/text change). Default False keeps the initial split resumable.
 
 
 def master_slice(seg_dir: Path, seg_slice, out_id: str) -> float:
     C.CHAPTERS.mkdir(parents=True, exist_ok=True)
     out_mp3 = C.CHAPTERS / f"{out_id}.mp3"
-    # Resumable: a child mp3 already produced is reused, so a re-run after a
-    # timeout continues instead of restarting. Parents are never skipped — their
-    # existing file is the stale pre-split monolith and must be overwritten.
-    if CHILD_ID.match(out_id) and out_mp3.exists() and out_mp3.stat().st_size > 0:
+    # Resume optimization (initial split only): reuse an existing child mp3. MUST be
+    # bypassed (FORCE) on any re-master, or children stay stale after a voice/text change.
+    if not FORCE and CHILD_ID.match(out_id) and out_mp3.exists() and out_mp3.stat().st_size > 0:
         return M.duration_sec(out_mp3)
     combined = assemble_slice(seg_dir, seg_slice)
     with tempfile.TemporaryDirectory() as td:
