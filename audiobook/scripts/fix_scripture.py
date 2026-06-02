@@ -10,7 +10,7 @@ No track without a scripture reference is touched. Run after editing scripture.p
   python fix_scripture.py            # do it
   python fix_scripture.py --dry      # report what would change, touch nothing
 """
-import argparse, asyncio, json, shutil, sys
+import argparse, asyncio, json, re, shutil, sys
 from pathlib import Path
 import config as C
 import render as R
@@ -21,7 +21,12 @@ import split_appendices as SP
 WEB = C.ROOT.parent / "audio" / "book-5"
 
 
+_PATTERN = None   # set by --pattern; when given, target raw text matching it instead
+
+
 def changed(text):
+    if _PATTERN is not None:
+        return _PATTERN.search(text) is not None
     return SC.expand(text) != text
 
 
@@ -51,54 +56,70 @@ async def rerender(dry):
     print(f"re-narrated {len(tasks)} segments (skipped {len(R.SKIPPED)})")
 
 
+def needs_remaster(text):
+    """A track is re-mastered if its scripture refs expand OR (when a --pattern is
+    given) it matches that pattern. Re-rendering is narrower — only the --pattern
+    delta — because scripture segments were already re-rendered; but re-mastering
+    must also cover scripture tracks (so a prior partial run is repaired)."""
+    if SC.expand(text) != text:
+        return True
+    return _PATTERN is not None and _PATTERN.search(text) is not None
+
+
 def remaster(dry):
     """Re-master only finished tracks/children containing a changed segment."""
     chapters = json.loads(C.CHAPTERS_JSON.read_text(encoding="utf-8"))
-    aff = {t["id"] for t in chapters if any(changed(s["text"]) for s in t["segments"])}
+    aff = {t["id"] for t in chapters if any(needs_remaster(s["text"]) for s in t["segments"])}
     print(f"finished tracks/children affected: {len(aff)}")
     if dry:
         for cid in list(aff)[:12]:
             print("   ", cid)
         return []
 
-    done, i = [], 0
-    while i < len(chapters):
-        t = chapters[i]
-        is_parent = t["level"] == 1 and i + 1 < len(chapters) and chapters[i + 1]["level"] == 2
-        if is_parent:
-            j = i + 1
-            kids = []
-            while j < len(chapters) and chapters[j]["level"] == 2:
-                kids.append(chapters[j]); j += 1
-            if any(k["id"] in aff for k in kids):
-                seg_dir = C.SEGMENTS / t["id"]
-                segs = json.loads((seg_dir / "segments.json").read_text(encoding="utf-8"))["segments"]
+    # A track has its OWN segment cache iff it was rendered as a standalone track
+    # (main-body chapters, original level-2 siblings, non-split back matter). A split
+    # sub-part has no own dir — it is a slice of its parent's cache.
+    done, parent, parts, split_k = [], None, None, 0
+    for t in chapters:
+        if t["level"] == 1:
+            parent, parts, split_k = t, None, 0
+        own = C.SEGMENTS / t["id"]
+        has_own = (own / "segments.json").exists()
+        if t["level"] == 2 and not has_own:
+            split_k += 1                                # position within parent's split children
+        if t["id"] not in aff:
+            continue
+        if has_own:
+            M.master_track(own)
+            done.append(t["id"]); print(f"  track {t['id']:46}")
+        else:
+            pdir = C.SEGMENTS / parent["id"]
+            segs = json.loads((pdir / "segments.json").read_text(encoding="utf-8"))["segments"]
+            if parts is None:
                 floor = SP.FLOOR_LONG if sum(SP.est_seg(s) for s in segs) > SP.LONG_TRACK_SEC else SP.FLOOR_SHORT
-                parts = SP.compute_parts(segs, t["title"], floor)
-                if len(parts) - 1 != len(kids):
-                    print(f"  !! {t['id']}: parts/kids mismatch ({len(parts)-1} vs {len(kids)}) — skipping"); i = j; continue
-                for k in range(1, len(parts)):
-                    child = kids[k - 1]                 # positional align -> use the stored id
-                    if child["id"] in aff:
-                        s, e, _ = parts[k]
-                        dur = SP.master_slice(seg_dir, segs[s:e], child["id"])
-                        done.append(child["id"]); print(f"  child {child['id']:46} {dur/60:5.1f}m")
-            i = j; continue
-        if t["id"] in aff and t["level"] == 1:          # standalone track
-            seg_dir = C.SEGMENTS / t["id"]
-            if (seg_dir / "segments.json").exists():
-                M.master_track(seg_dir)
-                done.append(t["id"]); print(f"  track {t['id']:46}")
-        i += 1
+                parts = SP.compute_parts(segs, parent["title"], floor)
+            s, e, _ = parts[split_k]                    # split_k indexes parts[1:]
+            dur = SP.master_slice(pdir, segs[s:e], t["id"])
+            done.append(t["id"]); print(f"  child {t['id']:46} {dur/60:5.1f}m")
     return done
 
 
 async def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry", action="store_true")
+    ap.add_argument("--pattern", default=None,
+                    help="re-render segments whose RAW text matches this regex "
+                         "(default: segments whose scripture refs expand). The full "
+                         "render pipeline — lexicon + scripture — is always applied.")
+    ap.add_argument("--remaster-only", action="store_true",
+                    help="skip re-synthesis; only re-master affected tracks (segments already current)")
     args = ap.parse_args()
+    if args.pattern:
+        global _PATTERN
+        _PATTERN = re.compile(args.pattern)
 
-    await rerender(args.dry)
+    if not args.remaster_only:
+        await rerender(args.dry)
     done = remaster(args.dry)
     if args.dry:
         print("\n(dry run — nothing written)"); return

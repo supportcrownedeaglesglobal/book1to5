@@ -95,6 +95,14 @@ expands references automatically. Whenever the abbreviation map changes, re-rend
 the affected segments with `fix_scripture.py` (re-synthesizes only the segments whose
 text changes, then re-masters only the affected tracks/children).
 
+**Divine pronouns:** the manuscript writes divine pronouns in capitals ("US", "WE",
+"OUR"). The acronym-like ones must be spoken as words, not spelled out — notably
+**"US" reads as "us", never "U-S"**. This is a pronunciation-lexicon entry in
+`config.py` (`"US": "us"`; `\bUS\b` leaves "JESUS"/"THUS"/"U.S." alone). After adding
+a lexicon entry, re-render the affected segments with the general form of the fix
+tool, which targets any raw-text pattern and re-applies the full pipeline:
+`python fix_scripture.py --pattern '\bUS\b'`.
+
 ## Deployment
 
 Live via **GitHub Pages** at <https://supportcrownedeaglesglobal.github.io/book5/>
