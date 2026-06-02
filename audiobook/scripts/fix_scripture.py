@@ -56,11 +56,16 @@ async def rerender(dry):
     print(f"re-narrated {len(tasks)} segments (skipped {len(R.SKIPPED)})")
 
 
+_ALL = False   # set by --all: re-master every track (e.g. after a full voice swap)
+
+
 def needs_remaster(text):
-    """A track is re-mastered if its scripture refs expand OR (when a --pattern is
-    given) it matches that pattern. Re-rendering is narrower — only the --pattern
-    delta — because scripture segments were already re-rendered; but re-mastering
-    must also cover scripture tracks (so a prior partial run is repaired)."""
+    """A track is re-mastered if --all is set, OR its scripture refs expand, OR
+    (when a --pattern is given) it matches that pattern. Re-rendering is narrower —
+    only the --pattern delta — because scripture segments were already re-rendered;
+    but re-mastering must also cover scripture tracks (so a prior partial run is repaired)."""
+    if _ALL:
+        return True
     if SC.expand(text) != text:
         return True
     return _PATTERN is not None and _PATTERN.search(text) is not None
@@ -113,10 +118,13 @@ async def main():
                          "render pipeline — lexicon + scripture — is always applied.")
     ap.add_argument("--remaster-only", action="store_true",
                     help="skip re-synthesis; only re-master affected tracks (segments already current)")
+    ap.add_argument("--all", action="store_true",
+                    help="re-master every track (use with --remaster-only after a full voice swap)")
     args = ap.parse_args()
+    global _PATTERN, _ALL
     if args.pattern:
-        global _PATTERN
         _PATTERN = re.compile(args.pattern)
+    _ALL = args.all
 
     if not args.remaster_only:
         await rerender(args.dry)
