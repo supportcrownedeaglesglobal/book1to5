@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
 <meta name="theme-color" content="#070815">
 <title>Behold My Messenger 5 — The Resurrection of the Dead · Audiobook</title>
-<meta name="description" content="Listen free to the audiobook of Behold My Messenger 5 — The Resurrection of the Dead by Shekinaih Siew Sin Yap & J Aaron K David. Narrated in full, chapter by chapter, in a six-voice cast. A Crowned Eagles Global work.">
+<meta name="description" content="Listen free to the audiobook of Behold My Messenger 5 — The Resurrection of the Dead by Shekinaih Siew Sin Yap & J Aaron K David. Narrated in full, chapter by chapter. A Crowned Eagles Global work.">
 <link rel="canonical" href="https://supportcrownedeaglesglobal.github.io/book5/">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://supportcrownedeaglesglobal.github.io/book5/">
@@ -199,10 +199,13 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
 .play{background:var(--gold-metal); color:#1A1205; width:54px; height:54px; border-radius:50%;
   box-shadow:0 8px 26px rgba(200,146,58,.42), inset 0 1px 0 rgba(255,255,255,.45); transition:transform .25s var(--ease)}
 .play:hover{transform:scale(1.06); color:#1A1205}
-.rate,.sleep{font-family:'Cinzel',serif; font-size:11px; letter-spacing:1px; color:var(--silver); background:none;
-  border:1px solid var(--border); border-radius:100px; padding:7px 11px; cursor:pointer; transition:border-color .2s,color .2s}
-.rate:hover,.sleep:hover{border-color:var(--gold); color:var(--gold3)}
-.sleep.on{border-color:var(--gold); color:var(--gold3)}
+.rate,.sleep,.rpt{font-family:'Cinzel',serif; font-size:11px; letter-spacing:1px; color:var(--silver); background:none;
+  border:1px solid var(--border); border-radius:100px; padding:7px 11px; cursor:pointer; transition:border-color .2s,color .2s,background .2s}
+.rate:hover,.sleep:hover,.rpt:hover{border-color:var(--gold); color:var(--gold3)}
+.sleep.on,.rpt.on{border-color:var(--gold); color:var(--gold3)}
+.rpt{display:grid; place-items:center; padding:7px 10px}
+.rpt svg{display:block}
+.rpt.on{background:rgba(232,184,109,.14)}
 
 @media(max-width:860px){
   .hero{grid-template-columns:1fr; gap:36px; text-align:center; padding-top:clamp(48px,12vw,80px)}
@@ -253,7 +256,6 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
       <div class="meta-row reveal d4">
         <span><b id="m-chapters">—</b> chapters</span>
         <span><b id="m-runtime">—</b> total</span>
-        <span><b>Six-voice cast</b></span>
       </div>
       <div class="cta-row reveal d5">
         <a class="btn btn-gold" href="https://www.crownedeaglesglobal.org/book" target="_blank" rel="noopener">Get the Book <span class="arr">↗</span></a>
@@ -292,8 +294,8 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
       <div class="sub"><span id="curTime">0:00</span> / <span id="totTime">0:00</span><span class="lbl-hide" id="remTime"></span></div>
     </div>
     <button class="rate" id="rateBtn" title="Playback speed">1×</button>
-    <button class="sleep" id="sleepBtn" title="Sleep timer">☾</button>
-  </div>
+    <button class="rpt" id="rptBtn" title="Repeat this track (loop)" aria-label="Repeat this track" aria-pressed="false">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg></button>  </div>
 </div>
 
 <audio id="audio" preload="metadata"></audio>
@@ -309,7 +311,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "Title Page",
    "ready": true,
-   "durationSec": 204.55,
+   "durationSec": 203.47,
    "estSec": 161.2,
    "audioUrl": "audio/book-5/001-front.mp3"
   },
@@ -319,7 +321,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "PRE-FOREWORD",
    "ready": true,
-   "durationSec": 97.96,
+   "durationSec": 93.63,
    "estSec": 87.6,
    "audioUrl": "audio/book-5/003-pre-foreword.mp3"
   },
@@ -329,7 +331,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "FOREWORD",
    "ready": true,
-   "durationSec": 80.95,
+   "durationSec": 84.68,
    "estSec": 75.6,
    "audioUrl": "audio/book-5/004-foreword.mp3"
   },
@@ -339,7 +341,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "TOP 5 TESTIMONIES OF DIVINE POWER - WITNESS THE IMPOSSIBLE!",
    "ready": true,
-   "durationSec": 353.53,
+   "durationSec": 348.94,
    "estSec": 346.4,
    "audioUrl": "audio/book-5/005-top-5-testimonies-of-divine-power-witness-the-impossible.mp3"
   },
@@ -349,7 +351,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "HOW TO READ THIS BOOK",
    "ready": true,
-   "durationSec": 107.43,
+   "durationSec": 105.39,
    "estSec": 104.8,
    "audioUrl": "audio/book-5/006-how-to-read-this-book.mp3"
   },
@@ -359,7 +361,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "PREFACE",
    "ready": true,
-   "durationSec": 184.33,
+   "durationSec": 186.9,
    "estSec": 186.4,
    "audioUrl": "audio/book-5/007-preface.mp3"
   },
@@ -369,7 +371,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "A BRIEF GLOSSARY OF TERMS",
    "ready": true,
-   "durationSec": 43.46,
+   "durationSec": 48.06,
    "estSec": 37.2,
    "audioUrl": "audio/book-5/008-a-brief-glossary-of-terms.mp3"
   },
@@ -379,7 +381,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "THE DIVINE BIBLIOGRAPHY",
    "ready": true,
-   "durationSec": 165.42,
+   "durationSec": 166.33,
    "estSec": 159.2,
    "audioUrl": "audio/book-5/009-the-divine-bibliography.mp3"
   },
@@ -389,7 +391,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "PROLOGUE",
    "ready": true,
-   "durationSec": 219.1,
+   "durationSec": 194.87,
    "estSec": 206.4,
    "audioUrl": "audio/book-5/010-prologue.mp3"
   },
@@ -399,7 +401,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "INTRODUCTION",
    "ready": true,
-   "durationSec": 192.96,
+   "durationSec": 199.03,
    "estSec": 190.4,
    "audioUrl": "audio/book-5/011-introduction.mp3"
   },
@@ -409,7 +411,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "PART 1",
    "ready": true,
-   "durationSec": 18.63,
+   "durationSec": 19.2,
    "estSec": 8.8,
    "audioUrl": "audio/book-5/012-part-1.mp3"
   },
@@ -419,7 +421,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "ACT 1, SCENE 1 THE DESPERATE!",
    "ready": true,
-   "durationSec": 140.19,
+   "durationSec": 130.85,
    "estSec": 124.8,
    "audioUrl": "audio/book-5/013-act-1-scene-1-the-desperate.mp3"
   },
@@ -429,7 +431,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 1.1",
    "ready": true,
-   "durationSec": 214.3,
+   "durationSec": 211.91,
    "estSec": 221.2,
    "audioUrl": "audio/book-5/014-chapter-1-1.mp3"
   },
@@ -439,7 +441,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "UNDERSTANDING PROPHETIC EXPECTATION OF RESURRECTION POWER",
    "ready": true,
-   "durationSec": 279.64,
+   "durationSec": 257.57,
    "estSec": 278.4,
    "audioUrl": "audio/book-5/015-understanding-prophetic-expectation-of-resurrection-power.mp3"
   },
@@ -449,7 +451,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 1.2",
    "ready": true,
-   "durationSec": 251.23,
+   "durationSec": 273.36,
    "estSec": 222.8,
    "audioUrl": "audio/book-5/016-chapter-1-2.mp3"
   },
@@ -459,7 +461,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 1.3",
    "ready": true,
-   "durationSec": 580.96,
+   "durationSec": 590.23,
    "estSec": 615.6,
    "audioUrl": "audio/book-5/017-chapter-1-3.mp3"
   },
@@ -469,7 +471,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "REFLECTION",
    "ready": true,
-   "durationSec": 182.59,
+   "durationSec": 173.89,
    "estSec": 169.6,
    "audioUrl": "audio/book-5/018-reflection.mp3"
   },
@@ -479,7 +481,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "PART 2",
    "ready": true,
-   "durationSec": 19.78,
+   "durationSec": 20.08,
    "estSec": 9.2,
    "audioUrl": "audio/book-5/019-part-2.mp3"
   },
@@ -489,7 +491,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "ACT 2, SCENE 1",
    "ready": true,
-   "durationSec": 157.17,
+   "durationSec": 155.21,
    "estSec": 162.0,
    "audioUrl": "audio/book-5/020-act-2-scene-1.mp3"
   },
@@ -499,7 +501,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 2.1 THE DECEASED",
    "ready": true,
-   "durationSec": 312.31,
+   "durationSec": 317.69,
    "estSec": 308.0,
    "audioUrl": "audio/book-5/021-chapter-2-1-the-deceased.mp3"
   },
@@ -509,7 +511,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 2.2",
    "ready": true,
-   "durationSec": 160.3,
+   "durationSec": 166.25,
    "estSec": 127.2,
    "audioUrl": "audio/book-5/022-chapter-2-2.mp3"
   },
@@ -519,7 +521,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 2.3",
    "ready": true,
-   "durationSec": 113.16,
+   "durationSec": 128.3,
    "estSec": 99.2,
    "audioUrl": "audio/book-5/023-chapter-2-3.mp3"
   },
@@ -529,7 +531,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "REFLECTION",
    "ready": true,
-   "durationSec": 122.33,
+   "durationSec": 119.87,
    "estSec": 116.0,
    "audioUrl": "audio/book-5/024-reflection-2.mp3"
   },
@@ -539,7 +541,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "PART 3",
    "ready": true,
-   "durationSec": 19.76,
+   "durationSec": 21.78,
    "estSec": 10.0,
    "audioUrl": "audio/book-5/025-part-3.mp3"
   },
@@ -549,7 +551,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "ACT 3, SCENE 1 THE ABSURD!",
    "ready": true,
-   "durationSec": 169.79,
+   "durationSec": 153.64,
    "estSec": 151.6,
    "audioUrl": "audio/book-5/026-act-3-scene-1-the-absurd.mp3"
   },
@@ -559,7 +561,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "PRACTICAL REFLECTION: ALIGNING WITH DIVINE WILL",
    "ready": true,
-   "durationSec": 97.07,
+   "durationSec": 96.3,
    "estSec": 86.0,
    "audioUrl": "audio/book-5/027-practical-reflection-aligning-with-divine-will.mp3"
   },
@@ -569,7 +571,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 3.1",
    "ready": true,
-   "durationSec": 101.99,
+   "durationSec": 113.48,
    "estSec": 92.0,
    "audioUrl": "audio/book-5/028-chapter-3-1.mp3"
   },
@@ -579,7 +581,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 3.2",
    "ready": true,
-   "durationSec": 112.49,
+   "durationSec": 122.59,
    "estSec": 97.6,
    "audioUrl": "audio/book-5/029-chapter-3-2.mp3"
   },
@@ -589,7 +591,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 3.3",
    "ready": true,
-   "durationSec": 178.8,
+   "durationSec": 201.1,
    "estSec": 177.6,
    "audioUrl": "audio/book-5/030-chapter-3-3.mp3"
   },
@@ -599,7 +601,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "REFLECTION",
    "ready": true,
-   "durationSec": 146.38,
+   "durationSec": 142.08,
    "estSec": 138.4,
    "audioUrl": "audio/book-5/031-reflection-3.mp3"
   },
@@ -609,7 +611,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "PART 4",
    "ready": true,
-   "durationSec": 22.71,
+   "durationSec": 21.83,
    "estSec": 10.8,
    "audioUrl": "audio/book-5/032-part-4.mp3"
   },
@@ -619,7 +621,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "ACT 4, SCENE 1",
    "ready": true,
-   "durationSec": 169.65,
+   "durationSec": 168.7,
    "estSec": 168.0,
    "audioUrl": "audio/book-5/033-act-4-scene-1.mp3"
   },
@@ -629,7 +631,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "Divine Forces Behind the Rise and Fall of Nations - Unleashing",
    "ready": true,
-   "durationSec": 149.17,
+   "durationSec": 140.03,
    "estSec": 101.2,
    "audioUrl": "audio/book-5/034-divine-forces-behind-the-rise-and-fall-of-nations-unleashing.mp3"
   },
@@ -639,7 +641,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "SPIRITUAL DISCIPLINES FOR RESURRECTION POWER",
    "ready": true,
-   "durationSec": 245.4,
+   "durationSec": 245.55,
    "estSec": 247.6,
    "audioUrl": "audio/book-5/035-spiritual-disciplines-for-resurrection-power.mp3"
   },
@@ -649,7 +651,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 4.1",
    "ready": true,
-   "durationSec": 109.54,
+   "durationSec": 113.04,
    "estSec": 99.2,
    "audioUrl": "audio/book-5/036-chapter-4-1.mp3"
   },
@@ -659,7 +661,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 4.2",
    "ready": true,
-   "durationSec": 118.42,
+   "durationSec": 119.19,
    "estSec": 110.0,
    "audioUrl": "audio/book-5/037-chapter-4-2.mp3"
   },
@@ -669,7 +671,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 4.3",
    "ready": true,
-   "durationSec": 115.11,
+   "durationSec": 129.16,
    "estSec": 109.6,
    "audioUrl": "audio/book-5/038-chapter-4-3.mp3"
   },
@@ -679,7 +681,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "REFLECTION",
    "ready": true,
-   "durationSec": 250.18,
+   "durationSec": 239.52,
    "estSec": 233.6,
    "audioUrl": "audio/book-5/039-reflection-4.mp3"
   },
@@ -689,7 +691,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "PART 5",
    "ready": true,
-   "durationSec": 21.75,
+   "durationSec": 20.4,
    "estSec": 8.8,
    "audioUrl": "audio/book-5/040-part-5.mp3"
   },
@@ -699,7 +701,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "ACT 5, SCENE 1",
    "ready": true,
-   "durationSec": 172.74,
+   "durationSec": 168.35,
    "estSec": 166.0,
    "audioUrl": "audio/book-5/041-act-5-scene-1.mp3"
   },
@@ -709,7 +711,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "ADDRESSING DOCTRINAL CONTROVERSIES",
    "ready": true,
-   "durationSec": 129.4,
+   "durationSec": 130.26,
    "estSec": 130.4,
    "audioUrl": "audio/book-5/042-addressing-doctrinal-controversies.mp3"
   },
@@ -719,7 +721,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 5.1",
    "ready": true,
-   "durationSec": 125.16,
+   "durationSec": 128.78,
    "estSec": 107.6,
    "audioUrl": "audio/book-5/043-chapter-5-1.mp3"
   },
@@ -729,7 +731,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 5.2",
    "ready": true,
-   "durationSec": 98.8,
+   "durationSec": 96.4,
    "estSec": 91.6,
    "audioUrl": "audio/book-5/044-chapter-5-2.mp3"
   },
@@ -739,7 +741,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 5.3",
    "ready": true,
-   "durationSec": 88.21,
+   "durationSec": 88.17,
    "estSec": 70.4,
    "audioUrl": "audio/book-5/045-chapter-5-3.mp3"
   },
@@ -749,7 +751,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "REFLECTION",
    "ready": true,
-   "durationSec": 149.68,
+   "durationSec": 143.51,
    "estSec": 144.8,
    "audioUrl": "audio/book-5/046-reflection-5.mp3"
   },
@@ -759,7 +761,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "PART 6",
    "ready": true,
-   "durationSec": 24.12,
+   "durationSec": 24.03,
    "estSec": 10.0,
    "audioUrl": "audio/book-5/047-part-6.mp3"
   },
@@ -769,7 +771,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "ACT 6, SCENE 1 THE PRICE!",
    "ready": true,
-   "durationSec": 177.81,
+   "durationSec": 178.25,
    "estSec": 173.6,
    "audioUrl": "audio/book-5/048-act-6-scene-1-the-price.mp3"
   },
@@ -779,7 +781,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "UNIVERSAL YEARNING FOR RESURRECTION",
    "ready": true,
-   "durationSec": 182.86,
+   "durationSec": 156.91,
    "estSec": 166.8,
    "audioUrl": "audio/book-5/049-universal-yearning-for-resurrection.mp3"
   },
@@ -789,7 +791,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 6.1",
    "ready": true,
-   "durationSec": 95.4,
+   "durationSec": 97.39,
    "estSec": 81.6,
    "audioUrl": "audio/book-5/050-chapter-6-1.mp3"
   },
@@ -799,7 +801,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 6.2",
    "ready": true,
-   "durationSec": 85.67,
+   "durationSec": 85.77,
    "estSec": 67.2,
    "audioUrl": "audio/book-5/051-chapter-6-2.mp3"
   },
@@ -809,7 +811,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 6.3",
    "ready": true,
-   "durationSec": 76.79,
+   "durationSec": 80.24,
    "estSec": 58.4,
    "audioUrl": "audio/book-5/052-chapter-6-3.mp3"
   },
@@ -819,7 +821,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "REFLECTION",
    "ready": true,
-   "durationSec": 120.22,
+   "durationSec": 121.29,
    "estSec": 114.0,
    "audioUrl": "audio/book-5/053-reflection-6.mp3"
   },
@@ -829,7 +831,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "PART 7",
    "ready": true,
-   "durationSec": 21.84,
+   "durationSec": 21.45,
    "estSec": 8.8,
    "audioUrl": "audio/book-5/054-part-7.mp3"
   },
@@ -839,7 +841,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "ACT 7, SCENE 1",
    "ready": true,
-   "durationSec": 438.56,
+   "durationSec": 405.11,
    "estSec": 442.4,
    "audioUrl": "audio/book-5/055-act-7-scene-1.mp3"
   },
@@ -849,7 +851,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "DOCTRINAL FOUNDATIONS FOR RESURRECTION",
    "ready": true,
-   "durationSec": 144.47,
+   "durationSec": 112.21,
    "estSec": 126.8,
    "audioUrl": "audio/book-5/056-doctrinal-foundations-for-resurrection.mp3"
   },
@@ -859,7 +861,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 7.1",
    "ready": true,
-   "durationSec": 112.25,
+   "durationSec": 108.38,
    "estSec": 95.6,
    "audioUrl": "audio/book-5/057-chapter-7-1.mp3"
   },
@@ -869,7 +871,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 7.2",
    "ready": true,
-   "durationSec": 115.53,
+   "durationSec": 113.53,
    "estSec": 99.2,
    "audioUrl": "audio/book-5/058-chapter-7-2.mp3"
   },
@@ -879,7 +881,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "CHAPTER 7.3",
    "ready": true,
-   "durationSec": 88.9,
+   "durationSec": 86.27,
    "estSec": 75.2,
    "audioUrl": "audio/book-5/059-chapter-7-3.mp3"
   },
@@ -889,7 +891,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "REFLECTION",
    "ready": true,
-   "durationSec": 158.68,
+   "durationSec": 151.18,
    "estSec": 149.6,
    "audioUrl": "audio/book-5/060-reflection-7.mp3"
   },
@@ -899,7 +901,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "GLOBAL EVENTS AS REFLECTIONS OF COSMIC JUDGMENT: A WAKE- UP CALL TO THE WORLD",
    "ready": true,
-   "durationSec": 194.58,
+   "durationSec": 204.3,
    "estSec": 184.4,
    "audioUrl": "audio/book-5/061-global-events-as-reflections-of-cosmic-judgment-a-wake-up-ca.mp3"
   },
@@ -909,7 +911,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "DIVINE SUMMON STEP INTO YOUR ETERNAL",
    "ready": true,
-   "durationSec": 443.0,
+   "durationSec": 420.06,
    "estSec": 398.0,
    "audioUrl": "audio/book-5/062-divine-summon-step-into-your-eternal.mp3"
   },
@@ -919,7 +921,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "APPENDIX 1",
    "ready": true,
-   "durationSec": 112.64,
+   "durationSec": 107.67,
    "estSec": 97.2,
    "audioUrl": "audio/book-5/063-appendix-1.mp3"
   },
@@ -929,7 +931,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "APPENDIX 2",
    "ready": true,
-   "durationSec": 3.74,
+   "durationSec": 3.62,
    "estSec": 0.8,
    "audioUrl": "audio/book-5/064-appendix-2.mp3"
   },
@@ -959,7 +961,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "THE 50 BENEFITS OF UPHOLDING THE 50 PROTOCOLS OF HEAVEN:",
    "ready": true,
-   "durationSec": 259.75,
+   "durationSec": 268.69,
    "estSec": 226.4,
    "audioUrl": "audio/book-5/065-the-50-benefits-of-upholding-the-50-protocols-of-heaven.mp3"
   },
@@ -969,7 +971,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "\"THE SEVEN WORDS\" TO METAMORPHOSIS INTO OUR ARCHANGEL, THE",
    "ready": true,
-   "durationSec": 313.38,
+   "durationSec": 350.5,
    "estSec": 315.6,
    "audioUrl": "audio/book-5/066-the-seven-words-to-metamorphosis-into-our-archangel-the.mp3"
   },
@@ -979,7 +981,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "APPENDIX 3",
    "ready": true,
-   "durationSec": 86.14,
+   "durationSec": 87.91,
    "estSec": 82.8,
    "audioUrl": "audio/book-5/067-appendix-3.mp3"
   },
@@ -989,7 +991,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "BASIC TRAINING OF THE 144,000",
    "ready": true,
-   "durationSec": 103.76,
+   "durationSec": 107.58,
    "estSec": 106.8,
    "audioUrl": "audio/book-5/068-basic-training-of-the-144-000.mp3"
   },
@@ -999,7 +1001,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "APPENDIX 4",
    "ready": true,
-   "durationSec": 3.76,
+   "durationSec": 3.57,
    "estSec": 0.8,
    "audioUrl": "audio/book-5/069-appendix-4.mp3"
   },
@@ -1049,7 +1051,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "APPENDIX 5",
    "ready": true,
-   "durationSec": 1491.31,
+   "durationSec": 1509.28,
    "estSec": 1533.2,
    "audioUrl": "audio/book-5/070-appendix-5.mp3"
   },
@@ -1059,7 +1061,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "APPENDIX 6",
    "ready": true,
-   "durationSec": 393.72,
+   "durationSec": 406.63,
    "estSec": 402.4,
    "audioUrl": "audio/book-5/071-appendix-6.mp3"
   },
@@ -1069,7 +1071,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "APPENDIX 7",
    "ready": true,
-   "durationSec": 1838.27,
+   "durationSec": 1777.79,
    "estSec": 1872.8,
    "audioUrl": "audio/book-5/072-appendix-7.mp3"
   },
@@ -1079,7 +1081,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "APPENDIX 8",
    "ready": true,
-   "durationSec": 3.74,
+   "durationSec": 3.57,
    "estSec": 0.8,
    "audioUrl": "audio/book-5/073-appendix-8.mp3"
   },
@@ -1359,7 +1361,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "QUESTIONS OF MEN AND ANSWERS FROM THE TRINITY",
    "ready": true,
-   "durationSec": 5.06,
+   "durationSec": 5.72,
    "estSec": 3.2,
    "audioUrl": "audio/book-5/074-questions-of-men-and-answers-from-the-trinity.mp3"
   },
@@ -1489,7 +1491,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "HOW TO PRAY FOR YOURSELF AND OTHERS",
    "ready": true,
-   "durationSec": 1605.15,
+   "durationSec": 1605.49,
    "estSec": 1646.8,
    "audioUrl": "audio/book-5/075-how-to-pray-for-yourself-and-others.mp3"
   },
@@ -1499,7 +1501,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "BRING FRUITS MEET FOR REPENTANCE",
    "ready": true,
-   "durationSec": 178.96,
+   "durationSec": 201.15,
    "estSec": 198.8,
    "audioUrl": "audio/book-5/076-bring-fruits-meet-for-repentance.mp3"
   },
@@ -1509,7 +1511,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "THE MEDALLION CHANT",
    "ready": true,
-   "durationSec": 4.05,
+   "durationSec": 3.82,
    "estSec": 1.2,
    "audioUrl": "audio/book-5/077-the-medallion-chant.mp3"
   },
@@ -1519,7 +1521,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 2,
    "title": "THE WARRIOR VICTORY PROCLAIMATION!!!",
    "ready": true,
-   "durationSec": 666.03,
+   "durationSec": 681.38,
    "estSec": 643.2,
    "audioUrl": "audio/book-5/078-the-warrior-victory-proclaimation.mp3"
   },
@@ -1529,7 +1531,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "FINALOGUE",
    "ready": true,
-   "durationSec": 582.96,
+   "durationSec": 584.8,
    "estSec": 527.6,
    "audioUrl": "audio/book-5/079-finalogue.mp3"
   },
@@ -1539,7 +1541,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "FINAL CALL TO ACTION A COSMIC DECREE THAT",
    "ready": true,
-   "durationSec": 436.62,
+   "durationSec": 423.01,
    "estSec": 433.2,
    "audioUrl": "audio/book-5/080-final-call-to-action-a-cosmic-decree-that.mp3"
   },
@@ -1549,7 +1551,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "TESTIMONIES",
    "ready": true,
-   "durationSec": 3.67,
+   "durationSec": 3.37,
    "estSec": 0.4,
    "audioUrl": "audio/book-5/081-testimonies.mp3"
   },
@@ -1809,7 +1811,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "ADDITIONAL TESTIMONIES",
    "ready": true,
-   "durationSec": 179.93,
+   "durationSec": 162.31,
    "estSec": 159.2,
    "audioUrl": "audio/book-5/082-additional-testimonies.mp3"
   },
@@ -1819,7 +1821,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "FINAL COSMIC DECREE THE LAST SEAL OF FATE",
    "ready": true,
-   "durationSec": 224.43,
+   "durationSec": 217.26,
    "estSec": 225.2,
    "audioUrl": "audio/book-5/083-final-cosmic-decree-the-last-seal-of-fate.mp3"
   },
@@ -1829,7 +1831,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "GLOSSARY OF TERMS PART 1",
    "ready": true,
-   "durationSec": 3215.13,
+   "durationSec": 3475.96,
    "estSec": 2645.2,
    "audioUrl": "audio/book-5/084-glossary-of-terms-part-1.mp3"
   },
@@ -1839,7 +1841,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "GLOSSARY OF TERMS PART 2",
    "ready": true,
-   "durationSec": 4.53,
+   "durationSec": 4.8,
    "estSec": 2.0,
    "audioUrl": "audio/book-5/085-glossary-of-terms-part-2.mp3"
   },
@@ -2089,7 +2091,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "GLOSSARY OF TERMS PART 3",
    "ready": true,
-   "durationSec": 1038.13,
+   "durationSec": 1124.23,
    "estSec": 960.0,
    "audioUrl": "audio/book-5/086-glossary-of-terms-part-3.mp3"
   },
@@ -2099,7 +2101,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "HANDOVER DECLARATION",
    "ready": true,
-   "durationSec": 26.32,
+   "durationSec": 25.26,
    "estSec": 16.0,
    "audioUrl": "audio/book-5/087-handover-declaration.mp3"
   },
@@ -2109,7 +2111,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "ABOUT THE AUTHORS",
    "ready": true,
-   "durationSec": 155.04,
+   "durationSec": 145.92,
    "estSec": 148.8,
    "audioUrl": "audio/book-5/088-about-the-authors.mp3"
   },
@@ -2119,7 +2121,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "APPRECIATION WITH THANKS",
    "ready": true,
-   "durationSec": 166.43,
+   "durationSec": 172.69,
    "estSec": 160.0,
    "audioUrl": "audio/book-5/089-appreciation-with-thanks.mp3"
   },
@@ -2129,7 +2131,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "OTHER BOOKS",
    "ready": true,
-   "durationSec": 14.73,
+   "durationSec": 14.33,
    "estSec": 5.6,
    "audioUrl": "audio/book-5/090-other-books.mp3"
   },
@@ -2139,7 +2141,7 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
    "level": 1,
    "title": "MUSIC",
    "ready": true,
-   "durationSec": 3.43,
+   "durationSec": 2.92,
    "estSec": 0.4,
    "audioUrl": "audio/book-5/091-music.mp3"
   },
@@ -2176,22 +2178,27 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
  ],
  "readyCount": 187,
  "totalCount": 187,
- "totalSec": 74354.3,
+ "totalSec": 74605.5,
  "estTotalSec": 72404.4
 }
 </script>
 
 <script>
 const M_URL = "audio/book-5/manifest.json";
+// Base URL for the audio (.mp3) files. "" = serve from this same site.
+// Set to your Cloudflare R2 custom domain (NO trailing slash) to stream from R2, e.g.
+//   const AUDIO_BASE_URL = "https://cdn.yourdomain.com";
+// Each track then loads from `${AUDIO_BASE_URL}/audio/book-5/<id>.mp3`.
+const AUDIO_BASE_URL = "";
+const audioSrc = u => AUDIO_BASE_URL ? AUDIO_BASE_URL.replace(/\/+$/,"") + "/" + u : u;
 const A = document.getElementById('audio');
 const RATES = [0.85,1,1.15,1.3];
-const SLEEPS = [0,15,30,45,60]; // minutes
 const KEY = "bm5-audiobook";
-let chapters = [], idx = -1, rateI = 1, sleepI = 0, sleepTimer = null, sleepEndsAt = 0;
+let chapters = [], idx = -1, rateI = 1, repeatOne = false;
 
 const fmt = s => { s=Math.max(0,Math.round(s||0)); const m=Math.floor(s/60),x=s%60; return m+":"+String(x).padStart(2,'0'); };
 const fmtLong = s => { s=Math.round(s||0); const h=Math.floor(s/3600),m=Math.round(s%3600/60); return h?`${h}h ${m}m`:`${m} min`; };
-const save = () => localStorage.setItem(KEY, JSON.stringify({id:chapters[idx]?.id, t:A.currentTime, rateI, done:[...done]}));
+const save = () => localStorage.setItem(KEY, JSON.stringify({id:chapters[idx]?.id, t:A.currentTime, rateI, repeatOne, done:[...done]}));
 const load = () => { try{return JSON.parse(localStorage.getItem(KEY))||{}}catch{return{}} };
 let done = new Set();
 
@@ -2214,8 +2221,10 @@ async function init(){
   document.getElementById('m-chapters').textContent = data.totalCount ?? chapters.length;
   document.getElementById('m-runtime').textContent = "≈ "+fmtLong(data.estTotalSec || data.totalSec || 0);
 
-  const st = load(); done = new Set(st.done||[]); rateI = st.rateI ?? 1;
+  const st = load(); done = new Set(st.done||[]); rateI = st.rateI ?? 1; repeatOne = !!st.repeatOne; A.loop = repeatOne;
   document.getElementById('rateBtn').textContent = RATES[rateI]+"×";
+  document.getElementById('rptBtn').classList.toggle('on', repeatOne);
+  document.getElementById('rptBtn').setAttribute('aria-pressed', repeatOne);
 
   renderTOC();
 
@@ -2268,13 +2277,20 @@ function renderTOC(){
   });
 }
 
-function select(i, autoplay){
+function select(i, autoplay, reveal){
   const c=chapters[i];
   if(!c || !c.ready || !c.audioUrl) return;
   idx=i;
-  A.src=c.audioUrl; A.playbackRate=RATES[rateI];
+  A.src=audioSrc(c.audioUrl); A.playbackRate=RATES[rateI]; A.loop=repeatOne;
   document.getElementById('nowTtl').textContent=c.title;
-  document.querySelectorAll('.row').forEach(r=>r.classList.toggle('active', +r.dataset.i===i));
+  let active=null;
+  document.querySelectorAll('.row').forEach(r=>{ const on=+r.dataset.i===i; r.classList.toggle('active',on); if(on) active=r; });
+  if(active){
+    // reveal the now-playing track: open its (possibly collapsed) Part, keep it in view
+    const kids=active.closest('.kids');
+    if(kids && kids.classList.contains('collapsed')){ kids.classList.remove('collapsed'); kids.previousElementSibling && kids.previousElementSibling.classList.remove('collapsed'); }
+    if(reveal){ const r=active.getBoundingClientRect(); if(r.top<70 || r.bottom>innerHeight-110) active.scrollIntoView({block:'center', behavior:'smooth'}); }
+  }
   if(autoplay) play();
   setMedia(c);
   save();
@@ -2287,14 +2303,9 @@ document.getElementById('back15').onclick=()=>A.currentTime=Math.max(0,A.current
 document.getElementById('fwd15').onclick=()=>A.currentTime=Math.min(A.duration||1e9,A.currentTime+15);
 document.getElementById('rateBtn').onclick=()=>{ rateI=(rateI+1)%RATES.length; A.playbackRate=RATES[rateI]; document.getElementById('rateBtn').textContent=RATES[rateI]+"×"; save(); };
 
-const sleepBtn=document.getElementById('sleepBtn');
-sleepBtn.onclick=()=>{
-  sleepI=(sleepI+1)%SLEEPS.length; const mins=SLEEPS[sleepI];
-  if(sleepTimer){clearTimeout(sleepTimer); sleepTimer=null;}
-  if(mins){ sleepEndsAt=Date.now()+mins*60000; sleepTimer=setTimeout(()=>{A.pause(); sleepBtn.classList.remove('on'); sleepBtn.textContent="☾"; sleepI=0;}, mins*60000);
-    sleepBtn.classList.add('on'); sleepBtn.textContent=mins+"m"; }
-  else { sleepBtn.classList.remove('on'); sleepBtn.textContent="☾"; }
-};
+const rptBtn=document.getElementById('rptBtn');
+rptBtn.onclick=()=>{ repeatOne=!repeatOne; A.loop=repeatOne;
+  rptBtn.classList.toggle('on',repeatOne); rptBtn.setAttribute('aria-pressed',repeatOne); save(); };
 
 const playIco=document.getElementById('playIco');
 A.addEventListener('play', ()=>{ playIco.innerHTML='<rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/>'; });
@@ -2308,8 +2319,13 @@ A.addEventListener('timeupdate', ()=>{
   if(t%5<0.3) save();
 });
 A.addEventListener('ended', ()=>{
+  // With repeat-one on, A.loop replays natively and this never fires. Otherwise:
+  // continue chronologically to the next chapter, all the way to the end of the book.
   if(idx>=0){ done.add(chapters[idx].id); }
-  const n=nextReady(idx); if(n>=0) select(n,true); save();
+  const n=nextReady(idx);
+  if(n>=0) select(n,true,true);
+  else { document.getElementById('nowTtl').textContent='✦ Finished — '+(chapters[idx]?.title||''); }
+  save();
 });
 const seek=document.getElementById('seek');
 seek.addEventListener('click', e=>{ const r=seek.getBoundingClientRect(); A.currentTime=(e.clientX-r.left)/r.width*(A.duration||0); });

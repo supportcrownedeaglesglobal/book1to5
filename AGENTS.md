@@ -109,9 +109,23 @@ Live via **GitHub Pages** at <https://supportcrownedeaglesglobal.github.io/book5
 (Deploy-from-branch: `main` / root). The repo is **public** (free-plan Pages requires
 it). `index.html` works offline / over `file://` thanks to the embedded manifest.
 
-**Open item — audio hosting:** the `.mp3` files are gitignored (too large for the repo),
-so the TOC renders on the live site but playback 404s. Host the audio on a CDN with
-free egress (Cloudflare R2 recommended) and point `audioUrl` there, or commit the audio.
+**Audio hosting (Cloudflare R2):** the `.mp3` files are gitignored (too large for the
+repo), so the audio is served from a CDN with free egress — **Cloudflare R2**. The
+audio base URL is a single constant in `index.html`:
+
+```js
+const AUDIO_BASE_URL = "";   // "" = same-origin; set to your R2 custom domain (no trailing slash)
+```
+
+Set it to the R2 **custom domain** (e.g. `https://cdn.yourdomain.com`) and every track
+loads from `${AUDIO_BASE_URL}/audio/book-5/<id>.mp3` (the manifest keeps relative
+`audioUrl`s; `audioSrc()` prepends the base — change the domain in one place, no manifest
+regen). Upload with `audiobook/scripts/upload_r2.sh` (`BUCKET=… bash upload_r2.sh`), which
+sets `Cache-Control: public, max-age=31536000, immutable` so repeat plays hit Cloudflare's
+edge (free). **Caching only works via a custom domain — the `pub-*.r2.dev` URL does NOT
+cache.** Verify with the response header `cf-cache-status: HIT`. The static page can stay on
+GitHub Pages, or move to **Cloudflare Pages** (free, no commercial-use restriction) to keep
+site + audio under one Cloudflare account/domain.
 
 ## Gotchas
 

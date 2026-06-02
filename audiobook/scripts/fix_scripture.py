@@ -84,6 +84,16 @@ def remaster(dry):
     # A track has its OWN segment cache iff it was rendered as a standalone track
     # (main-body chapters, original level-2 siblings, non-split back matter). A split
     # sub-part has no own dir — it is a slice of its parent's cache.
+    # A split PARENT is a level-1 track whose next track is a level-2 split sub-part
+    # (no own cache). Its own segment dir still holds the FULL original content, so it
+    # must be re-mastered TITLE-ONLY (segment 0), never via master_track — which would
+    # rebuild the full monolith and double-count with its children.
+    split_parents = set()
+    for i, t in enumerate(chapters):
+        if t["level"] == 1 and i + 1 < len(chapters) and chapters[i + 1]["level"] == 2 \
+           and not (C.SEGMENTS / chapters[i + 1]["id"] / "segments.json").exists():
+            split_parents.add(t["id"])
+
     done, parent, parts, split_k = [], None, None, 0
     for t in chapters:
         if t["level"] == 1:
@@ -94,7 +104,11 @@ def remaster(dry):
             split_k += 1                                # position within parent's split children
         if t["id"] not in aff:
             continue
-        if has_own:
+        if t["id"] in split_parents:
+            segs = json.loads((own / "segments.json").read_text(encoding="utf-8"))["segments"]
+            SP.master_slice(own, segs[0:1], t["id"])    # title-only header, not the monolith
+            done.append(t["id"]); print(f"  parent {t['id']:46} (title-only)")
+        elif has_own:
             M.master_track(own)
             done.append(t["id"]); print(f"  track {t['id']:46}")
         else:
