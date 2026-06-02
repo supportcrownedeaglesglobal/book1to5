@@ -2,46 +2,65 @@
 
 Free, multi-voice audiobook of **Behold My Messenger 5 — The Resurrection of the Dead**
 (Shekinaih Siew Sin Yap & J Aaron K David / Crowned Eagles Global). A single static
-page streams ~20.6 h of neural-TTS narration, chapter by chapter.
+page streams ~21.3 h of neural-TTS narration, chapter by chapter, with an optional
+**read-along reader view** (text scrolls + highlights as the voice speaks).
+
+Narration is **Kokoro-82M** (Apache-2.0 weights + code — **free for commercial resale**,
+which `edge-tts` is not). See *Voice cast* and *Pipeline* below.
 
 ## Repo layout
 
 ```
 index.html                 # the whole site (standalone; embeds a manifest fallback)
 audio/book-5/              # served audio: manifest.json + NNN-*.mp3  (mp3s are gitignored)
+readalong/<id>.json        # per-track reader data (paragraph text + timings); committed
 images/book-5/             # cover / back-cover (web-optimized)
 audiobook/
   scripts/                 # the production pipeline (see below)
   data/chapters.json       # source of truth: ordered tracks -> voiced segments
   data/manifest.json       # built catalog (mirrored to audio/book-5/manifest.json)
+  data/versions.json       # per-chapter cache-bust versions (see Deployment)
   out/segments/<id>/       # per-segment TTS cache (one mp3 per segment) + segments.json
   out/chapters/<id>.mp3    # mastered per-track audio
 docs/superpowers/specs/    # design specs
+.venv-tts/                 # Python 3.12 + CUDA torch + kokoro (GPU render env; gitignored)
 ```
 
 ## Pipeline (run from `audiobook/scripts/`, Python)
 
 1. `extract.py`  — parse the source `.docx` → `data/chapters.json`. New track at every
    Heading 1/2; each paragraph becomes a segment tagged with a speaker role.
-2. `render.py`   — synthesize every segment with `edge-tts` (no API key) into
-   `out/segments/<id>/<NNNN>-<role>.mp3`. **Resumable** (skips existing files).
+2. **`render_kokoro.py`** — synthesize every segment with **Kokoro-82M** on the GPU
+   (run in `.venv-tts`, Python 3.12 + CUDA torch). This is the **shipping, commercial-safe**
+   voice. Resumable via `.kokoro_done` markers. `render.py` (edge-tts, no API key) is kept
+   for quick dev previews only — its Microsoft voices are **not licensed for resale**, so
+   never ship edge-tts audio. Both write `out/segments/<id>/<NNNN>-<role>.mp3`.
 3. `master.py`   — stitch segments with breathing pauses, two-pass EBU R128 loudnorm
    to ACX spec (−19 LUFS / −3 dBTP), export 44.1 kHz mono 128k → `out/chapters/<id>.mp3`.
+   (Master runs in the 3.14 env; it reads whatever mp3s the render step produced.)
 4. `build_manifest.py` — build the full catalog manifest (every track listed; rendered
-   ones playable, the rest marked `ready:false`) → `data/manifest.json`.
+   ones playable, the rest marked `ready:false`) → `data/manifest.json`. Adds a per-track
+   `version` from `data/versions.json` (cache-busting; see Deployment).
 5. `inline_manifest.py` — embed the served manifest into `index.html` as a `file://`
    fallback (the page fetches `audio/book-5/manifest.json` first, falls back to the
    embedded copy when fetch is blocked). **Run this whenever the manifest changes.**
-6. Staging: copy `data/manifest.json` → `audio/book-5/manifest.json` and the new
+6. `build_readalong.py` — emit `readalong/<id>.json` for the reader view (see below).
+   Run after any (re-)master so the text timings match the audio.
+7. Staging: copy `data/manifest.json` → `audio/book-5/manifest.json` and the new
    `out/chapters/*.mp3` → `audio/book-5/`.
 
 Source `.docx` and mastering targets are configured in `scripts/config.py`.
-Python 3.14 needs `audioop-lts` for pydub.
+Python 3.14 (system) runs edge-tts/master/manifest/ffmpeg; `.venv-tts` (3.12) runs the
+Kokoro GPU render. `master.py` reads the cache cross-env, so render in `.venv-tts` then
+master in 3.14. Python 3.14 needs `audioop-lts` for pydub.
 
 ## Voice cast (assigned by structural cue, not name-mention)
 
-Narrator = Ryan · Heavenly Father = Brian (deep) · Jesus = Thomas ·
-Shekinaih = Sonia · J Aaron K David = Andrew. See `config.py` `VOICES`.
+Five roles — Narrator · Heavenly Father (deep) · Jesus · Shekinaih (female) ·
+J Aaron K David — assigned per segment by structural role, not by who is named in the
+text. The **shipping** role→voice map is `VOICE` in **`render_kokoro.py`** (Kokoro voices);
+`config.py` `VOICES` holds the edge-tts equivalents used only for dev previews. Keep the two
+maps role-aligned so a dev preview matches the shipping cast.
 
 ## Convention: split long audio into sub-parts per the PDF bookmarks
 
@@ -103,6 +122,34 @@ a lexicon entry, re-render the affected segments with the general form of the fi
 tool, which targets any raw-text pattern and re-applies the full pipeline:
 `python fix_scripture.py --pattern '\bUS\b'`.
 
+## Read-along reader view
+
+The player has a second mode (toggle → `body.reading`) that shows the book text in large
+type and highlights the spoken paragraph as the audio plays — "listen and read at the same
+time", built for elderly readers. It is **paragraph-level** sync with **no forced
+alignment**: `build_readalong.py` replays `master.py`'s exact assembly timeline (300 ms
+lead-in + each segment's measured clip duration + the same role/scene pauses) to compute a
+`start`/`end` for every paragraph, and writes `readalong/<id>.json` =
+`{id, title, paragraphs:[{role, text, start, end, image?}]}`. The site lazy-fetches that
+file (relative URL → served by GitHub Pages, like `index.html`) and on `timeupdate` finds
+the paragraph where `start ≤ t < end`, tints it gold, and scrolls it to center. Tap a
+paragraph to seek; tap a diagram to open the lightbox; A−/A+ sets reader font (persisted).
+At track end the reader **auto-advances** to the next chapter (continuous play) unless
+repeat-one is on.
+
+- Split children are timed within their **own** mp3 (the same parent-cache slice
+  `split_appendices.py` used); title-only split parents get no reader file.
+- Diagrams attach from `data/diagrams.json` (`{track, after_text, image}` → the paragraph
+  containing `after_text` gets an `image`). The file is optional; absent = text-only.
+- **Always re-run `build_readalong.py` after a (re-)master** — its timings are derived from
+  the current segment durations, so stale audio ⇒ drifting highlights. It self-checks every
+  track's last `end` against the manifest duration and flags any >1.6 s drift.
+
+```
+python build_readalong.py            # regenerate all readalong/<id>.json
+python build_readalong.py --check    # verify timing on one track, then exit
+```
+
 ## Deployment
 
 Live via **GitHub Pages** at <https://supportcrownedeaglesglobal.github.io/book5/>
@@ -127,9 +174,25 @@ cache.** Verify with the response header `cf-cache-status: HIT`. The static page
 GitHub Pages, or move to **Cloudflare Pages** (free, no commercial-use restriction) to keep
 site + audio under one Cloudflare account/domain.
 
+**Cache-busting a single chapter** (because `immutable` tells the CDN to cache for a year):
+the site loads every track through `audioSrc(c)`, which appends `?v=<version>`. To push a
+re-recorded chapter: (1) re-master + re-upload that one `.mp3` to R2, (2) bump its number
+in `data/versions.json` by 1, (3) `python build_manifest.py && python inline_manifest.py`,
+redeploy. Unlisted chapters default to `version: 1`. The `?v=` change makes the browser and
+edge treat it as a new URL — only that chapter re-downloads.
+
 ## Gotchas
 
 - Global git identity is `jjcheng9296` — do **not** pass `-c user.name` (impersonation).
 - `gh` CLI is not installed; the repo was created on github.com.
 - The page deliberately overrides any "no gradient / no gradient-text" brand bans
   (owner asked for the vivid metallic "throne-room" look).
+- **Split children can go stale after a re-render.** `split_appendices.master_slice`
+  skips a child whose mp3 already exists (resume cache), so a global voice/text change
+  re-renders the parent's *segments* but leaves the children mastered from the *old* audio.
+  After any such change, re-master the children explicitly:
+  `python fix_scripture.py --remaster-only --children-only` (it sets `SP.FORCE = True`).
+  Symptom if missed: read-along highlights drift on split sub-parts only.
+- **Never re-run `split_appendices.py` on an already-split `chapters.json`** — it would
+  split the children again and duplicate tracks. Split once from the monolithic manifest;
+  to redo, `git checkout audiobook/data/chapters.json` first.
