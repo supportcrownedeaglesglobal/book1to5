@@ -2431,20 +2431,25 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
 <script>
 const M_URL = "audio/book-5/manifest.json";
 // === Audio hosting (Cloudflare R2) — switch the host in ONE place: this line ======
-// Use your r2.dev URL for now; swap to a custom domain later (no trailing slash).
-// Setting it to "" would serve audio from this same site (handy for local testing).
-const AUDIO_BASE_URL = "https://pub-YOUR-R2-ID.r2.dev";
+// "" (empty) serves the audio from THIS site — the mp3s under audio/book-5/. That is the
+// correct setting for local testing and for any same-origin deploy, and it is what plays
+// right now. When your audio is on Cloudflare R2, paste your bucket URL here (NO trailing
+// slash) and every track loads from it instead, e.g.:
+//   const AUDIO_BASE_URL = "https://pub-YOUR-R2-ID.r2.dev";   // r2.dev, or a custom domain
+const AUDIO_BASE_URL = "";
 //
-// CACHE-BUSTING BY VERSION: every chapter in the manifest carries a "version" (an
-// integer, default 1). audioSrc() appends it as ?v=<version>. After you RE-UPLOAD a
-// chapter's mp3 to R2, bump that chapter's version by 1 -> the URL becomes ...?v=2, so
-// Cloudflare treats it as a new file and serves the fresh audio immediately (past the
-// 1-year immutable cache), while every unchanged chapter keeps hitting the cache.
-// TO UPDATE A CHAPTER: re-upload its mp3, raise its number in data/versions.json, then
-// rebuild the manifest. The player ONLY ever gets URLs from audioSrc() — never hard-coded.
+// CACHE-BUSTING BY VERSION: every chapter in the manifest carries a "version" (an integer,
+// default 1). When the audio is served from a REMOTE host (AUDIO_BASE_URL set), audioSrc()
+// appends it as ?v=<version>. After you RE-UPLOAD a chapter's mp3 to R2, bump that chapter's
+// version by 1 -> the URL becomes ...?v=2, so Cloudflare treats it as a new file and serves
+// the fresh audio immediately (past the 1-year immutable cache), while every unchanged
+// chapter keeps hitting the cache. TO UPDATE A CHAPTER: re-upload its mp3, raise its number
+// in data/versions.json, then rebuild the manifest. (Same-origin/local has no CDN cache to
+// bust, so ?v= is omitted there — which also keeps file:// playback working.) The player
+// ONLY ever gets its URLs from audioSrc() — never hard-coded.
 const audioSrc = c => {
   const base = AUDIO_BASE_URL ? AUDIO_BASE_URL.replace(/\/+$/, "") + "/" : "";
-  return base + c.audioUrl + "?v=" + (c.version || 1);
+  return base ? base + c.audioUrl + "?v=" + (c.version || 1) : c.audioUrl;
 };
 const A = document.getElementById('audio');
 const RATES = [0.85,1,1.15,1.3];
