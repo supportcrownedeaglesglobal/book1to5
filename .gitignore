@@ -11,3 +11,6 @@ __pycache__/
 Thumbs.db
 *.log
 .venv-tts/
+
+# local diagram-curation gallery (not deployed)
+_diagram-gallery.html

@@ -58,14 +58,17 @@ def load_diagrams():
 
 
 def attach_images(track_id, paras, diagrams):
+    """Attach each diagram (matched by its unique after_text) to a paragraph's image list.
+    Several diagrams may land on one paragraph (e.g. a run of testimony screenshots) — they
+    stack in diagrams.json order, which is book page order."""
     for d in diagrams:
         if d.get("track") != track_id:
             continue
-        hits = [p for p in paras if d["after_text"] in p["text"]]
-        if len(hits) == 1:
-            hits[0]["image"] = d["image"]
+        hits = [p for p in paras if d.get("after_text") and d["after_text"] in p["text"]]
+        if hits:
+            hits[0].setdefault("images", []).append(d["image"])
         else:
-            print(f"    !! diagram {d['image']}: {len(hits)} matches for after_text in {track_id} (need 1)")
+            print(f"    !! diagram {d['image']}: no paragraph in {track_id} contains its after_text")
 
 
 def build_track(t, chapters, sp, parent_state, diagrams):

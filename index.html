@@ -2589,7 +2589,8 @@ async function openReader(i){
     if(readerId!==c.id) return;                 // user moved to another chapter while loading
     RA=data;
     readerBody.innerHTML=RA.paragraphs.map((p,k)=>{
-      const img=p.image?`<img class="rdiagram" src="${p.image}" alt="Diagram from the book" loading="lazy">`:'';
+      const imgs=p.images||(p.image?[p.image]:[]);   // a paragraph may carry several figures
+      const img=imgs.map(src=>`<img class="rdiagram" src="${src}" alt="Figure from the book" loading="lazy">`).join('');
       return `<p class="rpara role-${p.role}" data-k="${k}" data-start="${p.start}" data-end="${p.end}">${escHtml(p.text)}</p>`+img;
     }).join('');
     readerBody.style.setProperty('--reader-font',readerFont+'px');

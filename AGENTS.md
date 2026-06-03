@@ -15,6 +15,7 @@ index.html                 # the whole site (standalone; embeds a manifest fallb
 audio/book-5/              # served audio: manifest.json + NNN-*.mp3  (mp3s are gitignored)
 readalong/<id>.js          # per-track reader data (JSONP: assigns into RA_CACHE); committed
 images/book-5/             # cover / back-cover (web-optimized)
+images/book-5/diagrams/    # figures pulled from the PDF for the reader (extract_diagrams.py)
 audiobook/
   scripts/                 # the production pipeline (see below)
   data/chapters.json       # source of truth: ordered tracks -> voiced segments
@@ -142,8 +143,17 @@ repeat-one is on.
 
 - Split children are timed within their **own** mp3 (the same parent-cache slice
   `split_appendices.py` used); title-only split parents get no reader file.
-- Diagrams attach from `data/diagrams.json` (`{track, after_text, image}` → the paragraph
-  containing `after_text` gets an `image`). The file is optional; absent = text-only.
+- **Diagrams/figures** come from the PDF in two scripted steps, then attach automatically:
+  `extract_diagrams.py --pdf <book5.pdf>` pulls content images (skips decorative/duplicate/
+  tiny) into `images/book-5/diagrams/`; `place_diagrams.py --pdf <book5.pdf>` auto-authors
+  `data/diagrams.json` (`{image, track, after_text}`) — it maps each image to a track by
+  **IDF-weighted** page↔narration word matching (rare names like "Davidis" decide it; robust
+  to the Dec-docx vs Nov-PDF divergence), then to a paragraph within that track. Run with
+  `--dry` first to sanity-check placement. `build_readalong.attach_images` then binds each
+  figure to the paragraph holding its unique `after_text`; **several figures may stack on one
+  paragraph** (a run of testimony screenshots), so a paragraph carries an `images` list. The
+  file is optional; absent = text-only. (`_diagram-gallery.html`, gitignored, is a local
+  review grid of all candidates.)
 - **Always re-run `build_readalong.py` after a (re-)master** — its timings are derived from
   the current segment durations, so stale audio ⇒ drifting highlights. It self-checks every
   track's last `end` against the manifest duration and flags any >1.6 s drift.
