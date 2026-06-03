@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["077-the-medallion-chant"]={"id": "077-the-medallion-chant", "title": "THE MEDALLION CHANT", "paragraphs": [{"role": "chapter_title", "text": "THE MEDALLION CHANT", "start": 0.3, "end": 2.42}]};

@@ -1,7 +1,9 @@
 """
 build_readalong.py — Emit per-track read-along data for the website's reading view.
 
-For every PLAYABLE finished track it writes readalong/<id>.json:
+For every PLAYABLE finished track it writes readalong/<id>.js (a one-line JSONP wrapper
+that assigns the data into window.RA_CACHE — loadable via a <script> tag over file://, where
+fetch() is blocked). The payload is:
   {"id","title","paragraphs":[{"role","text","start","end","image"?}, ...]}
 start/end are seconds within that track's mastered MP3, derived from the SAME assembly
 recipe as master.py (300ms lead-in + clip + role pause; SCENE_GAP around open/close) —
@@ -103,8 +105,13 @@ def build_all():
         if not paras:
             continue
         attach_images(t["id"], paras, diagrams)
-        (READALONG / f"{t['id']}.json").write_text(
-            json.dumps({"id": t["id"], "title": t["title"], "paragraphs": paras}, ensure_ascii=False),
+        payload = json.dumps({"id": t["id"], "title": t["title"], "paragraphs": paras}, ensure_ascii=False)
+        # JSONP-style: a <script> tag assigns the data into RA_CACHE. Tag-loads of local files
+        # work over file:// (where fetch() is blocked), so the reader works when index.html is
+        # opened directly by double-clicking — not only over http. The site loads readalong/<id>.js
+        # lazily via loadReadalong() in index.html.
+        (READALONG / f"{t['id']}.js").write_text(
+            f"(window.RA_CACHE=window.RA_CACHE||{{}})[{json.dumps(t['id'])}]={payload};\n",
             encoding="utf-8")
         wrote += 1
         if t["id"] in man:

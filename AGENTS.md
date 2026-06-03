@@ -13,7 +13,7 @@ which `edge-tts` is not). See *Voice cast* and *Pipeline* below.
 ```
 index.html                 # the whole site (standalone; embeds a manifest fallback)
 audio/book-5/              # served audio: manifest.json + NNN-*.mp3  (mp3s are gitignored)
-readalong/<id>.json        # per-track reader data (paragraph text + timings); committed
+readalong/<id>.js          # per-track reader data (JSONP: assigns into RA_CACHE); committed
 images/book-5/             # cover / back-cover (web-optimized)
 audiobook/
   scripts/                 # the production pipeline (see below)
@@ -44,7 +44,7 @@ docs/superpowers/specs/    # design specs
 5. `inline_manifest.py` — embed the served manifest into `index.html` as a `file://`
    fallback (the page fetches `audio/book-5/manifest.json` first, falls back to the
    embedded copy when fetch is blocked). **Run this whenever the manifest changes.**
-6. `build_readalong.py` — emit `readalong/<id>.json` for the reader view (see below).
+6. `build_readalong.py` — emit `readalong/<id>.js` for the reader view (see below).
    Run after any (re-)master so the text timings match the audio.
 7. Staging: copy `data/manifest.json` → `audio/book-5/manifest.json` and the new
    `out/chapters/*.mp3` → `audio/book-5/`.
@@ -129,9 +129,12 @@ type and highlights the spoken paragraph as the audio plays — "listen and read
 time", built for elderly readers. It is **paragraph-level** sync with **no forced
 alignment**: `build_readalong.py` replays `master.py`'s exact assembly timeline (300 ms
 lead-in + each segment's measured clip duration + the same role/scene pauses) to compute a
-`start`/`end` for every paragraph, and writes `readalong/<id>.json` =
-`{id, title, paragraphs:[{role, text, start, end, image?}]}`. The site lazy-fetches that
-file (relative URL → served by GitHub Pages, like `index.html`) and on `timeupdate` finds
+`start`/`end` for every paragraph, and writes `readalong/<id>.js` — a one-line JSONP wrapper
+`(window.RA_CACHE=window.RA_CACHE||{})["<id>"]={id,title,paragraphs:[{role,text,start,end,image?}]}`.
+The reader lazy-loads it with a `<script>` tag — NOT `fetch`, because browsers block `fetch`
+of local files over `file://`, but a `<script src>` tag-load works there (the same reason the
+audio and the embedded-manifest fallback work when index.html is opened directly). It is keyed
+in `RA_CACHE` (loaded once), and on `timeupdate` the reader finds
 the paragraph where `start ≤ t < end`, tints it gold, and scrolls it to center. Tap a
 paragraph to seek; tap a diagram to open the lightbox; A−/A+ sets reader font (persisted).
 At track end the reader **auto-advances** to the next chapter (continuous play) unless
@@ -146,7 +149,7 @@ repeat-one is on.
   track's last `end` against the manifest duration and flags any >1.6 s drift.
 
 ```
-python build_readalong.py            # regenerate all readalong/<id>.json
+python build_readalong.py            # regenerate all readalong/<id>.js
 python build_readalong.py --check    # verify timing on one track, then exit
 ```
 

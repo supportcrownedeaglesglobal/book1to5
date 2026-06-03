@@ -2558,25 +2558,43 @@ function select(i, autoplay, reveal){
 function play(){ A.play(); }
 
 // ---------- read-along reader ----------
-let RA=null, raSpoken=-1, readerFont=23;
+let RA=null, raSpoken=-1, readerFont=23, readerId=null;
 const readerBody=document.getElementById('reader-body');
 const lightbox=document.getElementById('lightbox');
 const escHtml=s=>s.replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));
+// Load a track's read-along data via a <script> tag (readalong/<id>.js assigns into RA_CACHE).
+// Tag-loads of local files work over file:// AND http(s); fetch() does NOT over file:// (the
+// browser blocks it), which is why the reader loads its text this way and not via fetch. Each
+// file loads at most once, then is served from RA_CACHE.
+const RA_CACHE = window.RA_CACHE = window.RA_CACHE || {};
+function loadReadalong(id){
+  if(RA_CACHE[id]) return Promise.resolve(RA_CACHE[id]);
+  return new Promise((res,rej)=>{
+    const s=document.createElement('script');
+    s.src='readalong/'+id+'.js'; s.async=true;
+    s.onload=()=>RA_CACHE[id]?res(RA_CACHE[id]):rej(new Error('no data'));
+    s.onerror=()=>rej(new Error('load failed'));
+    document.head.appendChild(s);
+  });
+}
 function setReaderFont(px){ readerFont=Math.max(16,Math.min(40,px)); readerBody.style.setProperty('--reader-font',readerFont+'px'); save(); }
 async function openReader(i){
   select(i,true);
-  const c=chapters[i];
+  const c=chapters[i]; readerId=c.id;
   document.getElementById('readerTitle').textContent=c.title;
   document.body.classList.add('reading'); window.scrollTo(0,0);
   readerBody.innerHTML='<p class="reader-msg">Loading the text…</p>'; RA=null; raSpoken=-1;
   try{
-    RA=await (await fetch('readalong/'+c.id+'.json',{cache:'no-store'})).json();
+    const data=await loadReadalong(c.id);
+    if(readerId!==c.id) return;                 // user moved to another chapter while loading
+    RA=data;
     readerBody.innerHTML=RA.paragraphs.map((p,k)=>{
       const img=p.image?`<img class="rdiagram" src="${p.image}" alt="Diagram from the book" loading="lazy">`:'';
       return `<p class="rpara role-${p.role}" data-k="${k}" data-start="${p.start}" data-end="${p.end}">${escHtml(p.text)}</p>`+img;
     }).join('');
     readerBody.style.setProperty('--reader-font',readerFont+'px');
   }catch(e){
+    if(readerId!==c.id) return;
     readerBody.innerHTML='<p class="reader-msg">The text view isn’t ready for this section yet — it’s still playing in audio.</p>';
   }
 }
