@@ -2622,10 +2622,22 @@ readerBody.addEventListener('click',e=>{
   if(p && p.dataset.start!==undefined){ A.currentTime=parseFloat(p.dataset.start); A.play(); }
 });
 lightbox.onclick=()=>lightbox.classList.remove('show');
-document.getElementById('readerBack').onclick=()=>document.body.classList.remove('reading');
+// Leaving the reader returns you to the chapter list AT the chapter you were on — which may
+// have auto-advanced while you read (e.g. you ended on FINALOGUE) — not at a stale scroll spot.
+function exitReader(){
+  if(!document.body.classList.contains('reading')) return;
+  document.body.classList.remove('reading');
+  const row=document.querySelector('.row.active')||document.querySelector('.row[data-i="'+idx+'"]');
+  if(row){
+    const kids=row.closest('.kids');                       // open its Part if collapsed
+    if(kids && kids.classList.contains('collapsed')){ kids.classList.remove('collapsed'); kids.previousElementSibling && kids.previousElementSibling.classList.remove('collapsed'); }
+    row.scrollIntoView({block:'center', behavior:'instant'});  // 'instant' beats the global smooth-scroll → jump straight to your place
+  }
+}
+document.getElementById('readerBack').onclick=exitReader;
 document.getElementById('fontUp').onclick=()=>setReaderFont(readerFont+2);
 document.getElementById('fontDown').onclick=()=>setReaderFont(readerFont-2);
-document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ if(lightbox.classList.contains('show')) lightbox.classList.remove('show'); else document.body.classList.remove('reading'); } });
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ if(lightbox.classList.contains('show')) lightbox.classList.remove('show'); else exitReader(); } });
 function toggle(){ if(!A.src){ const f=nextReady(-1); if(f>=0) select(f,true); return;} A.paused?A.play():A.pause(); }
 
 document.getElementById('playBtn').onclick=toggle;
