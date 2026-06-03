@@ -27,6 +27,23 @@ OUT = C.ROOT.parent / "images" / "book-5" / "diagrams"
 READALONG = C.ROOT.parent / "readalong"
 DIAGRAMS_JSON = C.DATA / "diagrams.json"
 
+# Figure groups, assigned by PDF page (from manual review of the extracted candidates):
+#   A = core diagrams / teaching figures  (pages up to A_MAX_PAGE)
+#   D = photos & cover/section art        (explicit pages)
+#   BC = testimony screenshots + text-page captures that duplicate the narration (the rest)
+# --groups selects which to place; default "A,D" = the high-value figures, skipping the
+# ~120 screenshots/text-dumps. (Pages 280-451 are all the "TESTIMONIES" block.)
+A_MAX_PAGE = 262
+D_PAGES = {2, 3, 551, 552, 556, 558}
+
+
+def group_of(page):
+    if page in D_PAGES:
+        return "D"
+    if page <= A_MAX_PAGE:
+        return "A"
+    return "BC"
+
 STOP = set("""the a an of to and in is on for with that this it as be are was were has have had
 will would can could should may might must shall into from by at or but not no nor so than then
 their they them his her its our your you we he she him who whom which what when where why how all
@@ -132,7 +149,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--pdf", required=True)
     ap.add_argument("--dry", action="store_true")
+    ap.add_argument("--groups", default="A,D",
+                    help="figure groups to place: A=diagrams, D=photos/art, BC=testimonies+text (default A,D)")
     args = ap.parse_args()
+    keep = set(g.strip().upper() for g in args.groups.split(","))
 
     paras = load_paras()
     tracks = json.loads(C.CHAPTERS_JSON.read_text(encoding="utf-8"))
@@ -143,8 +163,12 @@ def main():
         s, e = span.get(tid, (pg, pg))
         span[tid] = (min(s, pg), max(e, pg))
 
-    rows, how_counts, per_track = [], collections.Counter(), collections.Counter()
+    rows, how_counts, per_track, grp_counts = [], collections.Counter(), collections.Counter(), collections.Counter()
     for name, page, anchor in image_anchors(doc):
+        grp = group_of(page)
+        grp_counts[grp] += 1
+        if grp not in keep:
+            continue
         tid = page_track.get(page)
         plist = paras.get(tid, []) if tid else []
         if not plist:
@@ -167,6 +191,8 @@ def main():
                      "_anchor": anchor[:70], "_para": plist[idx]["text"][:70]})
         how_counts[how] += 1; per_track[tid] += 1
 
+    print(f"candidates by group: " + ", ".join(f"{g}={grp_counts[g]}" for g in ("A", "D", "BC")) +
+          f"  | kept groups {sorted(keep)}")
     print(f"placed {len(rows)} images | by text: {how_counts['text']}  by page-position: {how_counts['page']}")
     print(f"tracks receiving images: {len(per_track)} | busiest:")
     for tid, n in per_track.most_common(8):

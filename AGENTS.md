@@ -148,8 +148,11 @@ repeat-one is on.
   tiny) into `images/book-5/diagrams/`; `place_diagrams.py --pdf <book5.pdf>` auto-authors
   `data/diagrams.json` (`{image, track, after_text}`) — it maps each image to a track by
   **IDF-weighted** page↔narration word matching (rare names like "Davidis" decide it; robust
-  to the Dec-docx vs Nov-PDF divergence), then to a paragraph within that track. Run with
-  `--dry` first to sanity-check placement. `build_readalong.attach_images` then binds each
+  to the Dec-docx vs Nov-PDF divergence), then to a paragraph within that track. `--groups`
+  picks which figure families to place — default **`A,D`** (core diagrams + photos), skipping
+  the ~120 testimony screenshots (B) and text-page captures (C) that just duplicate the
+  narration. Run with `--dry` first to sanity-check placement; prune unreferenced image files
+  after a group change to keep the repo lean. `build_readalong.attach_images` then binds each
   figure to the paragraph holding its unique `after_text`; **several figures may stack on one
   paragraph** (a run of testimony screenshots), so a paragraph carries an `images` list. The
   file is optional; absent = text-only. (`_diagram-gallery.html`, gitignored, is a local

@@ -261,13 +261,19 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
 .rpara.role-decree{font-style:italic; color:var(--gold2); text-shadow:0 1px 14px rgba(232,184,109,.22)}
 .rpara.role-shekinaih{color:#ECDCF6}
 .rpara.role-aaron{color:#D2E2F6}
-.rdiagram{display:block; max-width:100%; margin:20px auto; border-radius:10px; padding:5px; background:var(--gold-metal);
-  box-shadow:0 18px 52px rgba(0,0,0,.55); cursor:zoom-in}
+.rfig{margin:26px auto 30px; text-align:center}
+.rdiagram{display:block; max-width:100%; max-height:76vh; width:auto; margin:0 auto; border-radius:10px; padding:5px; background:var(--gold-metal);
+  box-shadow:0 18px 52px rgba(0,0,0,.55); cursor:zoom-in; transition:transform .15s ease}
+.rfig:hover .rdiagram{transform:scale(1.01)}
+.rfig figcaption{font-family:'Cormorant Garamond',serif; font-style:italic; color:var(--silver-dim);
+  font-size:16px; margin-top:9px; opacity:.85}
 .reader-msg{text-align:center; color:var(--silver-dim); font-style:italic; font-family:'Cormorant Garamond',serif; font-size:21px; padding:54px 0}
 #lightbox{position:fixed; inset:0; z-index:100; display:none; place-items:center; padding:24px;
   background:rgba(4,5,14,.95); backdrop-filter:blur(8px); cursor:zoom-out}
 #lightbox.show{display:grid}
 #lightbox img{max-width:96vw; max-height:90vh; border-radius:8px; box-shadow:0 30px 90px rgba(0,0,0,.7)}
+#lightbox .lb-close{position:fixed; top:14px; right:18px; width:50px; height:50px; border:none; border-radius:50%;
+  background:rgba(20,18,30,.72); color:var(--gold2); font-size:30px; line-height:48px; text-align:center; cursor:pointer; z-index:101}
 @media(max-width:640px){ .reader-title{font-size:17px} .reader-back{padding:11px 15px} #reader-body{padding-bottom:40px} }
 
 @media (prefers-reduced-motion: reduce){
@@ -334,7 +340,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
 
 </div>
 
-<div id="lightbox" aria-hidden="true"><img alt="Diagram, enlarged"></div>
+<div id="lightbox" aria-hidden="true"><button class="lb-close" aria-label="Close">×</button><img alt="Diagram, enlarged"></div>
 
 <div class="player" id="player">
   <div class="seek" id="seek"><div class="fill" id="seekFill"></div></div>
@@ -2590,7 +2596,7 @@ async function openReader(i){
     RA=data;
     readerBody.innerHTML=RA.paragraphs.map((p,k)=>{
       const imgs=p.images||(p.image?[p.image]:[]);   // a paragraph may carry several figures
-      const img=imgs.map(src=>`<img class="rdiagram" src="${src}" alt="Figure from the book" loading="lazy">`).join('');
+      const img=imgs.map(src=>`<figure class="rfig"><img class="rdiagram" src="${src}" alt="Figure from the book" loading="lazy"><figcaption>⤢ Tap to enlarge</figcaption></figure>`).join('');
       return `<p class="rpara role-${p.role}" data-k="${k}" data-start="${p.start}" data-end="${p.end}">${escHtml(p.text)}</p>`+img;
     }).join('');
     readerBody.style.setProperty('--reader-font',readerFont+'px');
@@ -2610,8 +2616,8 @@ function syncReader(t){
       if(r.top<70||r.bottom>innerHeight-110) el.scrollIntoView({block:'center',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}); } }
 }
 readerBody.addEventListener('click',e=>{
-  const im=e.target.closest('.rdiagram');
-  if(im){ lightbox.querySelector('img').src=im.src; lightbox.classList.add('show'); return; }
+  const fig=e.target.closest('.rfig');
+  if(fig){ const im=fig.querySelector('img.rdiagram'); if(im){ lightbox.querySelector('img').src=im.src; lightbox.classList.add('show'); } return; }
   const p=e.target.closest('.rpara');
   if(p && p.dataset.start!==undefined){ A.currentTime=parseFloat(p.dataset.start); A.play(); }
 });
