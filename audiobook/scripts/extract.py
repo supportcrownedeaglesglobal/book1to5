@@ -95,8 +95,14 @@ def main():
             continue
         style = p.style.name
 
-        # --- new track on Heading 1 / Heading 2 ---
-        if style in ("Heading 1", "Heading 2"):
+        # skip the docx's own table-of-contents + picture placeholders (the site IS the TOC)
+        if style.lower().startswith("toc") or style == "Pic":
+            continue
+
+        # --- new track on a part/chapter heading. Supports Heading 1/2 (Books 3/5) AND the
+        #     custom manuscript styles in Books 1/2/4: "Part Heading Style" = part (L1),
+        #     "Section Heading" = chapter (L2). ---
+        if style in ("Heading 1", "Heading 2", "Part Heading Style", "Section Heading"):
             order += 1
             base = slugify(raw)
             n = seen_slugs.get(base, 0) + 1
@@ -105,7 +111,7 @@ def main():
             cur = {
                 "id": f"{order:03d}-{slug}",
                 "order": order,
-                "level": 1 if style == "Heading 1" else 2,
+                "level": 1 if style in ("Heading 1", "Part Heading Style") else 2,
                 "title": raw,
                 "segments": [],
             }
@@ -119,6 +125,16 @@ def main():
             cur = {"id": f"{order:03d}-front", "order": order, "level": 1,
                    "title": "Title Page", "segments": []}
             tracks.append(cur)
+
+        # custom manuscript styles (Books 1/2/4) carry the speaker role directly:
+        #   "God" = divine speech (decree/Father) · "Verse 1/Bold" = scripture (Jesus) ·
+        #   sub-titles -> heading. Book 3/5 lack these styles, so this is a no-op there.
+        _srole = {"God": "decree", "Verse 1": "scripture", "Verse Bold": "scripture",
+                  "Section Sub Heading": "heading", "Chapter Caption": "heading"}.get(style)
+        if _srole:
+            cur["segments"].append({"role": _srole, "text": raw})
+            in_scripture = False; prev_label = None
+            continue
 
         # scripture run state machine
         if is_scripture_header(raw):
