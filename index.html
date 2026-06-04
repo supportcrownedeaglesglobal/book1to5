@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#0b0a12; --ink:#f4efe6; --muted:#b6aec6; --dim:#857e96;
+  --bg:#0b0a12; --ink:#ffffff; --muted:#ffffff; --dim:#f3f2f8;
   --gold:#e8b86d; --gold2:#f4d089; --gold-deep:#a9772f;
   --gold-metal:linear-gradient(180deg,#fbe7b3 0%,#e8b86d 38%,#a9772f 72%,#f4d089 100%);
   --line:rgba(232,184,109,.22);
@@ -19,7 +19,7 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif;
-  font-size:19px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  font-size:22px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 
 /* ── atmosphere ─────────────────────────────────────────── */
 .bg{position:fixed;inset:0;z-index:-3;background:
@@ -43,7 +43,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garam
 .brand{display:flex;align-items:center;justify-content:center;gap:13px;padding:28px 0 4px;text-align:center}
 .brand .mark{width:30px;height:30px;border-radius:50%;background:var(--gold-metal);
   box-shadow:0 0 24px rgba(232,184,109,.5);flex:0 0 auto}
-.brand b{font-family:'Cinzel',serif;font-weight:700;letter-spacing:.34em;font-size:14px;
+.brand b{font-family:'Cinzel',serif;font-weight:700;letter-spacing:.32em;font-size:16px;
   color:var(--gold2);text-transform:uppercase}
 
 /* ── 3D book component ──────────────────────────────────── */
@@ -85,8 +85,8 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garam
 .tome__play svg{width:24px;height:24px;fill:#231603;margin-left:3px}
 
 /* status ribbon */
-.ribbon{position:absolute;left:0;top:13px;z-index:6;padding:5px 13px 5px 11px;
-  font-family:'Cinzel',serif;font-size:10.5px;font-weight:700;letter-spacing:.13em;text-transform:uppercase}
+.ribbon{position:absolute;left:0;top:13px;z-index:6;padding:6px 14px 6px 12px;
+  font-family:'Cinzel',serif;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
 .ribbon.go{background:var(--gold-metal);color:#231603;border-radius:0 4px 4px 0;
   box-shadow:0 7px 18px rgba(232,184,109,.4)}
 .ribbon.soon{background:rgba(13,11,22,.86);color:var(--gold2);border:1px solid var(--line);border-left:none;border-radius:0 4px 4px 0}
@@ -108,29 +108,29 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garam
   50%{transform:rotateY(-16deg) rotateX(2deg) translateY(-14px)}}
 .hero .tome.live:hover .tome__3d{animation-play-state:paused}
 
-.tagline{font-family:'Cinzel',serif;letter-spacing:.32em;font-size:12px;color:var(--gold);
+.tagline{font-family:'Cinzel',serif;letter-spacing:.3em;font-size:14px;color:var(--gold);
   text-transform:uppercase;margin:0 0 14px}
 .hero h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(36px,5.2vw,62px);line-height:1.03;
   margin:0 0 8px;background:var(--gold-metal);-webkit-background-clip:text;background-clip:text;
   -webkit-text-fill-color:transparent;text-shadow:0 2px 34px rgba(232,184,109,.18)}
-.hero .sub{font-size:23px;color:var(--muted);font-style:italic;margin:0 0 22px}
-.meta{display:flex;flex-wrap:wrap;gap:10px 22px;color:var(--dim);font-size:16px;margin:0 0 26px;letter-spacing:.02em}
+.hero .sub{font-size:28px;color:var(--muted);font-style:italic;margin:0 0 22px}
+.meta{display:flex;flex-wrap:wrap;gap:10px 22px;color:var(--dim);font-size:19px;margin:0 0 26px;letter-spacing:.02em}
 .meta span{display:inline-flex;align-items:center;gap:7px}
 .dot{width:5px;height:5px;border-radius:50%;background:var(--gold);opacity:.7}
 .cta{display:inline-flex;align-items:center;gap:12px;padding:15px 34px;border-radius:999px;
   background:var(--gold-metal);color:#231603;font-family:'Cinzel',serif;font-weight:700;
-  letter-spacing:.12em;text-transform:uppercase;font-size:15px;text-decoration:none;
+  letter-spacing:.12em;text-transform:uppercase;font-size:17px;text-decoration:none;
   box-shadow:0 14px 36px rgba(232,184,109,.32);transition:transform .18s ease,box-shadow .18s ease}
 .cta:hover{transform:translateY(-2px);box-shadow:0 20px 48px rgba(232,184,109,.46)}
 .cta svg{width:17px;height:17px;fill:#231603}
-.blurb{margin-top:22px;max-width:48ch;color:var(--muted);font-size:18px}
+.blurb{margin-top:22px;max-width:48ch;color:var(--muted);font-size:21px}
 
 /* ── library shelf ─────────────────────────────────────── */
 .library{padding:46px 0 16px}
 .lib-head{display:flex;align-items:baseline;justify-content:space-between;gap:20px;
   border-top:1px solid var(--line);padding-top:30px;margin-bottom:42px}
-.lib-head h2{font-family:'Cinzel',serif;font-weight:700;font-size:24px;letter-spacing:.06em;margin:0}
-.lib-head p{margin:0;color:var(--dim);font-size:16px}
+.lib-head h2{font-family:'Cinzel',serif;font-weight:700;font-size:28px;letter-spacing:.06em;margin:0}
+.lib-head p{margin:0;color:var(--dim);font-size:19px}
 
 /* align-items:start keeps every book on a common top line; since the tomes are
    identical in size their BOTTOMS line up too, so they all stand on one shelf —
@@ -146,12 +146,12 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garam
 .shelfboard::before{content:"";position:absolute;left:0;right:0;top:0;height:2px;
   background:linear-gradient(90deg,rgba(244,208,137,0),rgba(244,208,137,.72) 28%,rgba(244,208,137,.72) 72%,rgba(244,208,137,0))}
 .label{margin-top:18px}
-.bookno{font-family:'Cinzel',serif;font-size:10.5px;letter-spacing:.24em;color:var(--gold);text-transform:uppercase}
-.name{font-size:20px;line-height:1.2;margin:3px 0 2px;color:var(--ink)}
-.meta2{font-size:14px;color:var(--dim)}
+.bookno{font-family:'Cinzel',serif;font-size:12.5px;letter-spacing:.24em;color:var(--gold);text-transform:uppercase}
+.name{font-size:24px;line-height:1.22;margin:4px 0 3px;color:var(--ink)}
+.meta2{font-size:17px;color:var(--dim)}
 
 /* ── footer ────────────────────────────────────────────── */
-footer{border-top:1px solid var(--line);margin-top:60px;padding:34px 0 60px;color:var(--dim);font-size:15.5px;text-align:center}
+footer{border-top:1px solid var(--line);margin-top:60px;padding:34px 0 60px;color:var(--dim);font-size:18px;text-align:center}
 footer b{color:var(--muted);font-weight:600}
 footer .small{font-size:13px;opacity:.7;margin-top:8px}
 /* Author brand — Shekinaih Siew Sin Yap ALWAYS gold, J Aaron K David ALWAYS silver */
@@ -167,15 +167,24 @@ footer .small{font-size:13px;opacity:.7;margin-top:8px}
   .shelf{grid-template-columns:repeat(3,1fr)}
 }
 @media(max-width:760px){
-  body{font-size:18px}
-  .hero{grid-template-columns:1fr;gap:14px;padding-top:22px;text-align:center}
-  .hero-book{max-width:260px;margin:0 auto}
-  .meta{justify-content:center}
-  .blurb{margin-left:auto;margin-right:auto}
+  body{font-size:21px}
+  .wrap{padding:0 18px}
+  .hero{grid-template-columns:1fr;gap:18px;padding-top:22px;text-align:center}
+  .hero-book{max-width:280px;margin:0 auto}
+  .hero .sub{font-size:25px}
+  .meta{justify-content:center;font-size:19px}
+  .blurb{margin-left:auto;margin-right:auto;font-size:21px}
+  .name{font-size:25px}
+  .meta2{font-size:18px}
 }
 @media(max-width:520px){
   .shelf{grid-template-columns:repeat(2,1fr)}
-  .name{font-size:18px}
+  .book-cell{padding:0 12px}
+  .shelfboard{margin:18px -12px 0}
+  .name{font-size:22px}
+  .meta2{font-size:16px}
+  .brand{gap:10px}
+  .brand b{font-size:13px;letter-spacing:.16em}
 }
 @media (prefers-reduced-motion: reduce){
   .reveal{animation:none;opacity:1;transform:none}
