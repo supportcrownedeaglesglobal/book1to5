@@ -115,13 +115,25 @@ expands references automatically. Whenever the abbreviation map changes, re-rend
 the affected segments with `fix_scripture.py` (re-synthesizes only the segments whose
 text changes, then re-masters only the affected tracks/children).
 
-**Divine pronouns:** the manuscript writes divine pronouns in capitals ("US", "WE",
-"OUR"). The acronym-like ones must be spoken as words, not spelled out — notably
-**"US" reads as "us", never "U-S"**. This is a pronunciation-lexicon entry in
-`config.py` (`"US": "us"`; `\bUS\b` leaves "JESUS"/"THUS"/"U.S." alone). After adding
-a lexicon entry, re-render the affected segments with the general form of the fix
-tool, which targets any raw-text pattern and re-applies the full pipeline:
-`python fix_scripture.py --pattern '\bUS\b'`.
+**Divine pronouns — read short ALL-CAPS words as words, not letters.** The manuscript
+writes divine pronouns in capitals ("MY", "US", "WE", "OUR", …). Short all-caps words get
+**spelled out letter-by-letter** by the TTS — "MY" → "M-Y", "US" → "U-S" (e.g. "BEHOLD MY
+MESSENGER" was heard as "behold M-Y messenger"). Fix by respelling each to the lowercase word
+in `config.py` `LEXICON`: `"US": "us"`, `"MY": "my"`. The match is `\bWORD\b` and
+case-sensitive, so it leaves "JESUS"/"ARMY"/"MYSTERY"/already-lowercase forms alone.
+
+**After adding a lexicon entry you MUST re-render with Kokoro, never edge-tts.**
+`fix_scripture.py`'s own re-synthesis path uses edge-tts — off-voice AND not commercial-safe —
+so it would silently reintroduce the wrong voice for those segments. The correct three steps:
+
+```
+# 1. re-render ONLY the matching segments with Kokoro (.venv-tts) — re-applies the new lexicon
+.venv-tts/Scripts/python render_kokoro.py --pattern '\bMY\b'
+# 2. re-master the affected tracks + rebuild & inline the manifest (3.14 env) — NO re-synthesis
+python fix_scripture.py --pattern '\bMY\b' --remaster-only
+# 3. python build_readalong.py (refresh timings) · bump the changed tracks in data/versions.json ·
+#    re-upload those mp3s to R2 (they're gitignored; the live site streams from the bucket)
+```
 
 ## Read-along reader view
 

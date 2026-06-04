@@ -50,7 +50,12 @@ def speakable(t):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", default=None, help="render only this track dir id")
+    ap.add_argument("--pattern", default=None,
+                    help="re-render ONLY segments whose RAW text matches this regex, across all dirs, "
+                         r"ignoring .kokoro_done — for targeted lexicon fixes (e.g. --pattern '\bMY\b'). "
+                         "Re-applies the full text pipeline so a new lexicon entry takes effect.")
     args = ap.parse_args()
+    pat = re.compile(args.pattern) if args.pattern else None
 
     from kokoro import KPipeline
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -67,9 +72,10 @@ def main():
     print(f"tracks to render: {len(dirs)}")
 
     import json
+    total = 0
     for d in dirs:
-        if (d / ".kokoro_done").exists():
-            continue
+        if pat is None and (d / ".kokoro_done").exists():
+            continue                                  # whole-dir resume skip (full-render mode only)
         plan = json.loads((d / "segments.json").read_text(encoding="utf-8"))
         segs = plan["segments"]
         ok = 0
@@ -78,6 +84,8 @@ def main():
             out = d / seg["file"]
             if not speakable(text):
                 continue
+            if pat is not None and not pat.search(seg["text"]):
+                continue                              # targeted mode: only segments matching the pattern
             voice, lang = VOICE.get(seg["role"], DEFAULT)
             spoken = prep(text)
             try:
@@ -87,9 +95,12 @@ def main():
                 ok += 1
             except Exception as e:
                 print(f"    !! {d.name}/{seg['file']}: {e}")
-        (d / ".kokoro_done").write_text("ok", encoding="utf-8")
-        print(f"  [{d.name:52}] {ok} segments", flush=True)
-    print("done.")
+        if pat is None:
+            (d / ".kokoro_done").write_text("ok", encoding="utf-8")
+        if ok:
+            total += ok
+            print(f"  [{d.name:52}] {ok} segments", flush=True)
+    print(f"done. {total} segments rendered.")
 
 
 if __name__ == "__main__":

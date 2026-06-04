@@ -62,6 +62,7 @@ LEXICON = {
     "YAHWEH":    "Yah-weh",
     "CEG":       "Crowned Eagles Global",
     "US":        "us",     # divine pronoun "US" -> spoken "us", not the letters "U-S"
+    "MY":        "my",     # divine pronoun "MY" -> spoken "my", not the letters "M-Y" (e.g. "BEHOLD MY MESSENGER")
 }
 
 BOOK_TITLE   = "Behold My Messenger 5 — The Resurrection of the Dead"
