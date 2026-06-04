@@ -41,8 +41,27 @@ def apply_lexicon(t):
     for w, say in _LEX:
         t = re.sub(rf"\b{re.escape(w)}\b", say, t); t = re.sub(rf"\b{re.escape(w.title())}\b", say, t)
     return t
+
+# ALL-CAPS in this manuscript is emphasis, not acronyms — but the TTS spells short caps
+# letter-by-letter ("MY"->"M-Y", "SHE"->"S-H-E") and mis-stresses longer ones. Read every
+# all-caps WORD in its normal lower-case form. Exceptions kept as-is: pure-consonant
+# acronyms (KJV, TV, BC, MT, SG — spelled as letters) and Roman numerals (II, III, IV, VI).
+_CAPS  = re.compile(r"\b[A-Z]{2,}\b")
+_VOWEL = re.compile(r"[AEIOUY]")
+_ROMAN = re.compile(r"^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$")
+def normalize_caps(t):
+    def repl(m):
+        w = m.group(0)
+        if not _VOWEL.search(w):        # KJV, TV, BC, DR, ST, MT, SG -> let the TTS spell it
+            return w
+        if _ROMAN.match(w):             # II, III, IV, VI -> keep (would mis-read as "ii")
+            return w
+        return w.lower()
+    return _CAPS.sub(repl, t)
+
 def prep(t):
-    return scripture.expand(apply_lexicon(t))
+    # lexicon first (special proper-noun respellings), then de-cap the emphasis words
+    return scripture.expand(normalize_caps(apply_lexicon(t)))
 def speakable(t):
     return any(ch.isalnum() for ch in t)
 
