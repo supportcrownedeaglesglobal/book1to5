@@ -47,6 +47,32 @@ def speakable(t):
     return any(ch.isalnum() for ch in t)
 
 
+def plan_segments():
+    """Ensure out/segments/<id>/segments.json exists for every track in chapters.json,
+    derived straight from the extract — so a Kokoro-only book needs no edge-tts render.py
+    pass. Same per-segment filename scheme as render.py (<NNNN>-<role>.mp3); stores RAW
+    text (lexicon/scripture are applied at synth time by prep())."""
+    import json
+    tracks = json.loads(C.CHAPTERS_JSON.read_text(encoding="utf-8"))
+    made = 0
+    for t in tracks:
+        tdir = C.SEGMENTS / t["id"]
+        sj = tdir / "segments.json"
+        if sj.exists():
+            continue
+        plan = [{"file": f"{i:04d}-{seg['role']}.mp3", "role": seg["role"], "text": seg["text"].strip()}
+                for i, seg in enumerate(t["segments"]) if seg["text"].strip()]
+        if not plan:
+            continue
+        tdir.mkdir(parents=True, exist_ok=True)
+        sj.write_text(json.dumps({"id": t["id"], "title": t["title"], "level": t["level"],
+                                  "order": t["order"], "segments": plan}, ensure_ascii=False, indent=1),
+                      encoding="utf-8")
+        made += 1
+    if made:
+        print(f"planned {made} track(s) from chapters.json")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", default=None, help="render only this track dir id")
@@ -56,6 +82,8 @@ def main():
                          "Re-applies the full text pipeline so a new lexicon entry takes effect.")
     args = ap.parse_args()
     pat = re.compile(args.pattern) if args.pattern else None
+    if pat is None:
+        plan_segments()                 # Kokoro-only: derive segment plans from chapters.json first
 
     from kokoro import KPipeline
     device = "cuda" if torch.cuda.is_available() else "cpu"
