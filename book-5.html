@@ -1,0 +1,2700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+<meta name="theme-color" content="#070815">
+<title>Behold My Messenger 5 — The Resurrection of the Dead · Audiobook</title>
+<meta name="description" content="Listen free to the audiobook of Behold My Messenger 5 — The Resurrection of the Dead by Shekinaih Siew Sin Yap & J Aaron K David. Narrated in full, chapter by chapter. A Crowned Eagles Global work.">
+<link rel="canonical" href="https://supportcrownedeaglesglobal.github.io/book5/">
+<meta property="og:type" content="book">
+<meta property="og:url" content="https://supportcrownedeaglesglobal.github.io/book5/">
+<meta property="og:title" content="Behold My Messenger 5 — The Resurrection of the Dead · Audiobook">
+<meta property="og:description" content="The doctrine of the power of the age to come, narrated in full. A Crowned Eagles Global work.">
+<meta property="og:image" content="https://supportcrownedeaglesglobal.github.io/book5/images/book-5/cover.jpg">
+<link rel="preload" as="image" href="images/book-5/cover.jpg" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#070815; --ink2:#0B0F24; --ink3:#141A40;
+  --gold:#C8923A; --gold2:#E8B86D; --gold3:#F0C660; --gold-bright:#F7DC96;
+  --silver:#DCE4F5; --silver2:#F1F5FF; --silver-dim:#A6B1CE;
+  --royal:#2C3C8E;
+  --border:rgba(214,226,250,.12);
+  --gold-metal:linear-gradient(104deg,#F7DC96 0%,#E8B86D 30%,#F3CE74 52%,#CC9233 76%,#F7DC96 100%);
+  --silver-metal:linear-gradient(104deg,#FFFFFF 0%,#D7E0F3 32%,#AEB9DA 54%,#EEF3FF 80%,#C7D1EC 100%);
+  --player-h:96px;
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:'DM Sans',system-ui,sans-serif;
+  background:var(--ink); color:var(--silver);
+  line-height:1.7; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+  padding-bottom:calc(var(--player-h) + env(safe-area-inset-bottom));
+  overflow-x:hidden; min-height:100vh;
+}
+
+/* ---------- atmospheric background ---------- */
+.bg, .stars, .grain{position:fixed; inset:0; pointer-events:none; z-index:0}
+.bg{
+  background:
+    radial-gradient(125% 85% at 50% -12%, rgba(247,220,150,.22), rgba(232,184,109,.06) 26%, transparent 52%),
+    radial-gradient(85% 65% at 8% 112%, rgba(44,60,142,.34), transparent 58%),
+    radial-gradient(75% 60% at 104% 104%, rgba(200,146,58,.16), transparent 56%),
+    linear-gradient(180deg,#0A0F28 0%, #070815 56%, #04050E 100%);
+}
+.bg::before{
+  content:""; position:absolute; left:50%; top:-20%; width:90vw; height:90vw; max-width:1100px; max-height:1100px;
+  transform:translateX(-50%);
+  background:radial-gradient(circle, rgba(247,220,150,.16) 0%, rgba(232,184,109,.05) 34%, transparent 60%);
+  animation:drift 26s var(--ease) infinite;
+}
+.stars{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='340' height='340'%3E%3Cg fill='%23F1F5FF'%3E%3Ccircle cx='28' cy='52' r='.8' opacity='.9'/%3E%3Ccircle cx='120' cy='30' r='.6' opacity='.6'/%3E%3Ccircle cx='210' cy='80' r='.9' opacity='.85'/%3E%3Ccircle cx='300' cy='44' r='.5' opacity='.5'/%3E%3Ccircle cx='70' cy='150' r='.7' opacity='.7'/%3E%3Ccircle cx='180' cy='190' r='.6' opacity='.55'/%3E%3Ccircle cx='265' cy='160' r='.8' opacity='.8'/%3E%3Ccircle cx='320' cy='240' r='.6' opacity='.6'/%3E%3Ccircle cx='40' cy='270' r='.9' opacity='.85'/%3E%3Ccircle cx='150' cy='300' r='.5' opacity='.5'/%3E%3Ccircle cx='230' cy='320' r='.7' opacity='.7'/%3E%3Ccircle cx='100' cy='230' r='.5' opacity='.45'/%3E%3C/g%3E%3C/svg%3E");
+  opacity:.55;
+}
+.grain{z-index:1; opacity:.05; mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+@keyframes drift{0%{transform:translateX(-50%) translateY(0) scale(1)}50%{transform:translateX(-48%) translateY(3%) scale(1.09)}100%{transform:translateX(-50%) translateY(0) scale(1)}}
+
+.wrap{position:relative; z-index:2; max-width:1080px; margin:0 auto; padding:0 24px}
+
+/* ---------- page-load choreography ---------- */
+@keyframes rise{from{opacity:0; transform:translateY(20px)}to{opacity:1; transform:none}}
+@keyframes glowIn{from{opacity:0; transform:translateY(26px) scale(.96)}to{opacity:1; transform:none}}
+.reveal{opacity:0; animation:rise .9s var(--ease) forwards}
+.d1{animation-delay:.05s}.d2{animation-delay:.16s}.d3{animation-delay:.28s}
+.d4{animation-delay:.42s}.d5{animation-delay:.56s}.d6{animation-delay:.72s}
+
+/* ---------- hero ---------- */
+.hero{display:grid; grid-template-columns:minmax(0,0.86fr) minmax(0,1.14fr); gap:clamp(34px,5vw,72px);
+  align-items:center; padding:clamp(56px,9vw,104px) 0 clamp(40px,5vw,68px)}
+.hero-art{position:relative; justify-self:center; animation:glowIn 1.1s var(--ease) both; animation-delay:.1s}
+.hero-art::before{content:""; position:absolute; inset:-22% -18%; z-index:-1;
+  background:radial-gradient(circle, rgba(247,220,150,.3), rgba(232,184,109,.08) 42%, transparent 68%);
+  filter:blur(6px)}
+.cover-frame{display:block; width:clamp(248px,30vw,392px); border-radius:8px; overflow:hidden;
+  padding:5px; background:var(--gold-metal);
+  box-shadow:0 40px 90px rgba(0,0,0,.6), 0 0 0 1px rgba(247,220,150,.4), 0 0 50px rgba(232,184,109,.25);
+  transition:transform .5s var(--ease), box-shadow .5s var(--ease)}
+.cover-frame img{display:block; width:100%; height:auto; border-radius:5px}
+.cover-frame:hover{transform:translateY(-8px) rotate(-.6deg);
+  box-shadow:0 56px 120px rgba(0,0,0,.7), 0 0 0 1px rgba(247,220,150,.55), 0 0 70px rgba(232,184,109,.4)}
+
+.hero-copy{min-width:0}
+.eyebrow{font-family:'Cinzel',serif; font-size:clamp(10px,1.05vw,12px); letter-spacing:5px; text-transform:uppercase;
+  color:var(--gold3); font-weight:600; margin-bottom:22px; opacity:.92; display:flex; align-items:center; gap:12px}
+.eyebrow::after{content:""; height:1px; flex:1; max-width:80px; background:linear-gradient(90deg,var(--gold),transparent)}
+h1{font-family:'Cinzel',serif; font-weight:800; font-size:clamp(32px,5.4vw,62px); line-height:1.04; letter-spacing:.012em; text-wrap:balance}
+h1 .gold{background:var(--gold-metal); -webkit-background-clip:text; background-clip:text;
+  -webkit-text-fill-color:transparent; color:transparent;
+  filter:drop-shadow(0 2px 20px rgba(247,220,150,.45)) drop-shadow(0 0 2px rgba(247,220,150,.5))}
+h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:italic; font-weight:500;
+  text-transform:none; letter-spacing:.005em; font-size:.5em; margin-top:.32em; color:var(--gold2);
+  text-shadow:0 1px 16px rgba(232,184,109,.35)}
+.byline{font-family:'Cinzel',serif; font-size:clamp(11px,1.35vw,14px); letter-spacing:1.5px; margin:24px 0 0}
+.byline .amp{color:rgba(220,228,245,.28); margin:0 .5em}
+.name-gold{background:var(--gold-metal); -webkit-background-clip:text; background-clip:text;
+  -webkit-text-fill-color:transparent; color:transparent; font-weight:700; letter-spacing:.05em; text-transform:uppercase;
+  filter:drop-shadow(0 1px 10px rgba(247,220,150,.4))}
+.name-silver{background:var(--silver-metal); -webkit-background-clip:text; background-clip:text;
+  -webkit-text-fill-color:transparent; color:transparent; font-weight:700; letter-spacing:.05em; text-transform:uppercase;
+  filter:drop-shadow(0 0 14px rgba(190,205,235,.45))}
+.blurb{font-family:'Cormorant Garamond',serif; font-size:clamp(18px,2vw,23px); font-style:italic;
+  color:var(--silver); max-width:50ch; margin:26px 0 0; line-height:1.5; text-wrap:pretty}
+.meta-row{display:flex; gap:12px 26px; margin-top:26px; flex-wrap:wrap; color:var(--silver-dim); font-size:13px; letter-spacing:.4px}
+.meta-row b{color:var(--silver2); font-weight:600}
+
+/* ---------- buttons ---------- */
+.cta-row{display:flex; gap:13px; margin-top:32px; flex-wrap:wrap; align-items:center}
+.btn{display:inline-flex; align-items:center; justify-content:center; gap:9px; cursor:pointer; border:none; white-space:nowrap;
+  font-family:'Cinzel',serif; font-size:12px; letter-spacing:1.4px; text-transform:uppercase; font-weight:600; line-height:1;
+  padding:15px 28px; border-radius:100px; text-decoration:none;
+  transition:transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s, color .3s}
+.btn .arr{font-weight:400; font-size:1.05em; transition:transform .3s var(--ease)}
+.btn-gold{background:var(--gold-metal); color:#231706;
+  box-shadow:0 10px 30px rgba(200,146,58,.28), inset 0 1px 0 rgba(255,255,255,.5)}
+.btn-gold:hover{transform:translateY(-3px); box-shadow:0 18px 48px rgba(200,146,58,.42), inset 0 1px 0 rgba(255,255,255,.5)}
+.btn-gold:hover .arr{transform:translate(2px,-2px)}
+.btn-ghost{background:rgba(220,228,245,.04); color:var(--silver2); border:1px solid var(--border); backdrop-filter:blur(4px)}
+.btn-ghost:hover{transform:translateY(-3px); border-color:var(--gold); color:var(--gold3)}
+.resume{display:none}
+.resume.show{display:inline-flex}
+.resume .rttl{font-family:'Cormorant Garamond',serif; font-style:italic; text-transform:none; letter-spacing:.01em;
+  font-weight:600; font-size:15px; color:var(--gold3); max-width:180px; overflow:hidden; text-overflow:ellipsis}
+
+/* ---------- section heading ---------- */
+.sec{padding:clamp(54px,8vw,92px) 0}
+.sec-title{font-family:'Cormorant Garamond',serif; font-weight:600; font-size:clamp(28px,4vw,46px);
+  color:var(--silver2); line-height:1.1; text-wrap:balance}
+.sec-title em{font-style:italic; color:var(--gold2)}
+
+/* ---------- table of contents ---------- */
+#listen{scroll-margin-top:20px}
+.toc{padding-top:18px}
+.toc-head{font-family:'Cinzel',serif; font-size:11px; letter-spacing:3px; text-transform:uppercase;
+  color:var(--gold); margin:6px 0 6px; padding-bottom:14px; border-bottom:1px solid var(--border);
+  display:flex; justify-content:space-between; align-items:baseline}
+.toc-head .count{color:var(--silver-dim); letter-spacing:1px; font-size:10.5px}
+.row{display:flex; align-items:center; gap:16px; width:100%; text-align:left;
+  background:none; border:none; cursor:pointer; color:inherit; font:inherit;
+  padding:14px 14px; border-radius:12px; transition:background .25s var(--ease); position:relative}
+.row:hover{background:rgba(220,228,245,.045)}
+.row.active{background:linear-gradient(90deg, rgba(232,184,109,.14), rgba(232,184,109,.03))}
+.row .idx{font-family:'Cinzel',serif; font-size:11px; color:var(--gold); width:24px; flex:none; text-align:center; opacity:.85}
+.row .ttl{flex:1; font-family:'Cormorant Garamond',serif; font-size:clamp(18px,2.1vw,22px); color:var(--silver2); line-height:1.32; font-weight:500}
+.row.active .ttl{color:var(--gold3)}
+.row .dur{font-size:12.5px; color:var(--silver-dim); flex:none; font-variant-numeric:tabular-nums; min-width:42px; text-align:right}
+.row .bars{width:15px; height:13px; flex:none; display:none}
+.row.active .bars{display:block}
+.row .bars rect{fill:var(--gold3)}
+.row.part{margin-top:30px; border-top:1px solid var(--border); border-radius:0; padding-top:22px}
+.row.part .ttl{font-family:'Cinzel',serif; font-size:13px; letter-spacing:2.5px; text-transform:uppercase; color:var(--gold); font-weight:700}
+.row.part .chev{flex:none; width:16px; color:var(--gold); opacity:.7; transition:transform .3s var(--ease)}
+.row.part.collapsed .chev{transform:rotate(-90deg)}
+.row.child{padding-left:42px}
+.row.child .ttl{font-size:clamp(16px,2vw,19px)}
+.kids{overflow:hidden; transition:max-height .4s var(--ease)}
+.kids.collapsed{max-height:0 !important}
+.row.pending{cursor:default}
+.row.pending:hover{background:none}
+.row.pending .ttl{color:var(--silver-dim); opacity:.7}
+.row.pending .idx{color:var(--silver-dim); opacity:.4}
+.soon{font-family:'Cinzel',serif; font-size:9px; letter-spacing:1.5px; text-transform:uppercase;
+  color:var(--silver-dim); border:1px solid var(--border); border-radius:100px; padding:3px 9px; flex:none}
+.row .play-dot{width:7px;height:7px;border-radius:50%;background:var(--gold3);flex:none; box-shadow:0 0 10px rgba(247,220,150,.7); display:none}
+.row.ready:not(.active):hover .play-dot{display:block}
+
+/* ---------- closing CTA band ---------- */
+.band{text-align:center; border-top:1px solid var(--border); margin-top:clamp(40px,6vw,72px);
+  padding:clamp(56px,8vw,96px) 0 clamp(40px,6vw,64px)}
+.band .sec-title{margin-bottom:18px}
+.band p{color:var(--silver-dim); max-width:52ch; margin:0 auto 30px}
+.credit{text-align:center; padding:30px 0 12px; color:var(--silver-dim); font-size:12.5px; letter-spacing:.4px}
+.credit a{color:var(--gold3); text-decoration:none; border-bottom:1px solid rgba(240,198,96,.3)}
+.credit a:hover{border-color:var(--gold3)}
+
+/* ---------- player ---------- */
+.player{position:fixed; left:0; right:0; bottom:0; z-index:60; height:var(--player-h);
+  padding-bottom:env(safe-area-inset-bottom);
+  background:rgba(7,9,22,.72); backdrop-filter:blur(26px) saturate(1.4); -webkit-backdrop-filter:blur(26px) saturate(1.4);
+  border-top:1px solid rgba(232,184,109,.18); box-shadow:0 -20px 60px rgba(0,0,0,.5)}
+.seek{position:absolute; top:-1px; left:0; right:0; height:3px; cursor:pointer; background:rgba(220,228,245,.08)}
+.seek .fill{height:100%; width:0; background:var(--gold-metal); box-shadow:0 0 12px rgba(247,220,150,.6)}
+.pbar{max-width:1080px; margin:0 auto; height:var(--player-h); display:flex; align-items:center; gap:18px; padding:0 24px}
+.pinfo{flex:1; min-width:0}
+.pinfo .now{font-family:'Cormorant Garamond',serif; font-size:20px; color:var(--silver2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.pinfo .sub{font-size:11.5px; color:var(--silver-dim); letter-spacing:.5px; font-variant-numeric:tabular-nums; margin-top:2px}
+.ctrls{display:flex; align-items:center; gap:6px}
+.cbtn{background:none; border:none; color:var(--silver); cursor:pointer; padding:9px; border-radius:50%; display:grid; place-items:center; transition:background .2s,color .2s}
+.cbtn:hover{background:rgba(220,228,245,.08); color:var(--silver2)}
+.cbtn svg{display:block}
+.cbtn.skip{position:relative}
+.cbtn.skip span{position:absolute; font-size:8px; font-weight:700; font-family:'DM Sans'}
+.play{background:var(--gold-metal); color:#1A1205; width:54px; height:54px; border-radius:50%;
+  box-shadow:0 8px 26px rgba(200,146,58,.42), inset 0 1px 0 rgba(255,255,255,.45); transition:transform .25s var(--ease)}
+.play:hover{transform:scale(1.06); color:#1A1205}
+.rate,.sleep,.rpt{font-family:'Cinzel',serif; font-size:11px; letter-spacing:1px; color:var(--silver); background:none;
+  border:1px solid var(--border); border-radius:100px; padding:7px 11px; cursor:pointer; transition:border-color .2s,color .2s,background .2s}
+.rate:hover,.sleep:hover,.rpt:hover{border-color:var(--gold); color:var(--gold3)}
+.sleep.on,.rpt.on{border-color:var(--gold); color:var(--gold3)}
+.rpt{display:grid; place-items:center; padding:7px 10px}
+.rpt svg{display:block}
+.rpt.on{background:rgba(232,184,109,.14)}
+
+@media(max-width:860px){
+  .hero{grid-template-columns:1fr; gap:36px; text-align:center; padding-top:clamp(48px,12vw,80px)}
+  .eyebrow{justify-content:center}.eyebrow::after{display:none}
+  .cta-row, .meta-row{justify-content:center}
+  .blurb{margin-left:auto;margin-right:auto}
+}
+@media(max-width:640px){
+  .pinfo .now{font-size:16px}
+  .lbl-hide{display:none}
+  .pbar{gap:9px; padding:0 12px}
+  .cbtn{padding:7px}
+  .play{width:48px; height:48px}
+  .sleep{display:none}
+  .wrap{padding:0 18px}
+  .btn{flex:1; justify-content:center; padding:15px 18px; letter-spacing:1.2px}
+  .resume .rttl{display:none}
+}
+.empty{text-align:center; color:var(--silver-dim); padding:60px 0; font-style:italic; font-family:'Cormorant Garamond',serif; font-size:20px}
+
+/* ---------- read-along reader view ---------- */
+body.reading .hero, body.reading #listen, body.reading .band{display:none}
+#reader{display:none}
+body.reading #reader{display:block; animation:rise .5s var(--ease) both}
+.reader-head{position:sticky; top:0; z-index:5; display:flex; align-items:center; gap:12px;
+  padding:18px 0 14px; margin-bottom:6px;
+  background:linear-gradient(180deg,var(--ink) 72%, rgba(7,9,22,0)); border-bottom:1px solid var(--border)}
+.reader-back{display:inline-flex; align-items:center; font-family:'Cinzel',serif; font-size:12.5px; letter-spacing:1.2px;
+  text-transform:uppercase; color:var(--gold3); background:rgba(220,228,245,.05); border:1px solid var(--border);
+  border-radius:100px; padding:12px 20px; cursor:pointer; white-space:nowrap; transition:border-color .2s,color .2s}
+.reader-back:hover{border-color:var(--gold); color:var(--gold-bright)}
+.reader-title{flex:1; min-width:0; font-family:'Cormorant Garamond',serif; font-style:italic; font-size:21px;
+  color:var(--silver2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.reader-size{display:flex; gap:7px; flex:none}
+.reader-size button{font-family:'Cinzel',serif; color:var(--silver); background:none; border:1px solid var(--border);
+  border-radius:11px; width:44px; height:44px; cursor:pointer; font-size:15px; transition:border-color .2s,color .2s}
+.reader-size button:hover{border-color:var(--gold); color:var(--gold3)}
+#reader-body{max-width:40rem; margin:0 auto; padding:6px 0 48px; font-size:var(--reader-font,23px)}
+.rpara{font-family:'Cormorant Garamond',serif; color:var(--silver2); line-height:1.85; margin:0;
+  padding:.5em .7em; border-radius:13px; cursor:pointer; text-wrap:pretty;
+  transition:background .4s var(--ease), color .3s, box-shadow .4s var(--ease)}
+.rpara:hover{background:rgba(220,228,245,.045)}
+.rpara.speaking{background:linear-gradient(90deg, rgba(232,184,109,.22), rgba(232,184,109,.05));
+  color:#FFFDF6; box-shadow:inset 3px 0 0 var(--gold3)}
+.rpara.role-chapter_title{font-family:'Cinzel',serif; font-weight:800; font-size:1.5em; line-height:1.18; text-align:center;
+  margin:.2em 0 .55em; cursor:default; background:var(--gold-metal); -webkit-background-clip:text; background-clip:text;
+  -webkit-text-fill-color:transparent; color:transparent}
+.rpara.role-chapter_title.speaking, .rpara.role-chapter_title:hover{box-shadow:none; background:var(--gold-metal); -webkit-background-clip:text; background-clip:text}
+.rpara.role-heading{font-family:'Cinzel',serif; color:var(--gold3); font-size:1.02em; letter-spacing:1.2px;
+  text-transform:uppercase; font-weight:700; line-height:1.45; margin-top:1.1em}
+.rpara.role-scripture{border-left:3px solid var(--gold); background:rgba(44,60,142,.10); font-style:italic;
+  color:var(--silver); padding-left:1em; margin:.45em 0}
+.rpara.role-decree{font-style:italic; color:var(--gold2); text-shadow:0 1px 14px rgba(232,184,109,.22)}
+.rpara.role-shekinaih{color:#ECDCF6}
+.rpara.role-aaron{color:#D2E2F6}
+.rfig{margin:26px auto 30px; text-align:center}
+.rdiagram{display:block; max-width:100%; max-height:76vh; width:auto; margin:0 auto; border-radius:10px; padding:5px; background:var(--gold-metal);
+  box-shadow:0 18px 52px rgba(0,0,0,.55); cursor:zoom-in; transition:transform .15s ease}
+.rfig:hover .rdiagram{transform:scale(1.01)}
+.rfig figcaption{font-family:'Cormorant Garamond',serif; font-style:italic; color:var(--silver-dim);
+  font-size:16px; margin-top:9px; opacity:.85}
+.reader-msg{text-align:center; color:var(--silver-dim); font-style:italic; font-family:'Cormorant Garamond',serif; font-size:21px; padding:54px 0}
+#lightbox{position:fixed; inset:0; z-index:100; display:none; place-items:center; padding:24px;
+  background:rgba(4,5,14,.95); backdrop-filter:blur(8px); cursor:zoom-out}
+#lightbox.show{display:grid}
+#lightbox img{max-width:96vw; max-height:90vh; border-radius:8px; box-shadow:0 30px 90px rgba(0,0,0,.7)}
+#lightbox .lb-close{position:fixed; top:14px; right:18px; width:50px; height:50px; border:none; border-radius:50%;
+  background:rgba(20,18,30,.72); color:var(--gold2); font-size:30px; line-height:48px; text-align:center; cursor:pointer; z-index:101}
+@media(max-width:640px){ .reader-title{font-size:17px} .reader-back{padding:11px 15px} #reader-body{padding-bottom:40px} }
+
+@media (prefers-reduced-motion: reduce){
+  .reveal,.hero-art{opacity:1; animation:none; transform:none}
+  .bg::before{animation:none}
+  *{scroll-behavior:auto}
+  .row .bars rect{animation:none}
+}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<div class="stars"></div>
+<div class="grain"></div>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="hero-art">
+      <a class="cover-frame" href="#listen" aria-label="Listen to the audiobook">
+        <img src="images/book-5/cover.jpg" width="1000" height="1496"
+             alt="Behold My Messenger 5, The Resurrection of the Dead — cover. Shekinaih Siew Sin Yap and J Aaron K David in golden robes beneath a descending dove, above a field of white crosses.">
+      </a>
+    </div>
+    <div class="hero-copy">
+      <p class="eyebrow reveal d1">Crowned Eagles Global · The Audiobook</p>
+      <h1 class="reveal d2"><span class="gold">Behold My Messenger 5</span><span class="small">The Resurrection of the Dead</span></h1>
+      <p class="byline reveal d3"><span class="name-gold">Shekinaih Siew Sin Yap</span><span class="amp">&amp;</span><span class="name-silver">J Aaron K David</span></p>
+      <p class="blurb reveal d4">The doctrine of the power of the age to come, narrated in full, that it may be heard as it was meant to be received.</p>
+      <div class="meta-row reveal d4">
+        <span><b id="m-chapters">—</b> chapters</span>
+        <span><b id="m-runtime">—</b> total</span>
+      </div>
+      <div class="cta-row reveal d5">
+        <a class="btn btn-gold" href="https://www.crownedeaglesglobal.org/book" target="_blank" rel="noopener">Get the Book <span class="arr">↗</span></a>
+        <button class="btn btn-ghost resume" id="resumeBtn">▸&nbsp;Resume<span class="rttl" id="resumeTtl"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="sec" id="listen">
+    <h2 class="sec-title">Listen, <em>chapter by chapter</em></h2>
+    <nav class="toc" id="toc"><p class="empty">Loading chapters…</p></nav>
+  </section>
+
+  <section class="band">
+    <h2 class="sec-title">Read it in print and digital</h2>
+    <p>The full library of the messengers lives on the Crowned Eagles Global network.</p>
+    <a class="btn btn-gold" href="https://www.crownedeaglesglobal.org/book" target="_blank" rel="noopener">Visit Crowned Eagles Global ↗</a>
+    <p class="credit">An audiobook from <a href="https://www.crownedeaglesglobal.org/book" target="_blank" rel="noopener">Crowned Eagles Global</a> · Singapore</p>
+  </section>
+
+  <section id="reader" aria-label="Read along">
+    <div class="reader-head">
+      <button class="reader-back" id="readerBack" aria-label="Back to the chapter list">↤&nbsp;Chapters</button>
+      <div class="reader-title" id="readerTitle"></div>
+      <div class="reader-size">
+        <button id="fontDown" aria-label="Smaller text" title="Smaller text">A−</button>
+        <button id="fontUp" aria-label="Larger text" title="Larger text">A+</button>
+      </div>
+    </div>
+    <div id="reader-body"></div>
+  </section>
+
+</div>
+
+<div id="lightbox" aria-hidden="true"><button class="lb-close" aria-label="Close">×</button><img alt="Diagram, enlarged"></div>
+
+<div class="player" id="player">
+  <div class="seek" id="seek"><div class="fill" id="seekFill"></div></div>
+  <div class="pbar">
+    <div class="ctrls">
+      <button class="cbtn skip" id="back15" title="Back 15 seconds"><span style="top:17px">15</span>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M11 8 7 12l4 4"/><path d="M7 12h7a4 4 0 0 1 0 8H9"/></svg></button>
+      <button class="cbtn play" id="playBtn" title="Play">
+        <svg id="playIco" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
+      <button class="cbtn skip" id="fwd15" title="Forward 15 seconds"><span style="top:17px">15</span>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 8l4 4-4 4"/><path d="M17 12h-7a4 4 0 0 0 0 8h5"/></svg></button>
+    </div>
+    <div class="pinfo">
+      <div class="now" id="nowTtl">Select a chapter to begin</div>
+      <div class="sub"><span id="curTime">0:00</span> / <span id="totTime">0:00</span><span class="lbl-hide" id="remTime"></span></div>
+    </div>
+    <button class="rate" id="rateBtn" title="Playback speed">1×</button>
+    <button class="rpt" id="rptBtn" title="Repeat this track (loop)" aria-label="Repeat this track" aria-pressed="false">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg></button>  </div>
+</div>
+
+<audio id="audio" preload="metadata"></audio>
+
+<script type="application/json" id="manifest-fallback">
+{
+ "title": "Behold My Messenger 5 — The Resurrection of the Dead",
+ "subtitle": "The Doctrine of the Power of the Age to Come",
+ "chapters": [
+  {
+   "id": "001-front",
+   "order": 1,
+   "level": 1,
+   "title": "Title Page",
+   "ready": true,
+   "durationSec": 203.47,
+   "estSec": 161.2,
+   "audioUrl": "audio/book-5/001-front.mp3",
+   "version": 1
+  },
+  {
+   "id": "003-pre-foreword",
+   "order": 3,
+   "level": 1,
+   "title": "PRE-FOREWORD",
+   "ready": true,
+   "durationSec": 93.63,
+   "estSec": 87.6,
+   "audioUrl": "audio/book-5/003-pre-foreword.mp3",
+   "version": 1
+  },
+  {
+   "id": "004-foreword",
+   "order": 4,
+   "level": 1,
+   "title": "FOREWORD",
+   "ready": true,
+   "durationSec": 84.68,
+   "estSec": 75.6,
+   "audioUrl": "audio/book-5/004-foreword.mp3",
+   "version": 1
+  },
+  {
+   "id": "005-top-5-testimonies-of-divine-power-witness-the-impossible",
+   "order": 5,
+   "level": 1,
+   "title": "TOP 5 TESTIMONIES OF DIVINE POWER - WITNESS THE IMPOSSIBLE!",
+   "ready": true,
+   "durationSec": 348.94,
+   "estSec": 346.4,
+   "audioUrl": "audio/book-5/005-top-5-testimonies-of-divine-power-witness-the-impossible.mp3",
+   "version": 1
+  },
+  {
+   "id": "006-how-to-read-this-book",
+   "order": 6,
+   "level": 1,
+   "title": "HOW TO READ THIS BOOK",
+   "ready": true,
+   "durationSec": 105.39,
+   "estSec": 104.8,
+   "audioUrl": "audio/book-5/006-how-to-read-this-book.mp3",
+   "version": 1
+  },
+  {
+   "id": "007-preface",
+   "order": 7,
+   "level": 1,
+   "title": "PREFACE",
+   "ready": true,
+   "durationSec": 186.9,
+   "estSec": 186.4,
+   "audioUrl": "audio/book-5/007-preface.mp3",
+   "version": 1
+  },
+  {
+   "id": "008-a-brief-glossary-of-terms",
+   "order": 8,
+   "level": 1,
+   "title": "A BRIEF GLOSSARY OF TERMS",
+   "ready": true,
+   "durationSec": 48.06,
+   "estSec": 37.2,
+   "audioUrl": "audio/book-5/008-a-brief-glossary-of-terms.mp3",
+   "version": 1
+  },
+  {
+   "id": "009-the-divine-bibliography",
+   "order": 9,
+   "level": 1,
+   "title": "THE DIVINE BIBLIOGRAPHY",
+   "ready": true,
+   "durationSec": 166.33,
+   "estSec": 159.2,
+   "audioUrl": "audio/book-5/009-the-divine-bibliography.mp3",
+   "version": 1
+  },
+  {
+   "id": "010-prologue",
+   "order": 10,
+   "level": 1,
+   "title": "PROLOGUE",
+   "ready": true,
+   "durationSec": 194.87,
+   "estSec": 206.4,
+   "audioUrl": "audio/book-5/010-prologue.mp3",
+   "version": 1
+  },
+  {
+   "id": "011-introduction",
+   "order": 11,
+   "level": 1,
+   "title": "INTRODUCTION",
+   "ready": true,
+   "durationSec": 199.03,
+   "estSec": 190.4,
+   "audioUrl": "audio/book-5/011-introduction.mp3",
+   "version": 1
+  },
+  {
+   "id": "012-part-1",
+   "order": 12,
+   "level": 1,
+   "title": "PART 1",
+   "ready": true,
+   "durationSec": 19.2,
+   "estSec": 8.8,
+   "audioUrl": "audio/book-5/012-part-1.mp3",
+   "version": 1
+  },
+  {
+   "id": "013-act-1-scene-1-the-desperate",
+   "order": 13,
+   "level": 2,
+   "title": "ACT 1, SCENE 1 THE DESPERATE!",
+   "ready": true,
+   "durationSec": 130.85,
+   "estSec": 124.8,
+   "audioUrl": "audio/book-5/013-act-1-scene-1-the-desperate.mp3",
+   "version": 1
+  },
+  {
+   "id": "014-chapter-1-1",
+   "order": 14,
+   "level": 2,
+   "title": "CHAPTER 1.1",
+   "ready": true,
+   "durationSec": 211.91,
+   "estSec": 221.2,
+   "audioUrl": "audio/book-5/014-chapter-1-1.mp3",
+   "version": 1
+  },
+  {
+   "id": "015-understanding-prophetic-expectation-of-resurrection-power",
+   "order": 15,
+   "level": 2,
+   "title": "UNDERSTANDING PROPHETIC EXPECTATION OF RESURRECTION POWER",
+   "ready": true,
+   "durationSec": 257.57,
+   "estSec": 278.4,
+   "audioUrl": "audio/book-5/015-understanding-prophetic-expectation-of-resurrection-power.mp3",
+   "version": 1
+  },
+  {
+   "id": "016-chapter-1-2",
+   "order": 16,
+   "level": 2,
+   "title": "CHAPTER 1.2",
+   "ready": true,
+   "durationSec": 273.36,
+   "estSec": 222.8,
+   "audioUrl": "audio/book-5/016-chapter-1-2.mp3",
+   "version": 1
+  },
+  {
+   "id": "017-chapter-1-3",
+   "order": 17,
+   "level": 2,
+   "title": "CHAPTER 1.3",
+   "ready": true,
+   "durationSec": 590.23,
+   "estSec": 615.6,
+   "audioUrl": "audio/book-5/017-chapter-1-3.mp3",
+   "version": 1
+  },
+  {
+   "id": "018-reflection",
+   "order": 18,
+   "level": 2,
+   "title": "REFLECTION",
+   "ready": true,
+   "durationSec": 173.89,
+   "estSec": 169.6,
+   "audioUrl": "audio/book-5/018-reflection.mp3",
+   "version": 1
+  },
+  {
+   "id": "019-part-2",
+   "order": 19,
+   "level": 1,
+   "title": "PART 2",
+   "ready": true,
+   "durationSec": 20.08,
+   "estSec": 9.2,
+   "audioUrl": "audio/book-5/019-part-2.mp3",
+   "version": 1
+  },
+  {
+   "id": "020-act-2-scene-1",
+   "order": 20,
+   "level": 2,
+   "title": "ACT 2, SCENE 1",
+   "ready": true,
+   "durationSec": 155.21,
+   "estSec": 162.0,
+   "audioUrl": "audio/book-5/020-act-2-scene-1.mp3",
+   "version": 1
+  },
+  {
+   "id": "021-chapter-2-1-the-deceased",
+   "order": 21,
+   "level": 2,
+   "title": "CHAPTER 2.1 THE DECEASED",
+   "ready": true,
+   "durationSec": 317.69,
+   "estSec": 308.0,
+   "audioUrl": "audio/book-5/021-chapter-2-1-the-deceased.mp3",
+   "version": 1
+  },
+  {
+   "id": "022-chapter-2-2",
+   "order": 22,
+   "level": 2,
+   "title": "CHAPTER 2.2",
+   "ready": true,
+   "durationSec": 166.25,
+   "estSec": 127.2,
+   "audioUrl": "audio/book-5/022-chapter-2-2.mp3",
+   "version": 1
+  },
+  {
+   "id": "023-chapter-2-3",
+   "order": 23,
+   "level": 2,
+   "title": "CHAPTER 2.3",
+   "ready": true,
+   "durationSec": 128.3,
+   "estSec": 99.2,
+   "audioUrl": "audio/book-5/023-chapter-2-3.mp3",
+   "version": 1
+  },
+  {
+   "id": "024-reflection-2",
+   "order": 24,
+   "level": 2,
+   "title": "REFLECTION",
+   "ready": true,
+   "durationSec": 119.87,
+   "estSec": 116.0,
+   "audioUrl": "audio/book-5/024-reflection-2.mp3",
+   "version": 1
+  },
+  {
+   "id": "025-part-3",
+   "order": 25,
+   "level": 1,
+   "title": "PART 3",
+   "ready": true,
+   "durationSec": 21.78,
+   "estSec": 10.0,
+   "audioUrl": "audio/book-5/025-part-3.mp3",
+   "version": 1
+  },
+  {
+   "id": "026-act-3-scene-1-the-absurd",
+   "order": 26,
+   "level": 2,
+   "title": "ACT 3, SCENE 1 THE ABSURD!",
+   "ready": true,
+   "durationSec": 153.64,
+   "estSec": 151.6,
+   "audioUrl": "audio/book-5/026-act-3-scene-1-the-absurd.mp3",
+   "version": 1
+  },
+  {
+   "id": "027-practical-reflection-aligning-with-divine-will",
+   "order": 27,
+   "level": 2,
+   "title": "PRACTICAL REFLECTION: ALIGNING WITH DIVINE WILL",
+   "ready": true,
+   "durationSec": 96.3,
+   "estSec": 86.0,
+   "audioUrl": "audio/book-5/027-practical-reflection-aligning-with-divine-will.mp3",
+   "version": 1
+  },
+  {
+   "id": "028-chapter-3-1",
+   "order": 28,
+   "level": 2,
+   "title": "CHAPTER 3.1",
+   "ready": true,
+   "durationSec": 113.48,
+   "estSec": 92.0,
+   "audioUrl": "audio/book-5/028-chapter-3-1.mp3",
+   "version": 1
+  },
+  {
+   "id": "029-chapter-3-2",
+   "order": 29,
+   "level": 2,
+   "title": "CHAPTER 3.2",
+   "ready": true,
+   "durationSec": 122.59,
+   "estSec": 97.6,
+   "audioUrl": "audio/book-5/029-chapter-3-2.mp3",
+   "version": 1
+  },
+  {
+   "id": "030-chapter-3-3",
+   "order": 30,
+   "level": 2,
+   "title": "CHAPTER 3.3",
+   "ready": true,
+   "durationSec": 201.1,
+   "estSec": 177.6,
+   "audioUrl": "audio/book-5/030-chapter-3-3.mp3",
+   "version": 1
+  },
+  {
+   "id": "031-reflection-3",
+   "order": 31,
+   "level": 2,
+   "title": "REFLECTION",
+   "ready": true,
+   "durationSec": 142.08,
+   "estSec": 138.4,
+   "audioUrl": "audio/book-5/031-reflection-3.mp3",
+   "version": 1
+  },
+  {
+   "id": "032-part-4",
+   "order": 32,
+   "level": 1,
+   "title": "PART 4",
+   "ready": true,
+   "durationSec": 21.83,
+   "estSec": 10.8,
+   "audioUrl": "audio/book-5/032-part-4.mp3",
+   "version": 1
+  },
+  {
+   "id": "033-act-4-scene-1",
+   "order": 33,
+   "level": 2,
+   "title": "ACT 4, SCENE 1",
+   "ready": true,
+   "durationSec": 168.7,
+   "estSec": 168.0,
+   "audioUrl": "audio/book-5/033-act-4-scene-1.mp3",
+   "version": 1
+  },
+  {
+   "id": "034-divine-forces-behind-the-rise-and-fall-of-nations-unleashing",
+   "order": 34,
+   "level": 2,
+   "title": "Divine Forces Behind the Rise and Fall of Nations - Unleashing",
+   "ready": true,
+   "durationSec": 140.03,
+   "estSec": 101.2,
+   "audioUrl": "audio/book-5/034-divine-forces-behind-the-rise-and-fall-of-nations-unleashing.mp3",
+   "version": 1
+  },
+  {
+   "id": "035-spiritual-disciplines-for-resurrection-power",
+   "order": 35,
+   "level": 2,
+   "title": "SPIRITUAL DISCIPLINES FOR RESURRECTION POWER",
+   "ready": true,
+   "durationSec": 245.55,
+   "estSec": 247.6,
+   "audioUrl": "audio/book-5/035-spiritual-disciplines-for-resurrection-power.mp3",
+   "version": 1
+  },
+  {
+   "id": "036-chapter-4-1",
+   "order": 36,
+   "level": 2,
+   "title": "CHAPTER 4.1",
+   "ready": true,
+   "durationSec": 113.04,
+   "estSec": 99.2,
+   "audioUrl": "audio/book-5/036-chapter-4-1.mp3",
+   "version": 1
+  },
+  {
+   "id": "037-chapter-4-2",
+   "order": 37,
+   "level": 2,
+   "title": "CHAPTER 4.2",
+   "ready": true,
+   "durationSec": 119.19,
+   "estSec": 110.0,
+   "audioUrl": "audio/book-5/037-chapter-4-2.mp3",
+   "version": 1
+  },
+  {
+   "id": "038-chapter-4-3",
+   "order": 38,
+   "level": 2,
+   "title": "CHAPTER 4.3",
+   "ready": true,
+   "durationSec": 129.16,
+   "estSec": 109.6,
+   "audioUrl": "audio/book-5/038-chapter-4-3.mp3",
+   "version": 1
+  },
+  {
+   "id": "039-reflection-4",
+   "order": 39,
+   "level": 2,
+   "title": "REFLECTION",
+   "ready": true,
+   "durationSec": 239.52,
+   "estSec": 233.6,
+   "audioUrl": "audio/book-5/039-reflection-4.mp3",
+   "version": 1
+  },
+  {
+   "id": "040-part-5",
+   "order": 40,
+   "level": 1,
+   "title": "PART 5",
+   "ready": true,
+   "durationSec": 20.4,
+   "estSec": 8.8,
+   "audioUrl": "audio/book-5/040-part-5.mp3",
+   "version": 1
+  },
+  {
+   "id": "041-act-5-scene-1",
+   "order": 41,
+   "level": 2,
+   "title": "ACT 5, SCENE 1",
+   "ready": true,
+   "durationSec": 168.35,
+   "estSec": 166.0,
+   "audioUrl": "audio/book-5/041-act-5-scene-1.mp3",
+   "version": 1
+  },
+  {
+   "id": "042-addressing-doctrinal-controversies",
+   "order": 42,
+   "level": 2,
+   "title": "ADDRESSING DOCTRINAL CONTROVERSIES",
+   "ready": true,
+   "durationSec": 130.26,
+   "estSec": 130.4,
+   "audioUrl": "audio/book-5/042-addressing-doctrinal-controversies.mp3",
+   "version": 1
+  },
+  {
+   "id": "043-chapter-5-1",
+   "order": 43,
+   "level": 2,
+   "title": "CHAPTER 5.1",
+   "ready": true,
+   "durationSec": 128.78,
+   "estSec": 107.6,
+   "audioUrl": "audio/book-5/043-chapter-5-1.mp3",
+   "version": 1
+  },
+  {
+   "id": "044-chapter-5-2",
+   "order": 44,
+   "level": 2,
+   "title": "CHAPTER 5.2",
+   "ready": true,
+   "durationSec": 96.4,
+   "estSec": 91.6,
+   "audioUrl": "audio/book-5/044-chapter-5-2.mp3",
+   "version": 1
+  },
+  {
+   "id": "045-chapter-5-3",
+   "order": 45,
+   "level": 2,
+   "title": "CHAPTER 5.3",
+   "ready": true,
+   "durationSec": 88.17,
+   "estSec": 70.4,
+   "audioUrl": "audio/book-5/045-chapter-5-3.mp3",
+   "version": 1
+  },
+  {
+   "id": "046-reflection-5",
+   "order": 46,
+   "level": 2,
+   "title": "REFLECTION",
+   "ready": true,
+   "durationSec": 143.51,
+   "estSec": 144.8,
+   "audioUrl": "audio/book-5/046-reflection-5.mp3",
+   "version": 1
+  },
+  {
+   "id": "047-part-6",
+   "order": 47,
+   "level": 1,
+   "title": "PART 6",
+   "ready": true,
+   "durationSec": 24.03,
+   "estSec": 10.0,
+   "audioUrl": "audio/book-5/047-part-6.mp3",
+   "version": 1
+  },
+  {
+   "id": "048-act-6-scene-1-the-price",
+   "order": 48,
+   "level": 2,
+   "title": "ACT 6, SCENE 1 THE PRICE!",
+   "ready": true,
+   "durationSec": 178.25,
+   "estSec": 173.6,
+   "audioUrl": "audio/book-5/048-act-6-scene-1-the-price.mp3",
+   "version": 1
+  },
+  {
+   "id": "049-universal-yearning-for-resurrection",
+   "order": 49,
+   "level": 2,
+   "title": "UNIVERSAL YEARNING FOR RESURRECTION",
+   "ready": true,
+   "durationSec": 156.91,
+   "estSec": 166.8,
+   "audioUrl": "audio/book-5/049-universal-yearning-for-resurrection.mp3",
+   "version": 1
+  },
+  {
+   "id": "050-chapter-6-1",
+   "order": 50,
+   "level": 2,
+   "title": "CHAPTER 6.1",
+   "ready": true,
+   "durationSec": 97.39,
+   "estSec": 81.6,
+   "audioUrl": "audio/book-5/050-chapter-6-1.mp3",
+   "version": 1
+  },
+  {
+   "id": "051-chapter-6-2",
+   "order": 51,
+   "level": 2,
+   "title": "CHAPTER 6.2",
+   "ready": true,
+   "durationSec": 85.77,
+   "estSec": 67.2,
+   "audioUrl": "audio/book-5/051-chapter-6-2.mp3",
+   "version": 1
+  },
+  {
+   "id": "052-chapter-6-3",
+   "order": 52,
+   "level": 2,
+   "title": "CHAPTER 6.3",
+   "ready": true,
+   "durationSec": 80.24,
+   "estSec": 58.4,
+   "audioUrl": "audio/book-5/052-chapter-6-3.mp3",
+   "version": 1
+  },
+  {
+   "id": "053-reflection-6",
+   "order": 53,
+   "level": 2,
+   "title": "REFLECTION",
+   "ready": true,
+   "durationSec": 121.29,
+   "estSec": 114.0,
+   "audioUrl": "audio/book-5/053-reflection-6.mp3",
+   "version": 1
+  },
+  {
+   "id": "054-part-7",
+   "order": 54,
+   "level": 1,
+   "title": "PART 7",
+   "ready": true,
+   "durationSec": 21.45,
+   "estSec": 8.8,
+   "audioUrl": "audio/book-5/054-part-7.mp3",
+   "version": 1
+  },
+  {
+   "id": "055-act-7-scene-1",
+   "order": 55,
+   "level": 2,
+   "title": "ACT 7, SCENE 1",
+   "ready": true,
+   "durationSec": 405.11,
+   "estSec": 442.4,
+   "audioUrl": "audio/book-5/055-act-7-scene-1.mp3",
+   "version": 1
+  },
+  {
+   "id": "056-doctrinal-foundations-for-resurrection",
+   "order": 56,
+   "level": 2,
+   "title": "DOCTRINAL FOUNDATIONS FOR RESURRECTION",
+   "ready": true,
+   "durationSec": 112.21,
+   "estSec": 126.8,
+   "audioUrl": "audio/book-5/056-doctrinal-foundations-for-resurrection.mp3",
+   "version": 1
+  },
+  {
+   "id": "057-chapter-7-1",
+   "order": 57,
+   "level": 2,
+   "title": "CHAPTER 7.1",
+   "ready": true,
+   "durationSec": 108.38,
+   "estSec": 95.6,
+   "audioUrl": "audio/book-5/057-chapter-7-1.mp3",
+   "version": 1
+  },
+  {
+   "id": "058-chapter-7-2",
+   "order": 58,
+   "level": 2,
+   "title": "CHAPTER 7.2",
+   "ready": true,
+   "durationSec": 113.53,
+   "estSec": 99.2,
+   "audioUrl": "audio/book-5/058-chapter-7-2.mp3",
+   "version": 1
+  },
+  {
+   "id": "059-chapter-7-3",
+   "order": 59,
+   "level": 2,
+   "title": "CHAPTER 7.3",
+   "ready": true,
+   "durationSec": 86.27,
+   "estSec": 75.2,
+   "audioUrl": "audio/book-5/059-chapter-7-3.mp3",
+   "version": 1
+  },
+  {
+   "id": "060-reflection-7",
+   "order": 60,
+   "level": 2,
+   "title": "REFLECTION",
+   "ready": true,
+   "durationSec": 151.18,
+   "estSec": 149.6,
+   "audioUrl": "audio/book-5/060-reflection-7.mp3",
+   "version": 1
+  },
+  {
+   "id": "061-global-events-as-reflections-of-cosmic-judgment-a-wake-up-ca",
+   "order": 61,
+   "level": 1,
+   "title": "GLOBAL EVENTS AS REFLECTIONS OF COSMIC JUDGMENT: A WAKE- UP CALL TO THE WORLD",
+   "ready": true,
+   "durationSec": 204.3,
+   "estSec": 184.4,
+   "audioUrl": "audio/book-5/061-global-events-as-reflections-of-cosmic-judgment-a-wake-up-ca.mp3",
+   "version": 1
+  },
+  {
+   "id": "062-divine-summon-step-into-your-eternal",
+   "order": 62,
+   "level": 1,
+   "title": "DIVINE SUMMON STEP INTO YOUR ETERNAL",
+   "ready": true,
+   "durationSec": 420.06,
+   "estSec": 398.0,
+   "audioUrl": "audio/book-5/062-divine-summon-step-into-your-eternal.mp3",
+   "version": 1
+  },
+  {
+   "id": "063-appendix-1",
+   "order": 63,
+   "level": 1,
+   "title": "APPENDIX 1",
+   "ready": true,
+   "durationSec": 107.67,
+   "estSec": 97.2,
+   "audioUrl": "audio/book-5/063-appendix-1.mp3",
+   "version": 1
+  },
+  {
+   "id": "064-appendix-2",
+   "order": 64,
+   "level": 1,
+   "title": "APPENDIX 2",
+   "ready": true,
+   "durationSec": 3.62,
+   "estSec": 0.8,
+   "audioUrl": "audio/book-5/064-appendix-2.mp3",
+   "version": 1
+  },
+  {
+   "id": "064-01-behold-my-messenger-3-behold-my-names-chapter-2-",
+   "order": 64.01,
+   "level": 2,
+   "title": "BEHOLD MY MESSENGER 3, BEHOLD MY NAMES, CHAPTER 2 THE FORMATION OF THE HOSTS",
+   "ready": true,
+   "durationSec": 181.12,
+   "estSec": 181.2,
+   "audioUrl": "audio/book-5/064-01-behold-my-messenger-3-behold-my-names-chapter-2-.mp3",
+   "version": 1
+  },
+  {
+   "id": "064-02-criteria-to-enlist-in-the-end-time-army",
+   "order": 64.02,
+   "level": 2,
+   "title": "CRITERIA TO ENLIST IN THE END TIME ARMY",
+   "ready": true,
+   "durationSec": 2503.73,
+   "estSec": 2329.6,
+   "audioUrl": "audio/book-5/064-02-criteria-to-enlist-in-the-end-time-army.mp3",
+   "version": 1
+  },
+  {
+   "id": "065-the-50-benefits-of-upholding-the-50-protocols-of-heaven",
+   "order": 65,
+   "level": 2,
+   "title": "THE 50 BENEFITS OF UPHOLDING THE 50 PROTOCOLS OF HEAVEN:",
+   "ready": true,
+   "durationSec": 268.69,
+   "estSec": 226.4,
+   "audioUrl": "audio/book-5/065-the-50-benefits-of-upholding-the-50-protocols-of-heaven.mp3",
+   "version": 1
+  },
+  {
+   "id": "066-the-seven-words-to-metamorphosis-into-our-archangel-the",
+   "order": 66,
+   "level": 2,
+   "title": "\"THE SEVEN WORDS\" TO METAMORPHOSIS INTO OUR ARCHANGEL, THE",
+   "ready": true,
+   "durationSec": 350.5,
+   "estSec": 315.6,
+   "audioUrl": "audio/book-5/066-the-seven-words-to-metamorphosis-into-our-archangel-the.mp3",
+   "version": 1
+  },
+  {
+   "id": "067-appendix-3",
+   "order": 67,
+   "level": 1,
+   "title": "APPENDIX 3",
+   "ready": true,
+   "durationSec": 87.91,
+   "estSec": 82.8,
+   "audioUrl": "audio/book-5/067-appendix-3.mp3",
+   "version": 1
+  },
+  {
+   "id": "068-basic-training-of-the-144-000",
+   "order": 68,
+   "level": 2,
+   "title": "BASIC TRAINING OF THE 144,000",
+   "ready": true,
+   "durationSec": 107.58,
+   "estSec": 106.8,
+   "audioUrl": "audio/book-5/068-basic-training-of-the-144-000.mp3",
+   "version": 1
+  },
+  {
+   "id": "069-appendix-4",
+   "order": 69,
+   "level": 1,
+   "title": "APPENDIX 4",
+   "ready": true,
+   "durationSec": 3.57,
+   "estSec": 0.8,
+   "audioUrl": "audio/book-5/069-appendix-4.mp3",
+   "version": 1
+  },
+  {
+   "id": "069-01-1b-the-one-who-has-the-final-say-in-the-cosmoses",
+   "order": 69.01,
+   "level": 2,
+   "title": "1B) THE ONE WHO HAS THE FINAL SAY IN THE COSMOSES",
+   "ready": true,
+   "durationSec": 66.06,
+   "estSec": 56.8,
+   "audioUrl": "audio/book-5/069-01-1b-the-one-who-has-the-final-say-in-the-cosmoses.mp3",
+   "version": 1
+  },
+  {
+   "id": "069-02-decree-one-30-40-yieldedness",
+   "order": 69.02,
+   "level": 2,
+   "title": "DECREE ONE, 30% - 40% YIELDEDNESS",
+   "ready": true,
+   "durationSec": 113.71,
+   "estSec": 125.2,
+   "audioUrl": "audio/book-5/069-02-decree-one-30-40-yieldedness.mp3",
+   "version": 1
+  },
+  {
+   "id": "069-03-decree-two-60-70-yieldedness",
+   "order": 69.03,
+   "level": 2,
+   "title": "DECREE TWO, 60% - 70% YIELDEDNESS",
+   "ready": true,
+   "durationSec": 53.12,
+   "estSec": 56.0,
+   "audioUrl": "audio/book-5/069-03-decree-two-60-70-yieldedness.mp3",
+   "version": 1
+  },
+  {
+   "id": "069-04-decree-three-100-yieldedness",
+   "order": 69.04,
+   "level": 2,
+   "title": "DECREE THREE, 100% YIELDEDNESS",
+   "ready": true,
+   "durationSec": 120.71,
+   "estSec": 136.4,
+   "audioUrl": "audio/book-5/069-04-decree-three-100-yieldedness.mp3",
+   "version": 1
+  },
+  {
+   "id": "070-appendix-5",
+   "order": 70,
+   "level": 1,
+   "title": "APPENDIX 5",
+   "ready": true,
+   "durationSec": 1509.28,
+   "estSec": 1533.2,
+   "audioUrl": "audio/book-5/070-appendix-5.mp3",
+   "version": 1
+  },
+  {
+   "id": "071-appendix-6",
+   "order": 71,
+   "level": 1,
+   "title": "APPENDIX 6",
+   "ready": true,
+   "durationSec": 406.63,
+   "estSec": 402.4,
+   "audioUrl": "audio/book-5/071-appendix-6.mp3",
+   "version": 1
+  },
+  {
+   "id": "072-appendix-7",
+   "order": 72,
+   "level": 1,
+   "title": "APPENDIX 7",
+   "ready": true,
+   "durationSec": 1777.79,
+   "estSec": 1872.8,
+   "audioUrl": "audio/book-5/072-appendix-7.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-appendix-8",
+   "order": 73,
+   "level": 1,
+   "title": "APPENDIX 8",
+   "ready": true,
+   "durationSec": 3.57,
+   "estSec": 0.8,
+   "audioUrl": "audio/book-5/073-appendix-8.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-01-the-walk-of-a-bride-anointed-ones",
+   "order": 73.01,
+   "level": 2,
+   "title": "THE WALK OF A BRIDE & ANOINTED ONES",
+   "ready": true,
+   "durationSec": 148.85,
+   "estSec": 144.8,
+   "audioUrl": "audio/book-5/073-01-the-walk-of-a-bride-anointed-ones.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-02-chapter-1",
+   "order": 73.02,
+   "level": 2,
+   "title": "CHAPTER 1",
+   "ready": true,
+   "durationSec": 765.81,
+   "estSec": 787.6,
+   "audioUrl": "audio/book-5/073-02-chapter-1.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-03-vision-of-a-whale",
+   "order": 73.03,
+   "level": 2,
+   "title": "VISION OF A WHALE",
+   "ready": true,
+   "durationSec": 858.05,
+   "estSec": 930.4,
+   "audioUrl": "audio/book-5/073-03-vision-of-a-whale.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-04-act-2-scene-2",
+   "order": 73.04,
+   "level": 2,
+   "title": "ACT 2, SCENE 2",
+   "ready": true,
+   "durationSec": 251.04,
+   "estSec": 272.0,
+   "audioUrl": "audio/book-5/073-04-act-2-scene-2.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-05-chapter-2",
+   "order": 73.05,
+   "level": 2,
+   "title": "CHAPTER 2",
+   "ready": true,
+   "durationSec": 1089.42,
+   "estSec": 1128.4,
+   "audioUrl": "audio/book-5/073-05-chapter-2.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-06-faith",
+   "order": 73.06,
+   "level": 2,
+   "title": "FAITH",
+   "ready": true,
+   "durationSec": 357.24,
+   "estSec": 366.8,
+   "audioUrl": "audio/book-5/073-06-faith.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-07-peace",
+   "order": 73.07,
+   "level": 2,
+   "title": "PEACE",
+   "ready": true,
+   "durationSec": 211.51,
+   "estSec": 208.4,
+   "audioUrl": "audio/book-5/073-07-peace.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-08-lowliness-of-mind",
+   "order": 73.08,
+   "level": 2,
+   "title": "LOWLINESS OF MIND",
+   "ready": true,
+   "durationSec": 105.49,
+   "estSec": 93.2,
+   "audioUrl": "audio/book-5/073-08-lowliness-of-mind.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-09-hope",
+   "order": 73.09,
+   "level": 2,
+   "title": "HOPE",
+   "ready": true,
+   "durationSec": 146.02,
+   "estSec": 133.6,
+   "audioUrl": "audio/book-5/073-09-hope.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-10-meekness",
+   "order": 73.1,
+   "level": 2,
+   "title": "MEEKNESS",
+   "ready": true,
+   "durationSec": 302.81,
+   "estSec": 292.4,
+   "audioUrl": "audio/book-5/073-10-meekness.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-11-love",
+   "order": 73.11,
+   "level": 2,
+   "title": "LOVE",
+   "ready": true,
+   "durationSec": 358.3,
+   "estSec": 346.0,
+   "audioUrl": "audio/book-5/073-11-love.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-12-peace-and-joy-through-tribulation",
+   "order": 73.12,
+   "level": 2,
+   "title": "PEACE AND JOY THROUGH TRIBULATION",
+   "ready": true,
+   "durationSec": 268.61,
+   "estSec": 241.6,
+   "audioUrl": "audio/book-5/073-12-peace-and-joy-through-tribulation.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-13-a-dream-on-how-to-be-at-peace-and-joyful-in-trib",
+   "order": 73.13,
+   "level": 2,
+   "title": "A DREAM ON HOW TO BE AT PEACE AND JOYFUL IN TRIBULATIONS",
+   "ready": true,
+   "durationSec": 685.59,
+   "estSec": 760.4,
+   "audioUrl": "audio/book-5/073-13-a-dream-on-how-to-be-at-peace-and-joyful-in-trib.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-14-meekness-of-love-through-persecution",
+   "order": 73.14,
+   "level": 2,
+   "title": "MEEKNESS OF LOVE THROUGH PERSECUTION",
+   "ready": true,
+   "durationSec": 348.63,
+   "estSec": 385.2,
+   "audioUrl": "audio/book-5/073-14-meekness-of-love-through-persecution.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-15-are-the-consolation-of-the-el-small-with-thee",
+   "order": 73.15,
+   "level": 2,
+   "title": "ARE THE CONSOLATION OF THE EL, SMALL WITH THEE?",
+   "ready": true,
+   "durationSec": 973.99,
+   "estSec": 1097.2,
+   "audioUrl": "audio/book-5/073-15-are-the-consolation-of-the-el-small-with-thee.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-16-when-i-said-my-foot-slippeth",
+   "order": 73.16,
+   "level": 2,
+   "title": "WHEN I SAID, MY FOOT SLIPPETH.",
+   "ready": true,
+   "durationSec": 754.86,
+   "estSec": 766.8,
+   "audioUrl": "audio/book-5/073-16-when-i-said-my-foot-slippeth.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-17-lowliness-of-mind-vision-of-a-hind",
+   "order": 73.17,
+   "level": 2,
+   "title": "LOWLINESS OF MIND VISION OF A HIND",
+   "ready": true,
+   "durationSec": 691.99,
+   "estSec": 732.8,
+   "audioUrl": "audio/book-5/073-17-lowliness-of-mind-vision-of-a-hind.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-18-yieldedness",
+   "order": 73.18,
+   "level": 2,
+   "title": "YIELDEDNESS",
+   "ready": true,
+   "durationSec": 228.98,
+   "estSec": 215.2,
+   "audioUrl": "audio/book-5/073-18-yieldedness.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-19-faith-in-the-elohim",
+   "order": 73.19,
+   "level": 2,
+   "title": "FAITH IN THE ELOHIM",
+   "ready": true,
+   "durationSec": 462.84,
+   "estSec": 475.6,
+   "audioUrl": "audio/book-5/073-19-faith-in-the-elohim.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-20-unbelief",
+   "order": 73.2,
+   "level": 2,
+   "title": "UNBELIEF",
+   "ready": true,
+   "durationSec": 825.81,
+   "estSec": 802.0,
+   "audioUrl": "audio/book-5/073-20-unbelief.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-21-faith",
+   "order": 73.21,
+   "level": 2,
+   "title": "FAITH",
+   "ready": true,
+   "durationSec": 2059.41,
+   "estSec": 2176.8,
+   "audioUrl": "audio/book-5/073-21-faith.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-22-joy",
+   "order": 73.22,
+   "level": 2,
+   "title": "JOY",
+   "ready": true,
+   "durationSec": 546.04,
+   "estSec": 592.0,
+   "audioUrl": "audio/book-5/073-22-joy.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-23-patience",
+   "order": 73.23,
+   "level": 2,
+   "title": "PATIENCE",
+   "ready": true,
+   "durationSec": 354.95,
+   "estSec": 380.0,
+   "audioUrl": "audio/book-5/073-23-patience.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-24-mercy",
+   "order": 73.24,
+   "level": 2,
+   "title": "MERCY",
+   "ready": true,
+   "durationSec": 426.11,
+   "estSec": 493.2,
+   "audioUrl": "audio/book-5/073-24-mercy.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-25-hope",
+   "order": 73.25,
+   "level": 2,
+   "title": "HOPE",
+   "ready": true,
+   "durationSec": 301.05,
+   "estSec": 301.6,
+   "audioUrl": "audio/book-5/073-25-hope.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-26-love",
+   "order": 73.26,
+   "level": 2,
+   "title": "LOVE",
+   "ready": true,
+   "durationSec": 927.9,
+   "estSec": 951.6,
+   "audioUrl": "audio/book-5/073-26-love.mp3",
+   "version": 1
+  },
+  {
+   "id": "073-27-peace",
+   "order": 73.27,
+   "level": 2,
+   "title": "PEACE",
+   "ready": true,
+   "durationSec": 2321.33,
+   "estSec": 2530.8,
+   "audioUrl": "audio/book-5/073-27-peace.mp3",
+   "version": 1
+  },
+  {
+   "id": "074-questions-of-men-and-answers-from-the-trinity",
+   "order": 74,
+   "level": 1,
+   "title": "QUESTIONS OF MEN AND ANSWERS FROM THE TRINITY",
+   "ready": true,
+   "durationSec": 5.72,
+   "estSec": 3.2,
+   "audioUrl": "audio/book-5/074-questions-of-men-and-answers-from-the-trinity.mp3",
+   "version": 1
+  },
+  {
+   "id": "074-01-questions-of-men-and-answers-from-the-trinity-in",
+   "order": 74.01,
+   "level": 2,
+   "title": "QUESTIONS OF MEN AND ANSWERS FROM THE TRINITY — Introduction",
+   "ready": true,
+   "durationSec": 248.6,
+   "estSec": 216.4,
+   "audioUrl": "audio/book-5/074-01-questions-of-men-and-answers-from-the-trinity-in.mp3",
+   "version": 1
+  },
+  {
+   "id": "074-02-imitate-the-life-of-jesus",
+   "order": 74.02,
+   "level": 2,
+   "title": "IMITATE THE LIFE OF JESUS",
+   "ready": true,
+   "durationSec": 767.74,
+   "estSec": 676.4,
+   "audioUrl": "audio/book-5/074-02-imitate-the-life-of-jesus.mp3",
+   "version": 1
+  },
+  {
+   "id": "074-03-be-careful",
+   "order": 74.03,
+   "level": 2,
+   "title": "BE CAREFUL",
+   "ready": true,
+   "durationSec": 239.45,
+   "estSec": 224.4,
+   "audioUrl": "audio/book-5/074-03-be-careful.mp3",
+   "version": 1
+  },
+  {
+   "id": "074-04-be-silent",
+   "order": 74.04,
+   "level": 2,
+   "title": "BE SILENT",
+   "ready": true,
+   "durationSec": 148.89,
+   "estSec": 134.8,
+   "audioUrl": "audio/book-5/074-04-be-silent.mp3",
+   "version": 1
+  },
+  {
+   "id": "074-05-what-is-the-biggest-takeaway-people-will-receive",
+   "order": 74.05,
+   "level": 2,
+   "title": "WHAT IS THE BIGGEST TAKEAWAY PEOPLE WILL RECEIVE AFTER READING THIS BOOK?",
+   "ready": true,
+   "durationSec": 212.84,
+   "estSec": 206.4,
+   "audioUrl": "audio/book-5/074-05-what-is-the-biggest-takeaway-people-will-receive.mp3",
+   "version": 1
+  },
+  {
+   "id": "074-06-they-are-our-cherubim-of-glory",
+   "order": 74.06,
+   "level": 2,
+   "title": "THEY ARE OUR CHERUBIM OF GLORY",
+   "ready": true,
+   "durationSec": 148.48,
+   "estSec": 141.6,
+   "audioUrl": "audio/book-5/074-06-they-are-our-cherubim-of-glory.mp3",
+   "version": 1
+  },
+  {
+   "id": "074-07-they-are-our-spirit-holy-spirit-in-shekinaih-of",
+   "order": 74.07,
+   "level": 2,
+   "title": "THEY ARE OUR SPIRIT (HOLY SPIRIT IN SHEKINAIH) OF TRUTH (JESUS, THE WORD, THE TRUTH IN AARON K DAVID) DWELLED IN AND OPERATING THROUGH THEM, WHOM WE HAVE SENT TO CONVICT THE WORLD OF SIN, OF JUDGEMENT AND OF RIGHTEOUSNESS!",
+   "ready": true,
+   "durationSec": 198.72,
+   "estSec": 201.6,
+   "audioUrl": "audio/book-5/074-07-they-are-our-spirit-holy-spirit-in-shekinaih-of.mp3",
+   "version": 1
+  },
+  {
+   "id": "074-08-aaron-k-david-is-our-main-last-days-elijah",
+   "order": 74.08,
+   "level": 2,
+   "title": "AARON K DAVID IS OUR MAIN LAST DAYS ELIJAH!",
+   "ready": true,
+   "durationSec": 245.13,
+   "estSec": 240.0,
+   "audioUrl": "audio/book-5/074-08-aaron-k-david-is-our-main-last-days-elijah.mp3",
+   "version": 1
+  },
+  {
+   "id": "074-09-shekinaih-is-our-main-last-days-moses",
+   "order": 74.09,
+   "level": 2,
+   "title": "SHEKINAIH IS OUR MAIN LAST DAYS MOSES",
+   "ready": true,
+   "durationSec": 124.71,
+   "estSec": 117.6,
+   "audioUrl": "audio/book-5/074-09-shekinaih-is-our-main-last-days-moses.mp3",
+   "version": 1
+  },
+  {
+   "id": "074-10-aaron-k-david-is-the-angel-with-the-everlasting",
+   "order": 74.1,
+   "level": 2,
+   "title": "AARON K DAVID IS THE ANGEL WITH THE EVERLASTING GOSPEL IN THE BOOK OF REVELATION 14:6-7",
+   "ready": true,
+   "durationSec": 469.39,
+   "estSec": 478.8,
+   "audioUrl": "audio/book-5/074-10-aaron-k-david-is-the-angel-with-the-everlasting.mp3",
+   "version": 1
+  },
+  {
+   "id": "074-11-challenging-and-refining-faith",
+   "order": 74.11,
+   "level": 2,
+   "title": "CHALLENGING AND REFINING FAITH",
+   "ready": true,
+   "durationSec": 531.47,
+   "estSec": 457.2,
+   "audioUrl": "audio/book-5/074-11-challenging-and-refining-faith.mp3",
+   "version": 1
+  },
+  {
+   "id": "074-12-jesus-as-the-resurrection-and-life",
+   "order": 74.12,
+   "level": 2,
+   "title": "JESUS AS THE RESURRECTION AND LIFE",
+   "ready": true,
+   "durationSec": 464.53,
+   "estSec": 426.4,
+   "audioUrl": "audio/book-5/074-12-jesus-as-the-resurrection-and-life.mp3",
+   "version": 1
+  },
+  {
+   "id": "075-how-to-pray-for-yourself-and-others",
+   "order": 75,
+   "level": 1,
+   "title": "HOW TO PRAY FOR YOURSELF AND OTHERS",
+   "ready": true,
+   "durationSec": 1605.49,
+   "estSec": 1646.8,
+   "audioUrl": "audio/book-5/075-how-to-pray-for-yourself-and-others.mp3",
+   "version": 1
+  },
+  {
+   "id": "076-bring-fruits-meet-for-repentance",
+   "order": 76,
+   "level": 1,
+   "title": "BRING FRUITS MEET FOR REPENTANCE",
+   "ready": true,
+   "durationSec": 201.15,
+   "estSec": 198.8,
+   "audioUrl": "audio/book-5/076-bring-fruits-meet-for-repentance.mp3",
+   "version": 1
+  },
+  {
+   "id": "077-the-medallion-chant",
+   "order": 77,
+   "level": 1,
+   "title": "THE MEDALLION CHANT",
+   "ready": true,
+   "durationSec": 3.82,
+   "estSec": 1.2,
+   "audioUrl": "audio/book-5/077-the-medallion-chant.mp3",
+   "version": 1
+  },
+  {
+   "id": "078-the-warrior-victory-proclaimation",
+   "order": 78,
+   "level": 2,
+   "title": "THE WARRIOR VICTORY PROCLAIMATION!!!",
+   "ready": true,
+   "durationSec": 681.38,
+   "estSec": 643.2,
+   "audioUrl": "audio/book-5/078-the-warrior-victory-proclaimation.mp3",
+   "version": 1
+  },
+  {
+   "id": "079-finalogue",
+   "order": 79,
+   "level": 1,
+   "title": "FINALOGUE",
+   "ready": true,
+   "durationSec": 584.8,
+   "estSec": 527.6,
+   "audioUrl": "audio/book-5/079-finalogue.mp3",
+   "version": 1
+  },
+  {
+   "id": "080-final-call-to-action-a-cosmic-decree-that",
+   "order": 80,
+   "level": 1,
+   "title": "FINAL CALL TO ACTION A COSMIC DECREE THAT",
+   "ready": true,
+   "durationSec": 423.01,
+   "estSec": 433.2,
+   "audioUrl": "audio/book-5/080-final-call-to-action-a-cosmic-decree-that.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-testimonies",
+   "order": 81,
+   "level": 1,
+   "title": "TESTIMONIES",
+   "ready": true,
+   "durationSec": 3.37,
+   "estSec": 0.4,
+   "audioUrl": "audio/book-5/081-testimonies.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-01-chai-lin-s-24-hour-miracle-from-brink-to-life-in",
+   "order": 81.01,
+   "level": 2,
+   "title": "CHAI LIN'S 24-HOUR MIRACLE: FROM BRINK TO LIFE IN JUST 24 HOURS! JUST SAVED AT THE NICK OF TIME, DUE TO CLOSENESS TO",
+   "ready": true,
+   "durationSec": 772.69,
+   "estSec": 772.4,
+   "audioUrl": "audio/book-5/081-01-chai-lin-s-24-hour-miracle-from-brink-to-life-in.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-02-reflection-question",
+   "order": 81.02,
+   "level": 2,
+   "title": "Reflection Question",
+   "ready": true,
+   "durationSec": 104.22,
+   "estSec": 106.4,
+   "audioUrl": "audio/book-5/081-02-reflection-question.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-03-reflection-question",
+   "order": 81.03,
+   "level": 2,
+   "title": "Reflection Question",
+   "ready": true,
+   "durationSec": 90.0,
+   "estSec": 90.4,
+   "audioUrl": "audio/book-5/081-03-reflection-question.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-04-jason-s-mother-s-gift-briefly-extending-life-bey",
+   "order": 81.04,
+   "level": 2,
+   "title": "JASON'S MOTHER'S GIFT: BRIEFLY EXTENDING LIFE BEYOND HER TIME! A PLEAD HARD TO PRESS! YET PERSIST TO OBTAIN, AN EXTENSION OF LIFE! BUT WHEN HEART CONDITIONS CHANGED, WAVER ENTER THE HEART. THERE GOES EXTENDED LIFE!",
+   "ready": true,
+   "durationSec": 553.85,
+   "estSec": 534.4,
+   "audioUrl": "audio/book-5/081-04-jason-s-mother-s-gift-briefly-extending-life-bey.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-05-reflection-question",
+   "order": 81.05,
+   "level": 2,
+   "title": "Reflection Question",
+   "ready": true,
+   "durationSec": 151.65,
+   "estSec": 154.8,
+   "audioUrl": "audio/book-5/081-05-reflection-question.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-06-revived-to-the-brink-organs-failed-yet-restored",
+   "order": 81.06,
+   "level": 2,
+   "title": "REVIVED TO THE BRINK! ORGANS FAILED, YET RESTORED - BUT A SUDDEN PUNCH HITS HARD ITS FACE AS DISBELIEF SEALS THE FINAL TWIST OF FATE!…",
+   "ready": true,
+   "durationSec": 1333.98,
+   "estSec": 1349.6,
+   "audioUrl": "audio/book-5/081-06-revived-to-the-brink-organs-failed-yet-restored.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-07-from-coma-to-life-in-24-hours-a-wow-none-can-den",
+   "order": 81.07,
+   "level": 2,
+   "title": "FROM COMA TO LIFE IN 24 HOURS! A WOW, NONE CAN DENY, BURSTING THROUGH THE SKY! A BLOW TO THE FACE, PROPELLED THROUGH THE ROOF - ONLY TO REALIZE CONDITIONS MUST BE MET!…",
+   "ready": true,
+   "durationSec": 1318.81,
+   "estSec": 1327.6,
+   "audioUrl": "audio/book-5/081-07-from-coma-to-life-in-24-hours-a-wow-none-can-den.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-08-1-myr-1-million-miracle-escape-phew-to-his-great",
+   "order": 81.08,
+   "level": 2,
+   "title": "[1] MYR 1 MILLION MIRACLE ESCAPE! PHEW, TO HIS GREAT RELIEF [2], GENERATIONAL FACE VEIN CURSE IS BROKEN, ON SPOT HEALING RESULTED!",
+   "ready": true,
+   "durationSec": 459.18,
+   "estSec": 446.0,
+   "audioUrl": "audio/book-5/081-08-1-myr-1-million-miracle-escape-phew-to-his-great.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-09-pastor-moses-from-blocked-arteries-to-apostle-a",
+   "order": 81.09,
+   "level": 2,
+   "title": "PASTOR MOSES: FROM BLOCKED ARTERIES TO APOSTLE - A MIRACULOUS SURGE OF STRENGTH UNLEASED, FROM DIME TO FULL OF HOPE!",
+   "ready": true,
+   "durationSec": 593.01,
+   "estSec": 561.6,
+   "audioUrl": "audio/book-5/081-09-pastor-moses-from-blocked-arteries-to-apostle-a.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-10-james-a-miraculous-iq-boost-from-low-to-high-a-b",
+   "order": 81.1,
+   "level": 2,
+   "title": "JAMES: A MIRACULOUS IQ BOOST - FROM LOW TO HIGH, A BOOST OF CONFIDENCE FOR SURE!",
+   "ready": true,
+   "durationSec": 426.77,
+   "estSec": 413.6,
+   "audioUrl": "audio/book-5/081-10-james-a-miraculous-iq-boost-from-low-to-high-a-b.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-11-christina-s-immediate-miracle-dislocated-leg-and",
+   "order": 81.11,
+   "level": 2,
+   "title": "CHRISTINA'S IMMEDIATE MIRACLE: DISLOCATED LEG AND SHOULDER, SPIRITUALLY FIXED, TO HER GREAT RELIEF!",
+   "ready": true,
+   "durationSec": 767.14,
+   "estSec": 751.6,
+   "audioUrl": "audio/book-5/081-11-christina-s-immediate-miracle-dislocated-leg-and.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-12-jeremyrl-3-am-aliens-attack-6-months-torment-gri",
+   "order": 81.12,
+   "level": 2,
+   "title": "JEREMYRL: 3 AM ALIENS ATTACK, 6 MONTHS TORMENT GRIEF AND PAIN, SWOLLEN LIPS ANGUISH UNSEEN, THEN HEAVEN LIGHTNING STRUCK, AS MEDALLION CHANT RECITE, ADD TUMERIC WATER TO DRINK, INSTANT BREAKTHROUGH IS OBTAINED, FEARS UNBOUND - JEREMYRL, IN GLORY, NOW PROFOUND! \"",
+   "ready": true,
+   "durationSec": 431.39,
+   "estSec": 374.0,
+   "audioUrl": "audio/book-5/081-12-jeremyrl-3-am-aliens-attack-6-months-torment-gri.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-13-reflection-question",
+   "order": 81.13,
+   "level": 2,
+   "title": "Reflection Question",
+   "ready": true,
+   "durationSec": 223.18,
+   "estSec": 223.2,
+   "audioUrl": "audio/book-5/081-13-reflection-question.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-14-jose-s-quantum-leap-on-the-rise-166x-increased-f",
+   "order": 81.14,
+   "level": 2,
+   "title": "JOSE'S QUANTUM LEAP ON THE RISE, 166X INCREASED- FROM",
+   "ready": true,
+   "durationSec": 458.89,
+   "estSec": 450.0,
+   "audioUrl": "audio/book-5/081-14-jose-s-quantum-leap-on-the-rise-166x-increased-f.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-15-reflection-question",
+   "order": 81.15,
+   "level": 2,
+   "title": "Reflection Question",
+   "ready": true,
+   "durationSec": 186.94,
+   "estSec": 189.2,
+   "audioUrl": "audio/book-5/081-15-reflection-question.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-16-davidis-s-unbelievable-turnaround-from-total-fai",
+   "order": 81.16,
+   "level": 2,
+   "title": "DAVIDIS'S UNBELIEVABLE TURNAROUND: FROM TOTAL FAILURE TO GREAT GRADES, POWERED BY THE TRINITY IN SHEKINAIH - A MIRACULOUS COSMIC SHIFT, A SIGN TO WONDER!",
+   "ready": true,
+   "durationSec": 533.57,
+   "estSec": 494.4,
+   "audioUrl": "audio/book-5/081-16-davidis-s-unbelievable-turnaround-from-total-fai.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-17-tiatemjen-s-from-failing-to-flying-10yearold-s-m",
+   "order": 81.17,
+   "level": 2,
+   "title": "TIATEMJEN'S FROM FAILING TO FLYING: 10YEAROLD'S MIND, TRANSFORMED BY THE TRINITY IN SHEKINAIH -ON SPOT IQ SURGE, SPIRITUAL BRAIN, SURGERY BY JESUS, BURSTING THROUGH THE ROOF, ROCKETING TO THE MOON!",
+   "ready": true,
+   "durationSec": 326.47,
+   "estSec": 288.4,
+   "audioUrl": "audio/book-5/081-17-tiatemjen-s-from-failing-to-flying-10yearold-s-m.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-18-reflection-question",
+   "order": 81.18,
+   "level": 2,
+   "title": "Reflection Question",
+   "ready": true,
+   "durationSec": 109.87,
+   "estSec": 104.0,
+   "audioUrl": "audio/book-5/081-18-reflection-question.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-19-cape-town-s-3-year-drought-miraculously-crushed",
+   "order": 81.19,
+   "level": 2,
+   "title": "CAPE TOWN'S 3-YEAR DROUGHT, MIRACULOUSLY CRUSHED: END MAY 2018, ON SPOT, WEATHER REVERSAL, DEFIES 'DAY ZERO'!",
+   "ready": true,
+   "durationSec": 864.28,
+   "estSec": 802.8,
+   "audioUrl": "audio/book-5/081-19-cape-town-s-3-year-drought-miraculously-crushed.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-20-reflection-question",
+   "order": 81.2,
+   "level": 2,
+   "title": "Reflection Question",
+   "ready": true,
+   "durationSec": 146.72,
+   "estSec": 149.6,
+   "audioUrl": "audio/book-5/081-20-reflection-question.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-21-cosmic-decree-of-2016-the-trinity-in-shekinaih-u",
+   "order": 81.21,
+   "level": 2,
+   "title": "COSMIC DECREE OF 2016: THE TRINITY IN SHEKINAIH UNLEASHES A PROPHETIC MANDATE - TRUMP'S VICTORY AND EXACT MARGIN FORETOLD, SHAKING THE NATION TO ITS CORE AND LEAVING THE WORLD IN AWE!\"",
+   "ready": true,
+   "durationSec": 616.55,
+   "estSec": 515.2,
+   "audioUrl": "audio/book-5/081-21-cosmic-decree-of-2016-the-trinity-in-shekinaih-u.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-22-a-cosmic-decree-of-malaysia-s-election-2022-the",
+   "order": 81.22,
+   "level": 2,
+   "title": "A COSMIC DECREE OF MALAYSIA'S, ELECTION 2022, THE TRINITY THROUGH SHEKINAIH, DECLARES ANWAR IBRAHIM'S VICTORY, AS THE 10TH PRIME MINISTER - 5 DIVINE REASONS UNLEASHED, A WEEK BEFORE, FINAL VOTES BEGAN, OBLITERATING EVERY DOUBT, PIERCING THROUGH EVERY HEART, LIKE A COSMIC THUNDERBOLT, LEAVING ALL HAIRS, STANDING IN ITS AWE!",
+   "ready": true,
+   "durationSec": 1389.06,
+   "estSec": 1203.2,
+   "audioUrl": "audio/book-5/081-22-a-cosmic-decree-of-malaysia-s-election-2022-the.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-23-a-cosmic-decree-of-singapore-election-2023-the-t",
+   "order": 81.23,
+   "level": 2,
+   "title": "A COSMIC DECREE OF SINGAPORE, ELECTION 2023: THE TRINITY THROUGH SHEKINAIH, DECLARES THARMAN SHANMUGARATNAM'S, LANDSLIDE VICTORY, BEFORE VOTES WERE CAST- 5 DIVINE REASONS, SUBSEQUENTLY UNLEASED, OBLITERATING ALL DOUBT, AND ELECTRIFYING THE NATION WITH AWE, MAKING EVERYONE FALL FROM THEIR CHAIRS AND SHAKING ALL EXISTENCE TO ITS CORE!",
+   "ready": true,
+   "durationSec": 1770.09,
+   "estSec": 1444.0,
+   "audioUrl": "audio/book-5/081-23-a-cosmic-decree-of-singapore-election-2023-the-t.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-24-a-cosmic-judgment-imploding-on-the-earth-the-tri",
+   "order": 81.24,
+   "level": 2,
+   "title": "A COSMIC JUDGMENT, IMPLODING ON THE EARTH: THE TRINITY THROUGH SHEKINAIH DECREES, THE SENTENCE OF UTMOST SHORTENED, FOR KONG HEE, A SENIOR PASTOR, OF THE ONCE GREAT CITY HARVEST CHURCH, IN 2017 - A HEAVENLY VERDICT, AFTER 7 LONG TRIAL YEARS, IMPLODING THE FABRIC OF EXISTENCE, ALONG ITS WAY, ERADICATING ALL WONDERS, DOUBT OR QUESTIONS, AS SELF EXISTENCE, SUSPENDS IN THE BALANCE, QUAKING THE COSMOS, TO ITS VERY CORE!",
+   "ready": true,
+   "durationSec": 1686.04,
+   "estSec": 1551.6,
+   "audioUrl": "audio/book-5/081-24-a-cosmic-judgment-imploding-on-the-earth-the-tri.mp3",
+   "version": 1
+  },
+  {
+   "id": "081-25-a-cosmic-annihilation-judgment-sending-shockwave",
+   "order": 81.25,
+   "level": 2,
+   "title": "A COSMIC ANNIHILATION JUDGMENT, SENDING SHOCKWAVE BEYOND EXISTENCE - THE UTTER DELETION, OF ETERNITY LEGACY, DAVID YONGGI CHO AND WIFE, FROM WORLD'S LARGEST CHURCH, OVER DEFIANT REJECTION, OF THE TRINITY IN SHEKINAIH'S, DECREE ON JULY 25, 2019, LED TO CATACLYSMIC COLLAPSE! HEAVENLY MANSIONS DEMOLISHED, REVOKED OF ETERNAL REWARDS, ABRUPTLY LIVES CUT SHORT, ON SEPTEMBER 14, 2021 - THE ULTIMATE COSMIC VERDICT! THE UNIVERSE SO IMPLODES, AS IRREVOCABLE FATE IS SEALED, IN ABYSS TARTARUS ETERNAL!",
+   "ready": true,
+   "durationSec": 3682.34,
+   "estSec": 3341.6,
+   "audioUrl": "audio/book-5/081-25-a-cosmic-annihilation-judgment-sending-shockwave.mp3",
+   "version": 1
+  },
+  {
+   "id": "082-additional-testimonies",
+   "order": 82,
+   "level": 1,
+   "title": "ADDITIONAL TESTIMONIES",
+   "ready": true,
+   "durationSec": 162.31,
+   "estSec": 159.2,
+   "audioUrl": "audio/book-5/082-additional-testimonies.mp3",
+   "version": 1
+  },
+  {
+   "id": "083-final-cosmic-decree-the-last-seal-of-fate",
+   "order": 83,
+   "level": 1,
+   "title": "FINAL COSMIC DECREE THE LAST SEAL OF FATE",
+   "ready": true,
+   "durationSec": 217.26,
+   "estSec": 225.2,
+   "audioUrl": "audio/book-5/083-final-cosmic-decree-the-last-seal-of-fate.mp3",
+   "version": 1
+  },
+  {
+   "id": "084-glossary-of-terms-part-1",
+   "order": 84,
+   "level": 1,
+   "title": "GLOSSARY OF TERMS PART 1",
+   "ready": true,
+   "durationSec": 3475.96,
+   "estSec": 2645.2,
+   "audioUrl": "audio/book-5/084-glossary-of-terms-part-1.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-glossary-of-terms-part-2",
+   "order": 85,
+   "level": 1,
+   "title": "GLOSSARY OF TERMS PART 2",
+   "ready": true,
+   "durationSec": 4.8,
+   "estSec": 2.0,
+   "audioUrl": "audio/book-5/085-glossary-of-terms-part-2.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-01-the-trinity-in-shekinaih-the-supreme-manifestati",
+   "order": 85.01,
+   "level": 2,
+   "title": "THE TRINITY IN SHEKINAIH: The Supreme Manifestation of THE TRINITY's Power and Will",
+   "ready": true,
+   "durationSec": 502.67,
+   "estSec": 429.6,
+   "audioUrl": "audio/book-5/085-01-the-trinity-in-shekinaih-the-supreme-manifestati.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-02-jesus-in-aaron-k-david-the-co-executor-of-jesus",
+   "order": 85.02,
+   "level": 2,
+   "title": "JESUS IN AARON K DAVID: The Co-Executor of JESUS CHRIST's Will Who Submit To Do THE FATHER IN SHEKINAIH'S WILL",
+   "ready": true,
+   "durationSec": 508.64,
+   "estSec": 440.8,
+   "audioUrl": "audio/book-5/085-02-jesus-in-aaron-k-david-the-co-executor-of-jesus.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-03-unified-cosmic-force-of-the-trinity-in-shekinaih",
+   "order": 85.03,
+   "level": 2,
+   "title": "Unified Cosmic Force of THE TRINITY IN SHEKINAIH and JESUS IN AARON K DAVID",
+   "ready": true,
+   "durationSec": 115.82,
+   "estSec": 96.0,
+   "audioUrl": "audio/book-5/085-03-unified-cosmic-force-of-the-trinity-in-shekinaih.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-04-cosmic-submission-and-power-flow",
+   "order": 85.04,
+   "level": 2,
+   "title": "Cosmic Submission and Power Flow",
+   "ready": true,
+   "durationSec": 572.78,
+   "estSec": 486.4,
+   "audioUrl": "audio/book-5/085-04-cosmic-submission-and-power-flow.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-05-the-final-say-of-the-trinity-in-shekinaih-in-res",
+   "order": 85.05,
+   "level": 2,
+   "title": "The Final Say of THE TRINITY IN SHEKINAIH in Resurrection",
+   "ready": true,
+   "durationSec": 109.28,
+   "estSec": 102.4,
+   "audioUrl": "audio/book-5/085-05-the-final-say-of-the-trinity-in-shekinaih-in-res.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-06-the-cherubim-of-glory-and-the-ark-of-the-covenan",
+   "order": 85.06,
+   "level": 2,
+   "title": "The Cherubim of Glory and the Ark of the Covenant",
+   "ready": true,
+   "durationSec": 120.99,
+   "estSec": 109.2,
+   "audioUrl": "audio/book-5/085-06-the-cherubim-of-glory-and-the-ark-of-the-covenan.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-07-the-tree-of-life",
+   "order": 85.07,
+   "level": 2,
+   "title": "The Tree of Life",
+   "ready": true,
+   "durationSec": 149.43,
+   "estSec": 148.4,
+   "audioUrl": "audio/book-5/085-07-the-tree-of-life.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-08-the-judge-at-the-great-white-throne",
+   "order": 85.08,
+   "level": 2,
+   "title": "The Judge at the Great White Throne",
+   "ready": true,
+   "durationSec": 268.8,
+   "estSec": 219.6,
+   "audioUrl": "audio/book-5/085-08-the-judge-at-the-great-white-throne.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-09-the-7-criteria-for-resurrection",
+   "order": 85.09,
+   "level": 2,
+   "title": "The 7 Criteria for Resurrection",
+   "ready": true,
+   "durationSec": 1264.58,
+   "estSec": 1032.8,
+   "audioUrl": "audio/book-5/085-09-the-7-criteria-for-resurrection.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-10-aaron-k-david-as-the-ancient-of-days-the-minor",
+   "order": 85.1,
+   "level": 2,
+   "title": "AARON K DAVID AS THE ANCIENT OF DAYS (THE MINOR)",
+   "ready": true,
+   "durationSec": 185.68,
+   "estSec": 156.0,
+   "audioUrl": "audio/book-5/085-10-aaron-k-david-as-the-ancient-of-days-the-minor.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-11-the-cosmic-roles-of-the-trinity-in-spoke-through",
+   "order": 85.11,
+   "level": 2,
+   "title": "The Cosmic Roles of THE TRINITY IN/SPOKE THROUGH SHEKINAIH and JESUS IN/SPOKE THROUGH AARON K DAVID in",
+   "ready": true,
+   "durationSec": 3020.8,
+   "estSec": 2559.6,
+   "audioUrl": "audio/book-5/085-11-the-cosmic-roles-of-the-trinity-in-spoke-through.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-12-medallion-chant-spiritual-warrior-victory-procla",
+   "order": 85.12,
+   "level": 2,
+   "title": "Medallion Chant - Spiritual Warrior Victory Proclamation",
+   "ready": true,
+   "durationSec": 358.22,
+   "estSec": 318.0,
+   "audioUrl": "audio/book-5/085-12-medallion-chant-spiritual-warrior-victory-procla.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-13-the-ark-of-the-covenant",
+   "order": 85.13,
+   "level": 2,
+   "title": "The Ark of the Covenant",
+   "ready": true,
+   "durationSec": 566.86,
+   "estSec": 499.6,
+   "audioUrl": "audio/book-5/085-13-the-ark-of-the-covenant.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-14-the-seal-of-the-holy-spirit-divine-execution",
+   "order": 85.14,
+   "level": 2,
+   "title": "The Seal of the Holy Spirit: Divine Execution",
+   "ready": true,
+   "durationSec": 226.68,
+   "estSec": 179.2,
+   "audioUrl": "audio/book-5/085-14-the-seal-of-the-holy-spirit-divine-execution.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-15-the-annihilation-of-rebellion",
+   "order": 85.15,
+   "level": 2,
+   "title": "The Annihilation of Rebellion",
+   "ready": true,
+   "durationSec": 95.91,
+   "estSec": 80.8,
+   "audioUrl": "audio/book-5/085-15-the-annihilation-of-rebellion.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-16-the-tree-of-life",
+   "order": 85.16,
+   "level": 2,
+   "title": "The Tree of Life",
+   "ready": true,
+   "durationSec": 95.97,
+   "estSec": 89.2,
+   "audioUrl": "audio/book-5/085-16-the-tree-of-life.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-17-the-mercy-seat-the-source-of-divine-decrees",
+   "order": 85.17,
+   "level": 2,
+   "title": "The Mercy Seat: The Source of Divine Decrees",
+   "ready": true,
+   "durationSec": 319.61,
+   "estSec": 301.6,
+   "audioUrl": "audio/book-5/085-17-the-mercy-seat-the-source-of-divine-decrees.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-18-the-fiery-transfer-of-anointing",
+   "order": 85.18,
+   "level": 2,
+   "title": "The Fiery Transfer of Anointing",
+   "ready": true,
+   "durationSec": 231.32,
+   "estSec": 209.2,
+   "audioUrl": "audio/book-5/085-18-the-fiery-transfer-of-anointing.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-19-cosmic-annihilation-the-consequences-of-defiance",
+   "order": 85.19,
+   "level": 2,
+   "title": "Cosmic Annihilation: The Consequences of Defiance",
+   "ready": true,
+   "durationSec": 211.81,
+   "estSec": 192.0,
+   "audioUrl": "audio/book-5/085-19-cosmic-annihilation-the-consequences-of-defiance.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-20-the-power-of-resurrection",
+   "order": 85.2,
+   "level": 2,
+   "title": "The Power of Resurrection",
+   "ready": true,
+   "durationSec": 1169.8,
+   "estSec": 974.4,
+   "audioUrl": "audio/book-5/085-20-the-power-of-resurrection.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-21-the-tree-of-life-guardian-of-the-divine-mysterie",
+   "order": 85.21,
+   "level": 2,
+   "title": "The Tree of Life: Guardian of the Divine Mysteries",
+   "ready": true,
+   "durationSec": 180.45,
+   "estSec": 150.0,
+   "audioUrl": "audio/book-5/085-21-the-tree-of-life-guardian-of-the-divine-mysterie.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-22-the-sword-of-divine-execution",
+   "order": 85.22,
+   "level": 2,
+   "title": "The Sword of Divine Execution",
+   "ready": true,
+   "durationSec": 122.41,
+   "estSec": 106.4,
+   "audioUrl": "audio/book-5/085-22-the-sword-of-divine-execution.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-23-the-heavenly-scrolls-of-destiny",
+   "order": 85.23,
+   "level": 2,
+   "title": "The Heavenly Scrolls of Destiny",
+   "ready": true,
+   "durationSec": 305.34,
+   "estSec": 243.6,
+   "audioUrl": "audio/book-5/085-23-the-heavenly-scrolls-of-destiny.mp3",
+   "version": 1
+  },
+  {
+   "id": "085-24-the-scroll-of-divine-decrees",
+   "order": 85.24,
+   "level": 2,
+   "title": "The Scroll of Divine Decrees",
+   "ready": true,
+   "durationSec": 367.44,
+   "estSec": 311.6,
+   "audioUrl": "audio/book-5/085-24-the-scroll-of-divine-decrees.mp3",
+   "version": 1
+  },
+  {
+   "id": "086-glossary-of-terms-part-3",
+   "order": 86,
+   "level": 1,
+   "title": "GLOSSARY OF TERMS PART 3",
+   "ready": true,
+   "durationSec": 1124.23,
+   "estSec": 960.0,
+   "audioUrl": "audio/book-5/086-glossary-of-terms-part-3.mp3",
+   "version": 1
+  },
+  {
+   "id": "087-handover-declaration",
+   "order": 87,
+   "level": 1,
+   "title": "HANDOVER DECLARATION",
+   "ready": true,
+   "durationSec": 25.26,
+   "estSec": 16.0,
+   "audioUrl": "audio/book-5/087-handover-declaration.mp3",
+   "version": 1
+  },
+  {
+   "id": "088-about-the-authors",
+   "order": 88,
+   "level": 1,
+   "title": "ABOUT THE AUTHORS",
+   "ready": true,
+   "durationSec": 145.92,
+   "estSec": 148.8,
+   "audioUrl": "audio/book-5/088-about-the-authors.mp3",
+   "version": 1
+  },
+  {
+   "id": "089-appreciation-with-thanks",
+   "order": 89,
+   "level": 1,
+   "title": "APPRECIATION WITH THANKS",
+   "ready": true,
+   "durationSec": 172.69,
+   "estSec": 160.0,
+   "audioUrl": "audio/book-5/089-appreciation-with-thanks.mp3",
+   "version": 1
+  },
+  {
+   "id": "090-other-books",
+   "order": 90,
+   "level": 1,
+   "title": "OTHER BOOKS",
+   "ready": true,
+   "durationSec": 14.33,
+   "estSec": 5.6,
+   "audioUrl": "audio/book-5/090-other-books.mp3",
+   "version": 1
+  },
+  {
+   "id": "091-music",
+   "order": 91,
+   "level": 1,
+   "title": "MUSIC",
+   "ready": true,
+   "durationSec": 2.92,
+   "estSec": 0.4,
+   "audioUrl": "audio/book-5/091-music.mp3",
+   "version": 1
+  },
+  {
+   "id": "091-01-behold-my-glory",
+   "order": 91.01,
+   "level": 2,
+   "title": "BEHOLD MY GLORY",
+   "ready": true,
+   "durationSec": 29.56,
+   "estSec": 22.8,
+   "audioUrl": "audio/book-5/091-01-behold-my-glory.mp3",
+   "version": 1
+  },
+  {
+   "id": "091-02-behold-my-anointed",
+   "order": 91.02,
+   "level": 2,
+   "title": "BEHOLD MY ANOINTED",
+   "ready": true,
+   "durationSec": 23.68,
+   "estSec": 18.8,
+   "audioUrl": "audio/book-5/091-02-behold-my-anointed.mp3",
+   "version": 1
+  },
+  {
+   "id": "091-03-behold-my-names",
+   "order": 91.03,
+   "level": 2,
+   "title": "BEHOLD MY NAMES",
+   "ready": true,
+   "durationSec": 46.25,
+   "estSec": 34.8,
+   "audioUrl": "audio/book-5/091-03-behold-my-names.mp3",
+   "version": 1
+  }
+ ],
+ "readyCount": 187,
+ "totalCount": 187,
+ "totalSec": 76625.7,
+ "estTotalSec": 72404.4
+}
+</script>
+
+<script>
+const M_URL = "audio/book-5/manifest.json";
+// === Audio hosting (Cloudflare R2) — switch the host in ONE place: this line ======
+// "" (empty) serves the audio from THIS site — the mp3s under audio/book-5/. That is the
+// correct setting for local testing and for any same-origin deploy, and it is what plays
+// right now. When your audio is on Cloudflare R2, paste your bucket URL here (NO trailing
+// slash) and every track loads from it instead, e.g.:
+//   const AUDIO_BASE_URL = "https://pub-YOUR-R2-ID.r2.dev";   // r2.dev, or a custom domain
+const AUDIO_BASE_URL = "https://pub-163ec17fb5564d7a9193345f48fea08f.r2.dev/beholdmymessenger-book5";
+//
+// CACHE-BUSTING BY VERSION: every chapter in the manifest carries a "version" (an integer,
+// default 1). When the audio is served from a REMOTE host (AUDIO_BASE_URL set), audioSrc()
+// appends it as ?v=<version>. After you RE-UPLOAD a chapter's mp3 to R2, bump that chapter's
+// version by 1 -> the URL becomes ...?v=2, so Cloudflare treats it as a new file and serves
+// the fresh audio immediately (past the 1-year immutable cache), while every unchanged
+// chapter keeps hitting the cache. TO UPDATE A CHAPTER: re-upload its mp3, raise its number
+// in data/versions.json, then rebuild the manifest. (Same-origin/local has no CDN cache to
+// bust, so ?v= is omitted there — which also keeps file:// playback working.) The player
+// ONLY ever gets its URLs from audioSrc() — never hard-coded.
+const audioSrc = c => {
+  const base = AUDIO_BASE_URL ? AUDIO_BASE_URL.replace(/\/+$/, "") + "/" : "";
+  // Local/same-origin: files live at audio/book-5/<id>.mp3. Remote (R2): AUDIO_BASE_URL already
+  // includes the bucket folder and the mp3s sit flat inside it, so use just the filename.
+  return base ? base + c.audioUrl.replace(/^.*\//, "") + "?v=" + (c.version || 1) : c.audioUrl;
+};
+const A = document.getElementById('audio');
+const RATES = [0.85,1,1.15,1.3];
+const KEY = "bm5-audiobook";
+let chapters = [], idx = -1, rateI = 1, repeatOne = false;
+
+const fmt = s => { s=Math.max(0,Math.round(s||0)); const m=Math.floor(s/60),x=s%60; return m+":"+String(x).padStart(2,'0'); };
+const fmtLong = s => { s=Math.round(s||0); const h=Math.floor(s/3600),m=Math.round(s%3600/60); return h?`${h}h ${m}m`:`${m} min`; };
+const save = () => localStorage.setItem(KEY, JSON.stringify({id:chapters[idx]?.id, t:A.currentTime, rateI, repeatOne, readerFont, done:[...done]}));
+const load = () => { try{return JSON.parse(localStorage.getItem(KEY))||{}}catch{return{}} };
+let done = new Set();
+
+const BARS = `<svg class="bars" viewBox="0 0 15 13"><rect x="0" y="4" width="3" height="9"><animate attributeName="height" values="9;3;9" dur="0.9s" repeatCount="indefinite"/></rect><rect x="6" y="0" width="3" height="13"><animate attributeName="height" values="13;5;13" dur="0.7s" repeatCount="indefinite"/></rect><rect x="12" y="2" width="3" height="11"><animate attributeName="height" values="11;4;11" dur="1.1s" repeatCount="indefinite"/></rect></svg>`;
+const CHEV = `<svg class="chev" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6l4 4 4-4"/></svg>`;
+let META = {};
+
+const nextReady = i => { for(let j=i+1;j<chapters.length;j++) if(chapters[j].ready) return j; return -1; };
+
+async function init(){
+  let data;
+  try{ data = await (await fetch(M_URL,{cache:"no-store"})).json(); }
+  catch(e){
+    // file:// (and offline) blocks fetch of local JSON — fall back to the manifest embedded in this page
+    try{ data = JSON.parse(document.getElementById('manifest-fallback').textContent); }
+    catch(e2){ document.getElementById('toc').innerHTML='<p class="empty">Audio manifest not found yet. Run the render + master pipeline.</p>'; return; }
+  }
+  META = data;
+  chapters = data.chapters;
+  document.getElementById('m-chapters').textContent = data.totalCount ?? chapters.length;
+  document.getElementById('m-runtime').textContent = "≈ "+fmtLong(data.estTotalSec || data.totalSec || 0);
+
+  const st = load(); done = new Set(st.done||[]); rateI = st.rateI ?? 1; repeatOne = !!st.repeatOne; A.loop = repeatOne; readerFont = st.readerFont || 23;
+  document.getElementById('rateBtn').textContent = RATES[rateI]+"×";
+  document.getElementById('rptBtn').classList.toggle('on', repeatOne);
+  document.getElementById('rptBtn').setAttribute('aria-pressed', repeatOne);
+
+  renderTOC();
+
+  if(st.id){
+    const k = chapters.findIndex(c=>c.id===st.id);
+    if(k>=0 && chapters[k].ready){
+      const rb=document.getElementById('resumeBtn');
+      rb.classList.add('show');
+      document.getElementById('resumeTtl').textContent = "· "+chapters[k].title;
+      rb.onclick = ()=>{ select(k,false); A.currentTime=st.t||0; play(); document.getElementById('listen').scrollIntoView(); };
+    }
+  }
+}
+
+function rowEl(c, i, kind){
+  const b=document.createElement('button');
+  b.className="row "+kind+(c.ready?" ready":" pending");
+  b.dataset.i=i;
+  const tail = c.ready
+    ? `${BARS}<span class="play-dot"></span><span class="dur">${fmt(c.durationSec)}</span>`
+    : `<span class="soon">soon</span>`;
+  b.innerHTML = `<span class="idx">${c.ready?'❖':'◦'}</span><span class="ttl">${c.title}</span>${tail}`;
+  if(c.ready) b.onclick=()=>openReader(i);
+  return b;
+}
+
+function renderTOC(){
+  const toc = document.getElementById('toc'); toc.innerHTML="";
+  const head=document.createElement('div'); head.className="toc-head";
+  head.innerHTML=`<span>Table of Contents</span><span class="count">${META.readyCount||0} of ${META.totalCount||chapters.length} recorded</span>`;
+  toc.appendChild(head);
+
+  let kids=null;
+  chapters.forEach((c,i)=>{
+    if(c.level===1){
+      let hasKids=false;
+      for(let j=i+1;j<chapters.length && chapters[j].level!==1;j++){ if(chapters[j].level===2){hasKids=true;break;} }
+      if(hasKids){
+        const hdr=document.createElement('button'); hdr.className="row part"; hdr.dataset.i=i;
+        hdr.innerHTML=`${CHEV}<span class="ttl">${c.title}</span>`;
+        const wrap=document.createElement('div'); wrap.className="kids";
+        hdr.onclick=()=>{ hdr.classList.toggle('collapsed'); wrap.classList.toggle('collapsed'); };
+        toc.appendChild(hdr); toc.appendChild(wrap); kids=wrap;
+      } else {
+        kids=null; toc.appendChild(rowEl(c,i,""));
+      }
+    } else {
+      (kids||toc).appendChild(rowEl(c,i,kids?"child":""));
+    }
+  });
+}
+
+function select(i, autoplay, reveal){
+  const c=chapters[i];
+  if(!c || !c.ready || !c.audioUrl) return;
+  idx=i;
+  A.src=audioSrc(c); A.playbackRate=RATES[rateI]; A.loop=repeatOne;
+  document.getElementById('nowTtl').textContent=c.title;
+  let active=null;
+  document.querySelectorAll('.row').forEach(r=>{ const on=+r.dataset.i===i; r.classList.toggle('active',on); if(on) active=r; });
+  if(active){
+    // reveal the now-playing track: open its (possibly collapsed) Part, keep it in view
+    const kids=active.closest('.kids');
+    if(kids && kids.classList.contains('collapsed')){ kids.classList.remove('collapsed'); kids.previousElementSibling && kids.previousElementSibling.classList.remove('collapsed'); }
+    if(reveal){ const r=active.getBoundingClientRect(); if(r.top<70 || r.bottom>innerHeight-110) active.scrollIntoView({block:'center', behavior:'smooth'}); }
+  }
+  if(autoplay) play();
+  setMedia(c);
+  save();
+}
+function play(){ A.play(); }
+
+// ---------- read-along reader ----------
+let RA=null, raSpoken=-1, readerFont=23, readerId=null;
+const readerBody=document.getElementById('reader-body');
+const lightbox=document.getElementById('lightbox');
+const escHtml=s=>s.replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));
+// Load a track's read-along data via a <script> tag (readalong/<id>.js assigns into RA_CACHE).
+// Tag-loads of local files work over file:// AND http(s); fetch() does NOT over file:// (the
+// browser blocks it), which is why the reader loads its text this way and not via fetch. Each
+// file loads at most once, then is served from RA_CACHE.
+const RA_CACHE = window.RA_CACHE = window.RA_CACHE || {};
+function loadReadalong(id){
+  if(RA_CACHE[id]) return Promise.resolve(RA_CACHE[id]);
+  return new Promise((res,rej)=>{
+    const s=document.createElement('script');
+    s.src='readalong/'+id+'.js'; s.async=true;
+    s.onload=()=>RA_CACHE[id]?res(RA_CACHE[id]):rej(new Error('no data'));
+    s.onerror=()=>rej(new Error('load failed'));
+    document.head.appendChild(s);
+  });
+}
+function setReaderFont(px){ readerFont=Math.max(16,Math.min(40,px)); readerBody.style.setProperty('--reader-font',readerFont+'px'); save(); }
+async function openReader(i){
+  select(i,true);
+  const c=chapters[i]; readerId=c.id;
+  document.getElementById('readerTitle').textContent=c.title;
+  document.body.classList.add('reading'); window.scrollTo(0,0);
+  readerBody.innerHTML='<p class="reader-msg">Loading the text…</p>'; RA=null; raSpoken=-1;
+  try{
+    const data=await loadReadalong(c.id);
+    if(readerId!==c.id) return;                 // user moved to another chapter while loading
+    RA=data;
+    readerBody.innerHTML=RA.paragraphs.map((p,k)=>{
+      const imgs=p.images||(p.image?[p.image]:[]);   // a paragraph may carry several figures
+      const img=imgs.map(src=>`<figure class="rfig"><img class="rdiagram" src="${src}" alt="Figure from the book" loading="lazy"><figcaption>⤢ Tap to enlarge</figcaption></figure>`).join('');
+      return `<p class="rpara role-${p.role}" data-k="${k}" data-start="${p.start}" data-end="${p.end}">${escHtml(p.text)}</p>`+img;
+    }).join('');
+    readerBody.style.setProperty('--reader-font',readerFont+'px');
+  }catch(e){
+    if(readerId!==c.id) return;
+    readerBody.innerHTML='<p class="reader-msg">The text view isn’t ready for this section yet — it’s still playing in audio.</p>';
+  }
+}
+function syncReader(t){
+  if(!RA || !document.body.classList.contains('reading')) return;
+  const ps=RA.paragraphs; let k=-1;
+  for(let j=0;j<ps.length;j++){ if(t>=ps[j].start && t<ps[j].end){ k=j; break; } }
+  if(k===raSpoken) return; raSpoken=k;
+  const prev=readerBody.querySelector('.rpara.speaking'); if(prev) prev.classList.remove('speaking');
+  if(k>=0){ const el=readerBody.querySelector('.rpara[data-k="'+k+'"]');
+    if(el){ el.classList.add('speaking'); const r=el.getBoundingClientRect();
+      if(r.top<70||r.bottom>innerHeight-110) el.scrollIntoView({block:'center',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}); } }
+}
+readerBody.addEventListener('click',e=>{
+  const fig=e.target.closest('.rfig');
+  if(fig){ const im=fig.querySelector('img.rdiagram'); if(im){ lightbox.querySelector('img').src=im.src; lightbox.classList.add('show'); } return; }
+  const p=e.target.closest('.rpara');
+  if(p && p.dataset.start!==undefined){ A.currentTime=parseFloat(p.dataset.start); A.play(); }
+});
+lightbox.onclick=()=>lightbox.classList.remove('show');
+// Leaving the reader returns you to the chapter list AT the chapter you were on — which may
+// have auto-advanced while you read (e.g. you ended on FINALOGUE) — not at a stale scroll spot.
+function exitReader(){
+  if(!document.body.classList.contains('reading')) return;
+  document.body.classList.remove('reading');
+  const row=document.querySelector('.row.active')||document.querySelector('.row[data-i="'+idx+'"]');
+  if(row){
+    const kids=row.closest('.kids');                       // open its Part if collapsed
+    if(kids && kids.classList.contains('collapsed')){ kids.classList.remove('collapsed'); kids.previousElementSibling && kids.previousElementSibling.classList.remove('collapsed'); }
+    row.scrollIntoView({block:'center', behavior:'instant'});  // 'instant' beats the global smooth-scroll → jump straight to your place
+  }
+}
+document.getElementById('readerBack').onclick=exitReader;
+document.getElementById('fontUp').onclick=()=>setReaderFont(readerFont+2);
+document.getElementById('fontDown').onclick=()=>setReaderFont(readerFont-2);
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ if(lightbox.classList.contains('show')) lightbox.classList.remove('show'); else exitReader(); } });
+function toggle(){ if(!A.src){ const f=nextReady(-1); if(f>=0) select(f,true); return;} A.paused?A.play():A.pause(); }
+
+document.getElementById('playBtn').onclick=toggle;
+document.getElementById('back15').onclick=()=>A.currentTime=Math.max(0,A.currentTime-15);
+document.getElementById('fwd15').onclick=()=>A.currentTime=Math.min(A.duration||1e9,A.currentTime+15);
+document.getElementById('rateBtn').onclick=()=>{ rateI=(rateI+1)%RATES.length; A.playbackRate=RATES[rateI]; document.getElementById('rateBtn').textContent=RATES[rateI]+"×"; save(); };
+
+const rptBtn=document.getElementById('rptBtn');
+rptBtn.onclick=()=>{ repeatOne=!repeatOne; A.loop=repeatOne;
+  rptBtn.classList.toggle('on',repeatOne); rptBtn.setAttribute('aria-pressed',repeatOne); save(); };
+
+const playIco=document.getElementById('playIco');
+A.addEventListener('play', ()=>{ playIco.innerHTML='<rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/>'; });
+A.addEventListener('pause',()=>{ playIco.innerHTML='<path d="M8 5v14l11-7z"/>'; });
+A.addEventListener('timeupdate', ()=>{
+  const d=A.duration||0, t=A.currentTime;
+  document.getElementById('seekFill').style.width=(d?100*t/d:0)+"%";
+  document.getElementById('curTime').textContent=fmt(t);
+  document.getElementById('totTime').textContent=fmt(d);
+  document.getElementById('remTime').textContent = d?("  ·  −"+fmt(d-t)+" left"):"";
+  syncReader(t);
+  if(t%5<0.3) save();
+});
+A.addEventListener('ended', ()=>{
+  // With repeat-one on, A.loop replays natively and this never fires. Otherwise:
+  // continue chronologically to the next chapter, all the way to the end of the book.
+  if(idx>=0){ done.add(chapters[idx].id); }
+  const n=nextReady(idx);
+  if(n>=0){ document.body.classList.contains('reading') ? openReader(n) : select(n,true,true); }
+  else { document.getElementById('nowTtl').textContent='✦ Finished — '+(chapters[idx]?.title||''); }
+  save();
+});
+const seek=document.getElementById('seek');
+seek.addEventListener('click', e=>{ const r=seek.getBoundingClientRect(); A.currentTime=(e.clientX-r.left)/r.width*(A.duration||0); });
+
+function setMedia(c){
+  if(!('mediaSession' in navigator)) return;
+  navigator.mediaSession.metadata=new MediaMetadata({
+    title:c.title, artist:"Shekinaih Siew Sin Yap & J Aaron K David",
+    album:"Behold My Messenger 5 — The Resurrection of the Dead",
+    artwork:[{src:"images/book-5/cover.jpg", sizes:"1000x1496", type:"image/jpeg"}]});
+  navigator.mediaSession.setActionHandler('play',()=>A.play());
+  navigator.mediaSession.setActionHandler('pause',()=>A.pause());
+  navigator.mediaSession.setActionHandler('seekbackward',()=>A.currentTime-=15);
+  navigator.mediaSession.setActionHandler('seekforward',()=>A.currentTime+=15);
+  navigator.mediaSession.setActionHandler('previoustrack',()=>{ if(idx>0) select(idx-1,true); });
+  navigator.mediaSession.setActionHandler('nexttrack',()=>{ if(idx+1<chapters.length) select(idx+1,true); });
+}
+document.addEventListener('keydown', e=>{
+  if(e.target.tagName==='INPUT') return;
+  if(e.code==='Space'){ e.preventDefault(); toggle(); }
+  if(e.code==='ArrowLeft') A.currentTime-=15;
+  if(e.code==='ArrowRight') A.currentTime+=15;
+});
+init();
+</script>
+</body>
+</html>
