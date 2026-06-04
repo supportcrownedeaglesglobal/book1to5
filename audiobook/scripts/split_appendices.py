@@ -36,6 +36,8 @@ TARGET_MIN_SEC = 60      # ignore tracks shorter than this (and title-only split
 LONG_TRACK_SEC = 600     # tracks longer than this use the coarse floor
 FLOOR_LONG    = 90       # sub-part floor for long tracks (avoid hundreds of fragments)
 FLOOR_SHORT   = 20       # sub-part floor for short tracks (still split per bookmarks)
+MAX_PART_SEC  = 15 * 60  # hard cap: a sub-part with no further sub-headings is still chopped
+                         # into ~15-min chunks at paragraph boundaries so nothing is unwieldy
 WPS           = 138 / 60.0  # rough words/sec, only used to size sub-parts
 
 WEB_AUDIO = C.WEB   # where the site serves this book's audio + manifest
@@ -89,6 +91,25 @@ def compute_parts(segs, parent_title, min_sec):
         if sum(est_seg(segs[i]) for i in range(s0, e0)) < min_sec:
             children[1][0] = s0
             children.pop(0)
+
+    # hard length cap: a child with no further sub-headings can still run long — chop it into
+    # ~MAX_PART_SEC chunks at paragraph boundaries so no section is unwieldy to navigate.
+    import math
+    capped = []
+    for s, e, title in children:
+        dur = sum(est_seg(segs[i]) for i in range(s, e))
+        if dur <= MAX_PART_SEC or e - s <= 2:
+            capped.append([s, e, title]); continue
+        nsub = math.ceil(dur / MAX_PART_SEC); target = dur / nsub
+        cs, acc, made = s, 0.0, 0
+        for i in range(s, e):
+            acc += est_seg(segs[i])
+            if acc >= target and made < nsub - 1 and i + 1 < e:
+                made += 1
+                capped.append([cs, i + 1, title if made == 1 else f"{title} (cont. {made})"])
+                cs, acc = i + 1, 0.0
+        capped.append([cs, e, title if made == 0 else f"{title} (cont. {made + 1})"])
+    children = capped
 
     if len(children) < 2:
         return [[0, len(segs), parent_title]]                  # not worth splitting

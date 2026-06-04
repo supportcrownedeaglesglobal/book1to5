@@ -8,7 +8,15 @@
    {
     "role": "body",
     "text": "We do not belong to any Christian Organization, Denomina- tion or Movement. THE ELOHIM is our source and reward in all that we do."
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-01-title-page-introduction",
+  "order": 1.01,
+  "level": 2,
+  "title": "Title Page — Introduction",
+  "segments": [
    {
     "role": "body",
     "text": "Jer 17:5 Thus saith THE YAHWEH; cursed be the champion (H1397 \"geber\", a valiant man or warrior) that trusteth in man, and ma- keth flesh his arm, and whose heart departeth from THE YAH- WEH."
@@ -76,7 +84,15 @@
    {
     "role": "body",
     "text": "Crowned Eagles Global www.crownedeaglesglobal.org"
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-02-contents",
+  "order": 1.02,
+  "level": 2,
+  "title": "CONTENTS",
+  "segments": [
    {
     "role": "heading",
     "text": "CONTENTS"
@@ -736,7 +752,15 @@
    {
     "role": "body",
     "text": "Behold, My Beloved,"
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-03-foreword-1",
+  "order": 1.03,
+  "level": 2,
+  "title": "FOREWORD 1",
+  "segments": [
    {
     "role": "heading",
     "text": "FOREWORD 1"
@@ -788,7 +812,15 @@
    {
     "role": "body",
     "text": "JESUS"
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-04-foreword-2",
+  "order": 1.04,
+  "level": 2,
+  "title": "FOREWORD 2",
+  "segments": [
    {
     "role": "heading",
     "text": "FOREWORD 2"
@@ -876,7 +908,15 @@
    {
     "role": "body",
     "text": "THE TRINITY"
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-05-preface",
+  "order": 1.05,
+  "level": 2,
+  "title": "PREFACE",
+  "segments": [
    {
     "role": "heading",
     "text": "PREFACE"
@@ -904,7 +944,15 @@
    {
     "role": "body",
     "text": "JESUS"
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-06-prologue",
+  "order": 1.06,
+  "level": 2,
+  "title": "PROLOGUE",
+  "segments": [
    {
     "role": "heading",
     "text": "PROLOGUE"
@@ -940,7 +988,15 @@
    {
     "role": "body",
     "text": "Niagara Falls and Hoover Dam"
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-07-the-thief",
+  "order": 1.07,
+  "level": 2,
+  "title": "THE THIEF",
+  "segments": [
    {
     "role": "heading",
     "text": "THE THIEF"
@@ -1052,7 +1108,15 @@
    {
     "role": "body",
     "text": "BEHOLD MY NAMES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-08-changing-the-names",
+  "order": 1.08,
+  "level": 2,
+  "title": "CHANGING THE NAMES",
+  "segments": [
    {
     "role": "heading",
     "text": "CHANGING THE NAMES"
@@ -1072,7 +1136,15 @@
    {
     "role": "body",
     "text": "the children of Adam through our two representatives, for we have revealed ourselves to both of you concerning who we really were before, are now, and will be in the future. We have never changed since the beginning of time. I, THE YAH- WEH JESUS CHRIST representing THE FATHER, am the same yesterday, today, and forever. I am neither the tyrant God of the Old Testament, nor the soft God of today, nor the heart- less God of the Book of Revelation, as some perceive in their mind,\" JESUS replied."
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-09-jesus-was-sent-to-manifest-the-father-s-name",
+  "order": 1.09,
+  "level": 2,
+  "title": "JESUS WAS SENT TO MANIFEST THE FATHER'S NAME",
+  "segments": [
    {
     "role": "heading",
     "text": "JESUS WAS SENT TO MANIFEST THE FATHER'S NAME"
@@ -1188,7 +1260,15 @@
    {
     "role": "body",
     "text": "You have received my true doctrine, and as my teacher of righteousness, from your mouth shall drop manna of dew of real eternal life to my elect as you proclaim the way of the Seven Names of my FATHER. You shall contend for my elect and comfort them when they are pressed out of measure, above strength, insomuch that they despaired even of life in their tribulations. You are our glittering sword and our hand, and shall take hold on judgments and render vengeance to my enemies who persecute my elect, and reward them that hate me, and avenge the blood of my servants, my elect. As I can do nothing of myself but do what I see my FATHER does, you shall also not be able to do anything of yourselves except being instructed by my FATHER."
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-10-the-one-the-revenger",
+  "order": 1.1,
+  "level": 2,
+  "title": "THE ONE = THE REVENGER",
+  "segments": [
    {
     "role": "heading",
     "text": "THE ONE = THE REVENGER"
@@ -1296,7 +1376,15 @@
    {
     "role": "body",
     "text": "BEHOLD MY NAMES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-11-the-woman-and-the-man-child",
+  "order": 1.11,
+  "level": 2,
+  "title": "THE WOMAN AND THE MAN-CHILD",
+  "segments": [
    {
     "role": "heading",
     "text": "THE WOMAN AND THE MAN-CHILD"
@@ -1376,7 +1464,15 @@
    {
     "role": "body",
     "text": "ACT 1 SCENE 1"
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-12-vengeance-judgment-the-adonai-the-yahweh-sa-baot",
+  "order": 1.12,
+  "level": 2,
+  "title": "VENGEANCE, JUDGMENT, THE ADONAI, THE YAHWEH SA- BAOTH, THE VOICE",
+  "segments": [
    {
     "role": "heading",
     "text": "VENGEANCE, JUDGMENT, THE ADONAI, THE YAHWEH SA- BAOTH, THE VOICE"
@@ -1492,7 +1588,15 @@
    {
     "role": "body",
     "text": "come with fire, and with his chariots like a tornado (H5492 \"suphah\" tornado, storm), to render his anger with fury, and his rebuke with flames of fire. Isa 66:16 For by fire and by his sword will THE YAHWEH plead with all flesh: and the slain of THE YAHWEH shall be many."
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-13-act-1-scene-2",
+  "order": 1.13,
+  "level": 2,
+  "title": "ACT 1 SCENE 2",
+  "segments": [
    {
     "role": "heading",
     "text": "ACT 1 SCENE 2"
@@ -1552,7 +1656,15 @@
    {
     "role": "heading",
     "text": "THE MODUS OPERANDI OF THE TRINITY"
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-14-in-the-beginning",
+  "order": 1.14,
+  "level": 2,
+  "title": "IN THE BEGINNING",
+  "segments": [
    {
     "role": "heading",
     "text": "IN THE BEGINNING"
@@ -1936,7 +2048,15 @@
    {
     "role": "body",
     "text": "SHEKINAIH: I saw a vision of a seven colored rainbow breaking out like a semicircle arch in the sky above the sea represent- ing a new beginning where all things are made anew with no sin. It is a glorious new beginning. Then I saw a vision of a new planet descending from heaven, and the planet is called \"Level 7 - Paradise\". I saw a lot of people from CROWNED EA- GLES GLOBAL on this planet. I saw Abraham, Jessie (Abraham's mother), Jose, and others. I saw myself seated as the Golden Empress on a gold throne representing and ruling on behalf of THE FATHER in the Temple of ELOHIM. David, I also saw you as the Golden Emperor walking in the temple. I saw these words written on this planet \"144,000 under the leadership of Shekinaih and Aaron K David who bear our names\"."
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-15-benefits-of-knowing-his-name",
+  "order": 1.15,
+  "level": 2,
+  "title": "BENEFITS OF KNOWING HIS NAME",
+  "segments": [
    {
     "role": "heading",
     "text": "BENEFITS OF KNOWING HIS NAME"
@@ -2000,7 +2120,15 @@
    {
     "role": "body",
     "text": "THE MODUS OPERANDI OF THE TRINITY"
-   },
+   }
+  ]
+ },
+ {
+  "id": "001-16-the-throne-of-the-trinity",
+  "order": 1.16,
+  "level": 2,
+  "title": "THE THRONE OF THE TRINITY",
+  "segments": [
    {
     "role": "heading",
     "text": "THE THRONE OF THE TRINITY"
@@ -2196,7 +2324,15 @@
    {
     "role": "chapter_title",
     "text": "THE EHYEH"
-   },
+   }
+  ]
+ },
+ {
+  "id": "002-01-act-2-scene-1",
+  "order": 2.01,
+  "level": 2,
+  "title": "ACT 2 SCENE 1",
+  "segments": [
    {
     "role": "heading",
     "text": "ACT 2 SCENE 1"
@@ -2224,7 +2360,15 @@
    {
     "role": "body",
     "text": "hand and laid His hand on Shekinaih's eye and immediately, her whole head began to glow with great light which beamed out a holographic projection of a series of visions that capti- vated David. David then inquired of THE FATHER with his long list of questions............"
-   },
+   }
+  ]
+ },
+ {
+  "id": "002-02-chapter-1",
+  "order": 2.02,
+  "level": 2,
+  "title": "CHAPTER 1",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 1"
@@ -2304,7 +2448,15 @@
    {
     "role": "body",
     "text": "THE MASTERMIND"
-   },
+   }
+  ]
+ },
+ {
+  "id": "002-03-the-mind-of-the-father",
+  "order": 2.03,
+  "level": 2,
+  "title": "THE MIND OF THE FATHER",
+  "segments": [
    {
     "role": "heading",
     "text": "THE MIND OF THE FATHER"
@@ -2400,7 +2552,15 @@
    {
     "role": "body",
     "text": "THE MASTERMIND"
-   },
+   }
+  ]
+ },
+ {
+  "id": "002-04-the-father-playing-chess-with-satan",
+  "order": 2.04,
+  "level": 2,
+  "title": "THE FATHER PLAYING CHESS WITH SATAN",
+  "segments": [
    {
     "role": "heading",
     "text": "THE FATHER PLAYING CHESS WITH SATAN"
@@ -2480,7 +2640,15 @@
    {
     "role": "body",
     "text": "Accidents are created when I, THE EHYEH, permit them to hap- pen when the Devil/Accuser had his proposals approved by us."
-   },
+   }
+  ]
+ },
+ {
+  "id": "002-05-satan-in-heaven",
+  "order": 2.05,
+  "level": 2,
+  "title": "SATAN IN HEAVEN",
+  "segments": [
    {
     "role": "heading",
     "text": "SATAN IN HEAVEN"
@@ -2604,7 +2772,15 @@
    {
     "role": "body",
     "text": "BEHOLD MY NAMES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "002-06-how-the-ehyeh-brain-operates",
+  "order": 2.06,
+  "level": 2,
+  "title": "HOW THE EHYEH BRAIN OPERATES",
+  "segments": [
    {
     "role": "heading",
     "text": "HOW THE EHYEH BRAIN OPERATES"
@@ -2796,7 +2972,15 @@
    {
     "role": "chapter_title",
     "text": "THE YAHWEH"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-01-act-3-scene-1",
+  "order": 3.01,
+  "level": 2,
+  "title": "ACT 3 SCENE 1",
+  "segments": [
    {
     "role": "heading",
     "text": "ACT 3 SCENE 1"
@@ -2836,7 +3020,15 @@
    {
     "role": "body",
     "text": "As Shekinaih and David stood on the green pasture, a gi- ant white screen suddenly appeared out of no where and stood in front of them. Without warning, fire came out of Shekinaih's eyes and the screen was transformed into a fiery vortex and they saw 3D images coming out of it. THE TRINITY then projected themselves out of Shekinaih in the form of a hologram and said to them, \"My eyes are the vortex which links to all the Cosmoses whereby my judgment shall be re- leased, proclaimed and executed.\""
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-02-chapter-1",
+  "order": 3.02,
+  "level": 2,
+  "title": "CHAPTER 1",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 1"
@@ -2936,7 +3128,15 @@
    {
     "role": "body",
     "text": "David, you, as my spotlight representing me, will focus to straighten the crooked, exalt the humble, and make low the proud and haughty while Shekinaih, as the full spectrum of the FATHER'S broadlight, shall heal them and bind them up af- ter she have torn and smitten them because of their wayward walk. (Isa 40:3-5, Hos 6:1-2)"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-03-the-i-we",
+  "order": 3.03,
+  "level": 2,
+  "title": "THE I/WE",
+  "segments": [
    {
     "role": "heading",
     "text": "THE I/WE"
@@ -3076,7 +3276,15 @@
    {
     "role": "body",
     "text": "DAVID: No LORD. My eyes of understanding have been enlight- ened greatly by your astonishing revelation of this mystery. Now I know Shekinaih's and my specific role as the FATHER'S broadlight and your spotlight respectively."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-04-moses-wearing-white",
+  "order": 3.04,
+  "level": 2,
+  "title": "MOSES WEARING WHITE",
+  "segments": [
    {
     "role": "heading",
     "text": "MOSES WEARING WHITE"
@@ -3156,7 +3364,15 @@
    {
     "role": "body",
     "text": "Jer 1:9 Then THE YAHWEH put forth his hand, and touched my mouth. And THE YAHWEH said unto me, Behold, I have put my words in thy mouth. Jer 1:10 See, I have this day set thee over the nations and over the kingdoms, to root out, and to pull down, and to destroy, and to throw down, to build, and to plant. Jer 1:11 Moreover the word of THE YAHWEH came unto me, saying, Jeremiah, what seest thou? And I said, I see a rod of an almond tree [H8247 \"shaqed\" from H4245 \"shaqad\" a primi- tive root, to be alert, that is, sleepless; hence to be on the look out (whether for good or ill): -hasten, remain, wake, watch (for).] Jer 1:12 Then said THE YAHWEH unto me, Thou hast well seen: for I will be hasten (H4245 \"shaqad\" a primitive root, to be alert) concerning (H5921 \"al\") my word to perform it."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-05-act-3-scene-3",
+  "order": 3.05,
+  "level": 2,
+  "title": "ACT 3 SCENE 3",
+  "segments": [
    {
     "role": "heading",
     "text": "ACT 3 SCENE 3"
@@ -3200,7 +3416,15 @@
    {
     "role": "body",
     "text": "1Pe 4:17 For the time is come that judgment must begin at the house of THE ELOHIM: and if it first begin at us, what shall the end be of them that obey not the gospel of THE ELOHIM? 1Pe 4:18 And if the righteous scarcely be saved, where shall the un- godly and the sinner appear?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-06-the-red-dragon-attacking-a-church",
+  "order": 3.06,
+  "level": 2,
+  "title": "THE RED DRAGON ATTACKING A CHURCH",
+  "segments": [
    {
     "role": "heading",
     "text": "THE RED DRAGON ATTACKING A CHURCH"
@@ -3388,7 +3612,15 @@
    {
     "role": "body",
     "text": "David, would you like to know my judgment on my servant Kong Hee of City Harvest Church?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-07-kong-hee-and-sun-ho",
+  "order": 3.07,
+  "level": 2,
+  "title": "KONG HEE AND SUN HO",
+  "segments": [
    {
     "role": "heading",
     "text": "KONG HEE AND SUN HO"
@@ -3608,7 +3840,15 @@
    {
     "role": "body",
     "text": "DAVID: ABBA FATHER, what happened? Did he read the letter?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-08-the-father-no",
+  "order": 3.08,
+  "level": 2,
+  "title": "THE FATHER: No.",
+  "segments": [
    {
     "role": "heading",
     "text": "THE FATHER: No."
@@ -3896,7 +4136,15 @@
    {
     "role": "body",
     "text": "DAVID: ABBA FATHER, what is the morale of their story, this episode on Kong Hee's case and Sun Ho for the church and for the ministers? What are the lessons to be learned?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-09-lessons-to-learn-from-kong-hee-s-case",
+  "order": 3.09,
+  "level": 2,
+  "title": "LESSONS TO LEARN FROM KONG HEE'S CASE",
+  "segments": [
    {
     "role": "heading",
     "text": "LESSONS TO LEARN FROM KONG HEE'S CASE"
@@ -3948,7 +4196,15 @@
    {
     "role": "body",
     "text": "DAVID: ABBA FATHER, what lessons can we learn from Sun Ho's plight?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-10-the-father",
+  "order": 3.1,
+  "level": 2,
+  "title": "THE FATHER:",
+  "segments": [
    {
     "role": "heading",
     "text": "THE FATHER:"
@@ -4032,7 +4288,15 @@
    {
     "role": "body",
     "text": "THE FATHER: JESUS, can you reveal the episode of D.G.S. Dhi- nakaran and his family to them?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-11-d-g-s-dhinakaran-and-paul-dhinakaran",
+  "order": 3.11,
+  "level": 2,
+  "title": "D.G.S. DHINAKARAN AND PAUL DHINAKARAN",
+  "segments": [
    {
     "role": "heading",
     "text": "D.G.S. DHINAKARAN AND PAUL DHINAKARAN"
@@ -4268,7 +4532,15 @@
    {
     "role": "body",
     "text": "DAVID: ABBA FATHER, what can we learn from your dealing with this man?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-12-the-father",
+  "order": 3.12,
+  "level": 2,
+  "title": "THE FATHER:",
+  "segments": [
    {
     "role": "heading",
     "text": "THE FATHER:"
@@ -4304,7 +4576,15 @@
    {
     "role": "body",
     "text": "was very tall in the form of light, and THE FATHER flattened him with his two palms and I heard THE FATHER speaking in Mandarin, \"da hui yuan xing,\" if a person doesn't repent af- ter repeated warnings. This is a Chinese idiom which liter- ally means \"beaten back to the original shape\", figuratively means \"hit back to their humble beginning\"."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-13-paul-dhinakaran",
+  "order": 3.13,
+  "level": 2,
+  "title": "PAUL DHINAKARAN",
+  "segments": [
    {
     "role": "heading",
     "text": "PAUL DHINAKARAN"
@@ -4440,7 +4720,15 @@
    {
     "role": "body",
     "text": "BEHOLD MY NAMES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-14-tan-khian-seng-a-teacher-prophet-in-singapore",
+  "order": 3.14,
+  "level": 2,
+  "title": "TAN KHIAN SENG, A TEACHER/PROPHET IN SINGAPORE",
+  "segments": [
    {
     "role": "heading",
     "text": "TAN KHIAN SENG, A TEACHER/PROPHET IN SINGAPORE"
@@ -4584,7 +4872,15 @@
    {
     "role": "body",
     "text": "Worldwide churches and so on."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-15-joseph-prince-of-new-creation",
+  "order": 3.15,
+  "level": 2,
+  "title": "JOSEPH PRINCE OF NEW CREATION",
+  "segments": [
    {
     "role": "heading",
     "text": "JOSEPH PRINCE OF NEW CREATION"
@@ -4828,7 +5124,15 @@
    {
     "role": "body",
     "text": "You must not indulge yourself in overly stated (branded) material things and be filled with the pride of life, lest your love for me waxes cold eventually."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-16-rony-tan-and-lighthouse-evangelism",
+  "order": 3.16,
+  "level": 2,
+  "title": "RONY TAN AND LIGHTHOUSE EVANGELISM",
+  "segments": [
    {
     "role": "heading",
     "text": "RONY TAN AND LIGHTHOUSE EVANGELISM"
@@ -4968,7 +5272,15 @@
    {
     "role": "body",
     "text": "BEHOLD MY NAMES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-17-lawrence-kong-of-fcbc",
+  "order": 3.17,
+  "level": 2,
+  "title": "LAWRENCE KONG OF FCBC",
+  "segments": [
    {
     "role": "heading",
     "text": "LAWRENCE KONG OF FCBC"
@@ -5224,7 +5536,15 @@
    {
     "role": "body",
     "text": "BEHOLD MY NAMES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-18-benny-hinn",
+  "order": 3.18,
+  "level": 2,
+  "title": "BENNY HINN",
+  "segments": [
    {
     "role": "heading",
     "text": "BENNY HINN"
@@ -5400,7 +5720,15 @@
    {
     "role": "body",
     "text": "JUDGMENT MUST BEGIN"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-19-rick-joyner",
+  "order": 3.19,
+  "level": 2,
+  "title": "RICK JOYNER",
+  "segments": [
    {
     "role": "heading",
     "text": "RICK JOYNER"
@@ -5488,7 +5816,15 @@
    {
     "role": "body",
     "text": "JUDGMENT MUST BEGIN"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-20-those-who-join-the-woman-mystery-babylon",
+  "order": 3.2,
+  "level": 2,
+  "title": "THOSE WHO JOIN THE WOMAN MYSTERY BABYLON",
+  "segments": [
    {
     "role": "heading",
     "text": "THOSE WHO JOIN THE WOMAN MYSTERY BABYLON"
@@ -5520,7 +5856,15 @@
    {
     "role": "body",
     "text": "THE FATHER: Therefore, awake thou, my shepherds, from your slumber, your error, your self-delusion, and your confusion. Stop seeking the easier way out instead of spending time seeking me. All who commit spiritual adultery with the Wom- an Mystery Babylon will end up in perdition or Gehenna. Again I say, for the time is come and judgment must begin at my house before I judge the Cosmoses."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-21-chapter-3",
+  "order": 3.21,
+  "level": 2,
+  "title": "CHAPTER 3",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 3"
@@ -5592,7 +5936,15 @@
    {
     "role": "body",
     "text": "JESUS: David is my representative on Earth including the three realms. The white robe symbolizes that he is arrayed with the robe of glory. His long white trains that wrapped around the globe symbolizes his authority over all the earth and his armies are all over the globe. His height symbolizes his status in earth and heaven, including the three realms."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-22-a-golden-sickle-and-a-pair-of-white-shoes",
+  "order": 3.22,
+  "level": 2,
+  "title": "A GOLDEN SICKLE AND A PAIR OF WHITE SHOES",
+  "segments": [
    {
     "role": "heading",
     "text": "A GOLDEN SICKLE AND A PAIR OF WHITE SHOES"
@@ -5756,7 +6108,15 @@
    {
     "role": "body",
     "text": "Zec 14:9 And THE YAHWEH shall be king over all the earth: in that day shall there be one YAHWEH, with his name united (H259 \"echad\")."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-23-chapter-4",
+  "order": 3.23,
+  "level": 2,
+  "title": "CHAPTER 4",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 4"
@@ -5840,7 +6200,15 @@
    {
     "role": "body",
     "text": "CREATION IN JUSTICE"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-24-the-emanation-of-light",
+  "order": 3.24,
+  "level": 2,
+  "title": "THE EMANATION OF LIGHT",
+  "segments": [
    {
     "role": "heading",
     "text": "THE EMANATION OF LIGHT"
@@ -5948,7 +6316,15 @@
    {
     "role": "body",
     "text": "SHEKINAIH: I saw a vision of a serpent in a garden. As the ser- pent opened his mouth, a tanned, muscular, and hairy man in straw skirt came out of the serpent's mouth and grew larger as he walked out from the mouth of the serpent. He had two bullhorns growing on his bushy head. I saw him giving a fruit to Eve which she ate. She then gave it to Adam and he also ate it. Then I saw the light that clothed them disappeared. Then I saw them in human skins. (Gen 3:1-24)"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-25-satan-and-jesus-betting",
+  "order": 3.25,
+  "level": 2,
+  "title": "SATAN AND JESUS BETTING",
+  "segments": [
    {
     "role": "heading",
     "text": "SATAN AND JESUS BETTING"
@@ -5984,7 +6360,15 @@
    {
     "role": "body",
     "text": "Mat 4:8 Again, the devil taketh him up into an exceeding high mountain, and sheweth him all the kingdoms of the Cosmos- es, and the glory of them; Mat 4:9 And saith unto him, All these things will I give thee, if thou wilt fall down and worship me."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-26-satanists-evolution",
+  "order": 3.26,
+  "level": 2,
+  "title": "SATANISTS' EVOLUTION",
+  "segments": [
    {
     "role": "heading",
     "text": "SATANISTS' EVOLUTION"
@@ -6060,7 +6444,15 @@
    {
     "role": "body",
     "text": "CREATION IN JUSTICE"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-27-the-mighty-angel",
+  "order": 3.27,
+  "level": 2,
+  "title": "THE MIGHTY ANGEL",
+  "segments": [
    {
     "role": "heading",
     "text": "THE MIGHTY ANGEL"
@@ -6092,7 +6484,15 @@
    {
     "role": "body",
     "text": "2Pe 3:10 But the day of THE YAHWEH will come as a thief in the night; in the which the heavens shall pass away with a great noise, and the elements shall melt with fervent heat, the earth also and the works that are therein shall be burned up."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-28-the-new-earth",
+  "order": 3.28,
+  "level": 2,
+  "title": "THE NEW EARTH",
+  "segments": [
    {
     "role": "heading",
     "text": "THE NEW EARTH"
@@ -6132,7 +6532,15 @@
    {
     "role": "body",
     "text": "ANGELS IN JUSTICE"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-29-the-father-s-heart",
+  "order": 3.29,
+  "level": 2,
+  "title": "THE FATHER'S HEART",
+  "segments": [
    {
     "role": "heading",
     "text": "THE FATHER'S HEART"
@@ -6196,7 +6604,15 @@
    {
     "role": "body",
     "text": "HUMANITY IN JUSTICE"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-30-the-world-in-justice",
+  "order": 3.3,
+  "level": 2,
+  "title": "THE WORLD IN JUSTICE",
+  "segments": [
    {
     "role": "heading",
     "text": "THE WORLD IN JUSTICE"
@@ -6292,7 +6708,15 @@
    {
     "role": "body",
     "text": "BEHOLD MY NAMES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-31-countries-in-justice",
+  "order": 3.31,
+  "level": 2,
+  "title": "COUNTRIES IN JUSTICE",
+  "segments": [
    {
     "role": "heading",
     "text": "COUNTRIES IN JUSTICE"
@@ -6364,7 +6788,15 @@
    {
     "role": "body",
     "text": "are the prayers of saints. Rev 5:9 And they sung a restoration (restored to their glorified body) song, saying, Thou art worthy to take the book, and to open the seals thereof: for thou wast slain, and hast redeemed us to THE ELOHIM by thy blood out of every kindred, and tongue, and people, and nation; Rev 5:10 And hast made us unto our ELOHIM kings and priests: and we shall reign on the earth."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-32-continents-in-justice",
+  "order": 3.32,
+  "level": 2,
+  "title": "CONTINENTS IN JUSTICE",
+  "segments": [
    {
     "role": "heading",
     "text": "CONTINENTS IN JUSTICE"
@@ -6488,7 +6920,15 @@
    {
     "role": "body",
     "text": "HUMANITY IN JUSTICE"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-33-countries-that-will-be-judged",
+  "order": 3.33,
+  "level": 2,
+  "title": "COUNTRIES THAT WILL BE JUDGED",
+  "segments": [
    {
     "role": "heading",
     "text": "COUNTRIES THAT WILL BE JUDGED"
@@ -6516,7 +6956,15 @@
    {
     "role": "body",
     "text": "Some of the mingled descendants of the Edomite tree mi- grated to Mexico and the rest to Saudi Arabia, Egypt, Nige- ria, London, United States of America and Germany. Through these nations, they control the world. Therefore, I, THE YAH- WEH, will destroy their cities in the last days with earthquakes and falling stars. As the serpent is cursed by me above all cat- tle, and above every beast of the field, so are these nations."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-34-goat-ministers-and-christians-in-the-continents",
+  "order": 3.34,
+  "level": 2,
+  "title": "GOAT MINISTERS AND CHRISTIANS IN THE CONTINENTS",
+  "segments": [
    {
     "role": "heading",
     "text": "GOAT MINISTERS AND CHRISTIANS IN THE CONTINENTS"
@@ -6592,7 +7040,15 @@
    {
     "role": "body",
     "text": "HUMANITY IN JUSTICE"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-35-young-and-old-in-justice",
+  "order": 3.35,
+  "level": 2,
+  "title": "YOUNG AND OLD IN JUSTICE",
+  "segments": [
    {
     "role": "heading",
     "text": "YOUNG AND OLD IN JUSTICE"
@@ -6636,7 +7092,15 @@
    {
     "role": "body",
     "text": "I, THE YAHWEH, swear in my Holiness that I will not spare them anymore but will visit them and they will drink the wine of my wrath. As they have taken away years from those helpless young and old, years will also be taken out from their very own lives as well their loved ones."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-36-galaxies-in-justice",
+  "order": 3.36,
+  "level": 2,
+  "title": "GALAXIES IN JUSTICE",
+  "segments": [
    {
     "role": "heading",
     "text": "GALAXIES IN JUSTICE"
@@ -6724,7 +7188,15 @@
    {
     "role": "body",
     "text": "2Co 3:17 Now THE YAHWEH is that Spirit: and where the Spir- it of THE YAHWEH is, there is liberty. 2Co 3:18 But we all, with open face beholding as in a mirror (G2734 \"katoptrizomai\" mir- ror) the Glory of THE YAHWEH, are changed into the same image from glory to glory, even as by the Spirit of THE YAHWEH."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-37-chapter-8",
+  "order": 3.37,
+  "level": 2,
+  "title": "CHAPTER 8",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 8"
@@ -6756,7 +7228,15 @@
    {
     "role": "body",
     "text": "Shekinaih and you are created to represent us, THE TRINITY, to take back the authority from the Red Dragon and her com- panion Molech over the three realms. You both shall repre- sent my names. Now, the take over is complete as both of you have physically set your foot on the places where I have sent you both to the spiritual principalities in the four corners of the earth. Now, the Red Dragon and Molech are subservient to both of you and have handed over their authority and are bound to do your bidding when you both authorize them. Now you both sit spiritually in the three realms as Judge rep- resenting us, THE TRINITY."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-38-chapter-9",
+  "order": 3.38,
+  "level": 2,
+  "title": "CHAPTER 9",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 9"
@@ -6856,7 +7336,15 @@
    {
     "role": "body",
     "text": "dred and forty and four cubits, according to the measure of an Adam, that is, of the angel."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-39-chapter-10",
+  "order": 3.39,
+  "level": 2,
+  "title": "CHAPTER 10",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 10"
@@ -6912,7 +7400,15 @@
    {
     "role": "body",
     "text": "From our decree through Shekinaih to you, the Angel of THE YAHWEH, and from the executing order of the Angel of THE YAHWEH to the other six angels, the Rainbow of Hope will be realized in five areas:"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-40-realization-of-hopes-dreams-promises",
+  "order": 3.4,
+  "level": 2,
+  "title": "REALIZATION OF HOPES/DREAMS/PROMISES",
+  "segments": [
    {
     "role": "heading",
     "text": "REALIZATION OF HOPES/DREAMS/PROMISES"
@@ -6960,7 +7456,15 @@
    {
     "role": "body",
     "text": "All things will work together for good to them if they continue to love us. As they continue to work out their own salvation with fear and trembling, I, THE YAHWEH, will energize them to be willing to do our work with pleasure. Once perfected through sufferings, they will be the deliverers from Zion that will set the whole creation free from corruption as they put on immortality and rule the Cosmoses with power (Rom 8:16- 25)."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-41-self-fulfilled-prophecy",
+  "order": 3.41,
+  "level": 2,
+  "title": "SELF-FULFILLED PROPHECY",
+  "segments": [
    {
     "role": "heading",
     "text": "SELF-FULFILLED PROPHECY"
@@ -6996,7 +7500,15 @@
    {
     "role": "body",
     "text": "Mar 4:26 And he said, So is the kingdom of THE ELOHIM, as if a man should cast seed into the ground; Mar 4:27 And should sleep, and rise night and day, and the seed should spring and grow up, he knoweth not how. Mar 4:28 For the earth bringeth forth fruit of herself; first the blade, then the ear, after that the full corn in the ear. Mar 4:29 But when the fruit is brought forth, immediately he putteth in the sickle, because the har- vest is come. Mar 4:30 And he said, Whereunto shall we liken the kingdom of THE ELOHIM? or with what comparison shall we compare it? Mar 4:31 It is like a grain of mustard seed (G4615, \"sinapi\" to hurt), which, when it is sown in the earth, is less than all the seeds that be in the earth: Mar 4:32 But when it is sown, it groweth up, and becometh greater than all herbs, and shoo- teth out great branches; so that the fowls of the air may lodge under the shadow of it."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-42-time-and-season-for-everything",
+  "order": 3.42,
+  "level": 2,
+  "title": "TIME AND SEASON FOR EVERYTHING",
+  "segments": [
    {
     "role": "heading",
     "text": "TIME AND SEASON FOR EVERYTHING"
@@ -7040,7 +7552,15 @@
    {
     "role": "body",
     "text": "1Pe 5:6 Humble yourselves therefore under the mighty hand of THE ELOHIM, that he may exalt you in due time: 1Pe 5:7 Casting all your care upon him; for he careth for you. 1Pe 5:8 Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour: 1Pe 5:9 Whom re- sist stedfast in the faith, knowing that the same afflictions are accomplished in your brethren that are in the world. 1Pe 5:10 But THE ELOHIM of all grace, who hath called us unto his eter- nal glory by CHRIST JESUS, after that ye have suffered a while, make you perfect, stablish, strengthen, settle you."
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-43-sunshine-of-hope",
+  "order": 3.43,
+  "level": 2,
+  "title": "SUNSHINE OF HOPE",
+  "segments": [
    {
     "role": "heading",
     "text": "SUNSHINE OF HOPE"
@@ -7068,7 +7588,15 @@
    {
     "role": "chapter_title",
     "text": "THE ELOHIM"
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-01-act-4-scene-1",
+  "order": 4.01,
+  "level": 2,
+  "title": "ACT 4 SCENE 1",
+  "segments": [
    {
     "role": "heading",
     "text": "ACT 4 SCENE 1"
@@ -7092,7 +7620,15 @@
    {
     "role": "body",
     "text": "the left of JESUS and said to David, \"My son David, Nebras- ka is the mirror image of the creation point in the heavens. Forces of creation proceed out from this place of the heav- ens' equivalent. It is a point of creation as well as a point of destruction. As it is above, so it is below. Beginning from this place, it is an explosion point where things expand from this point and will also cease from this point. Take out your hand- phone and ask what you wanted to know about my name, \"THE ELOHIM\". David immediately took out his hand phone's voice recorder and without hesitations opened his mouth and pursued with his many questions. THE FATHER and JESUS then took turns to answer David, and occasionally, Shekinaih will interrupt their conversation describing to David the vi- sions she received from THE TRINITY."
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-02-chapter-1",
+  "order": 4.02,
+  "level": 2,
+  "title": "CHAPTER 1",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 1"
@@ -7160,7 +7696,15 @@
    {
     "role": "body",
     "text": "MASTER OF ALL FORCES OF CREATION"
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-03-the-source-of-origin",
+  "order": 4.03,
+  "level": 2,
+  "title": "THE SOURCE OF ORIGIN",
+  "segments": [
    {
     "role": "heading",
     "text": "THE SOURCE OF ORIGIN"
@@ -7280,7 +7824,15 @@
    {
     "role": "body",
     "text": "THE COMBINATION OF THE NAMES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-04-a-rubik-s-cube",
+  "order": 4.04,
+  "level": 2,
+  "title": "A RUBIK'S CUBE",
+  "segments": [
    {
     "role": "heading",
     "text": "A RUBIK'S CUBE"
@@ -7376,7 +7928,15 @@
    {
     "role": "body",
     "text": "THE COMBINATION OF THE NAMES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-05-the-ten-judgments-of-the-elohim",
+  "order": 4.05,
+  "level": 2,
+  "title": "THE TEN JUDGMENTS OF THE ELOHIM",
+  "segments": [
    {
     "role": "heading",
     "text": "THE TEN JUDGMENTS OF THE ELOHIM"
@@ -7576,7 +8136,15 @@
    {
     "role": "body",
     "text": "The smiting of the water of the river of Egypt symbolizes the smiting of the people of the Anti-Christ in the last days. The water of the river Nile will again be turned into blood in the last days to symbolize the punishment of the utter rebellious gen- eration which has increased significantly in the last days. Many will die due to lack of water to drink. I swear in the heaven that this is a foretaste of how the great and terrible Day of THE YAH- WEH (LORD) shall be through our name, \"THE SHADDAI\"."
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-06-plague-10-slaying-of-the-first-born-the-whole-wo",
+  "order": 4.06,
+  "level": 2,
+  "title": "PLAGUE 10: SLAYING OF THE FIRST BORN (THE WHOLE WORLD)",
+  "segments": [
    {
     "role": "heading",
     "text": "PLAGUE 10: SLAYING OF THE FIRST BORN (THE WHOLE WORLD)"
@@ -7636,7 +8204,15 @@
    {
     "role": "body",
     "text": "THE FATHER: This is just a foretaste of the coming falling apart of the stars/planets as per the Book of Revelation which will be far worse than this."
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-07-plague-2-frogs-that-covered-the-land-of-egypt-ge",
+  "order": 4.07,
+  "level": 2,
+  "title": "PLAGUE 2: FROGS THAT COVERED THE LAND OF EGYPT (GERMANY)",
+  "segments": [
    {
     "role": "heading",
     "text": "PLAGUE 2: FROGS THAT COVERED THE LAND OF EGYPT (GERMANY)"
@@ -7752,7 +8328,15 @@
    {
     "role": "heading",
     "text": "JUDGMENT WITH THE NAME \"THE EHYEH\""
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-08-plague-4-swarm-of-flies-that-corrupted-the-land",
+  "order": 4.08,
+  "level": 2,
+  "title": "PLAGUE 4: SWARM OF FLIES THAT CORRUPTED THE LAND (NILE RIVER)",
+  "segments": [
    {
     "role": "heading",
     "text": "PLAGUE 4: SWARM OF FLIES THAT CORRUPTED THE LAND (NILE RIVER)"
@@ -7824,7 +8408,15 @@
    {
     "role": "heading",
     "text": "JUDGMENT WITH THE NAME \"THE EL\""
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-09-plague-6-boils-upon-man-and-beast-africa",
+  "order": 4.09,
+  "level": 2,
+  "title": "PLAGUE 6: BOILS UPON MAN AND BEAST (AFRICA)",
+  "segments": [
    {
     "role": "heading",
     "text": "PLAGUE 6: BOILS UPON MAN AND BEAST (AFRICA)"
@@ -7852,7 +8444,15 @@
    {
     "role": "body",
     "text": "JESUS: Both of you have been given the keys to death and Hades, and are given the authority to give life and to take life away from these people. You are given the spiritual antidote for those who sincerely repent before us through both of you who represent us."
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-10-plague-7-thunder-and-hail-upon-all-the-lands-of",
+  "order": 4.1,
+  "level": 2,
+  "title": "PLAGUE 7: THUNDER AND HAIL UPON ALL THE LANDS OF EGYPT (NORTH AMERICA)",
+  "segments": [
    {
     "role": "heading",
     "text": "PLAGUE 7: THUNDER AND HAIL UPON ALL THE LANDS OF EGYPT (NORTH AMERICA)"
@@ -7876,7 +8476,15 @@
    {
     "role": "body",
     "text": "JESUS: You are my Seventh Thunder Angel who will send thunder and hailstones on North America, a reenactment of the fate of ancient Egypt during the time of Moses. Therefore, repent ye people of North America from your sins, otherwise you will walk straight into the coming great and dreadful ca- lamities where few would survive."
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-11-chapter-3",
+  "order": 4.11,
+  "level": 2,
+  "title": "CHAPTER 3",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 3"
@@ -8020,7 +8628,15 @@
    {
     "role": "body",
     "text": "1Co 6:2 Do ye not know that the holy ones shall judge the Cos- moses? and if the Cosmoses shall be judged by you, are ye un- worthy to judge the smallest matters? 1Co 6:3 Know ye not that we shall judge angels?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-12-babes-and-infants",
+  "order": 4.12,
+  "level": 2,
+  "title": "BABES AND INFANTS",
+  "segments": [
    {
     "role": "heading",
     "text": "BABES AND INFANTS"
@@ -8068,7 +8684,15 @@
    {
     "role": "body",
     "text": "1Pe 2:2 As newborn babes, desire the sincere milk of the word, that ye may grow thereby: 1Pe 2:3 If so be ye have tasted that THE YAHWEH is gracious."
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-13-a-snake-charmer",
+  "order": 4.13,
+  "level": 2,
+  "title": "A SNAKE CHARMER",
+  "segments": [
    {
     "role": "heading",
     "text": "A SNAKE CHARMER"
@@ -8176,7 +8800,15 @@
    {
     "role": "body",
     "text": "Ask my little ones, \"Do you think that you are one of the Sons of Adam? Do you think you are one of the babes and infants who will silent the enemies and the avengers? I am going to send a fire and a sword. The division will have to come. If you love your father, mother, and your children more than me, you are not worthy of me. Everybody will be tested and sifted. Beware of covetousness; life is not about the accumulation of wealth but the accumulation of light from THE FATHER of light. It is better to fear My FATHER than to be chastised by Him through disease and sickness which will end in physical and eternal damnation. Be single towards attaining the peace, righteousness and joy in THE HOLY GHOST which will lead to holiness and eternal glory. Make a stand, be quick to repent, and bring fruits unto repentance because the accuser will not fail in bringing charges against you if you sin.\""
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-14-chapter-4",
+  "order": 4.14,
+  "level": 2,
+  "title": "CHAPTER 4",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 4"
@@ -8240,7 +8872,15 @@
    {
     "role": "body",
     "text": "CHARGE AGAINST HER IS LAYING A CHARGE AGAINST THE FATHER WHICH WILL NOT STAND IN THE COURT OF HEAVEN, EARTH AND BENEATH THE EARTH, BUT 95% OF HIS SPIRIT WILL BE STRAIGHT- AWAY THROWN INTO TARTARUS UNTIL HIS SINCERE REPENTANCE AND CHANGE IN HEART'S ATTITUDE THROUGH AMENDING HIS WAYS FROM BEING USED BY THE ACCUSER AGAINST US."
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-15-the-words-the-elohim-on-the-cross",
+  "order": 4.15,
+  "level": 2,
+  "title": "THE WORDS \"THE ELOHIM\" ON THE CROSS",
+  "segments": [
    {
     "role": "heading",
     "text": "THE WORDS \"THE ELOHIM\" ON THE CROSS"
@@ -8300,7 +8940,15 @@
    {
     "role": "chapter_title",
     "text": "THE EL"
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-01-act-5-scene-1",
+  "order": 5.01,
+  "level": 2,
+  "title": "ACT 5 SCENE 1",
+  "segments": [
    {
     "role": "heading",
     "text": "ACT 5 SCENE 1"
@@ -8324,7 +8972,15 @@
    {
     "role": "body",
     "text": "\"ABBA FATHER, why were we earlier on the pinnacle of the Stratosphere Tower?\" David asked. \"The reason why we brought both of you there using a helicopter is because the building is located above a vortex and the location of the tower itself is a spiritual transmitter that pulls in real phys- ical tornadoes to planet Earth. From there, the request for tornadoes are communicated to the communication space- ship of the reptiles in outer-space and the order are either executed from there or by HAARP in Alaska. The propeller of the helicopter symbolizes that my judgment time is up and it will be released in mid air through our spiritual tornado which symbolizes both of you.\" THE FATHER answered David. \"ABBA FATHER, why is the tornado hovering over the North Pole and what is this levitating pavilion?\" David said to THE FATHER. \"The reason is because....\" THE FATHER then whis- pered to JESUS' ear who in turn whispered to Shekinaih's ear, who in turn whispered to David's ear. After this Shekinaih said to David, \"This is a secret code and it is not the time for us to reveal yet. THE TRINITY has just shown me some visions that are related to their name \"THE EL\" that they wanted me to draw for you.\" David immediately looked at the diagrams and started to inquire."
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-02-chapter-1",
+  "order": 5.02,
+  "level": 2,
+  "title": "CHAPTER 1",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 1"
@@ -8416,7 +9072,15 @@
    {
     "role": "body",
     "text": "FIVE-FOLD POWER OF HOLINESS"
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-03-major-minor-execution-power-in-solitude-form-les",
+  "order": 5.03,
+  "level": 2,
+  "title": "MAJOR/MINOR EXECUTION POWER IN SOLITUDE (FORM- LESS)",
+  "segments": [
    {
     "role": "heading",
     "text": "MAJOR/MINOR EXECUTION POWER IN SOLITUDE (FORM- LESS)"
@@ -8476,7 +9140,15 @@
    {
     "role": "body",
     "text": "reserved against the time of trouble, against the day of battle and war?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-04-major-minor-execution-power-of-the-ancient-of-da",
+  "order": 5.04,
+  "level": 2,
+  "title": "MAJOR/MINOR EXECUTION POWER OF THE ANCIENT OF DAYS",
+  "segments": [
    {
     "role": "heading",
     "text": "MAJOR/MINOR EXECUTION POWER OF THE ANCIENT OF DAYS"
@@ -8536,7 +9208,15 @@
    {
     "role": "body",
     "text": "BEHOLD MY NAMES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-05-the-sun-of-righteousness",
+  "order": 5.05,
+  "level": 2,
+  "title": "THE SUN OF RIGHTEOUSNESS",
+  "segments": [
    {
     "role": "heading",
     "text": "THE SUN OF RIGHTEOUSNESS"
@@ -8684,7 +9364,15 @@
    {
     "role": "body",
     "text": "Isa 8:16 Bind up the testimony, seal the lawgiver among my dis- ciples. Isa 8:17 And I will wait upon THE YAHWEH, that hideth his face from the house of Jacob, and I will look for him. Isa 8:18 Be- hold, I and the children whom THE YAHWEH hath given me are for signs and for wonders in Israel from THE YAHWEH SABAOTH, which dwelleth in mount Zion."
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-06-chapter-3",
+  "order": 5.06,
+  "level": 2,
+  "title": "CHAPTER 3",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 3"
@@ -8860,7 +9548,15 @@
    {
     "role": "body",
     "text": "JESUS: Yes, their spirit shall be caught up in ecstasy, leaving their corruptible body behind. During this time, there will be utter confusion and lostness in all humanity."
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-07-chapter-4",
+  "order": 5.07,
+  "level": 2,
+  "title": "CHAPTER 4",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 4"
@@ -8912,7 +9608,15 @@
    {
     "role": "body",
     "text": "During this time, while my appointed-to-die-falling-away-chil- dren are being killed in perilous times, my two witnesses com- prising of the 7,000 Apostles/Prophets/Intercessors will con- tinue to call my people unto repentance before they smite the countries where they are sent with my curse. (Rev 11:1-7)"
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-08-the-order-of-decree",
+  "order": 5.08,
+  "level": 2,
+  "title": "THE ORDER OF DECREE",
+  "segments": [
    {
     "role": "heading",
     "text": "THE ORDER OF DECREE"
@@ -9000,7 +9704,15 @@
    {
     "role": "body",
     "text": "The One who has the final say in the Cosmoses"
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-09-1a-the-discipline-master",
+  "order": 5.09,
+  "level": 2,
+  "title": "1A) THE DISCIPLINE MASTER",
+  "segments": [
    {
     "role": "heading",
     "text": "1A) THE DISCIPLINE MASTER"
@@ -9092,7 +9804,15 @@
    {
     "role": "body",
     "text": "JESUS: David, why don't you share with Shekinaih your expe- rience regarding the kindness and the gentleness of THE FA- THER through His name, \"THE EL\", toward you?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-10-the-voice-of-the-el",
+  "order": 5.1,
+  "level": 2,
+  "title": "THE VOICE OF THE EL",
+  "segments": [
    {
     "role": "heading",
     "text": "THE VOICE OF THE EL"
@@ -9196,7 +9916,15 @@
    {
     "role": "body",
     "text": "THE 7 CHARACTERISTICS OF THE EL"
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-11-decree-one-30-40-yieldedness",
+  "order": 5.11,
+  "level": 2,
+  "title": "DECREE ONE, 30% - 40% YIELDEDNESS",
+  "segments": [
    {
     "role": "heading",
     "text": "DECREE ONE, 30% - 40% YIELDEDNESS"
@@ -9232,7 +9960,15 @@
    {
     "role": "body",
     "text": "cisions based on reality if it contradicts their reasoning, rather than trusting me in their testing. They will have many obsta- cles in their lives for I have permitted the adversary to test their obedience of their faith. Most of the time, they will fall into the pits that the enemy dug for them and will end up be- ing robbed financially, mentally, and physically. They are gull- ible and make decisions without seeking my counsel on their outcomes. Their lives are subject to changes as their walk is inconsistent and not ideal."
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-12-decree-three-100-yieldedness",
+  "order": 5.12,
+  "level": 2,
+  "title": "DECREE THREE, 100% YIELDEDNESS",
+  "segments": [
    {
     "role": "heading",
     "text": "DECREE THREE, 100% YIELDEDNESS"
@@ -9272,7 +10008,15 @@
    {
     "role": "body",
     "text": "O YAHWEH, is become glorious in power: thy right hand, O YAH- WEH, hath dashed in pieces the enemy."
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-13-power-of-heaven",
+  "order": 5.13,
+  "level": 2,
+  "title": "POWER OF HEAVEN",
+  "segments": [
    {
     "role": "heading",
     "text": "POWER OF HEAVEN"
@@ -9324,7 +10068,15 @@
    {
     "role": "body",
     "text": "All the acts of THE TRINITY involve our name, \"THE EL\", to per- form. THE EL is involved in all the action part for the different combinations of His Seven Names at work."
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-14-greatly-feared-by-all",
+  "order": 5.14,
+  "level": 2,
+  "title": "GREATLY FEARED BY ALL",
+  "segments": [
    {
     "role": "heading",
     "text": "GREATLY FEARED BY ALL"
@@ -9404,7 +10156,15 @@
    {
     "role": "body",
     "text": "(H2151 \"zalal\") from thy presence, Isa 64:2 As when the melting fire burneth, the fire causeth the waters to boil, to make thy name known to thine adversaries, that the nations may trem- ble at thy presence! Isa 64:3 When thou didst terrible things which we looked not for, thou camest down, the mountains fallen apart (H2151 \"zalal\") from (H4480 \"min\") thy presence."
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-15-thunderous-el",
+  "order": 5.15,
+  "level": 2,
+  "title": "THUNDEROUS EL",
+  "segments": [
    {
     "role": "heading",
     "text": "THUNDEROUS EL"
@@ -9440,7 +10200,15 @@
    {
     "role": "body",
     "text": "Mar 3:17 And James the son of Zebedee, and John the brother of James; and he surnamed them Boanerges, which is, the sons of thunder:"
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-16-name-above-all-else",
+  "order": 5.16,
+  "level": 2,
+  "title": "NAME ABOVE ALL ELSE",
+  "segments": [
    {
     "role": "heading",
     "text": "NAME ABOVE ALL ELSE"
@@ -9468,7 +10236,15 @@
    {
     "role": "body",
     "text": "THE FATHER: Yes, I am the Almighty, the Most High EL who has the final say in all verdicts in the court of heaven through my SON JESUS. My name,\"THE EL\", in Him is great and terrible and all the three realms tremble before Him."
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-17-chapter-6",
+  "order": 5.17,
+  "level": 2,
+  "title": "CHAPTER 6",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 6"
@@ -9596,7 +10372,15 @@
    {
     "role": "chapter_title",
     "text": "THE YAHWEH SABAOTH"
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-01-act-6-scene-1",
+  "order": 6.01,
+  "level": 2,
+  "title": "ACT 6 SCENE 1",
+  "segments": [
    {
     "role": "heading",
     "text": "ACT 6 SCENE 1"
@@ -9632,7 +10416,15 @@
    {
     "role": "body",
     "text": "der and said to him, \"Satan came to bet with me over China. Over a long period of time, a lot of black books of accusations were accumulated against all my previous vessels whom I have appointed to rule on my behalf. At the cut off time of the betting, 70% of them were found lacking. Therefore, Sa- tan won his bet and China was given to him to rule with his seed.\" Holding a recovery plan in His left hand, which He hid behind His back, with the recovery hope in His eyes, THE FA- THER smiled at David as He placed His hand and tapped on his shoulder again. THE FATHER then turned to Shekinaih and smiled at her as He walked toward her and whispered to her left ears, \"You are my winning card.\" Immediately, Shekinaih turned to look at THE FATHER and smiled back at Him."
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-02-act-6-scene-2",
+  "order": 6.02,
+  "level": 2,
+  "title": "ACT 6 SCENE 2",
+  "segments": [
    {
     "role": "heading",
     "text": "ACT 6 SCENE 2"
@@ -9656,7 +10448,15 @@
    {
     "role": "body",
     "text": "inaih.\" As THE FATHER finished His statement, He looked at the anticipating David and said to him, \"Today, My SON JESUS will enrich and equip you with the spiritual science on how to muster, appoint, and oversee my last days' army. Let us begin. \""
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-03-chapter-1",
+  "order": 6.03,
+  "level": 2,
+  "title": "CHAPTER 1",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 1"
@@ -9720,7 +10520,15 @@
    {
     "role": "heading",
     "text": "THE THREE-FOLD RULE GIVEN TO SHEKINAIH"
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-04-heaven",
+  "order": 6.04,
+  "level": 2,
+  "title": "HEAVEN",
+  "segments": [
    {
     "role": "heading",
     "text": "HEAVEN"
@@ -9796,7 +10604,15 @@
    {
     "role": "body",
     "text": "Blessing unlimited to those who embrace both of you as unto me, for my rewards are with Shekinaih and in her safe keeping which shall be released at my command."
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-05-beneath-the-earth",
+  "order": 6.05,
+  "level": 2,
+  "title": "BENEATH THE EARTH",
+  "segments": [
    {
     "role": "heading",
     "text": "BENEATH THE EARTH"
@@ -9820,7 +10636,15 @@
    {
     "role": "body",
     "text": "2Sa 6:2 And David arose, and went with all the people that were with him from Baale of Judah, to bring up from thence the ark of THE ELOHIM, whose name is called by the Name of THE YAH- WEH SABAOTH that dwelleth upon (H5921 \"al\") the cherubims."
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-06-a-horse-whip",
+  "order": 6.06,
+  "level": 2,
+  "title": "A HORSE WHIP",
+  "segments": [
    {
     "role": "heading",
     "text": "A HORSE WHIP"
@@ -9868,7 +10692,15 @@
    {
     "role": "body",
     "text": "Pro 21:30 There is no wisdom nor understanding nor counsel against THE YAHWEH. Pro 21:31 The horse is prepared against the day of battle: but deliverance is of THE YAHWEH."
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-07-shekinaih-and-david-each-holding-a-rod",
+  "order": 6.07,
+  "level": 2,
+  "title": "SHEKINAIH AND DAVID EACH HOLDING A ROD",
+  "segments": [
    {
     "role": "heading",
     "text": "SHEKINAIH AND DAVID EACH HOLDING A ROD"
@@ -9916,7 +10748,15 @@
    {
     "role": "body",
     "text": "The end time's spiritual army is made up of three major cate- gories of different levels of authority:"
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-08-7-000-spirits-of-righteous-made-perfect-mount-zi",
+  "order": 6.08,
+  "level": 2,
+  "title": "7,000 SPIRITS OF RIGHTEOUS MADE PERFECT/MOUNT ZION",
+  "segments": [
    {
     "role": "heading",
     "text": "7,000 SPIRITS OF RIGHTEOUS MADE PERFECT/MOUNT ZION"
@@ -9964,7 +10804,15 @@
    {
     "role": "body",
     "text": "Heb 12:22 But ye are come unto mount Sion, and unto the city of the living ELOHIM, the heavenly Jerusalem, and to an innu- merable company of angels, Heb 12:23 To the general assembly and church of the first born, which are written in heaven, and to THE ELOHIM the Judge of all, and to the spirits of just men made perfect,"
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-09-144-000-church-of-the-first-born-heavenly-jerusa",
+  "order": 6.09,
+  "level": 2,
+  "title": "144,000, CHURCH OF THE FIRST BORN/HEAVENLY JERUSA- LEM",
+  "segments": [
    {
     "role": "heading",
     "text": "144,000, CHURCH OF THE FIRST BORN/HEAVENLY JERUSA- LEM"
@@ -10028,7 +10876,15 @@
    {
     "role": "body",
     "text": "The first and second category of authority will be allotted in the third heaven, which is also called \"Paradise\", after glorifi- cation. (Rev 21:2-4)"
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-10-the-600-000",
+  "order": 6.1,
+  "level": 2,
+  "title": "THE 600,000",
+  "segments": [
    {
     "role": "heading",
     "text": "THE 600,000"
@@ -10072,7 +10928,15 @@
    {
     "role": "body",
     "text": "1Co 5:8 Therefore let us keep the feast, not with old leaven, nei- ther with the leaven of malice and wickedness; but with the un- leavened bread of sincerity and truth."
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-11-chapter-2",
+  "order": 6.11,
+  "level": 2,
+  "title": "CHAPTER 2",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 2"
@@ -10124,7 +10988,15 @@
    {
     "role": "body",
     "text": "THE FORMATION OF THE HOSTS"
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-12-50-commandments-for-the-last-days-army",
+  "order": 6.12,
+  "level": 2,
+  "title": "50 COMMANDMENTS FOR THE LAST DAYS' ARMY",
+  "segments": [
    {
     "role": "heading",
     "text": "50 COMMANDMENTS FOR THE LAST DAYS' ARMY"
@@ -10408,7 +11280,15 @@
    {
     "role": "body",
     "text": "THE TWO REPRESENTATIVES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-13-shekinaih-sitting-on-a-throne",
+  "order": 6.13,
+  "level": 2,
+  "title": "SHEKINAIH SITTING ON A THRONE",
+  "segments": [
    {
     "role": "heading",
     "text": "SHEKINAIH SITTING ON A THRONE"
@@ -10460,7 +11340,15 @@
    {
     "role": "body",
     "text": "Exo 15:6 Thy right hand, O YAHWEH, is become glorious (H142 \"adar\" meaning expanding) in power: thy right hand, O YAHWEH, hath dashed in pieces the enemy. Exo 15:7 And in the greatness (H7230 \"rob\" abundance) of thine excellency thou hast over- thrown them that rose up against thee: thou sentest forth thy wrath, which consumed them as stubble."
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-14-the-sword-of-my-excellency",
+  "order": 6.14,
+  "level": 2,
+  "title": "THE SWORD OF MY EXCELLENCY",
+  "segments": [
    {
     "role": "heading",
     "text": "THE SWORD OF MY EXCELLENCY"
@@ -10504,7 +11392,15 @@
    {
     "role": "body",
     "text": "37:9 Out of the south cometh the whirlwind: and cold out of the north. Job 37:10 By the breath of THE EL frost is given: and the breadth of the waters is straitened. Job 37:11 Also by watering he wearieth the thick cloud: he scattereth his bright cloud: Job 37:12 And it is turned round about by his counsels: that they may do whatsoever he commandeth them upon the face of the world in the earth. Job 37:13 He causeth it to come, whether for correction, or for his land, or for mercy."
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-15-the-glory-of-my-excellency",
+  "order": 6.15,
+  "level": 2,
+  "title": "THE GLORY OF MY EXCELLENCY",
+  "segments": [
    {
     "role": "heading",
     "text": "THE GLORY OF MY EXCELLENCY"
@@ -10520,7 +11416,15 @@
    {
     "role": "body",
     "text": "Isa 2:10 Enter into the rock, and hide thee in the dust, for fear of THE YAHWEH, and for the glory of his Excellency. Isa 2:11 The lofty looks of man shall be humbled, and the haughtiness of men shall be bowed down, and THE YAHWEH alone shall be ex- alted in that day. Isa 2:12 For the day of THE YAHWEH SABAOTH shall be upon every one that is proud and lofty, and upon every one that is lifted up; and he shall be brought low: ... Isa 2:18 And the idols he shall utterly abolish. Isa 2:19 And they shall go into the holes of the rocks, and into the caves of the earth, for fear of THE YAHWEH, and for the glory of his Excellency, when he ariseth to shake terribly the earth."
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-16-in-the-excellency-of-the-name-of-the-yahweh",
+  "order": 6.16,
+  "level": 2,
+  "title": "IN THE EXCELLENCY OF THE NAME OF THE YAHWEH",
+  "segments": [
    {
     "role": "heading",
     "text": "IN THE EXCELLENCY OF THE NAME OF THE YAHWEH"
@@ -10560,7 +11464,15 @@
    {
     "role": "body",
     "text": "THE TWO REPRESENTATIVES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-17-the-two-mouth-sword-saber",
+  "order": 6.17,
+  "level": 2,
+  "title": "THE TWO MOUTH SWORD/SABER",
+  "segments": [
    {
     "role": "heading",
     "text": "THE TWO MOUTH SWORD/SABER"
@@ -10624,7 +11536,15 @@
    {
     "role": "body",
     "text": "THE FATHER: The first BANG! symbolizes \"here I come\" with my sudden appearance through both of you, my sword and my saber, which will be a big bang of surprise to the world at large. The second BANG!! symbolizes \"here I come\" to judge and de- stroy, which will be a bigger bang of shock for those who are not prepared for my judgment. The third BANG!!! symbolizes \"here I come\" to redeem my own to myself. It is the biggest bang when I shall call up the spirit of my 144,000, leaving their bodies behind at the same time in the four corners of the earth, and the world will be in topsy-turvy, which is a triple bang, unpredicted by all humanity in general, an explosion in a kind beyond comprehension."
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-18-a-giant-saber",
+  "order": 6.18,
+  "level": 2,
+  "title": "A GIANT SABER",
+  "segments": [
    {
     "role": "heading",
     "text": "A GIANT SABER"
@@ -10644,7 +11564,15 @@
    {
     "role": "body",
     "text": "two security guards with rifles hanging on their backs. I was a bit troubled and disappointed when I saw them, for I as- sumed that the security guards were there to lead me out of their prayer tower just in case I persisted and refused to leave. But to my astonishment, the secretary told me that the founder had inquired of THE YAHWEH JESUS and was instruct- ed by Him to receive me and treat me well. She informed me that the two security guards were there to protect me in the night as there were trouble makers from the villages that often sneaked into the prayer tower to desecrate the place with excrement and urine as well as damaging the property. I was so relieved and thankful to THE FATHER for the divine in- troduction and I started to thank the secretary and asked her to relate my appreciation to the founder. I started my prayer and fasting with the sister and two more brothers. On the second night of our prayer, while I was lying down directly under the center of the dome ceiling, one of the brothers saw a giant saber coming down and it went directly into me. I felt thick hot oil smearing my whole body. It was so thick and heavy that I could tangibly feel the heat and the sticki- ness. I laid there sleeping the whole night through, praising THE FATHER and my YAHWEH JESUS CHRIST for the anointing."
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-19-the-king-of-death",
+  "order": 6.19,
+  "level": 2,
+  "title": "THE KING OF DEATH",
+  "segments": [
    {
     "role": "heading",
     "text": "THE KING OF DEATH"
@@ -10696,7 +11624,15 @@
    {
     "role": "body",
     "text": "That all flesh may know that I THE YAHWEH have drawn forth my sword out of his sheath: it shall not return any more."
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-20-the-spirit-of-prophecy",
+  "order": 6.2,
+  "level": 2,
+  "title": "THE SPIRIT OF PROPHECY",
+  "segments": [
    {
     "role": "heading",
     "text": "THE SPIRIT OF PROPHECY"
@@ -10776,7 +11712,15 @@
    {
     "role": "body",
     "text": "Shekinaih and you are our main Tabernacle whom we have put our Seven Names in. Two of our names, \"THE ADONAI\" and \"THE YAHWEH SABAOTH\", will be prominently manifested through her."
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-21-the-word-shekinah",
+  "order": 6.21,
+  "level": 2,
+  "title": "THE WORD \"SHEKINAH\"",
+  "segments": [
    {
     "role": "heading",
     "text": "THE WORD \"SHEKINAH\""
@@ -10852,7 +11796,15 @@
    {
     "role": "body",
     "text": "1Sa 4:4 So the people sent to Shiloh, that they might bring from thence the ark of the covenant of the YAHWEH SABAOTH, which dwelleth upon the cherubims: ... 1Sa 4:7 And the Philis- tines were afraid, for they said, THE ELOHIM is come into the camp. And they said, Woe unto us! for there hath not been such a thing heretofore. 1Sa 4:8 Woe unto us! who shall deliver us out of the hand of these mighty elohim? these are the elohim that smote the Egyptians with all the plagues in the wilderness."
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-22-the-ark-of-the-covenant",
+  "order": 6.22,
+  "level": 2,
+  "title": "THE ARK OF THE COVENANT",
+  "segments": [
    {
     "role": "heading",
     "text": "THE ARK OF THE COVENANT"
@@ -10884,7 +11836,15 @@
    {
     "role": "body",
     "text": "THE TWO REPRESENTATIVES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-23-the-megatron",
+  "order": 6.23,
+  "level": 2,
+  "title": "THE MEGATRON",
+  "segments": [
    {
     "role": "heading",
     "text": "THE MEGATRON"
@@ -10952,7 +11912,15 @@
    {
     "role": "body",
     "text": "those books into your head?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-24-the-word-metatron-on-david-s-forehead",
+  "order": 6.24,
+  "level": 2,
+  "title": "THE WORD \"METATRON\" ON DAVID'S FOREHEAD",
+  "segments": [
    {
     "role": "heading",
     "text": "THE WORD \"METATRON\" ON DAVID'S FOREHEAD"
@@ -11068,7 +12036,15 @@
    {
     "role": "heading",
     "text": "CHAPTER 4 METATRON"
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-25-the-dragon-and-the-phoenix",
+  "order": 6.25,
+  "level": 2,
+  "title": "THE DRAGON AND THE PHOENIX",
+  "segments": [
    {
     "role": "heading",
     "text": "THE DRAGON AND THE PHOENIX"
@@ -11400,7 +12376,15 @@
    {
     "role": "chapter_title",
     "text": "THE SHADDAI"
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-01-act-7-scene-1",
+  "order": 7.01,
+  "level": 2,
+  "title": "ACT 7 SCENE 1",
+  "segments": [
    {
     "role": "heading",
     "text": "ACT 7 SCENE 1"
@@ -11424,7 +12408,15 @@
    {
     "role": "body",
     "text": "institution in Luxembourg is the spiritual vortex of North- ern Europe, the gateway where the Red Dragon discharges her rule whereby her deceptions are being firmed and an- nounced. This religious institution shall drink the wine of the wrath of my name \"THE SHADDAI\" through both of you.\" Sud- denly, in the twinkling of an eye, Shekinaih and David were teleported to a park near the Eiffel Tower."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-02-act-7-scene-2",
+  "order": 7.02,
+  "level": 2,
+  "title": "ACT 7 SCENE 2",
+  "segments": [
    {
     "role": "heading",
     "text": "ACT 7 SCENE 2"
@@ -11440,7 +12432,15 @@
    {
     "role": "body",
     "text": "David then pursued with his many unquenchable questions to seek further understanding regarding what THE FATHER had just spoken and the interpretations of the visions which Shekinaih saw."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-03-chapter-1",
+  "order": 7.03,
+  "level": 2,
+  "title": "CHAPTER 1",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 1"
@@ -11524,7 +12524,15 @@
    {
     "role": "body",
     "text": "destroy him that remaineth of the city. Num 24:20 And when he looked on Amalek, he took up his parable, and said, Amalek was the first of the nations; but his latter end shall be that he per- ish for ever. Num 24:21 And he looked on the Kenites, and took up his parable, and said, Strong is thy dwellingplace, and thou puttest thy nest in a rock. Num 24:22 Nevertheless the Kenite shall be wasted, until Asshur shall carry thee away captive. Num 24:23 And he took up his parable, and said, Alas, who shall live when THE EL doeth this! Num 24:24 And ships shall come from the coast of Chittim, and shall afflict Asshur, and shall afflict Eber, and he also shall perish for ever."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-04-the-angel-of-the-covenant",
+  "order": 7.04,
+  "level": 2,
+  "title": "THE ANGEL OF THE COVENANT",
+  "segments": [
    {
     "role": "heading",
     "text": "THE ANGEL OF THE COVENANT"
@@ -11604,7 +12612,15 @@
    {
     "role": "body",
     "text": "THE FACE OF THE SHADDAI"
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-05-the-shaddai-sitting-on-the-throne",
+  "order": 7.05,
+  "level": 2,
+  "title": "THE SHADDAI SITTING ON THE THRONE",
+  "segments": [
    {
     "role": "heading",
     "text": "THE SHADDAI SITTING ON THE THRONE"
@@ -11672,7 +12688,15 @@
    {
     "role": "body",
     "text": "Isa 40:3 The voice of him that crieth in the wilderness, Prepare ye the Way of THE YAHWEH, make straight in the desert a high- way for our ELOHIM. Isa 40:4 Every valley shall be exalted, and ev- ery mountain and hill shall be made low: and the crooked shall be made straight, and the rough places plain: Isa 40:5 And the Glory of THE YAHWEH shall be revealed, and all flesh shall see it together: for the mouth of THE YAHWEH hath spoken it. Isa 40:6 The voice said, Cry. And he said, What shall I cry? All flesh is grass, and all the goodliness thereof is as the flower of the field: Isa 40:7 The grass withereth, the flower fadeth: because the spirit of THE YAHWEH bloweth upon it: surely the people is grass. Isa 40:8 The grass withereth, the flower fadeth: but the word of our ELOHIM shall stand for ever. Isa 40:9 O Zion, that bringest good tidings, get thee up into the high mountain; O Jerusalem, that bringest good tidings, lift up thy voice with strength; lift it up, be not afraid; say unto the cities of Judah, Behold your ELO- HIM! Isa 40:10 Behold, THE ADONAI YAHVIH will come with strong hand, and his arm shall rule for him: behold, his reward is with him, and his work before him. Isa 40:11 He shall feed his flock like a shepherd: he shall gather the lambs with his arm, and carry them in his bosom, and shall gently lead those that are with young. Isa 40:12 Who hath measured the waters in the hol- low of his hand, and meted out heaven with the span, and com- prehended the dust of the earth in a measure, and weighed the mountains in scales, and the hills in a balance? Isa 40:13 Who hath directed the Spirit of THE YAHWEH, or being his counsellor hath taught him? Isa 40:14 With whom took he counsel, and who instructed him, and taught him in the path of judgment, and taught him knowledge, and shewed to him the way of un- derstanding?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-06-the-decree-and-the-trumpet",
+  "order": 7.06,
+  "level": 2,
+  "title": "THE DECREE AND THE TRUMPET",
+  "segments": [
    {
     "role": "heading",
     "text": "THE DECREE AND THE TRUMPET"
@@ -11716,7 +12740,15 @@
    {
     "role": "body",
     "text": "You, my son Aaron K David, through the power of the Seven Names of THE TRINITY, will then co-execute the decree accord- ing to the names of THE TRINITY attached to the decree."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-07-chapter-3",
+  "order": 7.07,
+  "level": 2,
+  "title": "CHAPTER 3",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 3"
@@ -11832,7 +12864,15 @@
    {
     "role": "body",
     "text": "Job 22:15 Hast thou marked the old way which wicked men have trodden? Job 22:16 Which were cut down out of time, whose foundation was overflown with a flood: Job 22:17 Which said unto THE EL, Depart from us: what can THE SHADDAI do?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-08-chapter-4",
+  "order": 7.08,
+  "level": 2,
+  "title": "CHAPTER 4",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 4"
@@ -11952,7 +12992,15 @@
    {
     "role": "body",
     "text": "Joh 8:44 Ye are of your father the devil (Accuser), and the lusts of your father ye will do. He was a murderer from the begin- ning, and abode not in the truth, because there is no truth in him. When he speaketh a lie, he speaketh of his own: for he is a liar, and the father of it."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-09-chapter-5-the-orion",
+  "order": 7.09,
+  "level": 2,
+  "title": "CHAPTER 5 THE ORION",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 5 THE ORION"
@@ -12200,7 +13248,15 @@
    {
     "role": "body",
     "text": "Mal 4:1 For, behold, the day cometh, that shall burn as an oven; and all the proud (H2086 \"zed\" arrogant) , yea, and all that do wickedly, shall be stubble: and the day that cometh shall burn them up, saith THE YAHWEH SABAOTH, that it shall leave them neither root nor branch. (KJV)"
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-10-chapter-6",
+  "order": 7.1,
+  "level": 2,
+  "title": "CHAPTER 6",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 6"
@@ -12248,7 +13304,15 @@
    {
     "role": "body",
     "text": "Job 21:17 How oft is the candle of the wicked put out! and how oft cometh their destruction upon them! THE ELOAH distribu- teth sorrows in his anger. Job 21:18 They are as stubble before the wind, and as chaff that the storm carrieth away. Job 21:19 THE ELOAH layeth up his iniquity for his children: he rewardeth him, and he shall know it. Job 21:20 His eyes shall see his de- struction, and he shall drink of the wrath of THE SHADDAI."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-11-chapter-7",
+  "order": 7.11,
+  "level": 2,
+  "title": "CHAPTER 7",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 7"
@@ -12316,7 +13380,15 @@
    {
     "role": "body",
     "text": "JESUS: The elites of the world and their alien master have built many underground cities beneath the mountains and under the sea, knowing that my judgment shall come upon them in near future as warned by their forefather which we have destroyed in days of old. Though their hiding places seem to be impregnable and indestructible by fire, radiation or water, they will not stand against the seventeen calamities that I will send through both of you. The seventeen calamities are our seventeen decrees (acts) through our name, \"THE SHADDAI\", in both of you. (Isa 28:2-29)"
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-12-decree-1-the-4th-seal-the-pale-horse",
+  "order": 7.12,
+  "level": 2,
+  "title": "DECREE 1: THE 4TH SEAL - THE PALE HORSE",
+  "segments": [
    {
     "role": "heading",
     "text": "DECREE 1: THE 4TH SEAL - THE PALE HORSE"
@@ -12404,7 +13476,15 @@
    {
     "role": "body",
     "text": "SHEKINAIH: I see again a vision of a nuclear explosion with the words, \"North Korea\" superimposed on it. THE TRINITY shows me these words: \"Oklahoma City exploded affecting one-third of North America.\""
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-13-the-coming-war-between-the-us-and-the-middle-eas",
+  "order": 7.13,
+  "level": 2,
+  "title": "THE COMING WAR BETWEEN THE US AND THE MIDDLE EAST",
+  "segments": [
    {
     "role": "heading",
     "text": "THE COMING WAR BETWEEN THE US AND THE MIDDLE EAST"
@@ -12428,7 +13508,15 @@
    {
     "role": "heading",
     "text": "DECREE 2: THE 6TH SEAL - ASTEROIDS AND EARTHQUAKES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-14-the-planets-in-conjunction",
+  "order": 7.14,
+  "level": 2,
+  "title": "THE PLANETS IN CONJUNCTION",
+  "segments": [
    {
     "role": "heading",
     "text": "THE PLANETS IN CONJUNCTION"
@@ -12452,7 +13540,15 @@
    {
     "role": "body",
     "text": "Rev 6:12 And I beheld when he had opened the sixth seal, and, lo, there was a great earthquake; and the sun became black as sackcloth of hair, and the moon became as blood; Rev 6:13 And the stars of heaven fell unto the earth, even as a fig tree casteth her untimely figs, when she is shaken of a mighty wind. Rev 6:14 And the heaven departed as a scroll when it is rolled together; and every mountain and island were moved out of their places. Rev 6:15 And the kings of the earth, and the great men, and the rich men, and the chief captains, and the mighty men, and every bondman, and every free man, hid themselves in the dens and in the rocks of the mountains; Rev 6:16 And said to the mountains and rocks, Fall on us, and hide us from the face of him that sitteth on the throne, and from the wrath of the Lamb: Rev 6:17 For the great day of his wrath is come; and who shall be able to stand?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-15-fate-of-china-and-nigeria",
+  "order": 7.15,
+  "level": 2,
+  "title": "FATE OF CHINA AND NIGERIA",
+  "segments": [
    {
     "role": "heading",
     "text": "FATE OF CHINA AND NIGERIA"
@@ -12476,7 +13572,15 @@
    {
     "role": "body",
     "text": "who scoffed our judgment will suffer major catastrophes due to earthquakes because of their human and organ trafficking activities. Yes, I will not spare the wicked and the deceivers in Nigeria: those who masquerade themselves as my ministers to deceive and suck the money out of my children's wallets will be completely destroyed by me through catastrophes as well."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-16-fate-of-new-mexico",
+  "order": 7.16,
+  "level": 2,
+  "title": "FATE OF NEW MEXICO",
+  "segments": [
    {
     "role": "heading",
     "text": "FATE OF NEW MEXICO"
@@ -12516,7 +13620,15 @@
    {
     "role": "body",
     "text": "mingled with blood, and they were cast upon the earth: and the third part of trees was burnt up, and all green grass was burnt up."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-17-decree-4-the-2nd-trumpet-mt-everest-eruption",
+  "order": 7.17,
+  "level": 2,
+  "title": "DECREE 4: THE 2ND TRUMPET - MT. EVEREST ERUPTION",
+  "segments": [
    {
     "role": "heading",
     "text": "DECREE 4: THE 2ND TRUMPET - MT. EVEREST ERUPTION"
@@ -12532,7 +13644,15 @@
    {
     "role": "body",
     "text": "Rev 8:8 And the second angel sounded, and as it were a great mountain burning with fire was cast into the sea: and the third part of the sea became blood;\" Rev 8:9 And the third part of the creatures which were in the sea, and had life, died; and the third part of the ships were destroyed."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-18-decree-5-the-3rd-trumpet-wormwood",
+  "order": 7.18,
+  "level": 2,
+  "title": "DECREE 5: THE 3RD TRUMPET - WORMWOOD",
+  "segments": [
    {
     "role": "heading",
     "text": "DECREE 5: THE 3RD TRUMPET - WORMWOOD"
@@ -12576,7 +13696,15 @@
    {
     "role": "body",
     "text": "Rev 8:10 And the third angel sounded, and there fell a great star from heaven, burning as it were a lamp, and it fell upon the third part of the rivers, and upon the fountains of waters; Rev 8:11 And the name of the star is called Wormwood: and the third part of the waters became wormwood; and many men died of the waters, because they were made bitter.\""
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-19-decree-6-the-4th-trumpet-third-part-darkened",
+  "order": 7.19,
+  "level": 2,
+  "title": "DECREE 6: THE 4TH TRUMPET - THIRD PART DARKENED",
+  "segments": [
    {
     "role": "heading",
     "text": "DECREE 6: THE 4TH TRUMPET - THIRD PART DARKENED"
@@ -12612,7 +13740,15 @@
    {
     "role": "body",
     "text": "brought it into the house of Dagon, and set it by Dagon. 1Sa 5:3 And when they of Ashdod arose early on the morrow, behold, Dagon was fallen upon his face to the earth before the ark of THE YAHWEH. And they took Dagon, and set him in his place again. 1Sa 5:4 And when they arose early on the morrow morn- ing, behold, Dagon was fallen upon his face to the ground be- fore the ark of THE YAHWEH; and the head of Dagon and both the palms of his hands were cut off upon the threshold; only the stump of Dagon was left to him. 1Sa 5:5 Therefore neither the priests of Dagon, nor any that come into Dagon's house, tread on the threshold of Dagon in Ashdod unto this day."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-20-decree-7-the-5th-trumpet-locusts",
+  "order": 7.2,
+  "level": 2,
+  "title": "DECREE 7: THE 5TH TRUMPET - LOCUSTS",
+  "segments": [
    {
     "role": "heading",
     "text": "DECREE 7: THE 5TH TRUMPET - LOCUSTS"
@@ -12648,7 +13784,15 @@
    {
     "role": "body",
     "text": "THE SEVENTEEN DECREES (ACTS) OF THE SHADDAI"
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-21-decree-8-the-6th-trumpet-a-third-part-of-slain",
+  "order": 7.21,
+  "level": 2,
+  "title": "DECREE 8: THE 6TH TRUMPET - A THIRD PART OF SLAIN",
+  "segments": [
    {
     "role": "heading",
     "text": "DECREE 8: THE 6TH TRUMPET - A THIRD PART OF SLAIN"
@@ -12692,7 +13836,15 @@
    {
     "role": "body",
     "text": "DAVID: This is a humanoid robot or a synthetic organism de- signed to look and act like a human, having a flesh-like re- semblance. These androids which are within the domain of science fiction, frequently seen in film and television in the movie \"The Machine\", for example, have already existed. The elites have hidden all their agenda and advanced technology in plain sight in Box Office movies. To the general population who do not take the time to do their own research, what I have spoken will sound like fantasy. If not for the revelations, the visions, and the dreams given to us by THE TRINITY which are supported by the scripture, we would also deride what is written in this book."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-22-decree-9-the-7th-trumpet-mexico-city-sunk",
+  "order": 7.22,
+  "level": 2,
+  "title": "DECREE 9: THE 7TH TRUMPET - MEXICO CITY SUNK",
+  "segments": [
    {
     "role": "heading",
     "text": "DECREE 9: THE 7TH TRUMPET - MEXICO CITY SUNK"
@@ -12764,7 +13916,15 @@
    {
     "role": "body",
     "text": "The children of Cain are called the Kenites. They were still around after the Flood and were among the nations that oc- cupied Canaan during the time of Abraham. The Kenites were made up of three tribes: the Watchers' seed with the seed of Cain, the fallen angels' seed with the seed of Cain and Cain's descendants."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-23-the-satanic-star",
+  "order": 7.23,
+  "level": 2,
+  "title": "THE SATANIC STAR",
+  "segments": [
    {
     "role": "heading",
     "text": "THE SATANIC STAR"
@@ -12796,7 +13956,15 @@
    {
     "role": "body",
     "text": "Later, his descendants surfaced to the face of the earth to build cities all over the world but were all destroyed in the Flood."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-24-decree-10-the-winepress",
+  "order": 7.24,
+  "level": 2,
+  "title": "DECREE 10: THE WINEPRESS",
+  "segments": [
    {
     "role": "heading",
     "text": "DECREE 10: THE WINEPRESS"
@@ -12892,7 +14060,15 @@
    {
     "role": "body",
     "text": "JESUS: We will send a future major earthquake to cause the sea water to be contaminated by nuclear wastes leaked from Chernobyl Nuclear Plant. This time, many people will die to- gether with all living creatures in the sea. (Rev 16:3)"
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-25-decree-13-the-3rd-vial-the-vermin-asteroid",
+  "order": 7.25,
+  "level": 2,
+  "title": "DECREE 13: THE 3RD VIAL - THE VERMIN ASTEROID",
+  "segments": [
    {
     "role": "heading",
     "text": "DECREE 13: THE 3RD VIAL - THE VERMIN ASTEROID"
@@ -12960,7 +14136,15 @@
    {
     "role": "body",
     "text": "I also saw the verses of Roman 1:1-31."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-26-decree-17-the-marriage-supper-of-the-lamb",
+  "order": 7.26,
+  "level": 2,
+  "title": "DECREE 17: THE MARRIAGE SUPPER OF THE LAMB",
+  "segments": [
    {
     "role": "heading",
     "text": "DECREE 17: THE MARRIAGE SUPPER OF THE LAMB"
@@ -12992,7 +14176,15 @@
    {
     "role": "body",
     "text": "The Mouth of the False Prophet is a religious leader over . He is the spokesman of the ruler of this age ruling the United States and Europe. The war will be craft- ily plotted by Satan to prepare the reception of the Beast from the Sea who will bring world peace. Together, these three spokesmen will gather the Kings of the West, the Kings of the Middle East and the Kings of the East to war against the Angel of Our Presence and our Holy Ones. (Rev 16:12 -16)"
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-27-the-red-dragon",
+  "order": 7.27,
+  "level": 2,
+  "title": "THE RED DRAGON",
+  "segments": [
    {
     "role": "heading",
     "text": "THE RED DRAGON"
@@ -13048,7 +14240,15 @@
    {
     "role": "body",
     "text": "SHEKINAIH: David, I see this vision again as shown to me ear- lier."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-28-chapter-8",
+  "order": 7.28,
+  "level": 2,
+  "title": "CHAPTER 8",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 8"
@@ -13104,7 +14304,15 @@
    {
     "role": "body",
     "text": "Isa 63:1 Who is this that cometh from Edom, with dyed garments from Bozrah? this that is glorious in his apparel, travelling in the greatness of his strength? I that speak in righteousness, mighty to save. Isa 63:2 Wherefore art thou red in thine apparel, and thy garments like him that treadeth in the winefat? Isa 63:3 I have trodden the winepress alone; and of the people there was none with me: for I will tread them in mine anger, and trample them in my fury; and their blood shall be sprinkled upon my garments, and I will stain all my raiment. Isa 63:4 For the day of vengeance is in mine heart, and the year of my redeemed is come. Isa 63:5 And I looked, and there was none to help; and I wondered that there was none to uphold: therefore mine own arm brought salvation unto me; and my fury, it upheld me. Isa 63:6 And I will tread down the people in mine anger, and make them drunk in my fury, and I will bring down their strength to the earth."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-29-the-catch",
+  "order": 7.29,
+  "level": 2,
+  "title": "THE CATCH",
+  "segments": [
    {
     "role": "heading",
     "text": "THE CATCH"
@@ -13128,7 +14336,15 @@
    {
     "role": "body",
     "text": "JESUS: Behold, I send you forth as sheep in the midst of wolves: be ye therefore wise as serpents, and harmless as doves. Be an experienced fisherman and rightly gather the fish (real Sons of Adam) among the unclean creeping creatures in their midst (the Synagogue of Satan in Christendom). Do not strive with my rebellious children whom I have called; but be patient and gentle unto them, in meekness of love and wisdom, instruct- ing them that oppose you so that they may repent and ac- knowledge the truth and recover themselves out of the snare of the devil, who takes them captive at his will."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-30-a-white-dove-leading-many-smaller-doves",
+  "order": 7.3,
+  "level": 2,
+  "title": "A WHITE DOVE LEADING MANY SMALLER DOVES",
+  "segments": [
    {
     "role": "heading",
     "text": "A WHITE DOVE LEADING MANY SMALLER DOVES"
@@ -13204,7 +14420,15 @@
    {
     "role": "body",
     "text": "THE FATHER: We, through our name, \"THE SHADDAI\", shall in the last days try the works of all our ministers; based on whether they did according to what we have commanded ac- cording to the grace given to them, or according to their own will with idols in their heart, or in envy, or in strife, or in divi- sion. Those who did according to our will shall be rewarded, and those who did their own will have to go through more trials of obedience of faith. (1Co 3:8-15)"
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-31-jesus-cutting-earth-and-planets-with-a-saber",
+  "order": 7.31,
+  "level": 2,
+  "title": "JESUS CUTTING EARTH AND PLANETS WITH A SABER",
+  "segments": [
    {
     "role": "heading",
     "text": "JESUS CUTTING EARTH AND PLANETS WITH A SABER"
@@ -13284,7 +14508,15 @@
    {
     "role": "chapter_title",
     "text": "THE ADONAI"
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-01-act-8-scene-1",
+  "order": 8.01,
+  "level": 2,
+  "title": "ACT 8 SCENE 1",
+  "segments": [
    {
     "role": "heading",
     "text": "ACT 8 SCENE 1"
@@ -13308,7 +14540,15 @@
    {
     "role": "body",
     "text": "THE TRINITY, Shekinaih, and David who were hovering above the damaged roof then descended and stood at the right corner of the stage. THE FATHER, who was standing be- hind JESUS, who was standing behind THE HOLY SPIRIT, who was standing behind Shekinaih, who was standing behind David, then opened His mouth and blew out a decree which landed on Shekinaih's right hand which she then passed to David to proclaim aloud. David then opened the scroll to read aloud to the Red Dragon who was still prostrated before them in a docile posture with her eyes half closed."
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-02-act-8-scene-2",
+  "order": 8.02,
+  "level": 2,
+  "title": "ACT 8 SCENE 2",
+  "segments": [
    {
     "role": "heading",
     "text": "ACT 8 SCENE 2"
@@ -13356,7 +14596,15 @@
    {
     "role": "body",
     "text": "Immediately, Kong Hee was brought back to earth. With his hands cuffed, he said to the judge, \"Thank you, Your Hon- or\" as he bowed his head before the earthly/heavenly judge."
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-03-act-8-scene-3",
+  "order": 8.03,
+  "level": 2,
+  "title": "ACT 8 SCENE 3",
+  "segments": [
    {
     "role": "heading",
     "text": "ACT 8 SCENE 3"
@@ -13388,7 +14636,15 @@
    {
     "role": "body",
     "text": "THE LAST DAY ADONAI"
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-04-the-father-playing-cards-with-satan",
+  "order": 8.04,
+  "level": 2,
+  "title": "THE FATHER PLAYING CARDS WITH SATAN",
+  "segments": [
    {
     "role": "heading",
     "text": "THE FATHER PLAYING CARDS WITH SATAN"
@@ -13460,7 +14716,15 @@
    {
     "role": "body",
     "text": "THE EVENT OVER-TURNER"
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-05-adonai-will-thou-slay-also-a-righteous-nation",
+  "order": 8.05,
+  "level": 2,
+  "title": "ADONAI, WILL THOU SLAY ALSO A RIGHTEOUS NATION?",
+  "segments": [
    {
     "role": "heading",
     "text": "ADONAI, WILL THOU SLAY ALSO A RIGHTEOUS NATION?"
@@ -13520,7 +14784,15 @@
    {
     "role": "body",
     "text": "DAVID: Thank you, Blessed Trinity."
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-06-adonai-wherefore-have-you-so-evil-treated-this-p",
+  "order": 8.06,
+  "level": 2,
+  "title": "ADONAI, WHEREFORE HAVE YOU SO EVIL TREATED THIS PEOPLE?",
+  "segments": [
    {
     "role": "heading",
     "text": "ADONAI, WHEREFORE HAVE YOU SO EVIL TREATED THIS PEOPLE?"
@@ -13548,7 +14820,15 @@
    {
     "role": "body",
     "text": "My FATHER, through His name, \"THE ADONAI\", had turned their situation to worse than before because He had set Moses and the children of Israel up, and they had to learn to be in to- tal obedience even when things did not happen as promised by us. To cut the story short, through the Angel of Our Pres- ence with many signs and demonstrations of our power, we destroyed Egypt in the end and annihilated Pharaoh and his army in the Red Sea. We, through our name, THE ADONAI, did overturn the whole situation and had the last laugh."
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-07-oh-my-adonai-wherewith-shall-i-save-israel",
+  "order": 8.07,
+  "level": 2,
+  "title": "OH MY ADONAI, WHEREWITH SHALL I SAVE ISRAEL?",
+  "segments": [
    {
     "role": "heading",
     "text": "OH MY ADONAI, WHEREWITH SHALL I SAVE ISRAEL?"
@@ -13580,7 +14860,15 @@
    {
     "role": "body",
     "text": "SHE WHO HAS THE LAST LAUGH"
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-08-adonai-yahvih-what-wilt-thou-give-me-seeing-i-go",
+  "order": 8.08,
+  "level": 2,
+  "title": "ADONAI YAHVIH, WHAT WILT THOU GIVE ME, SEEING I GO CHILDLESS?",
+  "segments": [
    {
     "role": "heading",
     "text": "ADONAI YAHVIH, WHAT WILT THOU GIVE ME, SEEING I GO CHILDLESS?"
@@ -13664,7 +14952,15 @@
    {
     "role": "body",
     "text": "BEHOLD MY NAMES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-09-the-adonai-shall-laugh-at-him-for-he-seeth-that",
+  "order": 8.09,
+  "level": 2,
+  "title": "THE ADONAI SHALL LAUGH AT HIM: FOR HE SEETH THAT HIS DAY IS COMING",
+  "segments": [
    {
     "role": "heading",
     "text": "THE ADONAI SHALL LAUGH AT HIM: FOR HE SEETH THAT HIS DAY IS COMING"
@@ -13704,7 +15000,15 @@
    {
     "role": "body",
     "text": "THE CONDITIONS OF THE ADONAI"
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-10-the-power-of-holiness",
+  "order": 8.1,
+  "level": 2,
+  "title": "THE POWER OF HOLINESS",
+  "segments": [
    {
     "role": "heading",
     "text": "THE POWER OF HOLINESS"
@@ -13732,7 +15036,15 @@
    {
     "role": "body",
     "text": "He shall drink of the brook in the way: therefore shall he exalt (H7311 \"rum\") the chief (H7218 \"rosh\")."
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-11-o-adonai-what-shall-i-say-when-israel-turneth-th",
+  "order": 8.11,
+  "level": 2,
+  "title": "O ADONAI, WHAT SHALL I SAY WHEN ISRAEL TURNETH THEIR BACKS BEFORE THEIR ENEMIES!",
+  "segments": [
    {
     "role": "heading",
     "text": "O ADONAI, WHAT SHALL I SAY WHEN ISRAEL TURNETH THEIR BACKS BEFORE THEIR ENEMIES!"
@@ -13764,7 +15076,15 @@
    {
     "role": "body",
     "text": "Pro 29:8 Scornful men bring a city into a snare: but wise men turn away wrath."
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-12-o-adonai-yahvih-remember-me-i-pray-thee-and-stre",
+  "order": 8.12,
+  "level": 2,
+  "title": "O ADONAI YAHVIH, REMEMBER ME, I PRAY THEE, AND STRENGTHEN ME",
+  "segments": [
    {
     "role": "heading",
     "text": "O ADONAI YAHVIH, REMEMBER ME, I PRAY THEE, AND STRENGTHEN ME"
@@ -13896,7 +15216,15 @@
    {
     "role": "body",
     "text": "JESUS: No, the other side of the character and works of our name, \"THE ADONAI\", is depicted vividly in Lamentation by Jeremiah when the Israelites sinned, rebelled, and betrayed my FATHER, THE YAHWEH, The Righteous Judge. Through His name, \"THE ADONAI\", by the hand of the executing angel by our name, \"THE EL\", we overturned all their good situations into bad and disciplined and humbled them so that they might return to us in humility and in truth. David, can you read aloud the whole of chapter 3 of Lamentation to digest and reflect how we through our name, \"THE ADONAI\", deal with our rebellious children?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-13-david",
+  "order": 8.13,
+  "level": 2,
+  "title": "DAVID:",
+  "segments": [
    {
     "role": "heading",
     "text": "DAVID:"
@@ -13944,7 +15272,15 @@
    {
     "role": "body",
     "text": "Amos 3:7 Surely THE ADONAI YAHVIH will do nothing, but he re- vealeth his secret unto his servants the prophets. The lion hath roared, who will not fear? THE ADONAI YAHVIH hath spoken, who can but prophesy?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-14-the-bride-of-baal",
+  "order": 8.14,
+  "level": 2,
+  "title": "THE BRIDE OF BAAL",
+  "segments": [
    {
     "role": "heading",
     "text": "THE BRIDE OF BAAL"
@@ -14044,7 +15380,15 @@
    {
     "role": "body",
     "text": "After the heavens and the earth have been destroyed, My FA- THER, through His name, \"THE ADONAI\", will turn the whole event around to create new heavens and new earth and His elect will live in peace among the nations, and their life span will be like a tree that lives for thousands of years. They have become the spiritual Mount Zion."
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-15-chapter-6",
+  "order": 8.15,
+  "level": 2,
+  "title": "CHAPTER 6",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 6"
@@ -14144,7 +15488,15 @@
    {
     "role": "body",
     "text": "THE PERFECT DIAMOND"
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-16-a-smashed-heart-turned-into-diamond",
+  "order": 8.16,
+  "level": 2,
+  "title": "A SMASHED HEART TURNED INTO DIAMOND",
+  "segments": [
    {
     "role": "heading",
     "text": "A SMASHED HEART TURNED INTO DIAMOND"
@@ -14220,7 +15572,15 @@
    {
     "role": "body",
     "text": "BEHOLD MY NAMES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-17-the-propeller-of-the-adonai",
+  "order": 8.17,
+  "level": 2,
+  "title": "THE PROPELLER OF THE ADONAI",
+  "segments": [
    {
     "role": "heading",
     "text": "THE PROPELLER OF THE ADONAI"
@@ -14244,7 +15604,15 @@
    {
     "role": "body",
     "text": "Isa 4:3 And it shall come to pass, that he that is left in Zion, and he that remaineth in Jerusalem, shall be called holy, even ev- ery one that is written among the living in Jerusalem: Isa 4:4 When THE ADONAI (H136) shall have washed away the filth of the daughters of Zion, and shall have purged the blood of Jeru- salem from the midst thereof by the spirit of judgment, and by the spirit of burning. Isa 4:5 And THE YAHWEH will create upon every dwelling place of mount Zion, and upon her assemblies, a cloud and smoke by day, and the shining of a flaming fire by night: for upon all the glory shall be a defence. Isa 4:6 And there shall be a tabernacle for a shadow in the daytime from the heat, and for a place of refuge, and for a covert from storm and from rain."
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-18-chapter-7",
+  "order": 8.18,
+  "level": 2,
+  "title": "CHAPTER 7",
+  "segments": [
    {
     "role": "heading",
     "text": "CHAPTER 7"
@@ -14392,7 +15760,15 @@
    {
     "role": "body",
     "text": "Isa 20:2 At the same time spake THE YAHWEH by Isaiah the son of Amoz, saying, Go and loose the sackcloth from off thy loins, and put off thy shoe from thy foot. And he did so, walking na- ked and barefoot."
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-19-the-adulterous-acts-of-hosea",
+  "order": 8.19,
+  "level": 2,
+  "title": "THE ADULTEROUS ACTS OF HOSEA",
+  "segments": [
    {
     "role": "heading",
     "text": "THE ADULTEROUS ACTS OF HOSEA"
@@ -14456,7 +15832,15 @@
    {
     "role": "body",
     "text": "Mat 13:57 And they were offended in him. But Jesus said unto them, A prophet is not without honour, save in his own country, and in his own house."
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-20-a-rock-of-offence",
+  "order": 8.2,
+  "level": 2,
+  "title": "A ROCK OF OFFENCE",
+  "segments": [
    {
     "role": "heading",
     "text": "A ROCK OF OFFENCE"
@@ -14512,7 +15896,15 @@
    {
     "role": "body",
     "text": "THE FATHER: All my ways are offensive to men. The carnal mind cannot accept my ways. One has to come to an end of himself to accept my ways of doing things which are my Sev- en Offences."
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-21-the-offences-of-jesus",
+  "order": 8.21,
+  "level": 2,
+  "title": "THE OFFENCES OF JESUS",
+  "segments": [
    {
     "role": "heading",
     "text": "THE OFFENCES OF JESUS"
@@ -14712,7 +16104,15 @@
    {
     "role": "body",
     "text": "BEHOLD MY NAMES"
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-22-how-does-the-adonai-test",
+  "order": 8.22,
+  "level": 2,
+  "title": "HOW DOES THE ADONAI TEST?",
+  "segments": [
    {
     "role": "heading",
     "text": "HOW DOES THE ADONAI TEST?"
@@ -14764,7 +16164,15 @@
    {
     "role": "body",
     "text": "impossible demands, or through things that are completely out of this world. We through our name, \"THE ADONAI\", shall have the last laugh and will turn their situations around pro- vided that they are not offended by the seven test papers during the time of testing in different phases of their life."
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-23-basic-training-of-the-144-000",
+  "order": 8.23,
+  "level": 2,
+  "title": "BASIC TRAINING OF THE 144,000",
+  "segments": [
    {
     "role": "heading",
     "text": "BASIC TRAINING OF THE 144,000"
@@ -14788,7 +16196,15 @@
    {
     "role": "body",
     "text": "However, blessed are those who have overcome these offenc- es and are victorious; many blessings, promotions, rewards, and gifts await them through you and Shekinaih who repre- sent my name, \"THE ADONAI\"."
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-24-final-epilogue",
+  "order": 8.24,
+  "level": 2,
+  "title": "FINAL EPILOGUE",
+  "segments": [
    {
     "role": "heading",
     "text": "FINAL EPILOGUE"
@@ -15064,7 +16480,15 @@
    {
     "role": "body",
     "text": "CHINA TIBET TIBET"
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-25-about-the-authors",
+  "order": 8.25,
+  "level": 2,
+  "title": "ABOUT THE AUTHORS",
+  "segments": [
    {
     "role": "heading",
     "text": "ABOUT THE AUTHORS"
@@ -15116,7 +16540,15 @@
    {
     "role": "body",
     "text": "THE TRINITY"
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-26-appreciation-with-thanks",
+  "order": 8.26,
+  "level": 2,
+  "title": "APPRECIATION WITH THANKS",
+  "segments": [
    {
     "role": "heading",
     "text": "APPRECIATION WITH THANKS"

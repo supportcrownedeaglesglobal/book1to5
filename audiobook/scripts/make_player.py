@@ -29,6 +29,7 @@ def main():
 
     html = TEMPLATE.read_text(encoding="utf-8")
     html = html.replace("images/book-5/", f"images/book-{N}/")
+    html = html.replace("audio/book-5/", f"audio/book-{N}/")   # M_URL + local audioSrc path
     html = html.replace("Behold My Messenger 5", main_t)
     html = html.replace("The Resurrection of the Dead", sub_t)
     html = html.replace("The doctrine of the power of the age to come", subtitle)
