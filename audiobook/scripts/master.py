@@ -69,13 +69,57 @@ def loudnorm(in_wav: Path, out_mp3: Path):
                     "-codec:a", "libmp3lame", str(out_mp3)],
                    check=True, capture_output=True)
 
+SR_SEG = 24000                       # Kokoro segment sample rate
+_SIL_DIR = C.OUT / "_silence"        # cache of silence clips
+_PAUSE_SEC = {}
+
+def silence_clip(ms: int) -> Path:
+    """A silence clip in the SAME codec as the Kokoro segments (MP3 24 kHz mono) so the
+    concat demuxer can packet-stitch everything in one pass. The concat demuxer needs a
+    uniform codec — mixing WAV silence with MP3 speech silently drops most of the audio."""
+    _SIL_DIR.mkdir(parents=True, exist_ok=True)
+    p = _SIL_DIR / f"sil{ms}.mp3"
+    if not p.exists() or p.stat().st_size == 0:
+        subprocess.run([FFMPEG, "-y", "-f", "lavfi", "-i", f"anullsrc=r={SR_SEG}:cl=mono",
+                        "-t", f"{ms/1000.0}", "-c:a", "libmp3lame", "-q:a", "9", str(p)],
+                       check=True, capture_output=True)
+    return p
+
+def pause_sec(ms: int) -> float:
+    """ACTUAL decoded duration of the silence clip for `ms` (MP3 is frame-quantized to ~48 ms,
+    so this differs slightly from ms/1000). build_readalong uses THIS for its timeline, so the
+    read-along highlight matches the mastered audio exactly — no accumulated drift."""
+    if ms not in _PAUSE_SEC:
+        _PAUSE_SEC[ms] = duration_sec(silence_clip(ms))
+    return _PAUSE_SEC[ms]
+
+def concat_to_wav(seg_dir: Path, segs, td: str) -> Path:
+    """Fast assembly: decode the segment MP3s interleaved with silence in ONE ffmpeg
+    concat pass (vs pydub's one ffmpeg spawn PER segment). Inserts the same breathing
+    pauses as the old pydub path: a 300 ms lead-in, role-based gaps between paragraphs,
+    and a scene gap after a chapter title or the final segment."""
+    items = [silence_clip(300)]
+    n = len(segs)
+    for i, seg in enumerate(segs):
+        f = seg_dir / seg["file"]
+        if not f.exists() or f.stat().st_size == 0:
+            continue
+        items.append(f)
+        gap = C.SCENE_GAP_MS if (seg["role"] == "chapter_title" or i == n - 1) else pause_for(seg["role"])
+        items.append(silence_clip(int(gap)))
+    listf = Path(td) / "_concat.txt"
+    listf.write_text("".join(f"file '{Path(p).as_posix()}'\n" for p in items), encoding="utf-8")
+    wav = Path(td) / "raw.wav"
+    subprocess.run([FFMPEG, "-y", "-f", "concat", "-safe", "0", "-i", str(listf),
+                    "-ar", str(SR_SEG), "-ac", "1", str(wav)], check=True, capture_output=True)
+    return wav
+
 def master_track(track_dir: Path):
-    combined, meta = assemble(track_dir)
+    meta = json.loads((track_dir / "segments.json").read_text(encoding="utf-8"))
     C.CHAPTERS.mkdir(parents=True, exist_ok=True)
     out_mp3 = C.CHAPTERS / f"{meta['id']}.mp3"
     with tempfile.TemporaryDirectory() as td:
-        wav = Path(td) / "raw.wav"
-        combined.export(wav, format="wav")
+        wav = concat_to_wav(track_dir, meta["segments"], td)
         loudnorm(wav, out_mp3)
     dur = duration_sec(out_mp3)
     return {"id": meta["id"], "title": meta["title"], "level": meta["level"],

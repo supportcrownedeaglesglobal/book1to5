@@ -125,10 +125,8 @@ def master_slice(seg_dir: Path, seg_slice, out_id: str) -> float:
     # bypassed (FORCE) on any re-master, or children stay stale after a voice/text change.
     if not FORCE and CHILD_ID.match(out_id) and out_mp3.exists() and out_mp3.stat().st_size > 0:
         return M.duration_sec(out_mp3)
-    combined = assemble_slice(seg_dir, seg_slice)
     with tempfile.TemporaryDirectory() as td:
-        wav = Path(td) / "raw.wav"
-        combined.export(wav, format="wav")
+        wav = M.concat_to_wav(seg_dir, seg_slice, td)   # fast single-pass concat (same recipe)
         M.loudnorm(wav, out_mp3)
     return M.duration_sec(out_mp3)
 
