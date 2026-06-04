@@ -14,8 +14,8 @@ split_appendices.py) to refresh that embedded copy:
 import io, re
 import config as C
 
-INDEX = C.ROOT.parent / "book-5.html"   # the Book 5 player (index.html is now the multi-book landing page)
-MANIFEST = C.ROOT.parent / "audio" / "book-5" / "manifest.json"
+INDEX = C.PLAYER_HTML                    # the per-book player page (book-N.html)
+MANIFEST = C.WEB / "manifest.json"
 OPEN = '<script type="application/json" id="manifest-fallback">'
 CLOSE = "</script>"
 

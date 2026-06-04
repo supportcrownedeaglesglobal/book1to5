@@ -26,7 +26,7 @@ import fitz
 from PIL import Image, ImageDraw, ImageFont
 import config as C
 
-OUT = C.ROOT.parent / "images" / "book-5" / "diagrams"
+OUT = C.IMAGES / "diagrams"
 INDEX = C.DATA / "diagrams_index.json"
 CONTACT = C.ROOT / "out" / "diagram_contact"
 
@@ -101,7 +101,7 @@ def extract(pdf):
                 im.thumbnail((MAX_LONG, MAX_LONG))
             name = f"p{pno+1:03d}-{i+1}.jpg"
             im.save(OUT / name, "JPEG", quality=JPEG_Q, optimize=True)
-            index.append({"file": f"images/book-5/diagrams/{name}", "page": pno + 1,
+            index.append({"file": f"images/book-{C.BOOK}/diagrams/{name}", "page": pno + 1,
                           "w": w, "h": h, "context": page_context(doc, pno)})
     INDEX.write_text(json.dumps(index, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"extracted {len(index)} content images -> {OUT}")

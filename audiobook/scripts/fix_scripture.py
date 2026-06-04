@@ -18,7 +18,7 @@ import master as M
 import scripture as SC
 import split_appendices as SP
 
-WEB = C.ROOT.parent / "audio" / "book-5"
+WEB = C.WEB
 
 
 _PATTERN = None   # set by --pattern; when given, target raw text matching it instead

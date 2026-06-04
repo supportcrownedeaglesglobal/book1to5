@@ -80,7 +80,7 @@ def master_track(track_dir: Path):
     dur = duration_sec(out_mp3)
     return {"id": meta["id"], "title": meta["title"], "level": meta["level"],
             "order": meta["order"], "durationSec": dur,
-            "audioUrl": f"audio/book-5/{meta['id']}.mp3"}
+            "audioUrl": f"{C.AUDIO_PREFIX}/{meta['id']}.mp3"}
 
 def parse_range(spec, orders):
     if not spec: return set(orders)

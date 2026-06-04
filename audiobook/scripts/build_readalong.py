@@ -23,8 +23,8 @@ import config as C
 import master as M
 import split_appendices as SP
 
-READALONG = C.ROOT.parent / "readalong"
-WEB_MANIFEST = C.ROOT.parent / "audio" / "book-5" / "manifest.json"
+READALONG = C.READALONG
+WEB_MANIFEST = C.WEB / "manifest.json"
 
 
 def paragraphs(seg_dir: Path, seg_slice):

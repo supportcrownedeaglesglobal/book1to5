@@ -45,7 +45,7 @@ def main():
             "id": t["id"], "order": t["order"], "level": t["level"],
             "title": t["title"], "ready": ready,
             "durationSec": dur, "estSec": est,
-            "audioUrl": f"audio/book-5/{t['id']}.mp3" if ready else None,
+            "audioUrl": f"{C.AUDIO_PREFIX}/{t['id']}.mp3" if ready else None,
             "version": versions.get(t["id"], 1),
         })
     manifest = {

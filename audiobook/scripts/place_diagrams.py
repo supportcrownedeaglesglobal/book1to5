@@ -23,8 +23,8 @@ from pathlib import Path
 import fitz
 import config as C
 
-OUT = C.ROOT.parent / "images" / "book-5" / "diagrams"
-READALONG = C.ROOT.parent / "readalong"
+OUT = C.IMAGES / "diagrams"
+READALONG = C.READALONG
 DIAGRAMS_JSON = C.DATA / "diagrams.json"
 
 # Figure groups, assigned by PDF page (from manual review of the extracted candidates):
@@ -185,7 +185,7 @@ def main():
             sp, ep = span.get(tid, (page, page))
             frac = min(1.0, max(0.0, (page - sp) / max(1, ep - sp)))
             idx, how = round(frac * (len(plist) - 1)), "page"
-        rows.append({"image": f"images/book-5/diagrams/{name}", "track": tid,
+        rows.append({"image": f"images/book-{C.BOOK}/diagrams/{name}", "track": tid,
                      "after_text": unique_snippet(plist[idx]["text"], plist, idx),
                      "page": page, "how": how,
                      "_anchor": anchor[:70], "_para": plist[idx]["text"][:70]})

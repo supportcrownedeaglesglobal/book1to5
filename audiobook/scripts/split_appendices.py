@@ -38,7 +38,7 @@ FLOOR_LONG    = 90       # sub-part floor for long tracks (avoid hundreds of fra
 FLOOR_SHORT   = 20       # sub-part floor for short tracks (still split per bookmarks)
 WPS           = 138 / 60.0  # rough words/sec, only used to size sub-parts
 
-WEB_AUDIO = C.ROOT.parent / "audio" / "book-5"   # where the site serves audio + manifest
+WEB_AUDIO = C.WEB   # where the site serves this book's audio + manifest
 
 
 def est_seg(seg):
