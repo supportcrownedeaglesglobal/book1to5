@@ -28,8 +28,10 @@ WEB_MANIFEST = C.WEB / "manifest.json"
 
 
 def paragraphs(seg_dir: Path, seg_slice):
-    """Replay master.assemble's timeline to get each paragraph's start/end (seconds)."""
-    out, t = [], 0.300                                   # 300ms lead-in (master.assemble)
+    """Replay master.concat_to_wav's timeline to get each paragraph's start/end (seconds).
+    Uses the SAME silence-clip durations the master actually inserts (M.pause_sec), so the
+    highlight matches the audio exactly with no accumulated drift."""
+    out, t = [], M.pause_sec(300)                        # 300ms lead-in (matches master concat)
     n = len(seg_slice)
     for j, s in enumerate(seg_slice):
         f = seg_dir / s["file"]
@@ -38,7 +40,7 @@ def paragraphs(seg_dir: Path, seg_slice):
         t += dur
         out.append({"role": s["role"], "text": s["text"], "start": round(start, 2), "end": round(t, 2)})
         gap = C.SCENE_GAP_MS if (s["role"] == "chapter_title" or j == n - 1) else M.pause_for(s["role"])
-        t += gap / 1000.0
+        t += M.pause_sec(int(gap))
     return out
 
 

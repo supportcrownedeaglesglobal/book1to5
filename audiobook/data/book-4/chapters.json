@@ -96,9 +96,17 @@
    {
     "role": "body",
     "text": "Crowned Eagles Global www.crownedeaglesglobal.org"
-   },
+   }
+  ]
+ },
+ {
+  "id": "002-foreword",
+  "order": 2,
+  "level": 2,
+  "title": "FOREWORD",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "FOREWORD"
    },
    {
@@ -172,9 +180,17 @@
    {
     "role": "body",
     "text": "THE TRINITY"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-preface",
+  "order": 3,
+  "level": 2,
+  "title": "PREFACE",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "PREFACE"
    },
    {
@@ -196,9 +212,17 @@
    {
     "role": "body",
     "text": "THE TRINITY"
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-introduction",
+  "order": 4,
+  "level": 2,
+  "title": "INTRODUCTION",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "INTRODUCTION"
    },
    {
@@ -256,17 +280,25 @@
   ]
  },
  {
-  "id": "002-part-1-the-descent-of-the-great-white-throne",
-  "order": 2,
+  "id": "005-part-1-the-descent-of-the-great-white-throne",
+  "order": 5,
   "level": 1,
   "title": "PART 1 \nThe Descent of THE GREAT WHITE THRONE",
   "segments": [
    {
     "role": "chapter_title",
     "text": "PART 1 \nThe Descent of THE GREAT WHITE THRONE"
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-act-1-scene-1-the-descent-of-the-great-white-throne",
+  "order": 6,
+  "level": 2,
+  "title": "ACT 1 SCENE 1 \nTHE DESCENT OF THE GREAT WHITE THRONE",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ACT 1 SCENE 1 \nTHE DESCENT OF THE GREAT WHITE THRONE"
    },
    {
@@ -316,8 +348,8 @@
   ]
  },
  {
-  "id": "003-the-definition-of-the-ancient-of-days",
-  "order": 3,
+  "id": "007-the-definition-of-the-ancient-of-days",
+  "order": 7,
   "level": 2,
   "title": "THE DEFINITION OF THE ANCIENT OF DAYS",
   "segments": [
@@ -504,7 +536,15 @@
    {
     "role": "body",
     "text": "Joh 12:28 Father, glorify thy name. Then came there a voice from heaven, saying, I have both glorified it, and will glorify it again. Joh 12:29 The people therefore, that stood by, and heard it, said that it thundered: others said, An angel spake to him. Joh 12:30 Jesus answered and said, This voice came not because of me, but for your sakes. Joh 12:31 Now is the judgment of this Cosmos: now shall the prince of this Cosmos be cast out."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-the-definition-of-the-ancient-of-days-p2",
+  "order": 8,
+  "level": 2,
+  "title": "THE DEFINITION OF THE ANCIENT OF DAYS (part 2)",
+  "segments": [
    {
     "role": "body",
     "text": "THE FATHER then said to Shekinaih and David, \"The first appearance of Me in My SON JESUS, was to heal and restore the Cosmoses; but the Cosmoses did not receive and believe in Me through His speech; and I did not judge them. But in the last days, he that rejects and receives not OUR ORACLE through THE FATHER and THE HOLY SPIRIT represented by Shekinaih/JESUS represented by Aaron K David, THE DECREEING AND SEALING SWORD AND THE MAJOR EXECUTING SABRE/THE MINOR CO-EXECUTING SABRE, shall be judged severely\"."
@@ -600,7 +640,15 @@
    {
     "role": "body",
     "text": "Shekinaih, My incarnation and THE HOLY SPIRIT reincarnation, together with you, are Our arm; who shall bring salvation unto Me and uphold My fury; and those who rebel and vex both of you, who represent THE TRINITY, make themselves Our enemy and will drink OUR WRATH through OUR NAME(S), \"THE EL SHADDAI\", through THE FATHER and THE HOLY SPIRIT represented by Shekinaih/JESUS represented by Aaron K David, THE DECREEING AND SEALING SWORD AND THE MAJOR EXECUTING SABRE/THE MINOR CO-EXECUTING SABRE."
-   },
+   }
+  ]
+ },
+ {
+  "id": "007-the-definition-of-the-ancient-of-days-p3",
+  "order": 9,
+  "level": 2,
+  "title": "THE DEFINITION OF THE ANCIENT OF DAYS (part 3)",
+  "segments": [
    {
     "role": "body",
     "text": "Isa 63:4 For the day of vengeance is in mine heart, and the year of my redeemed is come. Isa 63:5 And I looked, and there was none to help; and I wondered that there was none to uphold: therefore mine own arm brought salvation unto me; and my fury, it upheld me. …….. Isa 63:9 In all their affliction he was afflicted, and the angel of his presence saved them: in his love and in his pity he redeemed them; and he bare them, and carried them all the days of old. Isa 63:10 But they rebelled, and vexed his holy Spirit: therefore he was turned to be their enemy, and he fought against them."
@@ -672,16 +720,24 @@
    {
     "role": "body",
     "text": "Rev 20:4 And I saw thrones, and they sat upon them, and judgment was given unto them: and I saw the souls of them that were beheaded for the witness of Jesus, and for the word of THE ELOHIM, and which had not worshipped the beast, neither his image, neither had received his mark upon their foreheads, or in their hands; and they lived and reigned with Christ a thousand years. Rev 20:5 But the rest of the dead lived not again until the thousand years were finished. This is the first resurrection. Rev 20:6 Blessed and holy is he that hath part in the first resurrection: on such the second death hath no power, but they shall be priests of THE ELOHIM and of Christ, and shall reign with him a thousand years."
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-act-1-scene-2-heaven",
+  "order": 10,
+  "level": 2,
+  "title": "ACT 1 SCENE 2 \nHEAVEN",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ACT 1 SCENE 2 \nHEAVEN"
    }
   ]
  },
  {
-  "id": "004-the-fourth-witness",
-  "order": 4,
+  "id": "009-the-fourth-witness",
+  "order": 11,
   "level": 2,
   "title": "The Fourth Witness",
   "segments": [
@@ -716,8 +772,8 @@
   ]
  },
  {
-  "id": "005-the-confirmation-of-who-shekinaih-is",
-  "order": 5,
+  "id": "010-the-confirmation-of-who-shekinaih-is",
+  "order": 12,
   "level": 2,
   "title": "THE CONFIRMATION OF WHO SHEKINAIH IS",
   "segments": [
@@ -728,8 +784,8 @@
   ]
  },
  {
-  "id": "006-the-first-vision",
-  "order": 6,
+  "id": "011-the-first-vision",
+  "order": 13,
   "level": 2,
   "title": "The First Vision",
   "segments": [
@@ -820,8 +876,8 @@
   ]
  },
  {
-  "id": "007-the-second-vision",
-  "order": 7,
+  "id": "012-the-second-vision",
+  "order": 14,
   "level": 2,
   "title": "The Second Vision",
   "segments": [
@@ -1004,16 +1060,24 @@
    {
     "role": "body",
     "text": "Upon hearing what THE FATHER said, Shekinaih was comforted. Upon hearing the visions, Aaron K David, Jose and the rest of their disciples' faith in Shekinaih were also established and their hope restored."
-   },
+   }
+  ]
+ },
+ {
+  "id": "013-act-1-scene-3-crowned-eagles-global-meeting-venue-singapore",
+  "order": 15,
+  "level": 2,
+  "title": "ACT 1 SCENE 3 \nCrowned Eagles Global Meeting Venue, Singapore",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ACT 1 SCENE 3 \nCrowned Eagles Global Meeting Venue, Singapore"
    }
   ]
  },
  {
-  "id": "008-final-judgment-criteria",
-  "order": 8,
+  "id": "014-final-judgment-criteria",
+  "order": 16,
   "level": 2,
   "title": "FINAL JUDGMENT CRITERIA",
   "segments": [
@@ -1060,16 +1124,24 @@
    {
     "role": "body",
     "text": "And the story begins…......"
-   },
+   }
+  ]
+ },
+ {
+  "id": "015-act-1-scene-4-level-4-of-hell-heaven",
+  "order": 17,
+  "level": 2,
+  "title": "ACT 1 SCENE 4\nLevel 4 of Hell/ Heaven",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ACT 1 SCENE 4\nLevel 4 of Hell/ Heaven"
    }
   ]
  },
  {
-  "id": "009-what-happens-when-a-man-dies",
-  "order": 9,
+  "id": "016-what-happens-when-a-man-dies",
+  "order": 18,
   "level": 2,
   "title": "WHAT HAPPENS WHEN A MAN DIEs?",
   "segments": [
@@ -1192,17 +1264,25 @@
   ]
  },
  {
-  "id": "010-part-2-general-judgment-criteria",
-  "order": 10,
+  "id": "017-part-2-general-judgment-criteria",
+  "order": 19,
   "level": 1,
   "title": "PART 2\nGeneral Judgment Criteria",
   "segments": [
    {
     "role": "chapter_title",
     "text": "PART 2\nGeneral Judgment Criteria"
-   },
+   }
+  ]
+ },
+ {
+  "id": "018-criteria-for-judgment",
+  "order": 20,
+  "level": 2,
+  "title": "Criteria for Judgment",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Criteria for Judgment"
    },
    {
@@ -1308,8 +1388,8 @@
   ]
  },
  {
-  "id": "011-1-purity-of-heart",
-  "order": 11,
+  "id": "019-1-purity-of-heart",
+  "order": 21,
   "level": 2,
   "title": "1. Purity of Heart",
   "segments": [
@@ -1376,8 +1456,8 @@
   ]
  },
  {
-  "id": "012-singleness-of-heart",
-  "order": 12,
+  "id": "020-singleness-of-heart",
+  "order": 22,
   "level": 2,
   "title": "Singleness of Heart",
   "segments": [
@@ -1416,8 +1496,8 @@
   ]
  },
  {
-  "id": "013-jealousy-into-generosity-of-heart-in-giving-to-others-as-unt",
-  "order": 13,
+  "id": "021-jealousy-into-generosity-of-heart-in-giving-to-others-as-unt",
+  "order": 23,
   "level": 2,
   "title": "Jealousy INTO Generosity of heart in giving to others as unto me",
   "segments": [
@@ -1476,8 +1556,8 @@
   ]
  },
  {
-  "id": "014-selfishness-into-think-on-behalf-of-others",
-  "order": 14,
+  "id": "022-selfishness-into-think-on-behalf-of-others",
+  "order": 24,
   "level": 2,
   "title": "Selfishness INTO Think on behalf of others",
   "segments": [
@@ -1508,8 +1588,8 @@
   ]
  },
  {
-  "id": "015-spitefulness-into-be-happy-for-others-peaceable-fruit-of-rig",
-  "order": 15,
+  "id": "023-spitefulness-into-be-happy-for-others-peaceable-fruit-of-rig",
+  "order": 25,
   "level": 2,
   "title": "Spitefulness INTO Be happy for others, Peaceable fruit of Righteousness.",
   "segments": [
@@ -1528,8 +1608,8 @@
   ]
  },
  {
-  "id": "016-be-comparable-with-my-spirit",
-  "order": 16,
+  "id": "024-be-comparable-with-my-spirit",
+  "order": 26,
   "level": 2,
   "title": "Be comparable with my Spirit",
   "segments": [
@@ -1556,8 +1636,8 @@
   ]
  },
  {
-  "id": "017-be-discreet-with-our-secret-when-i-whisper-to-your-ear",
-  "order": 17,
+  "id": "025-be-discreet-with-our-secret-when-i-whisper-to-your-ear",
+  "order": 27,
   "level": 2,
   "title": "Be Discreet with Our secret when I whisper to your ear",
   "segments": [
@@ -1580,8 +1660,8 @@
   ]
  },
  {
-  "id": "018-honor-one-another-and-communicate-with-love",
-  "order": 18,
+  "id": "026-honor-one-another-and-communicate-with-love",
+  "order": 28,
   "level": 2,
   "title": "Honor one another and communicate with love",
   "segments": [
@@ -1600,8 +1680,8 @@
   ]
  },
  {
-  "id": "019-be-respectful-to-me-in-honoring-my-servant-which-i-had-appoi",
-  "order": 19,
+  "id": "027-be-respectful-to-me-in-honoring-my-servant-which-i-had-appoi",
+  "order": 29,
   "level": 2,
   "title": "Be respectful to me in honoring my servant which I had appointed over you.",
   "segments": [
@@ -1624,8 +1704,8 @@
   ]
  },
  {
-  "id": "020-sacrificial-love-greatest-priority",
-  "order": 20,
+  "id": "028-sacrificial-love-greatest-priority",
+  "order": 30,
   "level": 2,
   "title": "Sacrificial Love (Greatest Priority)",
   "segments": [
@@ -1652,8 +1732,8 @@
   ]
  },
  {
-  "id": "021-attitude-of-the-heart-to-one-another-as-unto-me",
-  "order": 21,
+  "id": "029-attitude-of-the-heart-to-one-another-as-unto-me",
+  "order": 31,
   "level": 2,
   "title": "Attitude of the heart to one another as unto me",
   "segments": [
@@ -1668,8 +1748,8 @@
   ]
  },
  {
-  "id": "022-servanthood-attitude-prerequisite",
-  "order": 22,
+  "id": "030-servanthood-attitude-prerequisite",
+  "order": 32,
   "level": 2,
   "title": "Servanthood Attitude (Prerequisite)",
   "segments": [
@@ -1684,8 +1764,8 @@
   ]
  },
  {
-  "id": "023-do-our-will-as-commanded-by-us-through-shekinaih-and-those-i",
-  "order": 23,
+  "id": "031-do-our-will-as-commanded-by-us-through-shekinaih-and-those-i",
+  "order": 33,
   "level": 2,
   "title": "Do Our will as commanded by us through Shekinaih and those I put above you",
   "segments": [
@@ -1704,8 +1784,8 @@
   ]
  },
  {
-  "id": "024-2-be-holy-like-me",
-  "order": 24,
+  "id": "032-2-be-holy-like-me",
+  "order": 34,
   "level": 2,
   "title": "2. Be Holy Like Me",
   "segments": [
@@ -1728,8 +1808,8 @@
   ]
  },
  {
-  "id": "025-3-be-perfect-like-me",
-  "order": 25,
+  "id": "033-3-be-perfect-like-me",
+  "order": 35,
   "level": 2,
   "title": "3. Be Perfect Like Me",
   "segments": [
@@ -1756,8 +1836,8 @@
   ]
  },
  {
-  "id": "026-4-walk-of-faith",
-  "order": 26,
+  "id": "034-4-walk-of-faith",
+  "order": 36,
   "level": 2,
   "title": "4. Walk of Faith",
   "segments": [
@@ -1776,8 +1856,8 @@
   ]
  },
  {
-  "id": "027-5-heart-attitude",
-  "order": 27,
+  "id": "035-5-heart-attitude",
+  "order": 37,
   "level": 2,
   "title": "5. Heart Attitude",
   "segments": [
@@ -1800,8 +1880,8 @@
   ]
  },
  {
-  "id": "028-6-be-sober",
-  "order": 28,
+  "id": "036-6-be-sober",
+  "order": 38,
   "level": 2,
   "title": "6. Be Sober",
   "segments": [
@@ -1864,17 +1944,25 @@
   ]
  },
  {
-  "id": "029-part-3-judgment-for-christendom",
-  "order": 29,
+  "id": "037-part-3-judgment-for-christendom",
+  "order": 39,
   "level": 1,
   "title": "Part 3\nJudgment for Christendom",
   "segments": [
    {
     "role": "chapter_title",
     "text": "Part 3\nJudgment for Christendom"
-   },
+   }
+  ]
+ },
+ {
+  "id": "038-judgment-for-christendom",
+  "order": 40,
+  "level": 2,
+  "title": "Judgment for Christendom",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Judgment for Christendom"
    },
    {
@@ -1888,8 +1976,8 @@
   ]
  },
  {
-  "id": "030-ministers",
-  "order": 30,
+  "id": "039-ministers",
+  "order": 41,
   "level": 2,
   "title": "Ministers",
   "segments": [
@@ -1940,8 +2028,8 @@
   ]
  },
  {
-  "id": "031-christianity-in-general",
-  "order": 31,
+  "id": "040-christianity-in-general",
+  "order": 42,
   "level": 2,
   "title": "Christianity in General",
   "segments": [
@@ -1980,20 +2068,36 @@
    {
     "role": "decree",
     "text": "Intimacy with Me (How much you know Me) will determine your position in heaven; when you make it to Our Kingdom."
-   },
+   }
+  ]
+ },
+ {
+  "id": "041-chapter-1",
+  "order": 43,
+  "level": 2,
+  "title": "Chapter 1",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 1"
-   },
+   }
+  ]
+ },
+ {
+  "id": "042-how-the-elohim-s-ministers-will-be-judged",
+  "order": 44,
+  "level": 2,
+  "title": "How THE ELOHIM's Ministers will be judged",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "How THE ELOHIM's Ministers will be judged"
    }
   ]
  },
  {
-  "id": "032-a-hypocrites-heavily-judged",
-  "order": 32,
+  "id": "043-a-hypocrites-heavily-judged",
+  "order": 45,
   "level": 2,
   "title": "A) Hypocrites: Heavily Judged",
   "segments": [
@@ -2092,8 +2196,8 @@
   ]
  },
  {
-  "id": "033-b-cowards-not-inherit-the-kingdom-of-heaven",
-  "order": 33,
+  "id": "044-b-cowards-not-inherit-the-kingdom-of-heaven",
+  "order": 46,
   "level": 2,
   "title": "B) Cowards: not inherit THE Kingdom of Heaven",
   "segments": [
@@ -2120,8 +2224,8 @@
   ]
  },
  {
-  "id": "034-c-judgmental-attitude-will-be-judged-heavily-by-the-elohim",
-  "order": 34,
+  "id": "045-c-judgmental-attitude-will-be-judged-heavily-by-the-elohim",
+  "order": 47,
   "level": 2,
   "title": "C) Judgmental Attitude WILL BE Judged heavily by THE ELOHIM",
   "segments": [
@@ -2216,8 +2320,8 @@
   ]
  },
  {
-  "id": "035-d-love",
-  "order": 35,
+  "id": "046-d-love",
+  "order": 48,
   "level": 2,
   "title": "D) Love",
   "segments": [
@@ -2252,8 +2356,8 @@
   ]
  },
  {
-  "id": "036-e-measured-by-the-words-they-spoke",
-  "order": 36,
+  "id": "047-e-measured-by-the-words-they-spoke",
+  "order": 49,
   "level": 2,
   "title": "E) Measured by the words THEY spoke",
   "segments": [
@@ -2316,8 +2420,8 @@
   ]
  },
  {
-  "id": "037-f-listen-to-my-word-and-practice-it-equal-walk-it-out",
-  "order": 37,
+  "id": "048-f-listen-to-my-word-and-practice-it-equal-walk-it-out",
+  "order": 50,
   "level": 2,
   "title": "F) Listen to my Word and Practice it EQUAL Walk it out",
   "segments": [
@@ -2356,8 +2460,8 @@
   ]
  },
  {
-  "id": "038-g-whether-they-obey-our-will",
-  "order": 38,
+  "id": "049-g-whether-they-obey-our-will",
+  "order": 51,
   "level": 2,
   "title": "G) Whether they Obey Our Will",
   "segments": [
@@ -2440,7 +2544,15 @@
    {
     "role": "scripture",
     "text": "Joh 4:34 Jesus saith unto them, My meat is to do the will of him that sent me, and to finish his work. Joh 4:35 Say not ye, There are yet four months, and then cometh harvest? behold, I say unto you, Lift up your eyes, and look on the fields; for they are white already to harvest. Joh 4:36 And he that reapeth receiveth wages, and gathereth fruit unto life eternal: that both he that soweth and he that reapeth may rejoice together."
-   },
+   }
+  ]
+ },
+ {
+  "id": "049-g-whether-they-obey-our-will-p2",
+  "order": 52,
+  "level": 2,
+  "title": "G) Whether they Obey Our Will (part 2)",
+  "segments": [
    {
     "role": "scripture",
     "text": "Joh 6:39 And this is THE FATHER'S will which hath sent me, that of all which he hath given me I should lose nothing, but should raise it up again at the last day."
@@ -2520,13 +2632,29 @@
    {
     "role": "scripture",
     "text": "Luk 8:12 Those by the way side are they that hear; then cometh the devil, and taketh away the word out of their hearts, lest they should believe and be saved. Luk 8:13 They on the rock are they, which, when they hear, receive the word with joy; and these have no root, which for a while believe, and in time of temptation fall away. Luk 8:14 And that which fell among thorns are they, which, when they have heard, go forth, and are choked with cares and riches and pleasures of this life, and bring no fruit to perfection. Luk 8:15 But that on the good ground are they, which in an honest and good heart, having heard the word, keep it, and bring forth fruit with patience."
-   },
+   }
+  ]
+ },
+ {
+  "id": "050-chapter-2",
+  "order": 53,
+  "level": 2,
+  "title": "Chapter 2",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 2"
-   },
+   }
+  ]
+ },
+ {
+  "id": "051-christianity-in-general-2",
+  "order": 54,
+  "level": 2,
+  "title": "Christianity in General",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Christianity in General"
    },
    {
@@ -2536,8 +2664,8 @@
   ]
  },
  {
-  "id": "039-a-whether-they-obey-my-will",
-  "order": 39,
+  "id": "052-a-whether-they-obey-my-will",
+  "order": 55,
   "level": 2,
   "title": "A) Whether they obey my will",
   "segments": [
@@ -2616,8 +2744,8 @@
   ]
  },
  {
-  "id": "040-b-whether-they-love-one-another-as-i-have-loved-you",
-  "order": 40,
+  "id": "053-b-whether-they-love-one-another-as-i-have-loved-you",
+  "order": 56,
   "level": 2,
   "title": "B) Whether they love one another as I have loved you",
   "segments": [
@@ -2648,8 +2776,8 @@
   ]
  },
  {
-  "id": "041-c-whether-they-hurt-others-with-their-words-except-when-i-am",
-  "order": 41,
+  "id": "054-c-whether-they-hurt-others-with-their-words-except-when-i-am",
+  "order": 57,
   "level": 2,
   "title": "C) Whether they hurt others with their words, EXCEPT WHEN I AM USING IT IN THIS AREA TO TEST OTHERS (SHEKINAIH, EXCEPTIONAL)",
   "segments": [
@@ -2692,8 +2820,8 @@
   ]
  },
  {
-  "id": "042-d-whether-they-submit-to-the-authorities-i-have-placed-over-",
-  "order": 42,
+  "id": "055-d-whether-they-submit-to-the-authorities-i-have-placed-over-",
+  "order": 58,
   "level": 2,
   "title": "D) Whether they submit to the authorities I have placed over them that obey me",
   "segments": [
@@ -2712,8 +2840,8 @@
   ]
  },
  {
-  "id": "043-e-whether-they-walk-out-their-love-and-my-will-for-them",
-  "order": 43,
+  "id": "056-e-whether-they-walk-out-their-love-and-my-will-for-them",
+  "order": 59,
   "level": 2,
   "title": "E) Whether they walk OUT THEIR Love AND MY WILL FOR THEM",
   "segments": [
@@ -2736,8 +2864,8 @@
   ]
  },
  {
-  "id": "044-f-whether-they-are-walking-in-obedience-of-faith",
-  "order": 44,
+  "id": "057-f-whether-they-are-walking-in-obedience-of-faith",
+  "order": 60,
   "level": 2,
   "title": "F) Whether they are walking in obedience of faith",
   "segments": [
@@ -2756,8 +2884,8 @@
   ]
  },
  {
-  "id": "045-g-whether-they-walk-in-liberty-in-mercy-do-not-judge",
-  "order": 45,
+  "id": "058-g-whether-they-walk-in-liberty-in-mercy-do-not-judge",
+  "order": 61,
   "level": 2,
   "title": "G) Whether they walk in LIBERTY, IN mercy, DO NOT JUDGE",
   "segments": [
@@ -2804,8 +2932,8 @@
   ]
  },
  {
-  "id": "046-h-whether-they-are-in-intimacy-with-me-how-much-they-know-me",
-  "order": 46,
+  "id": "059-h-whether-they-are-in-intimacy-with-me-how-much-they-know-me",
+  "order": 62,
   "level": 2,
   "title": "H) Whether they are in intimacy with me, HOW MUCH THEY KNOW ME",
   "segments": [
@@ -2868,24 +2996,32 @@
   ]
  },
  {
-  "id": "047-part-4-many-are-called-few-are-chosen",
-  "order": 47,
+  "id": "060-part-4-many-are-called-few-are-chosen",
+  "order": 63,
   "level": 1,
   "title": "Part 4 \nMany are Called, \nFew are Chosen",
   "segments": [
    {
     "role": "chapter_title",
     "text": "Part 4 \nMany are Called, \nFew are Chosen"
-   },
+   }
+  ]
+ },
+ {
+  "id": "061-act-2-scene-1-creation-department-in-heaven",
+  "order": 64,
+  "level": 2,
+  "title": "ACT 2 SCENE 1 \nCreation Department in Heaven",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ACT 2 SCENE 1 \nCreation Department in Heaven"
    }
   ]
  },
  {
-  "id": "048-the-144-000-brides-and-7-000-anointed",
-  "order": 48,
+  "id": "062-the-144-000-brides-and-7-000-anointed",
+  "order": 65,
   "level": 2,
   "title": "THE 144, 000 BRIDES AND 7,000 ANOINTED",
   "segments": [
@@ -2896,8 +3032,8 @@
   ]
  },
  {
-  "id": "049-i-pre-agreement-with-jesus-in-heaven-before-being-sent-to-ea",
-  "order": 49,
+  "id": "063-i-pre-agreement-with-jesus-in-heaven-before-being-sent-to-ea",
+  "order": 66,
   "level": 2,
   "title": "I) Pre-agreement with Jesus in heaven before being sent to Earth",
   "segments": [
@@ -2944,8 +3080,8 @@
   ]
  },
  {
-  "id": "050-vision-of-their-walk-of-life-on-earth",
-  "order": 50,
+  "id": "064-vision-of-their-walk-of-life-on-earth",
+  "order": 67,
   "level": 2,
   "title": "Vision of their walk of life on Earth",
   "segments": [
@@ -2976,8 +3112,8 @@
   ]
  },
  {
-  "id": "051-evaluation-of-how-they-walk-on-earth",
-  "order": 51,
+  "id": "065-evaluation-of-how-they-walk-on-earth",
+  "order": 68,
   "level": 2,
   "title": "EVALUATION OF HOW THEY WALK ON EARTH",
   "segments": [
@@ -3000,8 +3136,8 @@
   ]
  },
  {
-  "id": "052-ii-life-in-ceg",
-  "order": 52,
+  "id": "066-ii-life-in-ceg",
+  "order": 69,
   "level": 2,
   "title": "II) LIFE IN CEG",
   "segments": [
@@ -3028,8 +3164,8 @@
   ]
  },
  {
-  "id": "053-iii-persecution-from-within-and-outside-ceg",
-  "order": 53,
+  "id": "067-iii-persecution-from-within-and-outside-ceg",
+  "order": 70,
   "level": 2,
   "title": "III) PERSECUTION FROM WITHIN AND OUTSIDE CEG",
   "segments": [
@@ -3044,8 +3180,8 @@
   ]
  },
  {
-  "id": "054-iv-many-books-written-cds-produced-interpretation-of-the-bib",
-  "order": 54,
+  "id": "068-iv-many-books-written-cds-produced-interpretation-of-the-bib",
+  "order": 71,
   "level": 2,
   "title": "IV) MANY BOOKS WRITTEN, CDS PRODUCED, INTERPRETATION OF THE BIBLE BY SHEKINAIH AND AARON K DAVID",
   "segments": [
@@ -3068,24 +3204,32 @@
   ]
  },
  {
-  "id": "055-part-5-escape-the-torment-of-hell-fire-in-level-1-2-3",
-  "order": 55,
+  "id": "069-part-5-escape-the-torment-of-hell-fire-in-level-1-2-3",
+  "order": 72,
   "level": 1,
   "title": "PART 5 \nESCAPE THE TORMENT OF HELL FIRE IN LEVEL 1, 2, 3",
   "segments": [
    {
     "role": "chapter_title",
     "text": "PART 5 \nESCAPE THE TORMENT OF HELL FIRE IN LEVEL 1, 2, 3"
-   },
+   }
+  ]
+ },
+ {
+  "id": "070-act-2-scene-2-mid-heaven-the-netherworld",
+  "order": 73,
+  "level": 2,
+  "title": "ACT 2 SCENE 2 \nMid Heaven, the Netherworld",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ACT 2 SCENE 2 \nMid Heaven, the Netherworld"
    }
   ]
  },
  {
-  "id": "056-judgement-criteria-for-all-mankind-and-the-elect-to-escape-t",
-  "order": 56,
+  "id": "071-judgement-criteria-for-all-mankind-and-the-elect-to-escape-t",
+  "order": 74,
   "level": 2,
   "title": "JUDGEMENT CRITERIA FOR ALL MANKIND AND THE ELECT TO ESCAPE THE TORMENT OF HELL FIRE IN LEVEL 1, 2, 3",
   "segments": [
@@ -3124,8 +3268,8 @@
   ]
  },
  {
-  "id": "057-1-attitude",
-  "order": 57,
+  "id": "072-1-attitude",
+  "order": 75,
   "level": 2,
   "title": "1) ATTITUDE",
   "segments": [
@@ -3136,8 +3280,8 @@
   ]
  },
  {
-  "id": "058-a-be-merciful-as-i-am-merciful",
-  "order": 58,
+  "id": "073-a-be-merciful-as-i-am-merciful",
+  "order": 76,
   "level": 2,
   "title": "A) BE MERCIFUL AS I AM MERCIFUL",
   "segments": [
@@ -3156,8 +3300,8 @@
   ]
  },
  {
-  "id": "059-b-harass-not-when-others-are-blessed",
-  "order": 59,
+  "id": "074-b-harass-not-when-others-are-blessed",
+  "order": 77,
   "level": 2,
   "title": "B) HARASS NOT WHEN OTHERS ARE BLESSED",
   "segments": [
@@ -3180,8 +3324,8 @@
   ]
  },
  {
-  "id": "060-c-be-fruitful",
-  "order": 60,
+  "id": "075-c-be-fruitful",
+  "order": 78,
   "level": 2,
   "title": "C) BE FRUITFUL",
   "segments": [
@@ -3248,8 +3392,8 @@
   ]
  },
  {
-  "id": "061-d-mock-not",
-  "order": 61,
+  "id": "076-d-mock-not",
+  "order": 79,
   "level": 2,
   "title": "D) MOCK NOT",
   "segments": [
@@ -3312,8 +3456,8 @@
   ]
  },
  {
-  "id": "062-e-servitude",
-  "order": 62,
+  "id": "077-e-servitude",
+  "order": 80,
   "level": 2,
   "title": "E) SERVITUDE",
   "segments": [
@@ -3384,7 +3528,15 @@
    {
     "role": "scripture",
     "text": "Eze 4:1 Thou also, son of man, take thee a tile, and lay it before thee, and pourtray upon it the city, even Jerusalem: Eze 4:2 And lay siege against it, and build a fort against it, and cast a mount against it; set the camp also against it, and set battering rams against it round about. Eze 4:3 Moreover take thou unto thee an iron pan, and set it for a wall of iron between thee and the city: and set thy face against it, and it shall be besieged, and thou shalt lay siege against it. This shall be a sign to the house of Israel. Eze 4:4 Lie thou also upon thy left side, and lay the iniquity of the house of Israel upon it: according to the number of the days that thou shalt lie upon it thou shalt bear their iniquity. Eze 4:5 For I have laid upon thee the years of their iniquity, according to the number of the days, three hundred and ninety days: so shalt thou bear the iniquity of the house of Israel. Eze 4:6 And when thou hast accomplished them, lie again on thy right side, and thou shalt bear the iniquity of the house of Judah forty days: I have appointed thee each day for a year. Eze 4:7 Therefore thou shalt set thy face toward the siege of Jerusalem, and thine arm shall be uncovered, and thou shalt prophesy against it. Eze 4:8 And, behold, I will lay bands upon thee, and thou shalt not turn thee from one side to another, till thou hast ended the days of thy siege. Eze 4:9 Take thou also unto thee wheat, and barley, and beans, and lentiles, and millet, and fitches, and put them in one vessel, and make thee bread thereof, according to the number of the days that thou shalt lie upon thy side, three hundred and ninety days shalt thou eat thereof. Eze 4:10 And thy meat which thou shalt eat shall be by weight, twenty shekels a day: from time to time shalt thou eat it. Eze 4:11 Thou shalt drink also water by measure, the sixth part of an hin: from time to time shalt thou drink. Eze 4:12 And thou shalt eat it as barley cakes, and thou shalt bake it with dung that cometh out of man, in their sight. Eze 4:13 And THE YAHWEH said, Even thus shall the children of Israel eat their defiled bread among the Gentiles, whither I will drive them. Eze 4:14 Then said I, Ah THE ADONAI YAHVIH! behold, my soul hath not been polluted: for from my youth up even till now have I not eaten of that which dieth of itself, or is torn in pieces; neither came there abominable flesh into my mouth. Eze 4:15 Then he said unto me, Lo, I have given thee cow's dung for man's dung, and thou shalt prepare thy bread therewith. Eze 4:16 Moreover he said unto me, Son of man, behold, I will break the staff of bread in Jerusalem: and they shall eat bread by weight, and with care; and they shall drink water by measure, and with astonishment: Eze 4:17 That they may want bread and water, and be astonied one with another, and consume away for their iniquity."
-   },
+   }
+  ]
+ },
+ {
+  "id": "077-e-servitude-p2",
+  "order": 81,
+  "level": 2,
+  "title": "E) SERVITUDE (part 2)",
+  "segments": [
    {
     "role": "body",
     "text": "iii) Be A Servant To Those Whom I Put Above You To Serve"
@@ -3444,8 +3596,8 @@
   ]
  },
  {
-  "id": "063-2-action",
-  "order": 63,
+  "id": "078-2-action",
+  "order": 82,
   "level": 2,
   "title": "2) ACTION",
   "segments": [
@@ -3456,8 +3608,8 @@
   ]
  },
  {
-  "id": "064-a-man-of-the-word",
-  "order": 64,
+  "id": "079-a-man-of-the-word",
+  "order": 83,
   "level": 2,
   "title": "A) MAN OF THE WORD",
   "segments": [
@@ -3500,8 +3652,8 @@
   ]
  },
  {
-  "id": "065-b-imagination",
-  "order": 65,
+  "id": "080-b-imagination",
+  "order": 84,
   "level": 2,
   "title": "B) IMAGINATION",
   "segments": [
@@ -3520,8 +3672,8 @@
   ]
  },
  {
-  "id": "066-c-conflict",
-  "order": 66,
+  "id": "081-c-conflict",
+  "order": 85,
   "level": 2,
   "title": "C) CONFLICT",
   "segments": [
@@ -3580,8 +3732,8 @@
   ]
  },
  {
-  "id": "067-d-yieldedness-to-my-instructions",
-  "order": 67,
+  "id": "082-d-yieldedness-to-my-instructions",
+  "order": 86,
   "level": 2,
   "title": "D) YIELDEDNESS TO MY INSTRUCTIONS",
   "segments": [
@@ -3640,8 +3792,8 @@
   ]
  },
  {
-  "id": "068-3-be-ye-holy-as-i-am-holy-9-fruits-of-the-holy-spirit",
-  "order": 68,
+  "id": "083-3-be-ye-holy-as-i-am-holy-9-fruits-of-the-holy-spirit",
+  "order": 87,
   "level": 2,
   "title": "3) BE YE HOLY, AS I AM HOLY: 9 FRUITS OF THE HOLY SPIRIT",
   "segments": [
@@ -3700,8 +3852,8 @@
   ]
  },
  {
-  "id": "069-4-wheel-on-wheel",
-  "order": 69,
+  "id": "084-4-wheel-on-wheel",
+  "order": 88,
   "level": 2,
   "title": "4) WHEEL ON WHEEL",
   "segments": [
@@ -3728,8 +3880,8 @@
   ]
  },
  {
-  "id": "070-5-run-to-win-a-prize",
-  "order": 70,
+  "id": "085-5-run-to-win-a-prize",
+  "order": 89,
   "level": 2,
   "title": "5) RUN TO WIN A PRIZE",
   "segments": [
@@ -3764,8 +3916,8 @@
   ]
  },
  {
-  "id": "071-6-judge-not-or-you-will-be-judged",
-  "order": 71,
+  "id": "086-6-judge-not-or-you-will-be-judged",
+  "order": 90,
   "level": 2,
   "title": "6) JUDGE NOT, OR YOU WILL BE JUDGED",
   "segments": [
@@ -3792,8 +3944,8 @@
   ]
  },
  {
-  "id": "072-7-fifteen-backups",
-  "order": 72,
+  "id": "087-7-fifteen-backups",
+  "order": 91,
   "level": 2,
   "title": "7) FIFTEEN Backups",
   "segments": [
@@ -3848,8 +4000,8 @@
   ]
  },
  {
-  "id": "073-8-be-not-angry-and-sin-not-control-your-tongue",
-  "order": 73,
+  "id": "088-8-be-not-angry-and-sin-not-control-your-tongue",
+  "order": 92,
   "level": 2,
   "title": "8) BE NOT ANGRY AND SIN NOT, CONTROL YOUR TONGUE",
   "segments": [
@@ -3880,8 +4032,8 @@
   ]
  },
  {
-  "id": "074-9-fruitfulness",
-  "order": 74,
+  "id": "089-9-fruitfulness",
+  "order": 93,
   "level": 2,
   "title": "9) FRUITFULNESS",
   "segments": [
@@ -3916,8 +4068,8 @@
   ]
  },
  {
-  "id": "075-10-different-categories-of-people-judged-differently",
-  "order": 75,
+  "id": "090-10-different-categories-of-people-judged-differently",
+  "order": 94,
   "level": 2,
   "title": "10) DIFFERENT CATEGORIES OF PEOPLE JUDGED DIFFERENTLY",
   "segments": [
@@ -3932,8 +4084,8 @@
   ]
  },
  {
-  "id": "076-a-grass",
-  "order": 76,
+  "id": "091-a-grass",
+  "order": 95,
   "level": 2,
   "title": "A) GRASS",
   "segments": [
@@ -3964,8 +4116,8 @@
   ]
  },
  {
-  "id": "077-b-lilies",
-  "order": 77,
+  "id": "092-b-lilies",
+  "order": 96,
   "level": 2,
   "title": "B) LILIES",
   "segments": [
@@ -4028,8 +4180,8 @@
   ]
  },
  {
-  "id": "078-c-flowers",
-  "order": 78,
+  "id": "093-c-flowers",
+  "order": 97,
   "level": 2,
   "title": "C) FLOWERS",
   "segments": [
@@ -4060,8 +4212,8 @@
   ]
  },
  {
-  "id": "079-d-beasts",
-  "order": 79,
+  "id": "094-d-beasts",
+  "order": 98,
   "level": 2,
   "title": "D) BEASTs",
   "segments": [
@@ -4088,8 +4240,8 @@
   ]
  },
  {
-  "id": "080-11-trial-of-faith",
-  "order": 80,
+  "id": "095-11-trial-of-faith",
+  "order": 99,
   "level": 2,
   "title": "11) TRIAL OF FAITH",
   "segments": [
@@ -4144,8 +4296,8 @@
   ]
  },
  {
-  "id": "081-12-my-elect-must-be-circumcised-to-receive-both-of-you-who-r",
-  "order": 81,
+  "id": "096-12-my-elect-must-be-circumcised-to-receive-both-of-you-who-r",
+  "order": 100,
   "level": 2,
   "title": "12) MY ELECT MUST BE CIRCUMCISED TO RECEIVE BOTH OF YOU, WHO REPRESENT THE TRINITY",
   "segments": [
@@ -4192,17 +4344,25 @@
   ]
  },
  {
-  "id": "082-part-6-seven-levels-of-hell",
-  "order": 82,
+  "id": "097-part-6-seven-levels-of-hell",
+  "order": 101,
   "level": 1,
   "title": "Part 6 \nSeven Levels of Hell",
   "segments": [
    {
     "role": "chapter_title",
     "text": "Part 6 \nSeven Levels of Hell"
-   },
+   }
+  ]
+ },
+ {
+  "id": "098-act-2-scene-3-paradise",
+  "order": 102,
+  "level": 2,
+  "title": "Act 2 Scene 3 \nParadise",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Act 2 Scene 3 \nParadise"
    },
    {
@@ -4228,16 +4388,24 @@
    {
     "role": "body",
     "text": "Henceforth, the conversation began……."
-   },
+   }
+  ]
+ },
+ {
+  "id": "099-the-seven-levels-of-hell-heaven",
+  "order": 103,
+  "level": 2,
+  "title": "The Seven Levels of Hell/Heaven",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "The Seven Levels of Hell/Heaven"
    }
   ]
  },
  {
-  "id": "083-vision-of-the-seven-levels-of-hell-heaven",
-  "order": 83,
+  "id": "100-vision-of-the-seven-levels-of-hell-heaven",
+  "order": 104,
   "level": 2,
   "title": "Vision of the Seven Levels of Hell/Heaven",
   "segments": [
@@ -4300,9 +4468,17 @@
    {
     "role": "decree",
     "text": "There is a spiritual lift from Level 4 that will teleport the soul to their allotted level of hell when judgment is passed on every soul."
-   },
+   }
+  ]
+ },
+ {
+  "id": "101-level-1-gehenna-tartarus-damnation-eternal-fire-point-of-no-",
+  "order": 105,
+  "level": 2,
+  "title": "Level 1, Gehenna/Tartarus \n(dAMNATION, ETERNAL FIRE, POINT OF NO RETURN)",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Level 1, Gehenna/Tartarus \n(dAMNATION, ETERNAL FIRE, POINT OF NO RETURN)"
    },
    {
@@ -4364,8 +4540,8 @@
   ]
  },
  {
-  "id": "084-a-who-will-be-cast-into-gehenna",
-  "order": 84,
+  "id": "102-a-who-will-be-cast-into-gehenna",
+  "order": 106,
   "level": 2,
   "title": "A) Who will be cast into Gehenna?",
   "segments": [
@@ -4392,8 +4568,8 @@
   ]
  },
  {
-  "id": "085-1-the-fearful",
-  "order": 85,
+  "id": "103-1-the-fearful",
+  "order": 107,
   "level": 2,
   "title": "1) The Fearful",
   "segments": [
@@ -4436,8 +4612,8 @@
   ]
  },
  {
-  "id": "086-2-the-unbelieving",
-  "order": 86,
+  "id": "104-2-the-unbelieving",
+  "order": 108,
   "level": 2,
   "title": "2) The Unbelieving",
   "segments": [
@@ -4480,8 +4656,8 @@
   ]
  },
  {
-  "id": "087-3-the-abominable",
-  "order": 87,
+  "id": "105-3-the-abominable",
+  "order": 109,
   "level": 2,
   "title": "3) The Abominable",
   "segments": [
@@ -4512,8 +4688,8 @@
   ]
  },
  {
-  "id": "088-4-the-murderers",
-  "order": 88,
+  "id": "106-4-the-murderers",
+  "order": 110,
   "level": 2,
   "title": "4) The Murderers",
   "segments": [
@@ -4540,8 +4716,8 @@
   ]
  },
  {
-  "id": "089-5-the-whoremongers",
-  "order": 89,
+  "id": "107-5-the-whoremongers",
+  "order": 111,
   "level": 2,
   "title": "5) THE Whoremongers",
   "segments": [
@@ -4568,8 +4744,8 @@
   ]
  },
  {
-  "id": "090-6-sorcerers-satanist-witches-and-false-ministers",
-  "order": 90,
+  "id": "108-6-sorcerers-satanist-witches-and-false-ministers",
+  "order": 112,
   "level": 2,
   "title": "6) Sorcerers, Satanist, Witches and False Ministers",
   "segments": [
@@ -4628,8 +4804,8 @@
   ]
  },
  {
-  "id": "091-7-the-idolaters",
-  "order": 91,
+  "id": "109-7-the-idolaters",
+  "order": 113,
   "level": 2,
   "title": "7) THE Idolaters",
   "segments": [
@@ -4668,8 +4844,8 @@
   ]
  },
  {
-  "id": "092-8-the-liars",
-  "order": 92,
+  "id": "110-8-the-liars",
+  "order": 114,
   "level": 2,
   "title": "8) the Liars",
   "segments": [
@@ -4712,8 +4888,8 @@
   ]
  },
  {
-  "id": "093-9-those-who-judge-without-mercy",
-  "order": 93,
+  "id": "111-9-those-who-judge-without-mercy",
+  "order": 115,
   "level": 2,
   "title": "9) Those who Judge without mercy",
   "segments": [
@@ -4744,8 +4920,8 @@
   ]
  },
  {
-  "id": "094-10-those-who-practice-sedition",
-  "order": 94,
+  "id": "112-10-those-who-practice-sedition",
+  "order": 116,
   "level": 2,
   "title": "10) Those who practice Sedition",
   "segments": [
@@ -4812,8 +4988,8 @@
   ]
  },
  {
-  "id": "095-b-tartarus",
-  "order": 95,
+  "id": "113-b-tartarus",
+  "order": 117,
   "level": 2,
   "title": "B) Tartarus",
   "segments": [
@@ -4860,8 +5036,8 @@
   ]
  },
  {
-  "id": "096-c-visitation-to-gehenna",
-  "order": 96,
+  "id": "114-c-visitation-to-gehenna",
+  "order": 118,
   "level": 2,
   "title": "C) VisItation to Gehenna",
   "segments": [
@@ -4872,8 +5048,8 @@
   ]
  },
  {
-  "id": "097-1-section-for-the-licentious-lust",
-  "order": 97,
+  "id": "115-1-section-for-the-licentious-lust",
+  "order": 119,
   "level": 2,
   "title": "1) Section for the Licentious (Lust)",
   "segments": [
@@ -4900,8 +5076,8 @@
   ]
  },
  {
-  "id": "098-2-section-for-robbers-liars-criminal-and-etc",
-  "order": 98,
+  "id": "116-2-section-for-robbers-liars-criminal-and-etc",
+  "order": 120,
   "level": 2,
   "title": "2) Section for Robbers, Liars, Criminal and etc.",
   "segments": [
@@ -4920,8 +5096,8 @@
   ]
  },
  {
-  "id": "099-3-section-for-sexual-perverts",
-  "order": 99,
+  "id": "117-3-section-for-sexual-perverts",
+  "order": 121,
   "level": 2,
   "title": "3) Section FOR Sexual Perverts",
   "segments": [
@@ -4952,8 +5128,8 @@
   ]
  },
  {
-  "id": "100-4-section-for-liars-untruthful-servants-wicked-ministers-unf",
-  "order": 100,
+  "id": "118-4-section-for-liars-untruthful-servants-wicked-ministers-unf",
+  "order": 122,
   "level": 2,
   "title": "4) Section for Liars, Untruthful Servants, Wicked Ministers, Unfaithful Disciples",
   "segments": [
@@ -4972,8 +5148,8 @@
   ]
  },
  {
-  "id": "101-a-the-wicked-minister",
-  "order": 101,
+  "id": "119-a-the-wicked-minister",
+  "order": 123,
   "level": 2,
   "title": "A) The Wicked Minister",
   "segments": [
@@ -4996,8 +5172,8 @@
   ]
  },
  {
-  "id": "102-b-unfaithful-child-of-the-elohim-disciple-minister-servant",
-  "order": 102,
+  "id": "120-b-unfaithful-child-of-the-elohim-disciple-minister-servant",
+  "order": 124,
   "level": 2,
   "title": "B) Unfaithful Child of THE ELOHIM/ Disciple/ Minister/ Servant",
   "segments": [
@@ -5024,8 +5200,8 @@
   ]
  },
  {
-  "id": "103-5-section-for-murderers-adulterers-blasphemers-and-greater-p",
-  "order": 103,
+  "id": "121-5-section-for-murderers-adulterers-blasphemers-and-greater-p",
+  "order": 125,
   "level": 2,
   "title": "5) Section for Murderers, Adulterers, Blasphemers, and Greater Perversion",
   "segments": [
@@ -5052,16 +5228,24 @@
    {
     "role": "scripture",
     "text": "Rev 21:8 But the fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone: which is the second death."
-   },
+   }
+  ]
+ },
+ {
+  "id": "122-level-2-perdition",
+  "order": 126,
+  "level": 2,
+  "title": "Level 2, Perdition",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Level 2, Perdition"
    }
   ]
  },
  {
-  "id": "104-1-members-of-secret-societies-that-do-evil",
-  "order": 104,
+  "id": "123-1-members-of-secret-societies-that-do-evil",
+  "order": 127,
   "level": 2,
   "title": "1) Members of Secret Societies that do evil",
   "segments": [
@@ -5084,8 +5268,8 @@
   ]
  },
  {
-  "id": "105-2-the-extremely-violent-wife-abuser-child-abusers-profaner-o",
-  "order": 105,
+  "id": "124-2-the-extremely-violent-wife-abuser-child-abusers-profaner-o",
+  "order": 128,
   "level": 2,
   "title": "2) The Extremely Violent, Wife Abuser, Child Abusers, Profaner of OUR NAME(S)",
   "segments": [
@@ -5108,8 +5292,8 @@
   ]
  },
  {
-  "id": "106-3-the-lawless-and-ungodly-ministers",
-  "order": 106,
+  "id": "125-3-the-lawless-and-ungodly-ministers",
+  "order": 129,
   "level": 2,
   "title": "3) The Lawless and Ungodly Ministers",
   "segments": [
@@ -5132,8 +5316,8 @@
   ]
  },
  {
-  "id": "107-4-those-who-do-not-submit-to-divine-ordained-authority",
-  "order": 107,
+  "id": "126-4-those-who-do-not-submit-to-divine-ordained-authority",
+  "order": 130,
   "level": 2,
   "title": "4) Those who do not submit to Divine Ordained Authority",
   "segments": [
@@ -5156,8 +5340,8 @@
   ]
  },
  {
-  "id": "108-5-worldly-ministers",
-  "order": 108,
+  "id": "127-5-worldly-ministers",
+  "order": 131,
   "level": 2,
   "title": "5) Worldly Ministers",
   "segments": [
@@ -5180,8 +5364,8 @@
   ]
  },
  {
-  "id": "109-6-unfaithful-brides",
-  "order": 109,
+  "id": "128-6-unfaithful-brides",
+  "order": 132,
   "level": 2,
   "title": "6) Unfaithful Brides",
   "segments": [
@@ -5236,8 +5420,8 @@
   ]
  },
  {
-  "id": "110-7-unprofitable-and-slothful-servants",
-  "order": 110,
+  "id": "129-7-unprofitable-and-slothful-servants",
+  "order": 133,
   "level": 2,
   "title": "7) Unprofitable and Slothful Servants",
   "segments": [
@@ -5256,8 +5440,8 @@
   ]
  },
  {
-  "id": "111-8-those-who-persecute-and-trouble-our-true-ministers-and-lit",
-  "order": 111,
+  "id": "130-8-those-who-persecute-and-trouble-our-true-ministers-and-lit",
+  "order": 134,
   "level": 2,
   "title": "8) Those Who Persecute and Trouble Our True Ministers and Little Ones",
   "segments": [
@@ -5292,8 +5476,8 @@
   ]
  },
  {
-  "id": "112-9-they-who-love-not-the-truth",
-  "order": 112,
+  "id": "131-9-they-who-love-not-the-truth",
+  "order": 135,
   "level": 2,
   "title": "9) They who love not the truth",
   "segments": [
@@ -5312,8 +5496,8 @@
   ]
  },
  {
-  "id": "113-10-covetous-false-prophets",
-  "order": 113,
+  "id": "132-10-covetous-false-prophets",
+  "order": 136,
   "level": 2,
   "title": "10) Covetous False Prophets",
   "segments": [
@@ -5332,8 +5516,8 @@
   ]
  },
  {
-  "id": "114-11-scoffers",
-  "order": 114,
+  "id": "133-11-scoffers",
+  "order": 137,
   "level": 2,
   "title": "11) ScofferS",
   "segments": [
@@ -5352,8 +5536,8 @@
   ]
  },
  {
-  "id": "115-12-covetous",
-  "order": 115,
+  "id": "134-12-covetous",
+  "order": 138,
   "level": 2,
   "title": "12) Covetous",
   "segments": [
@@ -5376,8 +5560,8 @@
   ]
  },
  {
-  "id": "116-13-the-worldly",
-  "order": 116,
+  "id": "135-13-the-worldly",
+  "order": 139,
   "level": 2,
   "title": "13) The Worldly",
   "segments": [
@@ -5396,8 +5580,8 @@
   ]
  },
  {
-  "id": "117-14-apostates",
-  "order": 117,
+  "id": "136-14-apostates",
+  "order": 140,
   "level": 2,
   "title": "14) Apostates",
   "segments": [
@@ -5412,9 +5596,17 @@
    {
     "role": "scripture",
     "text": "Heb 10:26 For if we sin wilfully after that we have received the knowledge of the truth, there remaineth no more sacrifice for sins, Heb 10:27 But a certain fearful looking for of judgment and fiery indignation, which shall devour the adversaries. Heb 10:28 He that despised Moses' law died without mercy under two or three witnesses: Heb 10:29 Of how much sorer punishment, suppose ye, shall he be thought worthy, who hath trodden under foot the Son of THE ELOHIM, and hath counted the blood of the covenant, wherewith he was sanctified, an unholy thing, and hath insulted the Spirit of grace? Heb 10:30 For we know him that hath said, Vengeance belongeth unto me, I will recompense, saith THE YAHWEH. And again, THE YAHWEH shall judge his people. Heb 10:31 It is a fearful thing to fall into the hands of the living ELOHIM. Heb 10:32 But call to remembrance the former days, in which, after ye were illuminated, ye endured a great fight of afflictions; Heb 10:33 Partly, whilst ye were made a gazingstock both by reproaches and afflictions; and partly, whilst ye became companions of them that were so used. Heb 10:34 For ye had compassion of me in my bonds, and took joyfully the spoiling of your goods, knowing in yourselves that ye have in heaven a better and an enduring substance. Heb 10:35 Cast not away therefore your confidence, which hath great recompence of reward. Heb 10:36 For ye have need of patience, that, after ye have done the will of THE ELOHIM, ye might receive the promise. Heb 10:37 For yet a little while, and he that shall come will come, and will not tarry. Heb 10:38 Now the just shall live by faith: but if he draw back, my soul shall have no pleasure in him. Heb 10:39 But we are not of them who draw back unto perdition (G684 \"apoleia\"); but of them that believe to the saving of the soul."
-   },
+   }
+  ]
+ },
+ {
+  "id": "137-between-level-2-and-3-basanos",
+  "order": 141,
+  "level": 2,
+  "title": "Between Level 2 and 3: Basanos",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Between Level 2 and 3: Basanos"
    },
    {
@@ -5424,8 +5616,8 @@
   ]
  },
  {
-  "id": "118-a-who-goes-to-basanos",
-  "order": 118,
+  "id": "138-a-who-goes-to-basanos",
+  "order": 142,
   "level": 2,
   "title": "A) WHO GOES TO BASANOS",
   "segments": [
@@ -5436,8 +5628,8 @@
   ]
  },
  {
-  "id": "119-1-the-frivolous-and-the-uncompassionate",
-  "order": 119,
+  "id": "139-1-the-frivolous-and-the-uncompassionate",
+  "order": 143,
   "level": 2,
   "title": "1) The Frivolous and the Uncompassionate",
   "segments": [
@@ -5476,8 +5668,8 @@
   ]
  },
  {
-  "id": "120-2-the-unforgiving-ones",
-  "order": 120,
+  "id": "140-2-the-unforgiving-ones",
+  "order": 144,
   "level": 2,
   "title": "2) The unforgiving ones",
   "segments": [
@@ -5504,8 +5696,8 @@
   ]
  },
  {
-  "id": "121-3-against-my-instruction-in-the-scripture",
-  "order": 121,
+  "id": "141-3-against-my-instruction-in-the-scripture",
+  "order": 145,
   "level": 2,
   "title": "3) Against My Instruction in the Scripture",
   "segments": [
@@ -5612,8 +5804,8 @@
   ]
  },
  {
-  "id": "122-b-experience-in-basanos",
-  "order": 122,
+  "id": "142-b-experience-in-basanos",
+  "order": 146,
   "level": 2,
   "title": "B) Experience in Basanos",
   "segments": [
@@ -5704,9 +5896,17 @@
    {
     "role": "body",
     "text": "THE TRINITY clapping their hands to applaud David said in unison, \"You are much wiser now having a real encounter in the spiritual world, which will propel you to have a quantum leap jump in understanding of Our ways, in dealing and disciplining those whom We love. Bravo! David.\""
-   },
+   }
+  ]
+ },
+ {
+  "id": "143-level-3-hades-sheol",
+  "order": 147,
+  "level": 2,
+  "title": "Level 3, Hades/Sheol",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Level 3, Hades/Sheol"
    },
    {
@@ -5804,8 +6004,8 @@
   ]
  },
  {
-  "id": "123-who-shall-be-sent-to-sheol",
-  "order": 123,
+  "id": "144-who-shall-be-sent-to-sheol",
+  "order": 148,
   "level": 2,
   "title": "Who shall be sent to Sheol?",
   "segments": [
@@ -5816,8 +6016,8 @@
   ]
  },
  {
-  "id": "124-1-all-humanity-except-our-holy-ones",
-  "order": 124,
+  "id": "145-1-all-humanity-except-our-holy-ones",
+  "order": 149,
   "level": 2,
   "title": "1) All Humanity Except Our Holy Ones",
   "segments": [
@@ -5860,8 +6060,8 @@
   ]
  },
  {
-  "id": "125-2-all-sinners-sent-to-lower-sheol",
-  "order": 125,
+  "id": "146-2-all-sinners-sent-to-lower-sheol",
+  "order": 150,
   "level": 2,
   "title": "2) All sinners sent to lower Sheol",
   "segments": [
@@ -5880,8 +6080,8 @@
   ]
  },
  {
-  "id": "126-3-all-the-ungodly-nations",
-  "order": 126,
+  "id": "147-3-all-the-ungodly-nations",
+  "order": 151,
   "level": 2,
   "title": "3) All the Ungodly Nations",
   "segments": [
@@ -5900,8 +6100,8 @@
   ]
  },
  {
-  "id": "127-4-all-the-children-of-rebellion",
-  "order": 127,
+  "id": "148-4-all-the-children-of-rebellion",
+  "order": 152,
   "level": 2,
   "title": "4) All the Children of Rebellion",
   "segments": [
@@ -5920,8 +6120,8 @@
   ]
  },
  {
-  "id": "128-5-all-ungodly-kings-even-lucifer",
-  "order": 128,
+  "id": "149-5-all-ungodly-kings-even-lucifer",
+  "order": 153,
   "level": 2,
   "title": "5) All Ungodly Kings, Even Lucifer",
   "segments": [
@@ -5940,8 +6140,8 @@
   ]
  },
  {
-  "id": "129-6-carnal-minded-christians",
-  "order": 129,
+  "id": "150-6-carnal-minded-christians",
+  "order": 154,
   "level": 2,
   "title": "6) Carnal-Minded Christians",
   "segments": [
@@ -5988,9 +6188,17 @@
    {
     "role": "scripture",
     "text": "Mat 16:18 And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hades (G68) shall not prevail against it."
-   },
+   }
+  ]
+ },
+ {
+  "id": "151-level-4-the-great-white-throne",
+  "order": 155,
+  "level": 2,
+  "title": "Level 4, THE GREAT WHITE THRONE",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Level 4, THE GREAT WHITE THRONE"
    },
    {
@@ -6004,9 +6212,17 @@
    {
     "role": "scripture",
     "text": "Rev 20:11 And I saw a GREAT WHITE THRONE, and him that sat on it, from whose face the earth and the heaven fled away; and there was found no place for them. Rev 20:12 And I saw the dead, small and great, stand before God; and the books were opened: and another book was opened, which is the book of life: and the dead were judged out of those things which were written in the books, according to their works. Rev 20:13 And the sea gave up the dead which were in it; and death and hades (G68) delivered up the dead which were in them: and they were judged every man according to their works. Rev 20:14 And death and hades (G68) were cast into the lake of fire. This is the second death. Rev 20:15 And whosoever was not found written in the book of life was cast into the lake of fire."
-   },
+   }
+  ]
+ },
+ {
+  "id": "152-level-5-abaddon-the-brighter-side-first-level-of-heaven",
+  "order": 156,
+  "level": 2,
+  "title": "Level 5, Abaddon (The Brighter Side, First Level of Heaven)",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Level 5, Abaddon (The Brighter Side, First Level of Heaven)"
    },
    {
@@ -6068,9 +6284,17 @@
    {
     "role": "scripture",
     "text": "2 Pe 2:9 THE YAHWEH knoweth how to deliver the godly out of temptations, and to reserve the unjust unto the Day of Judgment to be punished: 2 Pe 2:10 But chiefly them that walk after the flesh in the lust of uncleanness, and despise government. Presumptuous are they, selfwilled, they are not afraid to speak evil of dignities. 2 Pe 2:11 Whereas angels, which are greater in power and might, bring not railing accusation against them before THE YAHWEH. 2 Pe 2:12 But these, as natural brute beasts, made to be taken and destroyed, speak evil of the things that they understand not; and shall utterly perish in their own corruption; 2 Pe 2:13 And shall receive the reward of unrighteousness, as they that count it pleasure to riot in the day time. Spots they are and blemishes, sporting themselves with their own deceivings while they feast with you; 2 Pe 2:14 Having eyes full of adultery, and that cannot cease from sin; beguiling unstable souls: an heart they have exercised with covetous practices; cursed children: 2 Pe 2:15 Which have forsaken the right way, and are gone astray, following the way of Balaam the son of Bosor, who loved the wages of unrighteousness; 2 Pe 2:16 But was rebuked for his iniquity: the dumb ass speaking with man's voice forbad the madness of the prophet. 2 Pe 2:17 These are wells without water, clouds that are carried with a tempest; to whom the mist of darkness is reserved for ever. 2 Pe 2:18 For when they speak great swelling words of vanity, they allure through the lusts of the flesh, through much wantonness, those that were clean escaped from them who live in error. 2 Pe 2:19 While they promise them liberty, they themselves are the servants of corruption: for of whom a man is overcome, of the same is he brought in bondage. 2 Pe 2:20 For if after they have escaped the pollutions of the world through the knowledge of THE YAHWEH and Saviour Jesus Christ, they are again entangled therein, and overcome, the latter end is worse with them than the beginning. 2 Pe 2:21 For it had been better for them not to have known the way of righteousness, than, after they have known it, to turn from the holy commandment delivered unto them. 2 Pe 2:22 But it is happened unto them according to the true proverb, The dog is turned to his own vomit again; and the sow that was washed to her wallowing in the mire."
-   },
+   }
+  ]
+ },
+ {
+  "id": "153-level-6-abraham-s-creek-bosom",
+  "order": 157,
+  "level": 2,
+  "title": "Level 6, Abraham's Creek (Bosom)",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Level 6, Abraham's Creek (Bosom)"
    },
    {
@@ -6084,9 +6308,17 @@
    {
     "role": "scripture",
     "text": "Luk 16:19 There was a certain rich man, which was clothed in purple and fine linen, and fared sumptuously every day: Luk 16:20 And there was a certain beggar named Lazarus, which was laid at his gate, full of sores, Luk 16:21 And desiring to be fed with the crumbs which fell from the rich man's table: moreover the dogs came and licked his sores. Luk 16:22 And it came to pass, that the beggar died, and was carried by the angels into Abraham's creek ( G2859 \"kolpos\" bay): the rich man also died, and was buried; Luk 16:23 And in hades (G86) he lift up his eyes, being in torments, and seeth Abraham afar off, and Lazarus in his ( G2859 \"kolpos\" bay). Luk 16:24 And he cried and said, Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water, and cool my tongue; for I am tormented in this flame. Luk 16:25 But Abraham said, Son, remember that thou in thy lifetime receivedst thy good things, and likewise Lazarus evil things: but now he is comforted, and thou art tormented. Luk 16:26 And beside all this, between us and you there is a great gulf fixed: so that they which would pass from hence to you cannot; neither can they pass to us that would come from thence."
-   },
+   }
+  ]
+ },
+ {
+  "id": "154-level-7-the-third-heaven-paradise",
+  "order": 158,
+  "level": 2,
+  "title": "Level 7, THE Third Heaven/Paradise",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Level 7, THE Third Heaven/Paradise"
    },
    {
@@ -6224,21 +6456,37 @@
   ]
  },
  {
-  "id": "130-part-7-scientists-doctors-pharmacists-and-lawyers",
-  "order": 130,
+  "id": "155-part-7-scientists-doctors-pharmacists-and-lawyers",
+  "order": 159,
   "level": 1,
   "title": "Part 7 \nScientists, Doctors, Pharmacists, and LAWYERS",
   "segments": [
    {
     "role": "chapter_title",
     "text": "Part 7 \nScientists, Doctors, Pharmacists, and LAWYERS"
-   },
+   }
+  ]
+ },
+ {
+  "id": "156-interview-with-the-trinity-in-shekinaih",
+  "order": 160,
+  "level": 2,
+  "title": "INTERVIEW WITH THE TRINITY IN SHEKINAIH",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "INTERVIEW WITH THE TRINITY IN SHEKINAIH"
-   },
+   }
+  ]
+ },
+ {
+  "id": "157-in-the-name-of-jesus",
+  "order": 161,
+  "level": 2,
+  "title": "\"IN THE NAME OF JESUS\"",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "\"IN THE NAME OF JESUS\""
    },
    {
@@ -6272,9 +6520,17 @@
    {
     "role": "body",
     "text": "THEREFORE, WE, THE TRINITY, WILL FULLY 100% BACK HER WORDS UP REGARDLESS OF WHAT ONE WILL THINK/SAY/ACCUSE BECAUSE, THIS HAS BEEN DECLARED IN THE ENTIRE COSMOS ALREADY, OF WHICH, JESUS, WE, IS IN HER, DOING IT THROUGH HER 100%, INCLUDING JESUS, WHO DWELLS IN HER WOMB."
-   },
+   }
+  ]
+ },
+ {
+  "id": "158-act-2-scene-4-in-midair",
+  "order": 162,
+  "level": 2,
+  "title": "Act 2, Scene 4 \nIn Midair",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Act 2, Scene 4 \nIn Midair"
    },
    {
@@ -6288,8 +6544,8 @@
   ]
  },
  {
-  "id": "131-1-scientists",
-  "order": 131,
+  "id": "159-1-scientists",
+  "order": 163,
   "level": 2,
   "title": "1) Scientists",
   "segments": [
@@ -6320,8 +6576,8 @@
   ]
  },
  {
-  "id": "132-2-doctors",
-  "order": 132,
+  "id": "160-2-doctors",
+  "order": 164,
   "level": 2,
   "title": "2) Doctors",
   "segments": [
@@ -6344,8 +6600,8 @@
   ]
  },
  {
-  "id": "133-3-pharmacists",
-  "order": 133,
+  "id": "161-3-pharmacists",
+  "order": 165,
   "level": 2,
   "title": "3) Pharmacists",
   "segments": [
@@ -6368,8 +6624,8 @@
   ]
  },
  {
-  "id": "134-4-lawyers",
-  "order": 134,
+  "id": "162-4-lawyers",
+  "order": 166,
   "level": 2,
   "title": "4) LawyerS",
   "segments": [
@@ -6388,25 +6644,41 @@
   ]
  },
  {
-  "id": "135-part-8-judgment-on-the-seven-continents",
-  "order": 135,
+  "id": "163-part-8-judgment-on-the-seven-continents",
+  "order": 167,
   "level": 1,
   "title": "Part 8 \nJudgment on the Seven Continents",
   "segments": [
    {
     "role": "chapter_title",
     "text": "Part 8 \nJudgment on the Seven Continents"
-   },
+   }
+  ]
+ },
+ {
+  "id": "164-the-seven-continents",
+  "order": 168,
+  "level": 2,
+  "title": "THE SEVEN CONTINENTS",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "THE SEVEN CONTINENTS"
    },
    {
     "role": "decree",
     "text": "JESUS: Now, I will show you how We will judge the seven continents according to the people, the culture, the political arena and the influence sector."
-   },
+   }
+  ]
+ },
+ {
+  "id": "165-1-africa",
+  "order": 169,
+  "level": 2,
+  "title": "1) AFRICA",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "1) AFRICA"
    },
    {
@@ -6444,9 +6716,17 @@
    {
     "role": "decree",
     "text": "I will also severely judge the European controllers of the leaders of Africa countries. Their days are numbered. Those who did evil will not be able to get away forever. My FATHER had been very longsuffering towards them, closing His eyes from all their evil deeds. However, it's no longer so as We have opened both Our eyes and pressed Our stop-watch signifying Our cut off time."
-   },
+   }
+  ]
+ },
+ {
+  "id": "166-2-the-united-kingdom",
+  "order": 170,
+  "level": 2,
+  "title": "2) THE United Kingdom",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "2) THE United Kingdom"
    },
    {
@@ -6512,9 +6792,17 @@
    {
     "role": "decree",
     "text": "We shall judge whether they are for Me or against Me. I will judge them based on My Ten Commandments which is My Judgment Standard."
-   },
+   }
+  ]
+ },
+ {
+  "id": "167-3-singapore-malaysia-south-east-asia-asia-minor",
+  "order": 171,
+  "level": 2,
+  "title": "3) Singapore, Malaysia, South East Asia, Asia Minor",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "3) Singapore, Malaysia, South East Asia, Asia Minor"
    },
    {
@@ -6552,9 +6840,17 @@
    {
     "role": "decree",
     "text": "Metropolitan. Do they accept Me or hate/go against Me and My ways?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "168-4-usa-north-america-and-south-america-continent-canada-and-n",
+  "order": 172,
+  "level": 2,
+  "title": "4) usa-North America and South America continent, CANADA AND NORTHERN HEMISPHERE",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "4) usa-North America and South America continent, CANADA AND NORTHERN HEMISPHERE"
    },
    {
@@ -6612,9 +6908,17 @@
    {
     "role": "body",
     "text": "I saw JESUS writing the words: \"WITCHES AND WIZARDS A LOT, A LOT OF DIFFERENT WEIRD RELIGIONS, HUMAN SACRIFICE UNDERGROUND, And BABYLONIAN DAYS SACRIFICE\". JESUS then pointed to the Bible verse on the Valley of Hinom. He then wrote, \"A lot of these happening in the USA. All those who practice these must die\"."
-   },
+   }
+  ]
+ },
+ {
+  "id": "169-5-europe",
+  "order": 173,
+  "level": 2,
+  "title": "5) Europe",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "5) Europe"
    },
    {
@@ -6656,8 +6960,8 @@
   ]
  },
  {
-  "id": "136-i-norway",
-  "order": 136,
+  "id": "170-i-norway",
+  "order": 174,
   "level": 2,
   "title": "i) Norway",
   "segments": [
@@ -6672,8 +6976,8 @@
   ]
  },
  {
-  "id": "137-ii-the-netherlands",
-  "order": 137,
+  "id": "171-ii-the-netherlands",
+  "order": 175,
   "level": 2,
   "title": "ii) The Netherlands",
   "segments": [
@@ -6688,8 +6992,8 @@
   ]
  },
  {
-  "id": "138-iii-england",
-  "order": 138,
+  "id": "172-iii-england",
+  "order": 176,
   "level": 2,
   "title": "iii) England",
   "segments": [
@@ -6704,8 +7008,8 @@
   ]
  },
  {
-  "id": "139-iv-belgium",
-  "order": 139,
+  "id": "173-iv-belgium",
+  "order": 177,
   "level": 2,
   "title": "iv) Belgium",
   "segments": [
@@ -6732,8 +7036,8 @@
   ]
  },
  {
-  "id": "140-v-france",
-  "order": 140,
+  "id": "174-v-france",
+  "order": 178,
   "level": 2,
   "title": "v) France",
   "segments": [
@@ -6752,8 +7056,8 @@
   ]
  },
  {
-  "id": "141-vision-of-witches-chanting-spells-from-the-eiffel-tower",
-  "order": 141,
+  "id": "175-vision-of-witches-chanting-spells-from-the-eiffel-tower",
+  "order": 179,
   "level": 2,
   "title": "Vision of Witches Chanting Spells from the Eiffel Tower",
   "segments": [
@@ -6776,8 +7080,8 @@
   ]
  },
  {
-  "id": "142-vision-of-a-comet-hitting-the-eiffel-tower",
-  "order": 142,
+  "id": "176-vision-of-a-comet-hitting-the-eiffel-tower",
+  "order": 180,
   "level": 2,
   "title": "Vision of a Comet Hitting the Eiffel Tower",
   "segments": [
@@ -6796,8 +7100,8 @@
   ]
  },
  {
-  "id": "143-vision-of-a-great-sea-monster-sinking-an-ancient-ship",
-  "order": 143,
+  "id": "177-vision-of-a-great-sea-monster-sinking-an-ancient-ship",
+  "order": 181,
   "level": 2,
   "title": "Vision of a great sea monster sinking an ancient ship",
   "segments": [
@@ -6820,8 +7124,8 @@
   ]
  },
  {
-  "id": "144-vi-spain",
-  "order": 144,
+  "id": "178-vi-spain",
+  "order": 182,
   "level": 2,
   "title": "VI) Spain",
   "segments": [
@@ -6840,9 +7144,17 @@
    {
     "role": "scripture",
     "text": "Psa 48:7 Thou breakest the ships of Tarshish with an east wind."
-   },
+   }
+  ]
+ },
+ {
+  "id": "179-6-australia-new-zealand-and-the-islands-around-the-southern-",
+  "order": 183,
+  "level": 2,
+  "title": "6) AUSTRALIA, NEW ZEALAND AND THE ISLANDS AROUND THE SOUTHERN HEMISPHERE",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "6) AUSTRALIA, NEW ZEALAND AND THE ISLANDS AROUND THE SOUTHERN HEMISPHERE"
    },
    {
@@ -6884,9 +7196,17 @@
    {
     "role": "decree",
     "text": "JESUS: They will be judged according to the Standards in the Bible as well."
-   },
+   }
+  ]
+ },
+ {
+  "id": "180-7-china-and-the-top-right-corner-quadrant-of-northern-hemisp",
+  "order": 184,
+  "level": 2,
+  "title": "7) CHINA and the TOP RIGHT CORNER (QUADRANT) OF Northern HEMISPHERE",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "7) CHINA and the TOP RIGHT CORNER (QUADRANT) OF Northern HEMISPHERE"
    },
    {
@@ -6936,24 +7256,32 @@
   ]
  },
  {
-  "id": "145-part-9-powers-of-anti-christ",
-  "order": 145,
+  "id": "181-part-9-powers-of-anti-christ",
+  "order": 185,
   "level": 1,
   "title": "Part 9 \nPowers of Anti-Christ",
   "segments": [
    {
     "role": "chapter_title",
     "text": "Part 9 \nPowers of Anti-Christ"
-   },
+   }
+  ]
+ },
+ {
+  "id": "182-the-five-main-countries",
+  "order": 186,
+  "level": 2,
+  "title": "THE FIVE Main Countries",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "THE FIVE Main Countries"
    }
   ]
  },
  {
-  "id": "146-1-america",
-  "order": 146,
+  "id": "183-1-america",
+  "order": 187,
   "level": 2,
   "title": "1) America",
   "segments": [
@@ -6964,8 +7292,8 @@
   ]
  },
  {
-  "id": "147-a-power-of-anti-christ",
-  "order": 147,
+  "id": "184-a-power-of-anti-christ",
+  "order": 188,
   "level": 2,
   "title": "A) POWER OF ANTI-CHRIST",
   "segments": [
@@ -6996,8 +7324,8 @@
   ]
  },
  {
-  "id": "148-b-education",
-  "order": 148,
+  "id": "185-b-education",
+  "order": 189,
   "level": 2,
   "title": "B) EDUCATION",
   "segments": [
@@ -7012,8 +7340,8 @@
   ]
  },
  {
-  "id": "149-c-social-economy",
-  "order": 149,
+  "id": "186-c-social-economy",
+  "order": 190,
   "level": 2,
   "title": "C) SOCIAL ECONOMY",
   "segments": [
@@ -7036,8 +7364,8 @@
   ]
  },
  {
-  "id": "150-2-britain",
-  "order": 150,
+  "id": "187-2-britain",
+  "order": 191,
   "level": 2,
   "title": "2) BritAIn",
   "segments": [
@@ -7048,8 +7376,8 @@
   ]
  },
  {
-  "id": "151-a-power-of-anti-christ-2",
-  "order": 151,
+  "id": "188-a-power-of-anti-christ-2",
+  "order": 192,
   "level": 2,
   "title": "A) POWER OF ANTI-CHRIST",
   "segments": [
@@ -7088,8 +7416,8 @@
   ]
  },
  {
-  "id": "152-vision-of-the-birth-of-the-son-of-perdition",
-  "order": 152,
+  "id": "189-vision-of-the-birth-of-the-son-of-perdition",
+  "order": 193,
   "level": 2,
   "title": "Vision of the Birth of the Son of Perdition",
   "segments": [
@@ -7120,8 +7448,8 @@
   ]
  },
  {
-  "id": "153-b-confederation-of-countries",
-  "order": 153,
+  "id": "190-b-confederation-of-countries",
+  "order": 194,
   "level": 2,
   "title": "B) confederation of countries",
   "segments": [
@@ -7140,8 +7468,8 @@
   ]
  },
  {
-  "id": "154-the-seven-headed-beast",
-  "order": 154,
+  "id": "191-the-seven-headed-beast",
+  "order": 195,
   "level": 2,
   "title": "The Seven-headed Beast",
   "segments": [
@@ -7164,8 +7492,8 @@
   ]
  },
  {
-  "id": "155-3-mediterranean-countries-the-arabs-hagar-s-offspring",
-  "order": 155,
+  "id": "192-3-mediterranean-countries-the-arabs-hagar-s-offspring",
+  "order": 196,
   "level": 2,
   "title": "3) mediterranean COUNTRIES (THE ARABS, HAGAR'S OFFSPRING)",
   "segments": [
@@ -7176,8 +7504,8 @@
   ]
  },
  {
-  "id": "156-a-edomites-molech-s-seeds",
-  "order": 156,
+  "id": "193-a-edomites-molech-s-seeds",
+  "order": 197,
   "level": 2,
   "title": "A) EDOMITES (Molech's Seeds)",
   "segments": [
@@ -7212,8 +7540,8 @@
   ]
  },
  {
-  "id": "157-b-ring-of-power",
-  "order": 157,
+  "id": "194-b-ring-of-power",
+  "order": 198,
   "level": 2,
   "title": "B) RING OF POWER",
   "segments": [
@@ -7240,8 +7568,8 @@
   ]
  },
  {
-  "id": "158-4-china",
-  "order": 158,
+  "id": "195-4-china",
+  "order": 199,
   "level": 2,
   "title": "4) China",
   "segments": [
@@ -7280,8 +7608,8 @@
   ]
  },
  {
-  "id": "159-5-africa",
-  "order": 159,
+  "id": "196-5-africa",
+  "order": 200,
   "level": 2,
   "title": "5) Africa",
   "segments": [
@@ -7308,8 +7636,8 @@
   ]
  },
  {
-  "id": "160-a-uganda-a-hiding-place-for-my-elect",
-  "order": 160,
+  "id": "197-a-uganda-a-hiding-place-for-my-elect",
+  "order": 201,
   "level": 2,
   "title": "A) UGANDA, A HIDING PLACE FOR MY ELECT",
   "segments": [
@@ -7332,8 +7660,8 @@
   ]
  },
  {
-  "id": "161-b-a-mountain-called-the-tower-of-babel-collapsed",
-  "order": 161,
+  "id": "198-b-a-mountain-called-the-tower-of-babel-collapsed",
+  "order": 202,
   "level": 2,
   "title": "B) A MOUNTAIN CALLED THE TOWER OF BABEL COLLAPSED",
   "segments": [
@@ -7372,21 +7700,37 @@
   ]
  },
  {
-  "id": "162-part-10-conclusion",
-  "order": 162,
+  "id": "199-part-10-conclusion",
+  "order": 203,
   "level": 1,
   "title": "Part 10 \nConclusion",
   "segments": [
    {
     "role": "chapter_title",
     "text": "Part 10 \nConclusion"
-   },
+   }
+  ]
+ },
+ {
+  "id": "200-act-3-scene-1",
+  "order": 204,
+  "level": 2,
+  "title": "Act 3 Scene 1",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Act 3 Scene 1"
-   },
+   }
+  ]
+ },
+ {
+  "id": "201-the-grand-finale",
+  "order": 205,
+  "level": 2,
+  "title": "The Grand Finale",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "The Grand Finale"
    },
    {
@@ -7400,8 +7744,8 @@
   ]
  },
  {
-  "id": "163-1-the-cosmic-path",
-  "order": 163,
+  "id": "202-1-the-cosmic-path",
+  "order": 206,
   "level": 2,
   "title": "1) THE Cosmic Path",
   "segments": [
@@ -7480,8 +7824,8 @@
   ]
  },
  {
-  "id": "164-2-vision-of-a-train-station",
-  "order": 164,
+  "id": "203-2-vision-of-a-train-station",
+  "order": 207,
   "level": 2,
   "title": "2) Vision of A train station",
   "segments": [
@@ -7560,8 +7904,8 @@
   ]
  },
  {
-  "id": "165-3-vision-of-a-plane",
-  "order": 165,
+  "id": "204-3-vision-of-a-plane",
+  "order": 208,
   "level": 2,
   "title": "3) Vision of A PLANE",
   "segments": [
@@ -7656,7 +8000,15 @@
    {
     "role": "decree",
     "text": "The purpose why I asked the people to choose the cube-boxes with the words: \"Beautiful, Ugly, So-So\" written on them respectively that best reflect their spiritual condition was to expose the deceitfulness of the heart of men. If you can recount, the boxes changed into a holding mirror. It is wisdom to really reflect on oneself."
-   },
+   }
+  ]
+ },
+ {
+  "id": "204-3-vision-of-a-plane-p2",
+  "order": 209,
+  "level": 2,
+  "title": "3) Vision of A PLANE (part 2)",
+  "segments": [
    {
     "role": "decree",
     "text": "Every way of a man is right in his own eyes: but I pondereth the hearts. There is a generation that is pure in their own eyes, and yet is not washed from their filthiness. The heart is deceitful and easily polluted; who can know?"
@@ -7752,16 +8104,24 @@
    {
     "role": "decree",
     "text": "2 Co 4:3 But if our gospel be hid, it is hid to them that are lost: 2 Co 4:4 In whom the god of this world hath blinded the minds of them which believe not, lest the light of the glorious gospel of Christ, who is the image of God, should shine unto them."
-   },
+   }
+  ]
+ },
+ {
+  "id": "205-appendix-annex-a",
+  "order": 210,
+  "level": 2,
+  "title": "appendix/ANNEX A",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "appendix/ANNEX A"
    }
   ]
  },
  {
-  "id": "166-the-recollection-s",
-  "order": 166,
+  "id": "206-the-recollection-s",
+  "order": 211,
   "level": 2,
   "title": "THE RECOLLECTION(S)",
   "segments": [
@@ -7780,8 +8140,8 @@
   ]
  },
  {
-  "id": "167-a-vision-on-book-4-cover-29-12-2017-by-jessie-jiang",
-  "order": 167,
+  "id": "207-a-vision-on-book-4-cover-29-12-2017-by-jessie-jiang",
+  "order": 212,
   "level": 2,
   "title": "A Vision on Book 4 cover 29-12-2017 BY JESSIE JIANG",
   "segments": [
@@ -7876,24 +8236,40 @@
    {
     "role": "body",
     "text": "Then, I saw ABBA FATHER nodded his head; ABBA FATHER said to David, \"That's right! What I want is your submissiveness. This is because Shekinaih represents Me, as My highest authority. You just submit, then will I give you the Heaven's Key as a reward to you; to rule over all My lands\"."
-   },
+   }
+  ]
+ },
+ {
+  "id": "208-handover-declaration",
+  "order": 213,
+  "level": 2,
+  "title": "HANDOVER DECLARATION",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "HANDOVER DECLARATION"
    },
    {
     "role": "body",
     "text": "Receiving back the authority on behalf of THE TRINITY"
-   },
+   }
+  ]
+ },
+ {
+  "id": "209-about-the-authors",
+  "order": 214,
+  "level": 2,
+  "title": "ABOUT THE AUTHORS",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ABOUT THE AUTHORS"
    }
   ]
  },
  {
-  "id": "168-shekinaih",
-  "order": 168,
+  "id": "210-shekinaih",
+  "order": 215,
   "level": 2,
   "title": "SHEKINAIH",
   "segments": [
@@ -7920,8 +8296,8 @@
   ]
  },
  {
-  "id": "169-aaron-k-david",
-  "order": 169,
+  "id": "211-aaron-k-david",
+  "order": 216,
   "level": 2,
   "title": "AARON K DAVID",
   "segments": [
@@ -7944,9 +8320,17 @@
    {
     "role": "body",
     "text": "THE TRINITY"
-   },
+   }
+  ]
+ },
+ {
+  "id": "212-appreciation-with-thanks",
+  "order": 217,
+  "level": 2,
+  "title": "APPRECIATION WITH THANKS",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "APPRECIATION WITH THANKS"
    },
    {
@@ -7980,21 +8364,45 @@
    {
     "role": "body",
     "text": "Above all else, we would like to thank THE TRINITY for their faithfulness in revealing their counsel to us and for enlightening us with their deep revelation and for endowing us with the gift of interpretation of their secret heavenly mysteries despite our human frailty. To THE TRINITY be all the glory, honour, power and praise forever and ever. Amen."
-   },
+   }
+  ]
+ },
+ {
+  "id": "213-books-1-2",
+  "order": 218,
+  "level": 2,
+  "title": "BOOKS 1 & 2",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "BOOKS 1 & 2"
-   },
+   }
+  ]
+ },
+ {
+  "id": "214-books-3-4",
+  "order": 219,
+  "level": 2,
+  "title": "BOOKS 3 & 4",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "BOOKS 3 & 4"
    },
    {
     "role": "heading",
     "text": "BOOK 5"
-   },
+   }
+  ]
+ },
+ {
+  "id": "215-music",
+  "order": 220,
+  "level": 2,
+  "title": "MUSIC",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "MUSIC"
    },
    {

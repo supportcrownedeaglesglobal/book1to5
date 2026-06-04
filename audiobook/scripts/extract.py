@@ -80,6 +80,41 @@ def slugify(t):
     t = re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
     return t[:60] or "section"
 
+MAX_TRACK_WORDS = 2200      # ~14 min at ~155 wpm; longer tracks split into "(part N)"
+
+def cap_lengths(tracks):
+    """Safety net for sections with NO internal headings: split any track longer than
+    MAX_TRACK_WORDS into evenly-sized continuation parts at paragraph boundaries. The
+    heading breaks (Part/Section/Chapter/Sub) already shape most of the book; this only
+    catches the rare long, flat section so nothing is unbearably long to navigate."""
+    import math
+    out = []
+    for t in tracks:
+        segs = t["segments"]
+        w = sum(len(s["text"].split()) for s in segs)
+        if w <= MAX_TRACK_WORDS or len(segs) <= 3:
+            out.append(t)
+            continue
+        nparts = math.ceil(w / MAX_TRACK_WORDS)
+        target = w / nparts
+        chunks, cur, cw = [], [], 0
+        for i, s in enumerate(segs):
+            cur.append(s)
+            cw += len(s["text"].split())
+            if cw >= target and len(chunks) < nparts - 1 and i < len(segs) - 1:
+                chunks.append(cur)
+                cur, cw = [], 0
+        if cur:
+            chunks.append(cur)
+        for k, ch in enumerate(chunks):
+            out.append({"id": t["id"] if k == 0 else f"{t['id']}-p{k+1}",
+                        "order": t["order"], "level": t["level"],
+                        "title": t["title"] if k == 0 else f"{t['title']} (part {k+1})",
+                        "segments": ch})
+    for i, t in enumerate(out, 1):
+        t["order"] = i
+    return out
+
 def main():
     doc = Document(C.DOCX)
     tracks, cur = [], None
@@ -102,7 +137,7 @@ def main():
         # --- new track on a part/chapter heading. Supports Heading 1/2 (Books 3/5) AND the
         #     custom manuscript styles in Books 1/2/4: "Part Heading Style" = part (L1),
         #     "Section Heading" = chapter (L2). ---
-        if style in ("Heading 1", "Heading 2", "Part Heading Style", "Section Heading", "Section Sub Heading"):
+        if style in ("Heading 1", "Heading 2", "Part Heading Style", "Section Heading", "Chapter Caption", "Section Sub Heading"):
             order += 1
             base = slugify(raw)
             n = seen_slugs.get(base, 0) + 1
@@ -129,8 +164,7 @@ def main():
         # custom manuscript styles (Books 1/2/4) carry the speaker role directly:
         #   "God" = divine speech (decree/Father) · "Verse 1/Bold" = scripture (Jesus) ·
         #   sub-titles -> heading. Book 3/5 lack these styles, so this is a no-op there.
-        _srole = {"God": "decree", "Verse 1": "scripture", "Verse Bold": "scripture",
-                  "Chapter Caption": "heading"}.get(style)
+        _srole = {"God": "decree", "Verse 1": "scripture", "Verse Bold": "scripture"}.get(style)
         if _srole:
             cur["segments"].append({"role": _srole, "text": raw})
             in_scripture = False; prev_label = None
@@ -160,6 +194,8 @@ def main():
         role = role_for(style, raw, in_scripture, prev_label)
         cur["segments"].append({"role": role, "text": raw})
         prev_label = None
+
+    tracks = cap_lengths(tracks)        # split any remaining over-long flat section
 
     # stats
     n_seg = sum(len(t["segments"]) for t in tracks)

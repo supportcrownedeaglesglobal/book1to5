@@ -108,9 +108,17 @@
    {
     "role": "body",
     "text": "CONTENTS"
-   },
+   }
+  ]
+ },
+ {
+  "id": "002-foreword",
+  "order": 2,
+  "level": 2,
+  "title": "FOREWORD",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "FOREWORD"
    },
    {
@@ -160,9 +168,17 @@
    {
     "role": "body",
     "text": "THE TRINITY"
-   },
+   }
+  ]
+ },
+ {
+  "id": "003-preface",
+  "order": 3,
+  "level": 2,
+  "title": "PREFACE",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "PREFACE"
    },
    {
@@ -232,9 +248,17 @@
    {
     "role": "body",
     "text": "THE TRINITY"
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-introduction",
+  "order": 4,
+  "level": 2,
+  "title": "INTRODUCTION",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "INTRODUCTION"
    },
    {
@@ -300,7 +324,15 @@
    {
     "role": "decree",
     "text": "Therefore, be truly humble and crucified yourself of your self-righteousness, ego, pride and rebellion. The dead cannot be offended. If you were not offended with them, and have receive Our counsel through them, THE ADONAI in them will overturn the negative situations of your life from the negative to the positive. THE YAHWEH SABAOTH (THE LORD OF HOSTS) in them will warn, rebuke, reward, and promote you spiritually and financially. The works of your hand, the fruits in your womb, the miracles you long awaited for, will be released to you from Us through them. Henceforth, you and your congregation must receive them like you would have receive Us; for We will appear ourselves through them. If you are willing to do that and obey their teaching which We have scripted out for them to teach you, and obey, submit, co-operate with them as unto Us in completing your training under them to be purified and to overcome all Our offences which We have orchestrated through them for you to resist your carnal mind and embrace the mind of a Christ through their teaching and impartation, behold! We will through them call down the mantles of the heavenly saints to come into you and they will energize you so that you can finish their uncompleted tasks together and inherit the throne of glory."
-   },
+   }
+  ]
+ },
+ {
+  "id": "004-introduction-p2",
+  "order": 5,
+  "level": 2,
+  "title": "INTRODUCTION (part 2)",
+  "segments": [
    {
     "role": "scripture",
     "text": "Zec 3:6 And the angel of THE YAHWEH protested unto Joshua, saying, Zec 3:7 Thus saith THE YAHWEH SABAOTH; If thou wilt walk in my ways, and if thou wilt keep my charge, then thou shalt also judge my house, and shalt also keep my courts, and I will give thee places to walk among these that stand by. Zec 3:8 Hear now, O Joshua the high priest, thou, and thy fellows that sit before thee: for they are men wondered at: for, behold, I will bring forth my servant the BRANCH. Zec 3:9 For behold the stone that I have laid before Joshua; upon one stone shall be seven eyes: behold, I will engrave the graving thereof, saith THE YAHWEH SABAOTH, and I will remove the iniquity of that land in one day. Zec 3:10 In that day, saith THE YAHWEH SABAOTH, shall ye call every man his neighbour under the vine and under the fig tree."
@@ -376,9 +408,17 @@
    {
     "role": "body",
     "text": "THE TRINITY"
-   },
+   }
+  ]
+ },
+ {
+  "id": "005-prologue",
+  "order": 6,
+  "level": 2,
+  "title": "PROLOGUE",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "PROLOGUE"
    },
    {
@@ -416,9 +456,17 @@
    {
     "role": "body",
     "text": "Shekinaih and David then blew the horn that sounded like a trumpet to execute and co-execute the decree respectively. Satan then bowed down towards them and moved backward and disappeared."
-   },
+   }
+  ]
+ },
+ {
+  "id": "006-back-to-the-future-and-the-past",
+  "order": 7,
+  "level": 2,
+  "title": "BACK TO THE FUTURE AND THE PAST",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "BACK TO THE FUTURE AND THE PAST"
    },
    {
@@ -436,8 +484,8 @@
   ]
  },
  {
-  "id": "002-the-vision-of-a-bible",
-  "order": 2,
+  "id": "007-the-vision-of-a-bible",
+  "order": 8,
   "level": 2,
   "title": "The Vision of a Bible",
   "segments": [
@@ -452,9 +500,17 @@
    {
     "role": "body",
     "text": "THE TRINITY"
-   },
+   }
+  ]
+ },
+ {
+  "id": "008-act-1-scene-1-the-four-fold-ministry",
+  "order": 9,
+  "level": 2,
+  "title": "Act 1 Scene 1 \nThe Four Fold Ministry",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Act 1 Scene 1 \nThe Four Fold Ministry"
    },
    {
@@ -536,8 +592,8 @@
   ]
  },
  {
-  "id": "003-the-four-living-creatures",
-  "order": 3,
+  "id": "009-the-four-living-creatures",
+  "order": 10,
   "level": 2,
   "title": "The Four Living Creatures",
   "segments": [
@@ -648,7 +704,15 @@
    {
     "role": "body",
     "text": "The insignia of Judah is a lion. The YAHWEH ELOHIM has purposed to use the lion to be the king of the all the beasts on the earth to depict Himself as King of the Earth. JESUS is called the Lion of Judah. They signify the Apostle Kings."
-   },
+   }
+  ]
+ },
+ {
+  "id": "009-the-four-living-creatures-p2",
+  "order": 11,
+  "level": 2,
+  "title": "The Four Living Creatures (part 2)",
+  "segments": [
    {
     "role": "scripture",
     "text": "Pro 20:2 The fear of a king is as the roaring of a lion: whoso provoketh him to anger sinneth against his own soul."
@@ -732,9 +796,17 @@
    {
     "role": "body",
     "text": "All this time as David was expounding the Scripture regarding the true Gospel of the Kingdom, the Pastor listened attentively and was speechless. After regaining his composure, he thanked THE TRINITY in Shekinaih and in gratitude said to David, \"This day, my eyes have seen the Salvation of God\"."
-   },
+   }
+  ]
+ },
+ {
+  "id": "010-interlude-1-the-fairy-tale",
+  "order": 12,
+  "level": 2,
+  "title": "INTERLUDE 1 \nThe Fairy Tale",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "INTERLUDE 1 \nThe Fairy Tale"
    },
    {
@@ -788,8 +860,8 @@
   ]
  },
  {
-  "id": "004-doctrine-of-incarnation",
-  "order": 4,
+  "id": "011-doctrine-of-incarnation",
+  "order": 13,
   "level": 2,
   "title": "Doctrine of Incarnation",
   "segments": [
@@ -880,8 +952,8 @@
   ]
  },
  {
-  "id": "005-the-incarnation-of-jesus",
-  "order": 5,
+  "id": "012-the-incarnation-of-jesus",
+  "order": 14,
   "level": 2,
   "title": "The Incarnation of JESUS",
   "segments": [
@@ -1044,8 +1116,8 @@
   ]
  },
  {
-  "id": "006-the-doctrine-of-the-only-begotten-son",
-  "order": 6,
+  "id": "013-the-doctrine-of-the-only-begotten-son",
+  "order": 15,
   "level": 2,
   "title": "The Doctrine of \"The Only Begotten Son",
   "segments": [
@@ -1064,8 +1136,8 @@
   ]
  },
  {
-  "id": "007-the-truth-of-who-i-am",
-  "order": 7,
+  "id": "014-the-truth-of-who-i-am",
+  "order": 16,
   "level": 2,
   "title": "THE TRUTH OF WHO I AM",
   "segments": [
@@ -1156,7 +1228,15 @@
    {
     "role": "scripture",
     "text": "Gen 6:1 And it came to pass, when men began to multiply on the face of the earth, and daughters were born unto them, Gen 6:2 That the sons of THE ELOHIM saw the daughters of men that they were fair; and they took them wives of all which they chose. Gen 6:3 And the THE YAHWEH said, My spirit shall not always strive with man, for that he also is flesh: yet his days shall be an hundred and twenty years."
-   },
+   }
+  ]
+ },
+ {
+  "id": "014-the-truth-of-who-i-am-p2",
+  "order": 17,
+  "level": 2,
+  "title": "THE TRUTH OF WHO I AM (part 2)",
+  "segments": [
    {
     "role": "scripture",
     "text": "Job 1:6 Now there was a day when the sons of God came to present themselves before THE YAHWEH, and Satan came also among them."
@@ -1244,7 +1324,15 @@
    {
     "role": "scripture",
     "text": "Joh 1:14 And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the remaining created (G3439 \"monogenes\" from G3441 \"monos\" alone without a companion, forsaken, destitute, remaining) and G1096 \"ginomai\" to cause to be, come into being , made) of the Father,) full of grace and truth."
-   },
+   }
+  ]
+ },
+ {
+  "id": "014-the-truth-of-who-i-am-p3",
+  "order": 18,
+  "level": 2,
+  "title": "THE TRUTH OF WHO I AM (part 3)",
+  "segments": [
    {
     "role": "scripture",
     "text": "Joh 1:18 No man hath seen God at any time; the remaining created (G3439 \"monogenes\" from G3441 \"monos\" alone without a companion, forsaken, destitute, remaining) and G1096 \"ginomai\" to cause to be, come into being , made) Son, which is in the bosom of the Father, he hath declared him."
@@ -1340,9 +1428,17 @@
    {
     "role": "decree",
     "text": "Immediately, both Shekinaih and Aaron K David were transported to witness the moment that they were being created."
-   },
+   }
+  ]
+ },
+ {
+  "id": "015-act-1-scene-2-the-incarnation-reincarnation-of-the-father-th",
+  "order": 19,
+  "level": 2,
+  "title": "ACT 1 SCENE 2 \nThe Incarnation/Reincarnation of THE FATHER/THE HOLY SPIRIT and the Reincarnation of JESUS",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ACT 1 SCENE 2 \nThe Incarnation/Reincarnation of THE FATHER/THE HOLY SPIRIT and the Reincarnation of JESUS"
    },
    {
@@ -1384,8 +1480,8 @@
   ]
  },
  {
-  "id": "008-the-incarnation-of-shekinaih-and-aaron-k-david",
-  "order": 8,
+  "id": "016-the-incarnation-of-shekinaih-and-aaron-k-david",
+  "order": 20,
   "level": 2,
   "title": "The Incarnation of Shekinaih and Aaron K David",
   "segments": [
@@ -1552,7 +1648,15 @@
    {
     "role": "scripture",
     "text": "Rom 4:20 He staggered not at the promise of THE ELOHIM through unbelief; but was empowered (G1743 \"endunamoo\") of Pistis (G4102 \"pistis\" faith), giving glory to THE ELOHIM; Rom 4:21 And being fully persuaded that, what he (the angel that appear to him) had promised, he was able also to perform. Rom 4:22 And therefore it was imputed to him for righteousness. Rom 4:23 Now it was not written for his sake alone, that it was imputed to him; Rom 4:24 But for us also, to whom it shall be imputed, if we believe on him (the co-executing angel of THE YAHWEH) that raised up Jesus our Lord from the dead; Rom 4:25 Who was delivered for our offences, and was raised again for our justification. Rom 5:1 Therefore being justified out of faith (Pistis), we have peace with THE ELOHIM through our Lord Jesus Christ: Rom 5:2 By whom also we have access by faith (Pistis) into this grace wherein we stand, and rejoice in hope of the glory of THE ELOHIM."
-   },
+   }
+  ]
+ },
+ {
+  "id": "016-the-incarnation-of-shekinaih-and-aaron-k-david-p2",
+  "order": 21,
+  "level": 2,
+  "title": "The Incarnation of Shekinaih and Aaron K David (part 2)",
+  "segments": [
    {
     "role": "decree",
     "text": "Paul again encouraged the Corinthians that they are to hold on to the same spirit of faith (THE HOLY SPIRIT) that raise JESUS from the dead shall also raise them up from the dead in the last day."
@@ -1640,7 +1744,15 @@
    {
     "role": "scripture",
     "text": "Job 14:18 And surely the mountain falling cometh to nought, and the rock is removed out of his place. Job 14:19 The waters wear the stones: thou washest away the things which grow out of the dust of the earth; and thou destroyest the hope of man. Job 14:20 Thou overpower (H8630 \"taqaph\") by THE VICTORY (H5331 \"netsach\"), and he pass away: thou changest his countenance, and sendest him away. Job 14:21 His sons come to honour, and he knoweth it not; and they are brought low, but he perceiveth it not of them. Job 14:22 But his flesh upon him shall have pain, and his soul within him shall mourn."
-   },
+   }
+  ]
+ },
+ {
+  "id": "016-the-incarnation-of-shekinaih-and-aaron-k-david-p3",
+  "order": 22,
+  "level": 2,
+  "title": "The Incarnation of Shekinaih and Aaron K David (part 3)",
+  "segments": [
    {
     "role": "decree",
     "text": "Since Adam was placed on earth, THE FATHER and THE HOLY SPIRIT represented by Shekinaih/I, JESUS represented by Aaron K David, THE LAST DAYS' MOSES AND AARON, have destroyed the male and female incarnation of Satan and their seeds; who were the incarnated kings in the past."
@@ -1724,7 +1836,15 @@
    {
     "role": "decree",
     "text": "Shekinaih and you, THE SPIRIT OF TRUTH shall call My children to repentance and proclaim to My Brides Our acceptable day that is at hand. As Our voice (spokesman), shall turn My people to My way and shall make upright My highway of holy people through the great tribulation of the wilderness of the testing. THE FATHER and THE HOLY SPIRIT represented by Shekinaih/I, JESUS represented by Aaron K David, THE DECREEING AND SEALING SWORD AND THE MAJOR EXECUTING SABRE/THE MINOR CO-EXECUTING SABRE, shall exalt the valley of humble (those who are depressed by persecutions), and bring low every mountain and hill (authorities of the nations that are united with the antichrist): and the crooked people shall be made straight and the rough places (haughty) made plain (humble)."
-   },
+   }
+  ]
+ },
+ {
+  "id": "016-the-incarnation-of-shekinaih-and-aaron-k-david-p4",
+  "order": 23,
+  "level": 2,
+  "title": "The Incarnation of Shekinaih and Aaron K David (part 4)",
+  "segments": [
    {
     "role": "decree",
     "text": "As THE TWO CHERUBIM OF GLORY, THE SHE/HE (Shekinaih/Aaron K David), THE ANCIENT OF DAYS (THE MAJOR/THE MINOR), THE OMNIPOTENT, THE INVINCIBLE AND INVISIBLE ARK OF THE COVENANT THAT HOVER IN THE SPIRITUAL ATMOSPHERE, THE ANGEL OF OUR PRESENCE, THE MESSENGER WHOM WE WILL SEND, AND HAVE ALREADY SENT, THE DREADFUL ELIJAH, WHO WAS, AND IS, AND IS TO COME, Our glory shall be revealed in flesh and blood; and all flesh shall see it together."
@@ -1800,16 +1920,24 @@
    {
     "role": "scripture",
     "text": "Isa 40:25 To whom then will ye liken me, or shall I be equal? saith the Holy One. Isa 40:26 Lift up your eyes on high, and behold who hath created these things, that bringeth out their host by number: he calleth them all by names by the greatness of his might, for that he (Aaron K David who bears the name of THE EL) is strong in power; not one will fall from their rank (H5737 \"adar\" fall from the rank). Isa 40:27 Why sayest thou, O Jacob, and speakest, O Israel, My way is hid from the YAHWEH, and my judgment is passed over from my ELOHIM? Isa 40:28 Hast thou not known? Hast thou not heard, that the everlasting ELOHIM, THE YAHWEH, the Creator of the ends of the earth, fainteth not, neither is weary? There is no searching of his understanding. Isa 40:31 But they that bind together (H6960 \"Avah\") with THE YAHWEH (in his two representatives) shall renew their strength; they shall mount up with wings as eagles (prophets); they shall run, and not be weary; and they shall walk, and not faint."
-   },
+   }
+  ]
+ },
+ {
+  "id": "017-interlude-2-word-of-endorsement",
+  "order": 24,
+  "level": 2,
+  "title": "INTERLUDE 2 \n\"Word of Endorsement\"",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "INTERLUDE 2 \n\"Word of Endorsement\""
    }
   ]
  },
  {
-  "id": "009-visions-by-jessie-abraham-s-mother-on-16th-july-2015",
-  "order": 9,
+  "id": "018-visions-by-jessie-abraham-s-mother-on-16th-july-2015",
+  "order": 25,
   "level": 2,
   "title": "Visions by Jessie, Abraham's Mother on 16th July 2015",
   "segments": [
@@ -1960,7 +2088,15 @@
    {
     "role": "body",
     "text": "JESSIE: I saw that only then, can David be fit to be the General of generals and able to fly here and there and be undefeatable and able to command the hosts. Even the music he play, the sound can even command the army. Also I saw only through this, can David be enlarged and become a muscular giant, tall and mighty in strength; even able to lift up demons like little creatures and toss them effortlessly everywhere. This is what I saw. However, if he disobeys you, he will lose his power and become very small. Then, he will be punished by THE FATHER to wash Shekinaih's feet."
-   },
+   }
+  ]
+ },
+ {
+  "id": "018-visions-by-jessie-abraham-s-mother-on-16th-july-2015-p2",
+  "order": 26,
+  "level": 2,
+  "title": "Visions by Jessie, Abraham's Mother on 16th July 2015 (part 2)",
+  "segments": [
    {
     "role": "body",
     "text": "David: Ok FATHER, I've washed her feet!"
@@ -2116,16 +2252,24 @@
    {
     "role": "body",
     "text": "David: Thank you Jessie! May THE FATHER Bless you!"
-   },
+   }
+  ]
+ },
+ {
+  "id": "019-interlude-3-word-of-wisdom",
+  "order": 27,
+  "level": 2,
+  "title": "INTERLUDE 3\nWord of Wisdom",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "INTERLUDE 3\nWord of Wisdom"
    }
   ]
  },
  {
-  "id": "010-david-vomited-out-of-shekinaih-s-womb-16th-july-2015",
-  "order": 10,
+  "id": "020-david-vomited-out-of-shekinaih-s-womb-16th-july-2015",
+  "order": 28,
   "level": 2,
   "title": "David vomited out of Shekinaih's womb (16th July 2015)",
   "segments": [
@@ -2252,7 +2396,15 @@
    {
     "role": "body",
     "text": "THE TRINITY had made our spirit like a DNA nucleic double helix. Our spirits are one in THE TRINITY and your spirit is in my womb. Therefore, if you are defiled, I am affected and can feel the defilement also in my spirit. That is why, it will cause me to have nausea and I will automatically run to the toilet to vomit you out. As I do that, I saw your spirit being vomited out of me but your umbilical cord is still attached to me."
-   },
+   }
+  ]
+ },
+ {
+  "id": "020-david-vomited-out-of-shekinaih-s-womb-16th-july-2015-p2",
+  "order": 29,
+  "level": 2,
+  "title": "David vomited out of Shekinaih's womb (16th July 2015) (part 2)",
+  "segments": [
    {
     "role": "body",
     "text": "David: I am sorry for vexing you like this. Each time, when you run to the toilet, I thought air had gone into you or you are not feeling well. Sorry for tiring you with my mischief. Now I understood why THE FATHER told you that I was very mischievous. Now I know why in Jessie's vision, THE FATHER said that he wanted to rest because He was tired. Shekinaih, THE FATHER is consoling you. He wants me to know that I have tired you for gainsaying you because of the abundance of revelations of the scriptures; and for my lack of meekness of love and wisdom, and my attitude problems when I commune with you. I am fully convicted that I must submit to you as unto THE FATHER."
@@ -2332,7 +2484,15 @@
    {
     "role": "scripture",
     "text": "2Ti 2:23 But foolish and unlearned questions avoid, knowing that they do gender strifes. 2Ti 2:24 And the servant of THE YAHWEH must not strive; but be gentle unto all men, apt to teach, patient, 2Ti 2:25 In meekness instructing those that oppose themselves; if THE ELOHIM peradventure will give them repentance to the acknowledging of the truth; 2Ti 2:26 And that they may recover themselves out of the snare of the Diabolos (G1228 Accuser) who are taken captive by him at his will."
-   },
+   }
+  ]
+ },
+ {
+  "id": "020-david-vomited-out-of-shekinaih-s-womb-16th-july-2015-p3",
+  "order": 30,
+  "level": 2,
+  "title": "David vomited out of Shekinaih's womb (16th July 2015) (part 3)",
+  "segments": [
    {
     "role": "body",
     "text": "Shekinaih: I understand what you are saying. JESUS, once showed me that Satan has many methods in discrediting the truth of THE ELOHIM. But there are two snakes that have ensnared many Christians, even Ministers. One is the python called Self-Righteousness and the other snake is called Religious spirit."
@@ -2428,8 +2588,8 @@
   ]
  },
  {
-  "id": "011-home-run",
-  "order": 11,
+  "id": "021-home-run",
+  "order": 31,
   "level": 2,
   "title": "Home Run",
   "segments": [
@@ -2536,8 +2696,8 @@
   ]
  },
  {
-  "id": "012-the-secret-to-make-it-in-my-kingdom",
-  "order": 12,
+  "id": "022-the-secret-to-make-it-in-my-kingdom",
+  "order": 32,
   "level": 2,
   "title": "The Secret to make it in My Kingdom",
   "segments": [
@@ -2580,17 +2740,25 @@
   ]
  },
  {
-  "id": "013-preliminary-behold-my-anointed",
-  "order": 13,
+  "id": "023-preliminary-behold-my-anointed",
+  "order": 33,
   "level": 1,
   "title": "PRELIMINARY \nBEHOLD! MY ANOINTED!",
   "segments": [
    {
     "role": "chapter_title",
     "text": "PRELIMINARY \nBEHOLD! MY ANOINTED!"
-   },
+   }
+  ]
+ },
+ {
+  "id": "024-act-1-scene-3-the-two-invincible-ones",
+  "order": 34,
+  "level": 2,
+  "title": "ACT 1 SCENE 3\nThe Two Invincible Ones",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ACT 1 SCENE 3\nThe Two Invincible Ones"
    },
    {
@@ -2636,9 +2804,17 @@
    {
     "role": "body",
     "text": "Shekinaih woke up from the trance and as she opened her eyes, Lo! And Behold! THE TRINITY appeared to her and David suddenly and JESUS said to her, \"What you have just witnessed during your trance, I will now unfold further in My teachings below. Shekinaih and you shall have angelic ability to subdue the three realms together with its host. We, THE TRINITY have given both of you, who represent THE TRINITY, authority to represent Us in decreeing, sealing and executing, and co-executing all Our determinations in the heaven(s), the earth and beneath the earth fearlessly.\""
-   },
+   }
+  ]
+ },
+ {
+  "id": "025-chapter-1-the-two-anointed",
+  "order": 35,
+  "level": 2,
+  "title": "Chapter 1\nThe Two Anointed",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 1\nThe Two Anointed"
    },
    {
@@ -2676,8 +2852,8 @@
   ]
  },
  {
-  "id": "014-my-last-days-tabernacle",
-  "order": 14,
+  "id": "026-my-last-days-tabernacle",
+  "order": 36,
   "level": 2,
   "title": "My Last days' Tabernacle",
   "segments": [
@@ -2756,7 +2932,15 @@
    {
     "role": "scripture",
     "text": "Hab 3:1 A PRAYER OF THE PROPHET AMBACUM, WITH A SONG. Hab 3:2 O Lord, I have heard thy report, and was afraid: I considered thy works, and was amazed: thou shalt be known upon the two living creatures, thou shalt be acknowledged when the years draw nigh; thou shalt be manifested when the time is come; when my soul is troubled, thou wilt in wrath remember mercy. Hab 3:3 THE ELOAH shall come from Thaeman, and the Holy One from the dark shady mount Pharan. Pause. Hab 3:4 His excellence covered the heavens, and the earth was full of his praise. And his brightness shall be as light; there were horns in his hands, and he caused a mighty love of his strength. Hab 3:5 Before his face shall go a report, and it shall go forth into the plains, Hab 3:6 the earth stood at his feet and trembled: he beheld, and the nations melted away: the mountains were violently burst through, the everlasting hills melted at his everlasting going forth. Hab 3:7 Because of troubles I looked upon the tents of the Ethiopians: the tabernacles also of the land of Madiam shall be dismayed. Hab 3:8 Wast thou angry, O THE YAHWEH, with the rivers? or was thy wrath against the rivers, or thine anger against the sea? for thou wilt mount on thine horses, and thy chariots are salvation. Hab 3:9 Surely thou didst bend they bow at scepters, saith THE YAHWEH. Pause. The land of rivers shall be torn asunder. Hab 3:10 The nations shall see thee and be in pain, as thou dost divide the moving waters: the deep uttered her voice, and raised her form on high. Hab 3:11 The sun was exalted, and the moon stood still in her course: thy darts shall go forth at the light, at the brightness of the gleaming of thine arms. Hab 3:12 Thou wilt bring low the land with threatening, and in wrath thou wilt break down the nations. Hab 3:13 Thou wentest forth for the salvation of thy people, to save thine anointed: thou shalt bring death on the heads of transgressors; thou has brought bands upon their neck. Pause. Hab 3:14 Thou didst cut asunder the heads of princes with amazement, they shall tremble in it; they shall burst their bridles, they shall be as a poor man devouring in secret. Hab 3:15 And thou dost cause thine horses to enter the sea, disturbing much water. Hab 3:16 I watched, and my belly trembled at the sound of the prayer of my lips, and trembling entered into my bones, and my frame was troubled within me; I will rest in the day of affliction, from going up to the people of my sojourning. Hab 3:17 For though the fig-tree shall bear no fruit, and there shall be no produce on the vines; the labour of the olive shall fail, and the fields shall produce no food: the sheep have failed from the pasture, and there are no oxen at the cribs; Hab 3:18 yet I will exult in THE YAHWEH, I will joy in THE ELOHIM my Saviour. Hab 3:19 THE YAHWEH ADONAI is my strength, and he will perfectly strengthen my feet; he mounts me upon high places, that I may conquer by his song. (Septuagint Version)"
-   },
+   }
+  ]
+ },
+ {
+  "id": "026-my-last-days-tabernacle-p2",
+  "order": 37,
+  "level": 2,
+  "title": "My Last days' Tabernacle (part 2)",
+  "segments": [
    {
     "role": "body",
     "text": "Shekinaih and you, are the two olive trees of Revelation 11:4 who will be given authority to shut heaven that it rain not in the days of their prophecy: and have authority over waters to turn them to blood, and to smite the earth with all plagues, as often as they will. Both of you, shall lead two of the last days' congregation who are chosen to be martyred as a Christ and they also shall subprophesy 1260 days before they are killed and resurrected."
@@ -2780,8 +2964,8 @@
   ]
  },
  {
-  "id": "015-jachin-and-boaz-speedy",
-  "order": 15,
+  "id": "027-jachin-and-boaz-speedy",
+  "order": 38,
   "level": 2,
   "title": "Jachin and Boaz (Speedy)",
   "segments": [
@@ -2852,9 +3036,17 @@
    {
     "role": "scripture",
     "text": "Isa 46:9 Remember the former things of old: for I am God, and there is none else; I am God, and there is none like me, Isa 46:10 Declaring the end from the beginning, and from ancient times the things that are not yet done, saying, My counsel shall stand, and I will do all my pleasure: Isa 46:11 Calling a ravenous bird from the east, the man that executeth my counsel from a far country: yea, I have spoken it, I will also bring it to pass; I have purposed it, I will also do it. Isa 46:12 Hearken unto me, ye stouthearted, that are far from righteousness: Isa 46:13 I bring near my righteousness; it shall not be far off, and my salvation shall not tarry: and I will place salvation in Zion for Israel my glory."
-   },
+   }
+  ]
+ },
+ {
+  "id": "028-chapter-2-the-morning-star",
+  "order": 39,
+  "level": 2,
+  "title": "Chapter 2\nThe Morning Star",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 2\nThe Morning Star"
    },
    {
@@ -2932,7 +3124,15 @@
    {
     "role": "decree",
     "text": "THE FATHER AND THE HOLY SPIRIT REPRESENTED by Shekinaih, AND I, REPRESENTED by You, THE ANCIENT OF DAYS, THE MESSENGER SENT by Us, THE MAJOR AND THE MINOR RESPECTIVELY, WHO WAS, AND IS, AND IS TO COME, The Morning Star, shall surely come speedily."
-   },
+   }
+  ]
+ },
+ {
+  "id": "028-chapter-2-the-morning-star-p2",
+  "order": 40,
+  "level": 2,
+  "title": "Chapter 2\nThe Morning Star (part 2)",
+  "segments": [
    {
     "role": "scripture",
     "text": "Rev 22:16 I Jesus have sent mine angel to testify unto you these things in the churches. I am the root and the offspring of David, and the bright (G2986 \"lampros\") and morning (G3720 \"orthrinos\" relating to dawn) star (Note: this statement is spoken by the angel). Rev 22:17 And the Spirit and the bride say, Come….. Rev 22:20 He which testifieth these things saith, Surely I come quickly. Amen. Even so, come, Lord Jesus. Rev 22:21 The grace of our Lord Jesus Christ be with you all. Amen."
@@ -3012,9 +3212,17 @@
    {
     "role": "scripture",
     "text": "Son 6:8 There are threescore queens, and fourscore concubines, and virgins (H5958 \"almah\") without number. Son 6:9 My dove, my perfect (H8535 \"tam\" complete) is united (H259 \"echad\"); she is united with her mother, she is the choice one of her that bare her. The daughters saw her, and blessed her; yea, the queens and the concubines, and they praised her. Son 6:10 Who is she that looketh forth as the morning (H7837 \"shachar\"), fair as the moon, clear as the sun, and terrible with banners? Son 6:11 I went down into the garden of nuts to see the fruits of the valley, and to see whether the vine flourished, and the pomegranates budded. Son 6:12 Or ever I was aware, my soul made me like the chariots of Amminadib. Son 6:13 Return, return, O Shulamite; return, return, that we may look upon thee. What will ye see in the Shulamite? As it were the company of two armies."
-   },
+   }
+  ]
+ },
+ {
+  "id": "029-act-1-scene-4-the-conqueror-the-champion",
+  "order": 41,
+  "level": 2,
+  "title": "ACT 1 SCENE 4\nThe Conqueror, \"The Champion\"",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ACT 1 SCENE 4\nThe Conqueror, \"The Champion\""
    },
    {
@@ -3072,9 +3280,17 @@
    {
     "role": "body",
     "text": "JESUS then said to Shekinaih and David, \"What you have seen in this vision, always keep it in your heart\"."
-   },
+   }
+  ]
+ },
+ {
+  "id": "030-chapter-3-my-champion",
+  "order": 42,
+  "level": 2,
+  "title": "Chapter 3 \nMy Champion",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 3 \nMy Champion"
    },
    {
@@ -3164,8 +3380,8 @@
   ]
  },
  {
-  "id": "016-angel-wonder",
-  "order": 16,
+  "id": "031-angel-wonder",
+  "order": 43,
   "level": 2,
   "title": "Angel Wonder",
   "segments": [
@@ -3264,9 +3480,17 @@
    {
     "role": "scripture",
     "text": "Rev 14:4 These are they which were not defiled with women; for they are virgins. These are they which follow the Lamb whithersoever he goeth. These were redeemed from among men, being the firstfruits unto God and to the Lamb. Rev 14:5 And in their mouth was found no guile: for they are without fault before the throne of God."
-   },
+   }
+  ]
+ },
+ {
+  "id": "032-act-1-scene-5-the-offensive-rock",
+  "order": 44,
+  "level": 2,
+  "title": "ACT 1 SCENE 5 \nThe Offensive Rock",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ACT 1 SCENE 5 \nThe Offensive Rock"
    },
    {
@@ -3404,8 +3628,8 @@
   ]
  },
  {
-  "id": "017-the-eloah",
-  "order": 17,
+  "id": "033-the-eloah",
+  "order": 45,
   "level": 2,
   "title": "THE ELOAH",
   "segments": [
@@ -3536,21 +3760,37 @@
   ]
  },
  {
-  "id": "018-part-1-behold-i-will-send-my-messenger",
-  "order": 18,
+  "id": "034-part-1-behold-i-will-send-my-messenger",
+  "order": 46,
   "level": 1,
   "title": "PART 1 \nBEHOLD! I WILL SEND MY MESSENGER!",
   "segments": [
    {
     "role": "chapter_title",
     "text": "PART 1 \nBEHOLD! I WILL SEND MY MESSENGER!"
-   },
+   }
+  ]
+ },
+ {
+  "id": "035-section-a-it-s-appearance-and-or-its-ways",
+  "order": 47,
+  "level": 2,
+  "title": "SECTION A \nIT'S APPEARANCE AND/OR ITS WAYS",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "SECTION A \nIT'S APPEARANCE AND/OR ITS WAYS"
-   },
+   }
+  ]
+ },
+ {
+  "id": "036-chapter-1-synchronise-with-all-times",
+  "order": 48,
+  "level": 2,
+  "title": "Chapter 1 \nSynchronise With All Times",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 1 \nSynchronise With All Times"
    },
    {
@@ -3636,8 +3876,8 @@
   ]
  },
  {
-  "id": "019-a-time-to-be-born-and-a-time-to-die",
-  "order": 19,
+  "id": "037-a-time-to-be-born-and-a-time-to-die",
+  "order": 49,
   "level": 2,
   "title": "A time to be born, and a time to die;",
   "segments": [
@@ -3664,8 +3904,8 @@
   ]
  },
  {
-  "id": "020-a-time-to-plant-and-a-time-to-pluck-up-that-which-is-planted",
-  "order": 20,
+  "id": "038-a-time-to-plant-and-a-time-to-pluck-up-that-which-is-planted",
+  "order": 50,
   "level": 2,
   "title": "A time to plant, \nand a time to pluck up that which is planted;",
   "segments": [
@@ -3684,8 +3924,8 @@
   ]
  },
  {
-  "id": "021-a-time-to-kill-and-a-time-to-heal",
-  "order": 21,
+  "id": "039-a-time-to-kill-and-a-time-to-heal",
+  "order": 51,
   "level": 2,
   "title": "A time to kill, and a time to heal;",
   "segments": [
@@ -3708,8 +3948,8 @@
   ]
  },
  {
-  "id": "022-a-time-to-break-down-and-a-time-to-build-up",
-  "order": 22,
+  "id": "040-a-time-to-break-down-and-a-time-to-build-up",
+  "order": 52,
   "level": 2,
   "title": "A time to break down, and a time to build up;",
   "segments": [
@@ -3740,8 +3980,8 @@
   ]
  },
  {
-  "id": "023-a-time-to-weep-and-a-time-to-laugh",
-  "order": 23,
+  "id": "041-a-time-to-weep-and-a-time-to-laugh",
+  "order": 53,
   "level": 2,
   "title": "A time to weep, and a time to laugh;",
   "segments": [
@@ -3764,8 +4004,8 @@
   ]
  },
  {
-  "id": "024-a-time-to-mourn-and-a-time-to-dance",
-  "order": 24,
+  "id": "042-a-time-to-mourn-and-a-time-to-dance",
+  "order": 54,
   "level": 2,
   "title": "A time to mourn, and a time to dance;",
   "segments": [
@@ -3784,8 +4024,8 @@
   ]
  },
  {
-  "id": "025-a-time-to-cast-away-stones-and-a-time-to-gather-stones-toget",
-  "order": 25,
+  "id": "043-a-time-to-cast-away-stones-and-a-time-to-gather-stones-toget",
+  "order": 55,
   "level": 2,
   "title": "A time to cast away stones, \nand a time to gather stones together;",
   "segments": [
@@ -3812,8 +4052,8 @@
   ]
  },
  {
-  "id": "026-a-time-to-embrace-and-a-time-to-refrain-from-embracing",
-  "order": 26,
+  "id": "044-a-time-to-embrace-and-a-time-to-refrain-from-embracing",
+  "order": 56,
   "level": 2,
   "title": "a time to embrace, \nand a time to refrain from embracing;",
   "segments": [
@@ -3840,8 +4080,8 @@
   ]
  },
  {
-  "id": "027-a-time-to-seek-h1245-baqash-and-a-time-to-lose-perish-h6-aba",
-  "order": 27,
+  "id": "045-a-time-to-seek-h1245-baqash-and-a-time-to-lose-perish-h6-aba",
+  "order": 57,
   "level": 2,
   "title": "A time to seek (H1245 \"baqash\"), \nand a time to lose/perish (H6 \"abad\");",
   "segments": [
@@ -3876,8 +4116,8 @@
   ]
  },
  {
-  "id": "028-a-time-to-keep-h8104-shamar-beware-take-heed-and-a-time-to-c",
-  "order": 28,
+  "id": "046-a-time-to-keep-h8104-shamar-beware-take-heed-and-a-time-to-c",
+  "order": 58,
   "level": 2,
   "title": "A time to keep (H8104 \"shamar\" beware, take heed), \nand a time to cast away (H7993 \"shalak\" throw)",
   "segments": [
@@ -3908,8 +4148,8 @@
   ]
  },
  {
-  "id": "029-a-time-to-rend-and-a-time-to-sew",
-  "order": 29,
+  "id": "047-a-time-to-rend-and-a-time-to-sew",
+  "order": 59,
   "level": 2,
   "title": "A time to rend, and a time to sew;",
   "segments": [
@@ -3944,8 +4184,8 @@
   ]
  },
  {
-  "id": "030-a-time-to-keep-silence-and-a-time-to-speak",
-  "order": 30,
+  "id": "048-a-time-to-keep-silence-and-a-time-to-speak",
+  "order": 60,
   "level": 2,
   "title": "A time to keep silence, and a time to speak;",
   "segments": [
@@ -3976,8 +4216,8 @@
   ]
  },
  {
-  "id": "031-a-time-to-love-and-a-time-to-hate",
-  "order": 31,
+  "id": "049-a-time-to-love-and-a-time-to-hate",
+  "order": 61,
   "level": 2,
   "title": "A time to love, and a time to hate;",
   "segments": [
@@ -4016,8 +4256,8 @@
   ]
  },
  {
-  "id": "032-a-time-of-war-h4421-milchamah-and-a-time-of-peace",
-  "order": 32,
+  "id": "050-a-time-of-war-h4421-milchamah-and-a-time-of-peace",
+  "order": 62,
   "level": 2,
   "title": "A time of war (H4421 \"milchamah\"), and a time of peace.",
   "segments": [
@@ -4072,9 +4312,17 @@
    {
     "role": "decree",
     "text": "Will you pursue to be the main actors of this masterpiece script in My acceptable time?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "051-chapter-2-undercover-hidden-during-infancy",
+  "order": 63,
+  "level": 2,
+  "title": "Chapter 2 \nUndercover/Hidden During Infancy",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 2 \nUndercover/Hidden During Infancy"
    },
    {
@@ -4128,8 +4376,8 @@
   ]
  },
  {
-  "id": "033-vision-of-the-queen",
-  "order": 33,
+  "id": "052-vision-of-the-queen",
+  "order": 64,
   "level": 2,
   "title": "Vision of the Queen",
   "segments": [
@@ -4152,8 +4400,8 @@
   ]
  },
  {
-  "id": "034-vision-of-the-battle-of-psalms-83",
-  "order": 34,
+  "id": "053-vision-of-the-battle-of-psalms-83",
+  "order": 65,
   "level": 2,
   "title": "Vision of the Battle of Psalms 83",
   "segments": [
@@ -4184,9 +4432,17 @@
    {
     "role": "scripture",
     "text": "Jdg 7:12 And the Midianites and the Amalekites and all the children of the east lay along in the valley like grasshoppers for multitude; and their camels were without number, as the sand by the sea side for multitude. ……Jdg 7:19 So Gideon, and the hundred men that were with him, came unto the outside of the camp in the beginning of the middle watch; and they had but newly set the watch: and they blew the trumpets, and brake the pitchers that were in their hands. Jdg 7:20 And the three companies blew the trumpets, and brake the pitchers, and held the lamps in their left hands, and the trumpets in their right hands to blow withal: and they cried, The sword of THE YAHWEH, and of Gideon. Jdg 7:21 And they stood every man in his place round about the camp: and all the host ran, and cried, and fled. Jdg 7:22 And the three hundred blew the trumpets, and THE YAHWEH set every man's sword against his fellow, even throughout all the host: and the host fled to Bethshittah in Zererath, and to the border of Abelmeholah, unto Tabbath. Jdg 7:23 And the men of Israel gathered themselves together out of Naphtali, and out of Asher, and out of all Manasseh, and pursued after the Midianites. Jdg 7:24 And Gideon sent messengers throughout all mount Ephraim, saying, Come down against the Midianites, and take before them the waters unto Bethbarah and Jordan. Then all the men of Ephraim gathered themselves together, and took the waters unto Bethbarah and Jordan. Jdg 7:25 And they took two princes of the Midianites, Oreb and Zeeb; and they slew Oreb upon the rock Oreb, and Zeeb they slew at the winepress of Zeeb, and pursued Midian, and brought the heads of Oreb and Zeeb to Gideon on the other side Jordan."
-   },
+   }
+  ]
+ },
+ {
+  "id": "054-chapter-3-servant-hood-kind-of-character-during-moulding",
+  "order": 66,
+  "level": 2,
+  "title": "Chapter 3 \nServant Hood Kind of Character During Moulding",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 3 \nServant Hood Kind of Character During Moulding"
    },
    {
@@ -4224,9 +4480,17 @@
    {
     "role": "scripture",
     "text": "Heb 1:14 Are they not all ministering spirits, sent forth to minister for them who shall be heirs of salvation?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "055-chapter-4-ordinary-people-least-expected-candidate",
+  "order": 67,
+  "level": 2,
+  "title": "Chapter 4 \nOrdinaRy People Least Expected Candidate",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 4 \nOrdinaRy People Least Expected Candidate"
    },
    {
@@ -4292,7 +4556,15 @@
    {
     "role": "scripture",
     "text": "Isa 33:13 Hear, ye that are far off, what I have done; and, ye that are near, acknowledge my might. Isa 33:14 The sinners in Zion are afraid; fearfulness hath surprised the hypocrites. Who among us shall dwell with the devouring fire? Who among us shall dwell with everlasting burnings? Isa 33:15 He that walketh righteously, and speaketh uprightly; he that despiseth the gain of oppressions, that shaketh his hands from holding of bribes, that stoppeth his ears from hearing of blood, and shutteth his eyes from seeing evil; Isa 33:16 He shall dwell on high: his place of defence shall be the munitions of rocks: bread shall be given him; his waters shall be sure. Isa 33:17 Thine eyes shall see the king in his beauty: they shall behold the land that is very far off. Isa 33:18 Thine heart shall meditate dread. Where is the scribe? Where is he that weighed (H8254 \"shaqal\")? Where is he that counted the pulpits (H4026 \"migdal\") Isa 33:19 Thou shalt not regard (H7200 \"raah\") a bold (H3267 \"yaaz\") people, a people of a profound speech from (H4480 \"min\") hearing those of a stammering (H3932 \"laag\") tongue, that thou canst not understand. Isa 33:20 Look upon Zion, the city of our solemnities: thine eyes shall see Jerusalem a quiet habitation, a tabernacle that shall not be taken down; not one of the stakes thereof shall ever be removed, neither shall any of the cords thereof be broken. Isa 33:21 But there the enlarged (H117 \"addiyr\") YAHWEH will be unto us a place of broad rivers and streams; wherein shall go no ship with oars, neither shall large (H117 \"addiyr\") ship pass thereby. Isa 33:22 For THE YAHWEH is our judge, THE YAHWEH is our lawgiver, THE YAHWEH is our king; he will save us. Isa 33:23 Thy tacklings are loosed; they could not well strengthen their mast, they could not spread the sail: then is the prey of a great spoil divided; the lame take the prey. Isa 33:24 And the inhabitant shall not say, I am weak (H2470 \"ullnes\"): the people that dwell therein shall be forgiven their iniquity."
-   },
+   }
+  ]
+ },
+ {
+  "id": "055-chapter-4-ordinary-people-least-expected-candidate-p2",
+  "order": 68,
+  "level": 2,
+  "title": "Chapter 4 \nOrdinaRy People Least Expected Candidate (part 2)",
+  "segments": [
    {
     "role": "decree",
     "text": "Paul reiterates Isaiah 33:13-22 in his own words when he wrote to the Corinthians."
@@ -4336,9 +4608,17 @@
    {
     "role": "scripture",
     "text": "Mat 11:7 And as they departed, Jesus began to say unto the multitudes concerning John, What went ye out into the wilderness to see? A reed shaken with the wind? Mat 11:8 But what went ye out for to see? A man clothed in soft raiment? Behold, they that wear soft clothing are in kings' houses."
-   },
+   }
+  ]
+ },
+ {
+  "id": "056-chapter-5-least-comeliness-endowed-with-highest-honour-gifti",
+  "order": 69,
+  "level": 2,
+  "title": "Chapter 5 \nLeast Comeliness Endowed with Highest Honour Gifting",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 5 \nLeast Comeliness Endowed with Highest Honour Gifting"
    },
    {
@@ -4404,9 +4684,17 @@
    {
     "role": "scripture",
     "text": "1Co 12:23 And those body, which we accounted (G1380 \"dokeo\") to be no value (G820 \"atimos\"), upon these was set around (G4060 \"peritithemi\") more superabundant value (G5092 \"time\"); and of us (G2257 \"hemon\") the uncomely have more superabundant honour (G2157 \"euschemosune\"). 1Co 12:24 For of us the honorable have no lack: but THE ELOHIM hath commingled the body together, having given more superabundant value to that which are inferior (G5302 \"hustereo\": 1Co 12:25 That there should be no schism in the body; but that the members should be anxious for one to another. 1Co 12:26 And whether one member suffer, all the members suffer with it; or one member be glorified, all the members congratulate with it. 1Co 12:27 Now ye are the body of Christ, and members in part. 1Co 12:28 And THE ELOHIM hath set some in the church, first apostles, secondarily prophets, thirdly teachers, after that miracles, then gifts of healings, helps, governments, diversities of tongues. 1Co 12:29 Are all apostles? Are all prophets? Are all teachers? Are all workers of miracles? 1Co 12:30 Have all the gifts of healing? Do all speak with tongues? Do all interpret? 1Co 12:31 But be zealous over the mighty rulership (G2909 \"kreitton\") gifts: and yet shew I unto you a more excellent way."
-   },
+   }
+  ]
+ },
+ {
+  "id": "057-chapter-6-vessel-of-honour-selection-as-i-am-pleased",
+  "order": 70,
+  "level": 2,
+  "title": "Chapter 6 \nVessel of Honour Selection As I am Pleased",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 6 \nVessel of Honour Selection As I am Pleased"
    },
    {
@@ -4460,9 +4748,17 @@
    {
     "role": "scripture",
     "text": "2Ti 2:19 Nevertheless the foundation of THE ELOHIM standeth sure, having this seal, THE YAHWEH knoweth them that are his. And, Let everyone that nameth the name of Christ depart from iniquity. 2Ti 2:20 But in a great house there are not only vessels of gold and of silver, but also of wood and of earth; and some to honour, and some to dishonour. 2Ti 2:21 If a man therefore purge himself from these, he shall be a vessel unto honour, sanctified, and useful (G2173 \"euchrestos\") to the master and made ready (G2090 \"hetoimazo\") unto every good work."
-   },
+   }
+  ]
+ },
+ {
+  "id": "058-chapter-7-like-shepherd-like-sheep-kind-of-training-during-i",
+  "order": 71,
+  "level": 2,
+  "title": "Chapter 7 \nLike Shepherd Like Sheep Kind of Training During Infancy",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 7 \nLike Shepherd Like Sheep Kind of Training During Infancy"
    },
    {
@@ -4536,9 +4832,17 @@
    {
     "role": "scripture",
     "text": "Jer 9:23 Thus saith THE YAHWEH, Let not the wise man glory in his wisdom, neither let the mighty man glory in his might, let not the rich man glory in his riches: Jer 9:24 But let him that glorieth glory in this, that he understandeth and knoweth me, that I am THE YAHWEH which exercise lovingkindness, judgment, and righteousness, in the earth: for in these things I delight, saith THE YAHWEH. Jer 9:25 Behold, the days come, saith THE YAHWEH, that I will punish all them which are circumcised with the uncircumcised; Jer 9:26 Egypt, and Judah, and Edom, and the children of Ammon, and Moab, and all that are in the utmost corners, that dwell in the wilderness: for all these nations are uncircumcised, and all the house of Israel are uncircumcised in the heart."
-   },
+   }
+  ]
+ },
+ {
+  "id": "059-chapter-8-total-obedience-yieldedness-prerequisite-no-other-",
+  "order": 72,
+  "level": 2,
+  "title": "Chapter 8 \nTotal Obedience/Yieldedness Prerequisite, No Other Option",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 8 \nTotal Obedience/Yieldedness Prerequisite, No Other Option"
    },
    {
@@ -4616,16 +4920,24 @@
    {
     "role": "scripture",
     "text": "1Pe 1:22 Seeing ye have purified your souls in obeying the truth through the Spirit unto unfeigned love of the brethren, see that ye love one another with a pure heart fervently: 1Pe 1:23 Being born again, not of corruptible seed, but of incorruptible, by the oracle (G3056 \"logos\") of THE ELOHIM, which liveth and abideth forever. 1Pe 1:24 For all flesh is as grass, and all the glory of man as the flower of grass. The grass withereth, and the flower thereof falleth away: 1Pe 1:25 But the speech (G4487 \"rhema\") of THE YAHWEH endureth forever. And this is the speech (G4487 \"rhema\") which by the gospel is preached unto you."
-   },
+   }
+  ]
+ },
+ {
+  "id": "060-chapter-9-final-selection-criterias",
+  "order": 73,
+  "level": 2,
+  "title": "Chapter 9\nFinal Selection Criterias",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 9\nFinal Selection Criterias"
    }
   ]
  },
  {
-  "id": "035-be-perfect",
-  "order": 35,
+  "id": "061-be-perfect",
+  "order": 74,
   "level": 2,
   "title": "Be Perfect",
   "segments": [
@@ -4768,8 +5080,8 @@
   ]
  },
  {
-  "id": "036-the-ten-areas-of-perfection",
-  "order": 36,
+  "id": "062-the-ten-areas-of-perfection",
+  "order": 75,
   "level": 2,
   "title": "The Ten Areas of Perfection",
   "segments": [
@@ -4780,8 +5092,8 @@
   ]
  },
  {
-  "id": "037-i-single-mindedness",
-  "order": 37,
+  "id": "063-i-single-mindedness",
+  "order": 76,
   "level": 2,
   "title": "i) Single Mindedness",
   "segments": [
@@ -4800,8 +5112,8 @@
   ]
  },
  {
-  "id": "038-ii-be-completely-truthful-in-the-elohim",
-  "order": 38,
+  "id": "064-ii-be-completely-truthful-in-the-elohim",
+  "order": 77,
   "level": 2,
   "title": "ii) Be Completely Truthful in THE ELOHIM",
   "segments": [
@@ -4820,8 +5132,8 @@
   ]
  },
  {
-  "id": "039-iii-be-yielded-100",
-  "order": 39,
+  "id": "065-iii-be-yielded-100",
+  "order": 78,
   "level": 2,
   "title": "iii) Be Yielded 100%",
   "segments": [
@@ -4852,8 +5164,8 @@
   ]
  },
  {
-  "id": "040-iv-be-lowly-zero-self",
-  "order": 40,
+  "id": "066-iv-be-lowly-zero-self",
+  "order": 79,
   "level": 2,
   "title": "iv) Be Lowly Zero Self",
   "segments": [
@@ -4884,8 +5196,8 @@
   ]
  },
  {
-  "id": "041-v-be-completely-sincere-before-the-elohim-and-men",
-  "order": 41,
+  "id": "067-v-be-completely-sincere-before-the-elohim-and-men",
+  "order": 80,
   "level": 2,
   "title": "v) Be Completely Sincere Before THE ELOHIM and Men",
   "segments": [
@@ -4924,8 +5236,8 @@
   ]
  },
  {
-  "id": "042-vi-meekness-of-love",
-  "order": 42,
+  "id": "068-vi-meekness-of-love",
+  "order": 81,
   "level": 2,
   "title": "vi) Meekness of Love",
   "segments": [
@@ -4972,8 +5284,8 @@
   ]
  },
  {
-  "id": "043-vii-be-patient",
-  "order": 43,
+  "id": "069-vii-be-patient",
+  "order": 82,
   "level": 2,
   "title": "vii) Be Patient",
   "segments": [
@@ -4992,8 +5304,8 @@
   ]
  },
  {
-  "id": "044-viii-to-be-circumcised-in-heart",
-  "order": 44,
+  "id": "070-viii-to-be-circumcised-in-heart",
+  "order": 83,
   "level": 2,
   "title": "viii) To be Circumcised in Heart",
   "segments": [
@@ -5012,8 +5324,8 @@
   ]
  },
  {
-  "id": "045-ix-obedience-unto-death",
-  "order": 45,
+  "id": "071-ix-obedience-unto-death",
+  "order": 84,
   "level": 2,
   "title": "ix) Obedience Unto Death",
   "segments": [
@@ -5036,8 +5348,8 @@
   ]
  },
  {
-  "id": "046-x-be-entirely-toward-him",
-  "order": 46,
+  "id": "072-x-be-entirely-toward-him",
+  "order": 85,
   "level": 2,
   "title": "x) Be Entirely Toward Him",
   "segments": [
@@ -5076,8 +5388,8 @@
   ]
  },
  {
-  "id": "047-benefits-of-those-whose-walk-is-perfect",
-  "order": 47,
+  "id": "073-benefits-of-those-whose-walk-is-perfect",
+  "order": 86,
   "level": 2,
   "title": "Benefits of Those Whose Walk is Perfect",
   "segments": [
@@ -5108,9 +5420,17 @@
    {
     "role": "scripture",
     "text": "1Co 2:6 Howbeit we speak wisdom among them that are perfect (G5046 \"teleios\"): yet not the wisdom of this world, nor of the princes of this world, that come to nought: 1Co 2:7 But we speak the wisdom of THE ELOHIM in a mystery, even the hidden wisdom, which THE ELOHIM ordained before the world unto our glory:"
-   },
+   }
+  ]
+ },
+ {
+  "id": "074-chapter-10-vigorous-army-like-disciplinary-training",
+  "order": 87,
+  "level": 2,
+  "title": "Chapter 10 \nVigorous Army like Disciplinary Training",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 10 \nVigorous Army like Disciplinary Training"
    },
    {
@@ -5164,8 +5484,8 @@
   ]
  },
  {
-  "id": "048-military-order-and-discipline",
-  "order": 48,
+  "id": "075-military-order-and-discipline",
+  "order": 88,
   "level": 2,
   "title": "Military Order and Discipline",
   "segments": [
@@ -5192,8 +5512,8 @@
   ]
  },
  {
-  "id": "049-vigorous-army-like-disciplinary-training",
-  "order": 49,
+  "id": "076-vigorous-army-like-disciplinary-training",
+  "order": 89,
   "level": 2,
   "title": "Vigorous Army like Disciplinary Training",
   "segments": [
@@ -5208,8 +5528,8 @@
   ]
  },
  {
-  "id": "050-1-be-timely-in-co-executing-my-orders-with-precision-details",
-  "order": 50,
+  "id": "077-1-be-timely-in-co-executing-my-orders-with-precision-details",
+  "order": 90,
   "level": 2,
   "title": "1) Be Timely In Co-Executing My Orders with Precision Details and Be Careful Not To Miss Out Anything",
   "segments": [
@@ -5236,8 +5556,8 @@
   ]
  },
  {
-  "id": "051-vision-of-lights-colliding",
-  "order": 51,
+  "id": "078-vision-of-lights-colliding",
+  "order": 91,
   "level": 2,
   "title": "Vision of Lights Colliding",
   "segments": [
@@ -5276,8 +5596,8 @@
   ]
  },
  {
-  "id": "052-2-great-attitude",
-  "order": 52,
+  "id": "079-2-great-attitude",
+  "order": 92,
   "level": 2,
   "title": "2) Great Attitude",
   "segments": [
@@ -5344,8 +5664,8 @@
   ]
  },
  {
-  "id": "053-3-be-joyful",
-  "order": 53,
+  "id": "080-3-be-joyful",
+  "order": 93,
   "level": 2,
   "title": "3) Be Joyful",
   "segments": [
@@ -5392,8 +5712,8 @@
   ]
  },
  {
-  "id": "054-4-walk-in-line",
-  "order": 54,
+  "id": "081-4-walk-in-line",
+  "order": 94,
   "level": 2,
   "title": "4) Walk in Line",
   "segments": [
@@ -5428,8 +5748,8 @@
   ]
  },
  {
-  "id": "055-5-in-all-your-ways-acknowledge-me",
-  "order": 55,
+  "id": "082-5-in-all-your-ways-acknowledge-me",
+  "order": 95,
   "level": 2,
   "title": "5) In All Your Ways, Acknowledge Me",
   "segments": [
@@ -5480,8 +5800,8 @@
   ]
  },
  {
-  "id": "056-6-walk-in-100-yieldedness-and-faith",
-  "order": 56,
+  "id": "083-6-walk-in-100-yieldedness-and-faith",
+  "order": 96,
   "level": 2,
   "title": "6) Walk In 100% Yieldedness And Faith.",
   "segments": [
@@ -5512,8 +5832,8 @@
   ]
  },
  {
-  "id": "057-7-the-7-squeezes-of-the-adonai-as-the-basic-trainings",
-  "order": 57,
+  "id": "084-7-the-7-squeezes-of-the-adonai-as-the-basic-trainings",
+  "order": 97,
   "level": 2,
   "title": "7) The 7 Squeezes of THE ADONAI as the Basic trainings.",
   "segments": [
@@ -5572,8 +5892,8 @@
   ]
  },
  {
-  "id": "058-8-total-100-yieldedness",
-  "order": 58,
+  "id": "085-8-total-100-yieldedness",
+  "order": 98,
   "level": 2,
   "title": "8) Total 100% Yieldedness",
   "segments": [
@@ -5600,8 +5920,8 @@
   ]
  },
  {
-  "id": "059-9-maturity-training",
-  "order": 59,
+  "id": "086-9-maturity-training",
+  "order": 99,
   "level": 2,
   "title": "9) Maturity Training",
   "segments": [
@@ -5660,13 +5980,29 @@
    {
     "role": "scripture",
     "text": "Psa 8:1 To the chief Musician upon Gittith, A Psalm of David. O THE YAHWEH our ADON, how excellent is thy name in all the earth! Who hast set thy glory above the heavens. Psa 8:2 Out of the mouth of babes and sucklings hast thou ordained strength because of thine enemies, that thou mightest still the enemy and the avenger."
-   },
+   }
+  ]
+ },
+ {
+  "id": "087-section-b-perilous-time-uncoming-appearance-unexpected",
+  "order": 100,
+  "level": 2,
+  "title": "Section B\nPerilous Time/\nUncoming Appearance Unexpected",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Section B\nPerilous Time/\nUncoming Appearance Unexpected"
-   },
+   }
+  ]
+ },
+ {
+  "id": "088-act-2-scene-1-the-awestruck",
+  "order": 101,
+  "level": 2,
+  "title": "ACT 2 SCENE 1 \nThe Awestruck",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ACT 2 SCENE 1 \nThe Awestruck"
    },
    {
@@ -5712,9 +6048,17 @@
    {
     "role": "body",
     "text": "THE FATHER then turned to his right to look at JESUS, then He turn to look at Shekinaih and David in front of Him, and lastly, turn to His left looking at THE HOLY SPIRIT. With thoughts synchronising with each other with one mind, all began to nod their heads and spoke in unison, \"Let's proceed to the next phase……\""
-   },
+   }
+  ]
+ },
+ {
+  "id": "089-act-2-scene-2-the-unexpected-appearance-flashback-of-the-dre",
+  "order": 102,
+  "level": 2,
+  "title": "ACT 2 SCENE 2 \nThe Unexpected Appearance (Flashback) of\nThe Dreadful One",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ACT 2 SCENE 2 \nThe Unexpected Appearance (Flashback) of\nThe Dreadful One"
    },
    {
@@ -5764,9 +6108,17 @@
    {
     "role": "body",
     "text": "THE TRINITY, suddenly appeared and stood on her right, with golden crowns, golden robes and white robes in their hands and passed to Shekinaih which she then hand over to David, to put on those appointed Brides in this city as per Shekinaih's instruction according to THE TRINITY'S determination."
-   },
+   }
+  ]
+ },
+ {
+  "id": "090-chapter-1-sudden-appearance-from-no-where",
+  "order": 103,
+  "level": 2,
+  "title": "Chapter 1 \nSudden Appearance From No Where",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 1 \nSudden Appearance From No Where"
    },
    {
@@ -5836,9 +6188,17 @@
    {
     "role": "decree",
     "text": "As Elijah paved the way for Elisha, so will the last days Elijah paved the way for the last days Elisha in manifesting the glory of THE YAHWEH. As John the Baptizer introduces Jesus as the Christ, the last days John will introduce the sons of THE ELOHIM who are called to be his anointed, a Christ. Because no one is aware of their coming, many will be astonished. TODAY, THIS SCRIPTURE IS FULFILLED IN YOUR MIDST."
-   },
+   }
+  ]
+ },
+ {
+  "id": "091-chapter-2-irritate-the-mainstream-churches",
+  "order": 104,
+  "level": 2,
+  "title": "Chapter 2 \nIrritate The Mainstream Churches",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 2 \nIrritate The Mainstream Churches"
    },
    {
@@ -5944,9 +6304,17 @@
    {
     "role": "scripture",
     "text": "Mat 23:34 Wherefore, behold, I send unto you prophets, and wise men, and scribes: and some of them ye shall kill and crucify; and some of them shall ye scourge in your synagogues, and persecute them from city to city: Mat 23:35 That upon you may come all the righteous blood shed upon the earth, from the blood of righteous Abel unto the blood of Zacharias son of Barachias, whom ye slew between the temple and the altar. Mat 23:36 Verily I say unto you, All these things shall come upon this generation. Mat 23:37 O Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which are sent unto thee, how often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not! Mat 23:38 Behold, your house is left unto you desolate. Mat 23:39 For I say unto you, Ye shall not see me henceforth, till ye shall say, Blessed is he that cometh in the name of THE YAHWEH"
-   },
+   }
+  ]
+ },
+ {
+  "id": "092-chapter-3-new-doctrine-in-the-last-days",
+  "order": 105,
+  "level": 2,
+  "title": "Chapter 3 \nNew Doctrine in the Last Days",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 3 \nNew Doctrine in the Last Days"
    },
    {
@@ -6000,7 +6368,15 @@
    {
     "role": "scripture",
     "text": "Act 2:45 And sold their possessions and goods, and parted them to all men, as every man had need. Act 2:46 And they, continuing daily with one accord in the temple, and breaking bread from house to house, did eat their meat with gladness and singleness of heart, Act 2:47 Praising THE ELOHIM, and having favour with all the people. And THE YAHWEH added to the church daily such as should be saved.\")"
-   },
+   }
+  ]
+ },
+ {
+  "id": "092-chapter-3-new-doctrine-in-the-last-days-p2",
+  "order": 106,
+  "level": 2,
+  "title": "Chapter 3 \nNew Doctrine in the Last Days (part 2)",
+  "segments": [
    {
     "role": "decree",
     "text": "The way of THE YAHWEH is through following Jesus' example in fulfilling all righteousness by going through the tribulations that was ordained by THE FATHER for our perfection."
@@ -6040,9 +6416,17 @@
    {
     "role": "scripture",
     "text": "Heb 10:14 For by one offering he hath perfected for ever them that are sanctified. Heb 10:15 Whereof the Holy Ghost also is a witness to us: for after that he had said before, Heb 10:16 This is the covenant that I will make with them after those days, saith THE YAHWEH, I will put my laws into their hearts, and in their minds will I write them; Heb 10:17 And their sins and iniquities will I remember no more. Heb 10:18 Now where remission of these is, there is no more offering for sin. Heb 10:19 Having therefore, brethren, boldness to enter into the holiest by the blood of Jesus, Heb 10:20 By a new and living way, which he hath consecrated for us, through the veil, that is to say, his flesh; Heb 10:21 And having an high priest over the house of THE ELOHIM; Heb 10:22 Let us draw near with a true heart in full assurance of faith, having our hearts sprinkled from an evil conscience, and our bodies washed with pure water. Heb 10:23 Let us hold fast the profession of our faith without wavering; (for he is faithful that promised;) Heb 10:24 And let us consider one another to provoke unto love and to good works:"
-   },
+   }
+  ]
+ },
+ {
+  "id": "093-chapter-4-they-uproot-evil-false-partial-incomplete-doctrine",
+  "order": 107,
+  "level": 2,
+  "title": "Chapter 4 \nThey Uproot Evil/False/Partial Incomplete Doctrines",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 4 \nThey Uproot Evil/False/Partial Incomplete Doctrines"
    },
    {
@@ -6064,9 +6448,17 @@
    {
     "role": "decree",
     "text": "Last but not least, THE ELIJAH that we will send must come to set things back to Our original way, path and order again. See that none of you miss them through your least expected candidate(s). They are Shekinaih and Aaron K David,\" our incarnate, reincarnate\" and reincarnate respectively representing us, THE TRINITY."
-   },
+   }
+  ]
+ },
+ {
+  "id": "094-chapter-5-the-true-gospel-established-by-last-days-messenger",
+  "order": 108,
+  "level": 2,
+  "title": "Chapter 5 \nThe True Gospel Established By Last Days Messenger",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 5 \nThe True Gospel Established By Last Days Messenger"
    },
    {
@@ -6100,9 +6492,17 @@
    {
     "role": "scripture",
     "text": "Rev 14:6 And I saw another angel fly in the midst of heaven, having the everlasting gospel to preach unto them that dwell on the earth, and to every nation, and kindred, and tongue, and people, Rev 14:7 Saying with a loud voice, Fear THE ELOHIM, and give glory to him; for the hour of his judgment is come: and worship him that made heaven, and earth, and the sea, and the fountains of waters."
-   },
+   }
+  ]
+ },
+ {
+  "id": "095-act-2-scene-3-tornado-es-hurricanes",
+  "order": 109,
+  "level": 2,
+  "title": "ACT 2 SCENE 3\nTornado(es)/Hurricanes",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ACT 2 SCENE 3\nTornado(es)/Hurricanes"
    },
    {
@@ -6164,8 +6564,8 @@
   ]
  },
  {
-  "id": "060-whirlwind",
-  "order": 60,
+  "id": "096-whirlwind",
+  "order": 110,
   "level": 2,
   "title": "Whirlwind",
   "segments": [
@@ -6200,13 +6600,29 @@
    {
     "role": "scripture",
     "text": "Eze 13:10 Because, even because they have seduced my people, saying, Peace; and there was no peace; and one built up a wall, and, lo, others daubed it with untempered morter: Eze 13:11 Say unto them which daub it with untempered morter, that it shall fall: there shall be an overflowing shower; and ye, O great hailstones, shall fall; and a stormy (H5591 \"saar\") wind shall rend it. Eze 13:12 Lo, when the wall is fallen, shall it not be said unto you, Where is the daubing wherewith ye have daubed it? Eze 13:13 Therefore thus saith THE ADONAI YAHVIH; I will even rend it with a stormy (H5591 \"saar\") wind in my fury; and there shall be an overflowing shower in mine anger, and great hailstones in my fury to consume it. Eze 13:14 So will I break down the wall that ye have daubed with untempered morter, and bring it down to the ground, so that the foundation thereof shall be discovered, and it shall fall, and ye shall be consumed in the midst thereof: and ye shall know that I am THE YAHWEH. Eze 13:15 Thus will I accomplish my wrath upon the wall, and upon them that have daubed it with untempered morter, and will say unto you, The wall is no more, neither they that daubed it; Eze 13:16 To wit, the prophets of Israel which prophesy concerning Jerusalem, and which see visions of peace for her, and there is no peace, saith THE ADONAI YAHVIH."
-   },
+   }
+  ]
+ },
+ {
+  "id": "097-section-c-rejected-by-many-who-look-for-outward-charm-or-per",
+  "order": 111,
+  "level": 2,
+  "title": "Section C \nRejected By Many Who Look For Outward Charm &/or Persuasive Talker",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Section C \nRejected By Many Who Look For Outward Charm &/or Persuasive Talker"
-   },
+   }
+  ]
+ },
+ {
+  "id": "098-act-2-scene-4-the-rejects",
+  "order": 112,
+  "level": 2,
+  "title": "Act 2 Scene 4 \nThe Rejects",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Act 2 Scene 4 \nThe Rejects"
    },
    {
@@ -6264,9 +6680,17 @@
    {
     "role": "body",
     "text": "Thereafter, after the meeting is over, while Shekinaih and Aaron K David are praying and thanking THE TRINITY for their faithfulness and mercy, THE TRINITY suddenly appears and said to them in unison voice, \"This will be the norm, in this Last Days Ministry We have called both of you to be in!\""
-   },
+   }
+  ]
+ },
+ {
+  "id": "099-chapter-1-rejected-by-the-intellectual-christians",
+  "order": 113,
+  "level": 2,
+  "title": "Chapter 1 \nRejected by the Intellectual Christians",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 1 \nRejected by the Intellectual Christians"
    },
    {
@@ -6276,9 +6700,17 @@
    {
     "role": "scripture",
     "text": "1Co 2:1 And I, brethren, when I came to you, came not with excellency of speech or of wisdom, declaring unto you the testimony of THE ELOHIM. 1Co 2:2 For I determined not to know anything among you, save Jesus Christ, and him crucified. 1Co 2:3 And I was with you in weakness, and in fear, and in much trembling. 1Co 2:4 And my speech and my preaching was not with enticing words of man's wisdom, but in demonstration of the Spirit and of power: 1Co 2:5 That your faith should not stand in the wisdom of men, but in the power of THE ELOHIM. 1Co 2:6 Howbeit we speak wisdom among them that are perfect: yet not the wisdom of this age (G165 \"aion\"), nor of the princes of this age, that come to nought: 1Co 2:7 But we speak the wisdom of THE ELOHIM in a mystery, even the hidden wisdom, which THE ELOHIM ordained before the age unto our glory: 1Co 2:8 Which none of the princes of this age knew: for had they known it, they would not have crucified THE YAHWEH of glory. 1Co 2:9 But as it is written, Eye hath not seen, nor ear heard, neither have entered into the heart of man, the things which THE ELOHIM hath prepared for them that love him. 1Co 2:10 But THE ELOHIM hath revealed them unto us by his Spirit: for the Spirit searcheth all things, yea, the deep things of THE ELOHIM. 1Co 2:11 For what man knoweth the things of a man, save the spirit of man which is in him? Even so the things of THE ELOHIM knoweth no man, but the Spirit of THE ELOHIM. 1Co 2:12 Now we have received, not the spirit of the Cosmos (G2889 \"kosmos\"), but the spirit which is of THE ELOHIM; that we might know the things that are freely given to us of THE ELOHIM. 1Co 2:13 Which things also we speak, not in the words which man's wisdom teacheth, but which the Holy Ghost teacheth; comparing spiritual with spiritual. 1Co 2:14 But the natural man receiveth not the things of the Spirit of THE ELOHIM: for they are foolishness unto him: neither can he know them, because they are spiritually discerned. 1Co 2:15 But he that is spiritual judgeth all things, yet he himself is judged of no man. 1Co 2:16 For who hath known the mind (G3563 \"nous\" intellect, understanding) of THE YAHWEH, that he may be walk with (G4822 \"sumbibazo\" from (G4862 \"sun\" with or together, G939 \"basis\" feet) him? But we have the mind of a Christ."
-   },
+   }
+  ]
+ },
+ {
+  "id": "100-chapter-2-rejected-by-those-who-seek-the-easy-way",
+  "order": 114,
+  "level": 2,
+  "title": "Chapter 2 \nRejected By Those Who Seek the Easy Way",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 2 \nRejected By Those Who Seek the Easy Way"
    },
    {
@@ -6348,7 +6780,15 @@
    {
     "role": "decree",
     "text": "Many have to stop relying in the wisdom and might of men in order to expand their ministry through their compromise with spiritual Babylon, and not to permit the spirit of Jezebel to seduce and defile them as they come under the leadership of some movement under the guise of church unity. Unless they overcome this seduction, they will forfeit their authority over the nations in the age to come."
-   },
+   }
+  ]
+ },
+ {
+  "id": "100-chapter-2-rejected-by-those-who-seek-the-easy-way-p2",
+  "order": 115,
+  "level": 2,
+  "title": "Chapter 2 \nRejected By Those Who Seek the Easy Way (part 2)",
+  "segments": [
    {
     "role": "scripture",
     "text": "Rev 2:18 And unto the angel of the church in Thyatira write; These things saith the Son of the ELOHIM, who hath his eyes like unto a flame of fire, and his feet are like fine brass; Rev 2:19 I know thy works, and charity, and service, and faith, and thy patience, and thy works; and the last to be more than the first. Rev 2:20 Notwithstanding I have a few things against thee, because thou sufferest that woman Jezebel, which calleth herself a prophetess, to teach and to seduce my servants to commit fornication, and to eat things sacrificed unto idols. Rev 2:21 And I gave her space to repent of her fornication; and she repented not. Rev 2:22 Behold, I will cast her into a bed, and them that commit adultery with her into great tribulation, except they repent of their deeds. Rev 2:23 And I will kill her children with death; and all the churches shall know that I am he which searcheth the reins and hearts: and I will give unto every one of you according to your works. Rev 2:24 But unto you I say, and unto the rest in Thyatira, as many as have not this doctrine, and which have not known the depths of Satan, as they speak; I will put upon you none other burden. Rev 2:25 But that which ye have already hold fast till I come. Rev 2:26 And he that overcometh, and keepeth my works unto the end, to him will I give power over the nations: Rev 2:27 And he shall rule them with a rod of iron; as the vessels of a potter shall they be broken to shivers: even as I received of my Father. Rev 2:28 And I will give him the morning star. Rev 2:29 He that hath an ear, let him hear what the Spirit saith unto the churches."
@@ -6392,7 +6832,15 @@
    {
     "role": "decree",
     "text": "Therefore, those who are still entering through the broad gate should be wary of the warning given above. Beware of the false prophets of Jezebel. It is not by the fruits of how big or famous or recognized is their organization or institution but by how abiding are they in the truth of the gospel and how obedient are they in the faith doing the will of THE FATHER are they judged whether they are my true ministers or not."
-   },
+   }
+  ]
+ },
+ {
+  "id": "100-chapter-2-rejected-by-those-who-seek-the-easy-way-p3",
+  "order": 116,
+  "level": 2,
+  "title": "Chapter 2 \nRejected By Those Who Seek the Easy Way (part 3)",
+  "segments": [
    {
     "role": "scripture",
     "text": "Mat 7:13 Enter ye in at the strait gate: for wide is the gate, and broad (G2149 \"euruchoros\" spacious) is the way, that leadeth to perdition (G684 \"apoleia\"), and many there be which go in thereat: Mat 7:14 Because strait is the gate, and narrow is the way, which leadeth unto life, and few there be that find it. Mat 7:15 Beware of false prophets, which come to you in sheep's clothing, but inwardly they are ravening wolves. Mat 7:16 Ye shall know them by their fruits. Do men gather grapes of thorns, or figs of thistles? Mat 7:17 Even so every good tree bringeth forth good fruit; but a corrupt tree bringeth forth evil fruit. Mat 7:18 A good tree cannot bring forth evil fruit, neither can a corrupt tree bring forth good fruit. Mat 7:19 Every tree that bringeth not forth good fruit is hewn down, and cast into the fire. Mat 7:20 Wherefore by their fruits ye shall know them. Mat 7:21 Not everyone that saith unto me, THE YAHWEH, THE YAHWEH, shall enter into the kingdom of heaven; but he that doeth the will of my Father which is in heaven. Mat 7:22 Many will say to me in that day, THE YAHWEH, THE YAHWEH, have we not prophesied in thy name? and in thy name have cast out devils? And in thy name done many wonderful works? Mat 7:23 And then will I profess unto them, I never knew you: depart from me, ye that work iniquity."
@@ -6440,9 +6888,17 @@
    {
     "role": "decree",
     "text": "Immoral lifestyles are compromised in the false pretext of not judging others. The success of their ministry is proudly made public in terms of church attendance, campus size or wealth of a church rather than the Christlikeness and holiness of the congregation."
-   },
+   }
+  ]
+ },
+ {
+  "id": "101-chapter-3-rejected-by-those-who-seek-approval-honour-from-me",
+  "order": 117,
+  "level": 2,
+  "title": "Chapter 3 \nRejected By Those Who Seek Approval/Honour from Men",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 3 \nRejected By Those Who Seek Approval/Honour from Men"
    },
    {
@@ -6476,9 +6932,17 @@
    {
     "role": "scripture",
     "text": "1Th 2:1 For yourselves, brethren, know our entrance in unto you, that it was not in vain: 1Th 2:2 But even after that we had suffered before, and were shamefully entreated, as ye know, at Philippi, we were bold in our ELOHIM to speak unto you the gospel of THE ELOHIM with much contention. 1Th 2:3 For our exhortation was not of deceit, nor of uncleanness, nor in guile: 1Th 2:4 But as we were approved of THE ELOHIM to be put in trust with the gospel, even so we speak; not as pleasing men, but THE ELOHIM, which trieth our hearts."
-   },
+   }
+  ]
+ },
+ {
+  "id": "102-chapter-4-rejected-by-the-occult-circle",
+  "order": 118,
+  "level": 2,
+  "title": "Chapter 4 \nRejected by the Occult Circle",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 4 \nRejected by the Occult Circle"
    },
    {
@@ -6564,7 +7028,15 @@
    {
     "role": "scripture",
     "text": "1Jn 2:15 Love not the Cosmos, neither the things that are in the Cosmos. If any man love the Cosmos, the love of the Father is not in him. 1Jn 2:16 For all that is in the Cosmos, the lust of the flesh, and the lust of the eyes, and the pride of life, is not of the Father, but is of the Cosmos. 1Jn 2:17 And the Cosmos passeth away, and the lust thereof: but he that doeth the will of THE ELOHIM abideth forever. 1Jn 2:18 Little children, it is the last time: and as ye have heard that antichrist shall come, even now are there many antichrists; whereby we know that it is the last time. 1Jn 2:19 They went out from us, but they were not of us; for if they had been of us, they would no doubt have continued with us: but they went out, that they might be made manifest that they were not all of us."
-   },
+   }
+  ]
+ },
+ {
+  "id": "102-chapter-4-rejected-by-the-occult-circle-p2",
+  "order": 119,
+  "level": 2,
+  "title": "Chapter 4 \nRejected by the Occult Circle (part 2)",
+  "segments": [
    {
     "role": "decree",
     "text": "It is a spirit of error that is energizing many false prophets who are easily seduced by her wealth, power, and signs and lying wonders because they do not love the truth."
@@ -6636,9 +7108,17 @@
    {
     "role": "decree",
     "text": "I live like an ordinary person and none took notice of Me. No doubt My wisdom and understanding and in depth knowledge of the scripture marvelled many who knew Me, I led a quiet and peaceful life with My appointed family. (Luk 2:42-52) Nevertheless being mocked by other kids and adults calling Me a bastard, had led Me into a place of solitude by Myself most of My growing up years. (Joh 8:41) During those solitude moment up in the mountain, My FATHER through THE HOLY SPIRIT (THE YAHWEH) represented by Shekinaih before her reincarnation as Shekinaih, was always with me revealing My FATHER's message to me, teaching me many times, revealing to me, my calling and destiny and preparing me for my ministry on earth (Luk 6:12). And at times, THE ANGEL OF THE YAHWEH also, visited Me. Both, also taught Me many things about the scripture as THE MAJOR AND THE MINOR EL."
-   },
+   }
+  ]
+ },
+ {
+  "id": "103-chapter-5-rejected-by-the-ruling-spiritual-and-religious-lea",
+  "order": 120,
+  "level": 2,
+  "title": "Chapter 5 \nRejected by the Ruling Spiritual and Religious Leaders",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 5 \nRejected by the Ruling Spiritual and Religious Leaders"
    },
    {
@@ -6720,9 +7200,17 @@
    {
     "role": "scripture",
     "text": "Hos 4:6 My people are destroyed for lack of knowledge: because thou hast rejected knowledge, I will also reject thee, that thou shalt be no priest to me: seeing thou hast forgotten the law of thy God, I will also forget thy children. Hos 4:7 As they were increased, so they sinned against me: therefore will I change their glory into shame. Hos 4:8 They eat up the sin of my people, and they set their heart on their iniquity. Hos 4:9 And there shall be, like people, like priest: and I will punish them for their ways, and reward them their doings. Hos 4:10 For they shall eat, and not have enough: they shall commit whoredom, and shall not increase: because they have left off to take heed THE YAHWEH."
-   },
+   }
+  ]
+ },
+ {
+  "id": "104-chapter-6-rejected-by-the-mainstream-churches",
+  "order": 121,
+  "level": 2,
+  "title": "Chapter 6 \nRejected by the Mainstream Churches",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 6 \nRejected by the Mainstream Churches"
    },
    {
@@ -6824,9 +7312,17 @@
    {
     "role": "scripture",
     "text": "Rev 21:8 But the fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone: which is the second death."
-   },
+   }
+  ]
+ },
+ {
+  "id": "105-chapter-7-all-camps-will-be-against-their-unrecognized-doctr",
+  "order": 122,
+  "level": 2,
+  "title": "Chapter 7 \nAll Camps will be Against Their Unrecognized Doctrines",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 7 \nAll Camps will be Against Their Unrecognized Doctrines"
    },
    {
@@ -6836,9 +7332,17 @@
    {
     "role": "decree",
     "text": "JESUS: Verily I say unto all these ministers, except they be converted, and become like the Youth, Metatron, they shall not enter into the kingdom of Heaven. Whosoever therefore shall humble himself as the Youth, Metatron, the same is greatest in the kingdom of heaven. And whoso shall receive the Youth, Metatron, who come in My name receiveth me. But whoso shall offend the little ones/ My brothers/sisters whom My FATHER have given Shekinaih and you, which believe in both of you, who represent THE TRINITY, it were better for him that a millstone were hanged about his neck, and that he were drowned in the depth of the sea. Woe unto the world because of offences! for it must needs be that offences come; but woe to that man by whom the offence cometh! Wherefore if their hand or their foot offend them, cut them off, and cast them from them: it is better for them to enter into life halt or maimed, rather than having two hands or two feet to be cast into everlasting fire. And if their eye offend them, pluck it out, and cast it from them: it is better for them to enter into life with one eye, rather than having two eyes to be cast into Gehenna fire. Take heed that they despise not one of these little ones whom My FATHER have given Shekinaih and you; for I say unto them, That in heaven their counterpart angels do always behold the face of My FATHER which is in heaven. For I come in sinful flesh emptying My divinity as the Son of Adam is come to save that which was lost by condemning sin in the flesh. How think ye? if a man have an hundred sheep, and one of them be gone astray, doth he not leave the ninety and nine, and goeth into the mountains, and seeketh that which is gone astray? And if so be that he find it, verily I say unto you, he rejoiceth more of that sheep, than of the ninety and nine which went not astray. Even so it is not the will of My FATHER which is in heaven, that one of these little ones which is My brothers and sisters should perish (Matt 18:1-18)."
-   },
+   }
+  ]
+ },
+ {
+  "id": "106-act-2-scene-5-the-great-awakening",
+  "order": 123,
+  "level": 2,
+  "title": "Act 2 Scene 5 \nThe Great Awakening",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Act 2 Scene 5 \nThe Great Awakening"
    },
    {
@@ -6852,8 +7356,8 @@
   ]
  },
  {
-  "id": "061-vision-of-a-giant-egg",
-  "order": 61,
+  "id": "107-vision-of-a-giant-egg",
+  "order": 124,
   "level": 2,
   "title": "Vision of a Giant Egg",
   "segments": [
@@ -6928,13 +7432,29 @@
    {
     "role": "scripture",
     "text": "Mat 10:22 And ye shall be hated of all men for my name's sake: but he that endureth to the end shall be saved. Mat 10:23 But when they persecute you in this city, flee ye into another: for verily I say unto you, Ye shall not have gone over the cities of Israel, till the Son of man be come. Mat 10:24 The disciple is not above his master, nor the servant above his lord. Mat 10:25 It is enough for the disciple that he be as his master, and the servant as his lord. If they have called the master of the house Beelzebub, how much more shall they call them of his household?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "108-section-d-their-reward",
+  "order": 125,
+  "level": 2,
+  "title": "Section D \nTheir Reward",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Section D \nTheir Reward"
-   },
+   }
+  ]
+ },
+ {
+  "id": "109-chapter-1-the-blessed-life",
+  "order": 126,
+  "level": 2,
+  "title": "Chapter 1\nThe Blessed Life",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 1\nThe Blessed Life"
    },
    {
@@ -7024,7 +7544,15 @@
    {
     "role": "decree",
     "text": "In the age to come, Shekinaih and you, together with the children We have given Shekinaih and you, shall revamp the fallen cities and create a futuristic cities beyond comparison of any age. The technology will be instant like real heaven. Everything will be created using brain power. It will be very different from what the Antichrist through her futuristic scientists who are pursuing their vision of \"Singularity\" through their technologies like computers, genetics, nanotechnology, robotics and artificial intelligence. On contrary, the real creative power of a little Elohim will be in Shekinaih and you, and Our circumcised children that follow both of you faithfully. They will be using the thought wavelength to create about anything. So far none have witness it in this age or even the coming age. It will be awesome, just like a mini heaven of its own. This is but a small gleam of the power of the age to come. The people of the nations shall serve them and they shall eat the riches of the world and live like elites and royalty. At last for all their shame, I shall reward them double; and their confusion they shall rejoice in their portion: therefore in the delightful land they shall possess the double: everlasting joy shall be unto them."
-   },
+   }
+  ]
+ },
+ {
+  "id": "109-chapter-1-the-blessed-life-p2",
+  "order": 127,
+  "level": 2,
+  "title": "Chapter 1\nThe Blessed Life (part 2)",
+  "segments": [
    {
     "role": "scripture",
     "text": "Mat 6:28 And why take ye thought for raiment? Consider the lilies of the field, how they grow; they toil not, neither do they spin: Mat 6:29 And yet I say unto you, That even Solomon in all his glory was not arrayed like one of these. …..Mat 6:33 But seek ye first the kingdom of THE ELOHIM, and his righteousness; and all these things shall be added unto you"
@@ -7084,7 +7612,15 @@
    {
     "role": "decree",
     "text": "During perilous time when darkness cover the earth, we through our Representatives will appear to Our elects with the true gospel. All flesh shall see Our glory through them. Many people and kings from many nations shall be drawn to them. Many potential Brides and Anointed Ones will also be gathered and fed by them with the sincere milk of the last days' doctrine. The wealth of Our sons from the Arab and Africa nations shall be converted to them as they join forces with them because of Our glory in them. Our sons among the wealthy men of United Kingdom (Isles) and European Union (ships of Tarshish) shall be gathered by them. They shall come with their silver and their gold and place at their feet because We, THE YAHWEH, have fulfilled Our words and revealed our glory through Shekinaih and you, Our Representatives with Our children who pay their allegiance to both of you, who represent Us, THE TRINITY."
-   },
+   }
+  ]
+ },
+ {
+  "id": "109-chapter-1-the-blessed-life-p3",
+  "order": 128,
+  "level": 2,
+  "title": "Chapter 1\nThe Blessed Life (part 3)",
+  "segments": [
    {
     "role": "decree",
     "text": "After Mystery Babylon's kingdom had been destroyed, the people of the nations and their kings shall serve Shekinaih and you, and Our perfected children. The gate of heavenly Jerusalem shall be opened continually so that the resources and wealth (H2428 \"chayil\") of the people and kings may be brought in. For the nation and kingdom that will not serve Shekinaih and you and Our perfected children shall perish; yea, those nations shall be utterly wasted. My Anointed Ones/ the glory of Lebanon shall come unto them to beautify and be part of Our temple and the feet (infantry) shall be glorious. The sons of Satan that despised and afflicted them shall come bending unto them at the soles of their feet and acknowledge that they are the Heavenly Zion of the Holy One of Israel. Whereas once they have been forsaken and hated, We will make them live in majesty in many generations. The people and kings of the nations shall bring their resources to them. They shall be overseers of peace and taskmasters of righteousness. Violence shall no more be heard in their land nor robbery and invasion within their borders for they are all righteous deliverers and shall inherit the land for ever. We will radiate Our light on them and they shall be in their perfect state constantly in divinity life form. They shall multiply and become a powerful nation."
@@ -7112,9 +7648,17 @@
    {
     "role": "scripture",
     "text": "Eph 3:8 Unto me, who am less than the least of all saints, is this grace given, that I should preach among the Gentiles the unsearchable riches of Christ; Eph 3:9 And to make all men see what is the fellowship of the mystery, which from the beginning of the world hath been hid in THE ELOHIM, who created all things by Jesus Christ: Eph 3:10 To the intent that now unto the principalities and authorities in heavenly places might be known by the church the manifold wisdom of THE ELOHIM, Eph 3:11 According to the eternal purpose which he purposed in Christ Jesus our Lord:"
-   },
+   }
+  ]
+ },
+ {
+  "id": "110-chapter-2-all-will-enter-heaven-gates",
+  "order": 129,
+  "level": 2,
+  "title": "Chapter 2 \nAll Will Enter Heaven Gates",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 2 \nAll Will Enter Heaven Gates"
    },
    {
@@ -7124,8 +7668,8 @@
   ]
  },
  {
-  "id": "062-vision-of-the-heavenly-saints",
-  "order": 62,
+  "id": "111-vision-of-the-heavenly-saints",
+  "order": 130,
   "level": 2,
   "title": "Vision of the Heavenly Saints",
   "segments": [
@@ -7168,9 +7712,17 @@
    {
     "role": "decree",
     "text": "These have come out of the great persecutions from Antichrist and all nations through the upholding hand of the Angel of Our Presence, The SHE/HE, THE FATHER and THE HOLY SPIRIT represented by Shekinaih/I, JESUS represented by Aaron K David, who is Our right hand man. These have hold on to their faith and patience in going through the chastening of THE YAHWEH. Though being killed, they are resurrected by the Angel of Our Presence, and had entered the gate of Zion. At last they have their breakthrough."
-   },
+   }
+  ]
+ },
+ {
+  "id": "112-chapter-3-given-the-authority-and-power-to-rule-in-the-three",
+  "order": 131,
+  "level": 2,
+  "title": "Chapter 3 \nGiven The Authority and Power To Rule In The Three Realms As They Obey/Yield 100% To Our Representatives",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 3 \nGiven The Authority and Power To Rule In The Three Realms As They Obey/Yield 100% To Our Representatives"
    },
    {
@@ -7212,9 +7764,17 @@
    {
     "role": "scripture",
     "text": "Rev 20:4 And I saw thrones, and they sat upon them, and judgment was given unto them: and I saw the souls of them that were beheaded for the witness of Jesus, and for the word of THE ELOHIM, and which had not worshipped the beast, neither his image, neither had received his mark upon their foreheads, or in their hands; and they lived and reigned with Christ a thousand years. Rev 20:5 But the rest of the dead lived not again until the thousand years were finished. This is the first resurrection. Rev 20:6 Blessed and holy is he that hath part in the first resurrection: on such the second death hath no power, but they shall be priests of God and of Christ, and shall reign with him a thousand years."
-   },
+   }
+  ]
+ },
+ {
+  "id": "113-chapter-4-no-request-will-be-withheld-from-them",
+  "order": 132,
+  "level": 2,
+  "title": "Chapter 4 \nNo Request Will Be Withheld From Them",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 4 \nNo Request Will Be Withheld From Them"
    },
    {
@@ -7248,21 +7808,37 @@
   ]
  },
  {
-  "id": "063-part-2-preparation-of-an-anointed-a-bride",
-  "order": 63,
+  "id": "114-part-2-preparation-of-an-anointed-a-bride",
+  "order": 133,
   "level": 1,
   "title": "Part 2 \nPREPARATION OF AN ANOINTED/A BRIDE",
   "segments": [
    {
     "role": "chapter_title",
     "text": "Part 2 \nPREPARATION OF AN ANOINTED/A BRIDE"
-   },
+   }
+  ]
+ },
+ {
+  "id": "115-section-a-foundational-training-the-five-steps-towards-perfe",
+  "order": 134,
+  "level": 2,
+  "title": "SECTION A \nFoundational Training \nThe Five Steps Towards Perfection",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "SECTION A \nFoundational Training \nThe Five Steps Towards Perfection"
-   },
+   }
+  ]
+ },
+ {
+  "id": "116-act-3-scene-1-the-restoration",
+  "order": 135,
+  "level": 2,
+  "title": "Act 3 Scene 1 \nThe Restoration",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Act 3 Scene 1 \nThe Restoration"
    },
    {
@@ -7328,8 +7904,8 @@
   ]
  },
  {
-  "id": "064-the-vision-of-the-tree-of-life-and-the-white-whale",
-  "order": 64,
+  "id": "117-the-vision-of-the-tree-of-life-and-the-white-whale",
+  "order": 136,
   "level": 2,
   "title": "The Vision of the Tree of Life and the White Whale",
   "segments": [
@@ -7488,16 +8064,24 @@
    {
     "role": "decree",
     "text": "That is the reason why I am using Shekinaih and you to reveal the strongholds in My people and demolish them so that those who are thirsty for the water from the fountain of life (Rev 21:6), may draw water out from the wells of salvation (Isa 12:3) and drink the sincere milk (1 Pet 2:2) of the knowledge of Our ways from the breast of the HOLY SPIRIT in both of you, who represent THE TRINITY, based on precept upon precept; line upon line; here a little, there a little (Isa 28:9-10)."
-   },
+   }
+  ]
+ },
+ {
+  "id": "118-chapter-1-the-breaking",
+  "order": 137,
+  "level": 2,
+  "title": "Chapter 1 \nThe Breaking",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 1 \nThe Breaking"
    }
   ]
  },
  {
-  "id": "065-broken-spirit-is-equal-to-unfathomable-power",
-  "order": 65,
+  "id": "119-broken-spirit-is-equal-to-unfathomable-power",
+  "order": 138,
   "level": 2,
   "title": "Broken Spirit Is Equal to Unfathomable Power",
   "segments": [
@@ -7556,9 +8140,17 @@
    {
     "role": "decree",
     "text": "of Our Name, THE ADONAI, use Shekinaih to demolish all the spirits that are assimilated inside them."
-   },
+   }
+  ]
+ },
+ {
+  "id": "120-chapter-2-powder-and-refine",
+  "order": 139,
+  "level": 2,
+  "title": "Chapter 2 \nPowder and Refine",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 2 \nPowder and Refine"
    },
    {
@@ -7604,9 +8196,17 @@
    {
     "role": "scripture",
     "text": "Pro 27:21 As the fining pot for silver, and the furnace for gold; so is a man to his praise."
-   },
+   }
+  ]
+ },
+ {
+  "id": "121-chapter-3-the-purification",
+  "order": 140,
+  "level": 2,
+  "title": "Chapter 3 \nThe Purification",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 3 \nThe Purification"
    },
    {
@@ -7644,9 +8244,17 @@
    {
     "role": "scripture",
     "text": "Rev 6:5 And when he had opened the third seal, I heard the third beast say, Come and see. And I beheld, and lo a black horse; and he that sat on him had a pair of balances in his hand. Rev 6:6 And I heard a voice in the midst of the four beasts say, A measure of wheat for a penny, and three measures of barley for a penny; and see thou hurt not the oil and the wine."
-   },
+   }
+  ]
+ },
+ {
+  "id": "122-chapter-4-the-glory-garment-the-light-bulb",
+  "order": 141,
+  "level": 2,
+  "title": "Chapter 4 \nThe Glory Garment/The Light Bulb",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 4 \nThe Glory Garment/The Light Bulb"
    },
    {
@@ -7680,9 +8288,17 @@
    {
     "role": "scripture",
     "text": "Luk 15:8 Either what woman having ten pieces of silver, if she lose one piece, doth not light a lamp, and sweep the house, and seek diligently till she find it? Luk 15:9 And when she hath found it, she calleth her friends and her neighbours together, saying, Rejoice with me; for I have found the piece which I had lost. Luk 15:10 Likewise, I say unto you, there is joy in the presence of the angels of THE ELOHIM over one sinner that repenteth."
-   },
+   }
+  ]
+ },
+ {
+  "id": "123-chapter-5-the-source-of-power-of-the-light-bulb",
+  "order": 142,
+  "level": 2,
+  "title": "Chapter 5 \nThe Source of Power of the Light Bulb",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 5 \nThe Source of Power of the Light Bulb"
    },
    {
@@ -7732,8 +8348,8 @@
   ]
  },
  {
-  "id": "066-gradually-magnified-without-as-stars-in-the-universe",
-  "order": 66,
+  "id": "124-gradually-magnified-without-as-stars-in-the-universe",
+  "order": 143,
   "level": 2,
   "title": "Gradually Magnified Without as Stars in the Universe",
   "segments": [
@@ -7812,13 +8428,29 @@
    {
     "role": "scripture",
     "text": "1Pe 5:9 Whom resist stedfast in the faith, knowing that the same afflictions are accomplished in your brethren that are in the world. 1Pe 5:10 But the THE ELOHIM of all grace, who hath called us unto his eternal glory by Christ Jesus, after that ye have suffered a while, make you perfect, stablish (G4741 \"sterizo\"), strengthen, settle you."
-   },
+   }
+  ]
+ },
+ {
+  "id": "125-section-b-advance-training",
+  "order": 144,
+  "level": 2,
+  "title": "Section B \nAdvance Training",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Section B \nAdvance Training"
-   },
+   }
+  ]
+ },
+ {
+  "id": "126-chapter-1-unmoved-anymore-by-earthly-relations-attachments",
+  "order": 145,
+  "level": 2,
+  "title": "Chapter 1 \nUnmoved Anymore By Earthly Relations/Attachments",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 1 \nUnmoved Anymore By Earthly Relations/Attachments"
    },
    {
@@ -7884,9 +8516,17 @@
    {
     "role": "scripture",
     "text": "Joh 14:16 And I will pray the Father, and he shall give you another advocate (G3875 \"parakletos\"), that he may abide with you for ever; Joh 14:17 Even the Spirit of truth; whom the world cannot receive, because it seeth him not, neither knoweth him: but ye know him; for he dwelleth with you, and shall be in you. Joh 14:18 I will not leave you fatherless (G3737 \"orphanos\"): I will come to you. Joh 14:19 Yet a little while, and the world seeth me no more; but ye see me: because I live, ye shall live also. Joh 14:20 At that day ye shall know that I am in my Father, and ye in me, and I in you. Joh 14:21 He that hath my commandments, and keepeth them, he it is that loveth me: and he that loveth me shall be loved of my Father, and I will love him, and will manifest myself to him."
-   },
+   }
+  ]
+ },
+ {
+  "id": "127-chapter-2-well-seasoned-warriors",
+  "order": 146,
+  "level": 2,
+  "title": "Chapter 2 \nWell-Seasoned Warriors",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 2 \nWell-Seasoned Warriors"
    },
    {
@@ -7928,9 +8568,17 @@
    {
     "role": "scripture",
     "text": "2Co 10:3 For though we walk in the flesh, we do not war after the flesh: 2Co 10:4 (For the weapons of our warfare are not carnal, but mighty through THE ELOHIM to the pulling down of strong holds;) 2Co 10:5 Casting down imaginations, and every high thing that exalteth itself against the knowledge of THE ELOHIM, and bringing into captivity every thought (G3540 \"noema\" perception) to the obedience of a Christ; 2Co 10:6 And having in a readiness to revenge all disobedience, when your obedience is fulfilled."
-   },
+   }
+  ]
+ },
+ {
+  "id": "128-chapter-3-insider-information",
+  "order": 147,
+  "level": 2,
+  "title": "Chapter 3 \nInsider Information",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 3 \nInsider Information"
    },
    {
@@ -7992,9 +8640,17 @@
    {
     "role": "scripture",
     "text": "Heb 4:12 For the oracle (G3056 \"logos\" something said including the thought) of THE ELOHIM is quickening (G2198 \"zao\" made alive), and energizing (G1756 \"energes\"), and comprehensive (G5114 \"tomoteros\") than any twoedged sword, piercing even to the dividing asunder of soul and spirit, and of the joints and marrow, and is a discerner of the deliberations (G1761 \"enthumesis\") and intents of the heart. Heb 4:13 Neither is there any creature that is not manifest in his presence: but all things are naked and opened unto the eyes of him with whom we have to do."
-   },
+   }
+  ]
+ },
+ {
+  "id": "129-chapter-4-unquestionable-submission-to-our-representatives",
+  "order": 148,
+  "level": 2,
+  "title": "Chapter 4 \nUnquestionable Submission To our Representatives",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 4 \nUnquestionable Submission To our Representatives"
    },
    {
@@ -8064,9 +8720,17 @@
    {
     "role": "scripture",
     "text": "1Pe 5:6 Humble yourselves therefore under the mighty hand of THE ELOHIM, that he may exalt you in due time: 1Pe 5:7 Casting all your care upon him; for he careth for you. 1Pe 5:8 Be sober, be vigilant; because your adversary the Diabolos, as a roaring lion, walketh about, seeking whom he may devour: 1Pe 5:9 Whom resist stedfast in the faith, knowing that the same afflictions are accomplished in your brethren that are in the world. 1Pe 5:10 But THE ELOHIM of all grace, who hath called us unto his eternal glory by Christ Jesus, after that ye have suffered a while, make you perfect, stablish, strengthen, settle you."
-   },
+   }
+  ]
+ },
+ {
+  "id": "130-chapter-5-unbroken-rank",
+  "order": 149,
+  "level": 2,
+  "title": "Chapter 5 \nUnbroken Rank",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 5 \nUnbroken Rank"
    },
    {
@@ -8104,28 +8768,44 @@
   ]
  },
  {
-  "id": "067-part-3-glorious-future-of-an-anointed-a-bride",
-  "order": 67,
+  "id": "131-part-3-glorious-future-of-an-anointed-a-bride",
+  "order": 150,
   "level": 1,
   "title": "Part 3\nGLORIOUS FUTURE OF AN ANOINTED/A BRIDE",
   "segments": [
    {
     "role": "chapter_title",
     "text": "Part 3\nGLORIOUS FUTURE OF AN ANOINTED/A BRIDE"
-   },
+   }
+  ]
+ },
+ {
+  "id": "132-section-a-thrones-for-those-who-pass-the-test",
+  "order": 151,
+  "level": 2,
+  "title": "Section A \nThrones For Those Who Pass The Test",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Section A \nThrones For Those Who Pass The Test"
-   },
+   }
+  ]
+ },
+ {
+  "id": "133-chapter-1-higher-heaven",
+  "order": 152,
+  "level": 2,
+  "title": "Chapter 1 \nHigher Heaven",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 1 \nHigher Heaven"
    }
   ]
  },
  {
-  "id": "068-from-real-7-dimension-perspective",
-  "order": 68,
+  "id": "134-from-real-7-dimension-perspective",
+  "order": 153,
   "level": 2,
   "title": "From Real 7 Dimension Perspective",
   "segments": [
@@ -8148,9 +8828,17 @@
    {
     "role": "scripture",
     "text": "1Ti 6:13 I give thee charge in the presence (G1799 \"enopion\") of THE ELOHIM (THE HOLY SPIRIT), who quickeneth all things, and before Christ Jesus, who before Pontius Pilate witnessed a good confession; 1Ti 6:14 That thou keep this commandment without spot, unrebukeable, until the appearing of our YAHWEH Jesus Christ: 1Ti 6:15 Which in his times he shall shew, who (THE FATHER) is the blessed and only Potentate, the King of kings, and Lord of lords; 1Ti 6:16 Who only hath immortality, dwelling in the light which no man can approach unto; whom no man hath seen, nor can see: to whom be honour and power everlasting. Amen."
-   },
+   }
+  ]
+ },
+ {
+  "id": "135-chapter-2-lower-heaven",
+  "order": 154,
+  "level": 2,
+  "title": "Chapter 2 \nLower Heaven",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 2 \nLower Heaven"
    },
    {
@@ -8208,9 +8896,17 @@
    {
     "role": "scripture",
     "text": "Rev 20:1 And I saw an angel come down from heaven, having the key of the bottomless pit and a great chain in his hand. Rev 20:2 And he laid hold on the dragon, that old serpent, which is the Diabolos, and Satan, and bound him a thousand years, Rev 20:3 And cast him into the bottomless pit, and shut him up, and set a seal upon him, that he should deceive the nations no more, till the thousand years should be fulfilled: and after that he must be loosed a little season. Rev 20:4 And I saw thrones, and they sat upon them, and judgment was given unto them: and I saw the souls of them that were beheaded for the witness of Jesus, and for the oracle of the ELOHIM, and which had not worshipped the beast, neither his image, neither had received his mark upon their foreheads, or in their hands; and they lived and reigned with Christ a thousand years. Rev 20:5 But the rest of the dead lived not again until the thousand years were finished. This is the first resurrection. Rev 20:6 Blessed and holy is he that hath part in the first resurrection: on such the second death hath no authority, but they shall be priests of THE ELOHIM and of Christ, and shall reign with him a thousand years."
-   },
+   }
+  ]
+ },
+ {
+  "id": "136-chapter-3-thrones-prepared-before-the-foundation-of-the-eart",
+  "order": 155,
+  "level": 2,
+  "title": "Chapter 3 \nThrones Prepared Before the Foundation of the Earth",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 3 \nThrones Prepared Before the Foundation of the Earth"
    },
    {
@@ -8252,9 +8948,17 @@
    {
     "role": "scripture",
     "text": "1Co 2:7 But we speak the wisdom of THE ELOHIM in a mystery, even the hidden wisdom, which THE ELOHIM ordained before the age unto our glory:"
-   },
+   }
+  ]
+ },
+ {
+  "id": "137-chapter-4-the-commendation",
+  "order": 156,
+  "level": 2,
+  "title": "Chapter 4 \nThe Commendation",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 4 \nThe Commendation"
    },
    {
@@ -8308,17 +9012,41 @@
    {
     "role": "body",
     "text": "David: LORD JESUS, when will this take place, the commendation of glory?"
-   },
+   }
+  ]
+ },
+ {
+  "id": "138-section",
+  "order": 157,
+  "level": 2,
+  "title": ".",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "."
-   },
+   }
+  ]
+ },
+ {
+  "id": "139-section-b-perilous-crucial-times-in-my-calendar-divine-calen",
+  "order": 158,
+  "level": 2,
+  "title": "Section B \nPerilous Crucial Times in My Calendar\n(Divine CalendAr in Heaven)",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Section B \nPerilous Crucial Times in My Calendar\n(Divine CalendAr in Heaven)"
-   },
+   }
+  ]
+ },
+ {
+  "id": "140-chapter-1-kairos-time-pre-ordained-predestined-times",
+  "order": 159,
+  "level": 2,
+  "title": "Chapter 1 \nKairos Time, Pre-Ordained, \nPredestined Times",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 1 \nKairos Time, Pre-Ordained, \nPredestined Times"
    },
    {
@@ -8368,7 +9096,15 @@
    {
     "role": "scripture",
     "text": "Rev 12:7 And there was war in heaven: Michael and his angels fought against the dragon; and the dragon fought and his angels, Rev 12:8 And prevailed not; neither was their place found any more in heaven. Rev 12:9 And the great dragon was cast out, that old serpent, called the Devil, and Satan, which deceiveth the whole world: he was cast out into the earth, and his angels were cast out with him. Rev 12:10 And I heard a loud voice saying in heaven, Now is come salvation, and strength, and the kingdom of our God, and the power of his Christ: for the accuser of our brethren is cast down, which accused them before our God day and night. Rev 12:11 And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death. Rev 12:12 Therefore rejoice, ye heavens, and ye that dwell in them. Woe to the inhabiters of the earth and of the sea! for the devil is come down unto you, having great wrath, because he knoweth that he hath but a short time. Rev 12:13 And when the dragon saw that he was cast unto the earth, he persecuted the woman which brought forth the man child. Rev 12:14 And to the woman were given two wings of a great eagle, that she might fly into the wilderness, into her place, where she is nourished for a time, and times, and half a time, from the face of the serpent. Rev 12:15 And the serpent cast out of his mouth water as a flood after the woman, that he might cause her to be carried away of the flood. Rev 12:16 And the earth helped the woman, and the earth opened her mouth, and swallowed up the flood which the dragon cast out of his mouth. Rev 12:17 And the dragon was wroth with the woman, and went to make war with the remnant of her seed, which keep the commandments of God, and have the testimony of Jesus Christ. -"
-   },
+   }
+  ]
+ },
+ {
+  "id": "140-chapter-1-kairos-time-pre-ordained-predestined-times-p2",
+  "order": 160,
+  "level": 2,
+  "title": "Chapter 1 \nKairos Time, Pre-Ordained, \nPredestined Times (part 2)",
+  "segments": [
    {
     "role": "scripture",
     "text": "Mat 24:15 When ye therefore shall see the abomination of desolation, spoken of by Daniel the prophet, stand in the holy place, (whoso readeth, let him understand) Mat 24:16 Then let them which be in Judaea flee into the mountains: Mat 24:17 Let him which is on the housetop not come down to take any thing out of his house: Mat 24:18 Neither let him which is in the field return back to take his clothes. Mat 24:19 And woe unto her that are with child (The woman and the man-child), and to her that give suck in those days! Mat 24:20 But pray ye that your flight be not in the winter, neither on the sabbath day: Mat 24:21 For then shall be great tribulation, such as was not since the beginning of the world to this time, no, nor ever shall be. Mat 24:22 And except those days should be shortened, there should no flesh be saved: but for the elect's sake those days shall be shortened."
@@ -8412,9 +9148,17 @@
    {
     "role": "decree",
     "text": "Therefore if My elect can pass all the ten test of My refining pot in the first five sittings which have been pre-scripted by Me for their perfection, they shall enter into My rest at My perfect Kairos time, and the word of THE EL for them will never drop to the ground without accomplishing the word that were sent forth, and Our Name, THE ADONAI, will definitely overturn the event for them."
-   },
+   }
+  ]
+ },
+ {
+  "id": "141-chapter-2-delay-in-time",
+  "order": 161,
+  "level": 2,
+  "title": "Chapter 2 \nDelay In Time",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 2 \nDelay In Time"
    },
    {
@@ -8432,8 +9176,8 @@
   ]
  },
  {
-  "id": "069-butterfly-effect",
-  "order": 69,
+  "id": "142-butterfly-effect",
+  "order": 162,
   "level": 2,
   "title": "Butterfly Effect",
   "segments": [
@@ -8460,13 +9204,29 @@
    {
     "role": "scripture",
     "text": "Heb 12:16 Lest there be any fornicator, or profane person, as Esau, who for one morsel of meat sold his birthright. Heb 12:17 For ye know how that afterward, when he would have inherited the blessing, he was rejected: for he found no place of repentance, though he sought it carefully with tears."
-   },
+   }
+  ]
+ },
+ {
+  "id": "143-section-c-the-coming-of-the-son-of-adam",
+  "order": 163,
+  "level": 2,
+  "title": "Section C \nThe Coming of the Son of Adam",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Section C \nThe Coming of the Son of Adam"
-   },
+   }
+  ]
+ },
+ {
+  "id": "144-act-3-scene-2-the-hour-of-our-great-appearance",
+  "order": 164,
+  "level": 2,
+  "title": "Act 3 Scene 2 \nThe Hour of Our Great Appearance",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Act 3 Scene 2 \nThe Hour of Our Great Appearance"
    },
    {
@@ -8552,16 +9312,24 @@
    {
     "role": "body",
     "text": "JESUS then open the Septuagint Version Bible and turn to the Book of Habakkuk and said to David…"
-   },
+   }
+  ]
+ },
+ {
+  "id": "145-chapter-1-he-will-not-delay",
+  "order": 165,
+  "level": 2,
+  "title": "Chapter 1 \nHe Will Not Delay",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 1 \nHe Will Not Delay"
    }
   ]
  },
  {
-  "id": "070-the-righteous-one-that-shall-come",
-  "order": 70,
+  "id": "146-the-righteous-one-that-shall-come",
+  "order": 166,
   "level": 2,
   "title": "The Righteous One That Shall Come",
   "segments": [
@@ -8624,8 +9392,8 @@
   ]
  },
  {
-  "id": "071-the-angel-who-will-come-quickly",
-  "order": 71,
+  "id": "147-the-angel-who-will-come-quickly",
+  "order": 167,
   "level": 2,
   "title": "The Angel Who will come quickly",
   "segments": [
@@ -8720,7 +9488,15 @@
    {
     "role": "scripture",
     "text": "Rev 22:8 And I John saw these things, and heard them. And when I had heard and seen, I fell down to worship before the feet of the angel which shewed me these things. Rev 22:9 Then saith he unto me, See thou do it not: for I am thy fellowservant, and of thy brethren the prophets, and of them which keep the sayings of this book: worship THE ELOHIM. Rev 22:10 And he saith unto me, Seal not the sayings of the prophecy of this book: for the time is at hand. Rev 22:11 He that is unjust, let him be unjust still: and he which is filthy, let him be filthy still: and he that is righteous, let him be righteous still: and he that is holy, let him be holy still. Rev 22:12 And, behold, I come quickly; and my reward is with me, to give every man according as his work shall be."
-   },
+   }
+  ]
+ },
+ {
+  "id": "147-the-angel-who-will-come-quickly-p2",
+  "order": 168,
+  "level": 2,
+  "title": "The Angel Who will come quickly (part 2)",
+  "segments": [
    {
     "role": "decree",
     "text": "And the fifth time, The Angel who testified all the things that is/are to come in the last days, say with a strong affirmation, \"Surely I come quickly\"."
@@ -8864,9 +9640,17 @@
    {
     "role": "scripture",
     "text": "Mat 24:27 For as the lightning cometh out of the east, and shineth even unto the west; so shall also the Presence of the Son of Adam be. Mat 24:28 For wheresoever the carcase is, there will the eagles be gathered together. Mat 24:29 Immediately after the tribulation of those days shall the sun be darkened, and the moon shall not give her light, and the stars shall fall from heaven, and the powers of the heavens shall be shaken: Mat 24:30 And then shall appear the sign of the Son of man in heaven: and then shall all the tribes of the earth mourn, and they shall see the Son of man coming in the clouds of heaven with power and great glory. Mat 24:31 And he shall send his angels with a great sound of a trumpet, and they shall gather together his elect from the four winds, from one end of heaven to the other."
-   },
+   }
+  ]
+ },
+ {
+  "id": "148-chapter-2-the-cloud-of-witnesses",
+  "order": 169,
+  "level": 2,
+  "title": "Chapter 2 \nThe Cloud of Witnesses",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 2 \nThe Cloud of Witnesses"
    },
    {
@@ -8920,7 +9704,15 @@
    {
     "role": "scripture",
     "text": "Num 12:1 And Miriam and Aaron spake against Moses because of the Ethiopian woman whom he had married: for he had married an Ethiopian woman. Num 12:2 And they said, Hath THE YAHWEH indeed spoken only by Moses? hath he not spoken also by us? And THE YAHWEH heard it. Num 12:3 (Now the man Moses was very meek, above all the men which were upon the face of the earth.) Num 12:4 And THE YAHWEH spake suddenly unto Moses, and unto Aaron, and unto Miriam, Come out ye three unto the tabernacle of the congregation. And they three came out. Num 12:5 And THE YAHWEH came down in the pillar of the cloud, and stood in the door of the tabernacle, and called Aaron and Miriam: and they both came forth. Num 12:6 And he said, Hear now my words: If there be a prophet among you, THE YAHWEH will make myself known unto him in a vision, and will speak unto him in a dream. Num 12:7 My servant Moses is not so, who is faithful in all mine house. Num 12:8 With him will I speak mouth to mouth, even apparently, and not in dark speeches; and the similitude of THE YAHWEH shall he behold: wherefore then were ye not afraid to speak against my servant Moses? Num 12:9 And the anger of THE YAHWEH was kindled against them; and he departed. Num 12:10 And the cloud departed from off the tabernacle; and, behold, Miriam became leprous, white as snow: and Aaron looked upon Miriam, and, behold, she was leprous."
-   },
+   }
+  ]
+ },
+ {
+  "id": "148-chapter-2-the-cloud-of-witnesses-p2",
+  "order": 170,
+  "level": 2,
+  "title": "Chapter 2 \nThe Cloud of Witnesses (part 2)",
+  "segments": [
    {
     "role": "scripture",
     "text": "Deu 18:18 I will raise them up a Prophet from among their brethren, like unto thee, and will put my words in his mouth; and he shall speak unto them all that I shall command him. Deu 18:19 And it shall come to pass, that whosoever will not hearken unto my words which he shall speak in my name, I will require it of him."
@@ -8956,9 +9748,17 @@
    {
     "role": "scripture",
     "text": "Rev 19:6 And I heard as it were the voice of a great multitude, and as the voice of many waters, and as the voice of mighty thunderings, saying, Alleluia: for the Lord God omnipotent reigneth. Rev 19:7 Let us be glad and rejoice, and give honour to him: for the marriage of the Lamb is come, and his wife hath made herself ready. Rev 19:8 And to her was granted that she should be arrayed in fine linen, clean and white: for the fine linen is the righteousness of saints. Rev 19:9 And he saith unto me, Write, Blessed are they which are called unto the marriage supper of the Lamb. And he saith unto me, These are the true sayings of THE ELOHIM. Rev 19:10 And I fell at his feet to worship him. And he said unto me, See thou do it not: I am thy fellowservant, and of thy brethren that have the testimony of Jesus: worship God: for the testimony of Jesus is the spirit of prophecy. Rev 19:11 And I saw heaven opened, and behold a white horse; and he that sat upon him was called Faithful and True, and in righteousness he doth judge and make war. Rev 19:12 His eyes were as a flame of fire, and on his head were many crowns; and he had a name written, that no man knew, but he himself. Rev 19:13 And he was clothed with a vesture dipped in blood: and his name is called The Oracle (G3056 \"logos\" something said including the thought) of THE ELOHIM. Rev 19:14 And the armies which were in heaven followed him upon white horses, clothed in fine linen, white and clean. Rev 19:15 And out of his mouth goeth a sharp sword, that with it he should smite the nations: and he shall rule them with a rod of iron: and he treadeth the winepress of the fierceness and wrath of Almighty God. Rev 19:16 And he hath on his vesture and on his thigh a name written, KING OF KINGS, AND LORD OF LORDS. Rev 19:17 And I saw an angel standing in the sun; and he cried with a loud voice, saying to all the fowls that fly in the midst of heaven, Come and gather yourselves together unto the supper of the great EL; Rev 19:18 That ye may eat the flesh of kings, and the flesh of captains, and the flesh of mighty men, and the flesh of horses, and of them that sit on them, and the flesh of all men, both free and bond, both small and great. Rev 19:19 And I saw the beast, and the kings of the earth, and their armies, gathered together to make war against him that sat on the horse, and against his army. Rev 19:20 And the beast was taken, and with him the false prophet that wrought miracles before him, with which he deceived them that had received the mark of the beast, and them that worshipped his image. These both were cast alive into a lake of fire burning with brimstone. Rev 19:21 And the remnant were slain with the sword of him that sat upon the horse, which sword proceeded out of his mouth: and all the fowls were filled with their flesh."
-   },
+   }
+  ]
+ },
+ {
+  "id": "149-chapter-3-glorious-appearance-in-the-sky-in-the-last-days",
+  "order": 171,
+  "level": 2,
+  "title": "Chapter 3 \nGlorious Appearance in the Sky\nin the last days",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Chapter 3 \nGlorious Appearance in the Sky\nin the last days"
    },
    {
@@ -9048,7 +9848,15 @@
    {
     "role": "scripture",
     "text": "Hab 3:1 A PRAYER OF THE PROPHET AMBACUM, WITH A SONG. Hab 3:2 O YAHWEH, I have heard thy report, and was afraid: I considered thy works, and was amazed: thou shalt be known upon the two living creatures, thou shalt be acknowledged when the years draw nigh; thou shalt be manifested when the time is come; when my soul is troubled, thou wilt in wrath remember mercy. Hab 3:3 THE ELOAH shall come from Thaeman, and the Holy One from the dark shady mount Pharan. Pause. Hab 3:4 His glory covered the heavens, and the earth was full of his praise. And his brightness shall be as light; there were horns in his hands, and he caused a mighty love of his strength. Hab 3:5 Before his face (presence) shall go a report, and it shall go forth into the plains, Hab 3:6 the earth stood at his feet and trembled: he beheld, and the nations melted away: the mountains were violently burst through, the everlasting hills melted at his everlasting going forth. Hab 3:7 Because of troubles I looked upon the tents of the Ethiopians: the tabernacles also of the land of Madiam shall be dismayed. Hab 3:8 Wast thou angry, O YAHWEH, with the rivers? or was thy wrath against the rivers, or thine anger against the sea? for thou wilt mount on thine horses, and thy chariots are salvation. Hab 3:9 Surely thou didst bend they bow at scepters, saith THE YAHWEH. Pause. The land of rivers shall be torn asunder. Hab 3:10 The nations shall see thee and be in pain, as thou dost divide the moving waters: the deep uttered her voice, and raised her form on high. Hab 3:11 The sun was exalted, and the moon stood still in her course: thy darts shall go forth at the light, at the brightness of the gleaming of thine arms. Hab 3:12 Thou wilt bring low the land with threatening, and in wrath thou wilt break down the nations. Hab 3:13 Thou wentest forth for the salvation of thy people, to save thine anointed: thou shalt bring death on the heads of transgressors; thou has brought bands upon their neck. Pause. Hab 3:14 Thou didst cut asunder the heads of princes with amazement, they shall tremble in it; they shall burst their bridles, they shall be as a poor man devouring in secret. Hab 3:15 And thou dost cause thine horses to enter the sea, disturbing much water. Hab 3:16 I watched, and my belly trembled at the sound of the prayer of my lips, and trembling entered into my bones, and my frame was troubled within me; I will rest in the day of affliction, from going up to the people of my sojourning. Hab 3:17 For though the fig-tree shall bear no fruit, and there shall be no produce on the vines; the labour of the olive shall fail, and the fields shall produce no food: the sheep have failed from the pasture, and there are no oxen at the cribs; Hab 3:18 yet I will exult in THE YAHWEH, I will joy in THE ELOHIM my Saviour. Hab 3:19 THE YAHWEH ADONAI is my strength, and he will perfectly strengthen my feet; he mounts me upon high places, that I may conquer by his song. (Septuagint version)"
-   },
+   }
+  ]
+ },
+ {
+  "id": "149-chapter-3-glorious-appearance-in-the-sky-in-the-last-days-p2",
+  "order": 172,
+  "level": 2,
+  "title": "Chapter 3 \nGlorious Appearance in the Sky\nin the last days (part 2)",
+  "segments": [
    {
     "role": "body",
     "text": "JESUS then said to David,"
@@ -9104,9 +9912,17 @@
    {
     "role": "scripture",
     "text": "Hab 3:13 Thou wentest forth for the salvation of thy people, to save thine anointed: thou shalt bring death on the heads of transgressors; thou has brought bands upon their neck. Pause. Hab 3:14 Thou didst cut asunder the heads of princes with amazement, they shall tremble in it; they shall burst their bridles, they shall be as a poor man devouring in secret. Hab 3:15 And thou dost cause thine horses to enter the sea, disturbing much water."
-   },
+   }
+  ]
+ },
+ {
+  "id": "150-epilogue-mystery-of-the-two-cherubim-21-7-2015",
+  "order": 173,
+  "level": 2,
+  "title": "Epilogue \nMystery of The Two Cherubim 21/7/2015",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Epilogue \nMystery of The Two Cherubim 21/7/2015"
    },
    {
@@ -9276,9 +10092,17 @@
    {
     "role": "body",
     "text": "1 Joh 5:18 We know that whosoever is born of THE ELOHIM sinneth not; but he that is begotten of THE ELOHIM keepeth himself, and that wicked one toucheth him not."
-   },
+   }
+  ]
+ },
+ {
+  "id": "151-the-confirmation-18-sept-2017",
+  "order": 174,
+  "level": 2,
+  "title": "The Confirmation (18 Sept 2017)",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "The Confirmation (18 Sept 2017)"
    },
    {
@@ -9512,7 +10336,15 @@
    {
     "role": "body",
     "text": "JESSIE: David's horse is one horse head ahead of your horse."
-   },
+   }
+  ]
+ },
+ {
+  "id": "151-the-confirmation-18-sept-2017-p2",
+  "order": 175,
+  "level": 2,
+  "title": "The Confirmation (18 Sept 2017) (part 2)",
+  "segments": [
    {
     "role": "body",
     "text": "Shekinaih: He represents the Captain of The Host."
@@ -9812,9 +10644,17 @@
    {
     "role": "body",
     "text": "JESSIE: Okay! Okay!"
-   },
+   }
+  ]
+ },
+ {
+  "id": "152-my-arising",
+  "order": 176,
+  "level": 2,
+  "title": "MY ARISING",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "MY ARISING"
    },
    {
@@ -9848,8 +10688,8 @@
   ]
  },
  {
-  "id": "072-jesus-explained-the-mystery-of-the-two-cherubim-s-coming-thr",
-  "order": 72,
+  "id": "153-jesus-explained-the-mystery-of-the-two-cherubim-s-coming-thr",
+  "order": 177,
   "level": 2,
   "title": "JESUS EXPLAINED THE MYSTERY OF THE TWO CHERUBIM'S COMING THROUGH THE SCRIPTURE",
   "segments": [
@@ -9956,7 +10796,15 @@
    {
     "role": "scripture",
     "text": "Eze 1:26 And above the firmament that was over their heads was the likeness of a throne, as the appearance of a sapphire stone: and upon the likeness of the throne was the likeness as the appearance of a man above upon it. Eze 1:27 And I saw as the colour of amber, as the appearance of fire round about within it, from the appearance of his loins even upward, and from the appearance of his loins even downward, I saw as it were the appearance of fire, and it had brightness round about. Eze 1:28 As the appearance of the bow that is in the cloud in the day of rain, so was the appearance of the brightness round about. This was the appearance of the likeness of the glory of THE YAHWEH. And when I saw it, I fell upon my face, and I heard a voice of one that spake."
-   },
+   }
+  ]
+ },
+ {
+  "id": "153-jesus-explained-the-mystery-of-the-two-cherubim-s-coming-thr-p2",
+  "order": 178,
+  "level": 2,
+  "title": "JESUS EXPLAINED THE MYSTERY OF THE TWO CHERUBIM'S COMING THROUGH THE SCRIPTURE (part 2)",
+  "segments": [
    {
     "role": "decree",
     "text": "Henceforth, so shall they appear in the same manner as the sun that rise from the east; so shall they be in Our Glorious Presence and Our Glory."
@@ -10004,8 +10852,8 @@
   ]
  },
  {
-  "id": "073-epiphaneia-g2016-epiphanes-brightness",
-  "order": 73,
+  "id": "154-epiphaneia-g2016-epiphanes-brightness",
+  "order": 179,
   "level": 2,
   "title": "Epiphaneia (G2016 \"epiphanes\" brightness)",
   "segments": [
@@ -10036,9 +10884,17 @@
    {
     "role": "scripture",
     "text": "Tit 2:11 For the grace of God that bringeth salvation hath shine on all men, Tit 2:12 Teaching us that, denying ungodliness and worldly lusts, we should live soberly, righteously, and godly, in this present age (G165 \"aion\"); Tit 2:13 Looking for that blessed hope, and the glorious brightness ( G2015 \"epiphaneia\" through The Two Cherubim of Glory) of the great God (THE FATHER together with THE HOLY SPIRIT)), and our Saviour Jesus Christ; Tit 2:14 Who gave himself for us, that he might redeem us from all iniquity, and purify unto himself a peculiar people, zealous of good works."
-   },
+   }
+  ]
+ },
+ {
+  "id": "155-my-warning",
+  "order": 180,
+  "level": 2,
+  "title": "MY WARNING!!!",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "MY WARNING!!!"
    },
    {
@@ -10068,24 +10924,40 @@
    {
     "role": "body",
     "text": "THE FATHER"
-   },
+   }
+  ]
+ },
+ {
+  "id": "156-handover-declaration",
+  "order": 181,
+  "level": 2,
+  "title": "HANDOVER DECLARATION",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "HANDOVER DECLARATION"
    },
    {
     "role": "body",
     "text": "Receiving back the authority on behalf of THE TRINITY"
-   },
+   }
+  ]
+ },
+ {
+  "id": "157-about-the-authors",
+  "order": 182,
+  "level": 2,
+  "title": "ABOUT THE AUTHORS",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ABOUT THE AUTHORS"
    }
   ]
  },
  {
-  "id": "074-shekinaih",
-  "order": 74,
+  "id": "158-shekinaih",
+  "order": 183,
   "level": 2,
   "title": "SHEKINAIH",
   "segments": [
@@ -10112,8 +10984,8 @@
   ]
  },
  {
-  "id": "075-aaron-k-david",
-  "order": 75,
+  "id": "159-aaron-k-david",
+  "order": 184,
   "level": 2,
   "title": "AARON K DAVID",
   "segments": [
@@ -10136,9 +11008,17 @@
    {
     "role": "body",
     "text": "THE TRINITY"
-   },
+   }
+  ]
+ },
+ {
+  "id": "160-appreciation-with-thanks",
+  "order": 185,
+  "level": 2,
+  "title": "APPRECIATION WITH THANKS",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "APPRECIATION WITH THANKS"
    },
    {
@@ -10172,21 +11052,45 @@
    {
     "role": "body",
     "text": "Above all else, we would like to thank THE TRINITY for their faithfulness in revealing their counsel to us and for enlightening us with their deep revelation and for endowing us with the gift of interpretation of their secret heavenly mysteries despite our human frailty. To THE TRINITY be all the glory, honour, power and praise forever and ever. Amen."
-   },
+   }
+  ]
+ },
+ {
+  "id": "161-books-1-2",
+  "order": 186,
+  "level": 2,
+  "title": "BOOKS 1 & 2",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "BOOKS 1 & 2"
-   },
+   }
+  ]
+ },
+ {
+  "id": "162-books-3-4",
+  "order": 187,
+  "level": 2,
+  "title": "BOOKS 3 & 4",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "BOOKS 3 & 4"
    },
    {
     "role": "heading",
     "text": "BOOK 5"
-   },
+   }
+  ]
+ },
+ {
+  "id": "163-music",
+  "order": 188,
+  "level": 2,
+  "title": "MUSIC",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "MUSIC"
    },
    {
