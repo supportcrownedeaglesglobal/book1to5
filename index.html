@@ -2442,7 +2442,7 @@ const M_URL = "audio/book-5/manifest.json";
 // right now. When your audio is on Cloudflare R2, paste your bucket URL here (NO trailing
 // slash) and every track loads from it instead, e.g.:
 //   const AUDIO_BASE_URL = "https://pub-YOUR-R2-ID.r2.dev";   // r2.dev, or a custom domain
-const AUDIO_BASE_URL = "";
+const AUDIO_BASE_URL = "https://pub-163ec17fb5564d7a9193345f48fea08f.r2.dev/beholdmymessenger-book5";
 //
 // CACHE-BUSTING BY VERSION: every chapter in the manifest carries a "version" (an integer,
 // default 1). When the audio is served from a REMOTE host (AUDIO_BASE_URL set), audioSrc()
@@ -2455,7 +2455,9 @@ const AUDIO_BASE_URL = "";
 // ONLY ever gets its URLs from audioSrc() — never hard-coded.
 const audioSrc = c => {
   const base = AUDIO_BASE_URL ? AUDIO_BASE_URL.replace(/\/+$/, "") + "/" : "";
-  return base ? base + c.audioUrl + "?v=" + (c.version || 1) : c.audioUrl;
+  // Local/same-origin: files live at audio/book-5/<id>.mp3. Remote (R2): AUDIO_BASE_URL already
+  // includes the bucket folder and the mp3s sit flat inside it, so use just the filename.
+  return base ? base + c.audioUrl.replace(/^.*\//, "") + "?v=" + (c.version || 1) : c.audioUrl;
 };
 const A = document.getElementById('audio');
 const RATES = [0.85,1,1.15,1.3];

@@ -177,13 +177,15 @@ repo), so the audio is served from a CDN with free egress — **Cloudflare R2**.
 audio base URL is a single constant in `index.html`:
 
 ```js
-const AUDIO_BASE_URL = "";   // "" = same-origin; set to your R2 custom domain (no trailing slash)
+const AUDIO_BASE_URL = "https://pub-<id>.r2.dev/beholdmymessenger-book5";  // R2 bucket URL + the folder the mp3s are in ("" = same-origin/local)
 ```
 
-Set it to the R2 **custom domain** (e.g. `https://cdn.yourdomain.com`) and every track
-loads from `${AUDIO_BASE_URL}/audio/book-5/<id>.mp3` (the manifest keeps relative
-`audioUrl`s; `audioSrc()` prepends the base — change the domain in one place, no manifest
-regen). Upload with `audiobook/scripts/upload_r2.sh` (`BUCKET=… bash upload_r2.sh`), which
+It points at the R2 **public bucket URL + the folder the mp3s live in** (book 5's mp3s were
+uploaded to `…/beholdmymessenger-book5/`, flat). So `audioSrc()` takes just the **filename**
+from each manifest `audioUrl` and appends it: `${AUDIO_BASE_URL}/<id>.mp3?v=<version>` — change
+the host/folder in this one place, no manifest regen. (With `AUDIO_BASE_URL=""`, local/same-origin
+keeps serving the mp3s from `audio/book-5/`.) A **custom domain** can replace the `pub-*.r2.dev`
+host later for edge-caching. Upload with `audiobook/scripts/upload_r2.sh` (`BUCKET=… bash upload_r2.sh`), which
 sets `Cache-Control: public, max-age=31536000, immutable` so repeat plays hit Cloudflare's
 edge (free). **Caching only works via a custom domain — the `pub-*.r2.dev` URL does NOT
 cache.** Verify with the response header `cf-cache-status: HIT`. The static page can stay on
