@@ -209,6 +209,17 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
 .rpt{display:grid; place-items:center; padding:7px 10px}
 .rpt svg{display:block}
 .rpt.on{background:rgba(232,184,109,.14)}
+/* back to the library (index.html) */
+.to-library{display:inline-flex; align-items:center; gap:8px; margin:22px 0 4px;
+  font-family:'Cinzel',serif; font-size:13px; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--gold2); text-decoration:none; padding:10px 18px; border-radius:100px;
+  border:1px solid var(--border); transition:border-color .2s,color .2s,background .2s}
+.to-library:hover{border-color:var(--gold); color:var(--gold-bright); background:rgba(232,184,109,.08)}
+.to-library svg{width:15px; height:15px; fill:none; stroke:currentColor; stroke-width:2.4}
+body.reading .to-library{display:none}
+.reader-home{display:inline-flex; align-items:center; justify-content:center; text-decoration:none;
+  color:var(--silver-dim); font-size:19px; line-height:1; padding:9px 11px; border-radius:10px; transition:color .2s,background .2s}
+.reader-home:hover{color:var(--gold2); background:rgba(220,228,245,.06)}
 
 @media(max-width:860px){
   .hero{grid-template-columns:1fr; gap:36px; text-align:center; padding-top:clamp(48px,12vw,80px)}
@@ -302,6 +313,8 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
 
 <div class="wrap">
 
+  <a class="to-library" href="index.html"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>All&nbsp;Books</a>
+
   <header class="hero">
     <div class="hero-art">
       <a class="cover-frame" href="#listen" aria-label="Listen to the audiobook">
@@ -342,6 +355,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
       <button class="reader-back" id="readerBack" aria-label="Back to the chapter list">↤&nbsp;Chapters</button>
       <div class="reader-title" id="readerTitle"></div>
       <div class="reader-size">
+        <a class="reader-home" href="index.html" title="All Books" aria-label="Back to all books">⌂</a>
         <button id="fontDown" aria-label="Smaller text" title="Smaller text">A−</button>
         <button id="fontUp" aria-label="Larger text" title="Larger text">A+</button>
       </div>
