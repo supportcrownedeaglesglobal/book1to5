@@ -4776,9 +4776,17 @@
    {
     "role": "chapter_title",
     "text": "The Ten Areas of Perfection"
-   },
+   }
+  ]
+ },
+ {
+  "id": "037-i-single-mindedness",
+  "order": 37,
+  "level": 2,
+  "title": "i) Single Mindedness",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "i) Single Mindedness"
    },
    {
@@ -4788,9 +4796,17 @@
    {
     "role": "scripture",
     "text": "Mat 6:19 Lay not up for yourselves treasures upon earth, where moth and rust doth corrupt, and where thieves break through and steal: Mat 6:20 But lay up for yourselves treasures in heaven, where neither moth nor rust doth corrupt, and where thieves do not break through nor steal: Mat 6:21 For where your treasure is, there will your heart be also. Mat 6:22 The light of the body is the eye: if therefore thine eye be single, thy whole body shall be full of light. Mat 6:23 But if thine eye be evil, thy whole body shall be full of darkness. If therefore the light that is in thee be darkness, how great is that darkness! Mat 6:24 No man can serve two masters: for either he will hate the one, and love the other; or else he will hold to the one, and despise the other. Ye cannot serve THE ELOHIM and mammon."
-   },
+   }
+  ]
+ },
+ {
+  "id": "038-ii-be-completely-truthful-in-the-elohim",
+  "order": 38,
+  "level": 2,
+  "title": "ii) Be Completely Truthful in THE ELOHIM",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ii) Be Completely Truthful in THE ELOHIM"
    },
    {
@@ -4800,9 +4816,17 @@
    {
     "role": "scripture",
     "text": "Heb 10:26 For if we sin wilfully after that we have received the knowledge of the truth, there remaineth no more sacrifice for sins, Heb 10:27 But a certain fearful looking for of judgment and fiery indignation, which shall devour the adversaries."
-   },
+   }
+  ]
+ },
+ {
+  "id": "039-iii-be-yielded-100",
+  "order": 39,
+  "level": 2,
+  "title": "iii) Be Yielded 100%",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "iii) Be Yielded 100%"
    },
    {
@@ -4824,9 +4848,17 @@
    {
     "role": "scripture",
     "text": "Rom 12:1 I beseech you therefore, brethren, by the mercies of THE ELOHIM, that ye yield (G3936 \"paristemi\") your bodies a living sacrifice, holy, acceptable unto THE ELOHIM, which is your reasonable service. Rom 12:2 And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect (G5046 \"teleios\"), will of THE ELOHIM."
-   },
+   }
+  ]
+ },
+ {
+  "id": "040-iv-be-lowly-zero-self",
+  "order": 40,
+  "level": 2,
+  "title": "iv) Be Lowly Zero Self",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "iv) Be Lowly Zero Self"
    },
    {
@@ -4848,9 +4880,17 @@
    {
     "role": "scripture",
     "text": "Joh 15:4 Abide in me, and I in you. As the branch cannot bear fruit of itself, except it abide in the vine; no more can ye, except ye abide in me. Joh 15:5 I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing. Joh 15:6 If a man abide not in me, he is cast forth as a branch, and is withered; and men gather them, and cast them into the fire, and they are burned. Joh 15:7 If ye abide in me, and my words abide in you, ye shall ask what ye will, and it shall be done unto you. Joh 15:8 Herein is my Father glorified, that ye bear much fruit; so shall ye be my disciples."
-   },
+   }
+  ]
+ },
+ {
+  "id": "041-v-be-completely-sincere-before-the-elohim-and-men",
+  "order": 41,
+  "level": 2,
+  "title": "v) Be Completely Sincere Before THE ELOHIM and Men",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "v) Be Completely Sincere Before THE ELOHIM and Men"
    },
    {
@@ -4880,9 +4920,17 @@
    {
     "role": "scripture",
     "text": "Rev 14:4 These are they which were not defiled with women; for they are virgins. These are they which follow the Lamb whithersoever he goeth. These were redeemed from among men, being the firstfruits unto THE ELOHIM and to the Lamb. Rev 14:5 And in their mouth was found no guile: for they are without fault before the throne of THE ELOHIM."
-   },
+   }
+  ]
+ },
+ {
+  "id": "042-vi-meekness-of-love",
+  "order": 42,
+  "level": 2,
+  "title": "vi) Meekness of Love",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "vi) Meekness of Love"
    },
    {
@@ -4920,9 +4968,17 @@
    {
     "role": "scripture",
     "text": "1Jn 4:12 No man hath seen THE ELOHIM at any time. If we love one another, THE ELOHIM dwelleth in us, and his love is perfected in us."
-   },
+   }
+  ]
+ },
+ {
+  "id": "043-vii-be-patient",
+  "order": 43,
+  "level": 2,
+  "title": "vii) Be Patient",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "vii) Be Patient"
    },
    {
@@ -4932,9 +4988,17 @@
    {
     "role": "scripture",
     "text": "Jas 1:1 James, a servant of THE ELOHIM and of THE YAHWEH JESUS CHRIST, to the twelve tribes which are scattered abroad, greeting Jas 1:2 My brethren, count it all joy when ye fall into divers temptations; Jas 1:3 knowing this, that the trying of your faith accomplisheth patience. Jas 1:4 but let patience have her perfect (G5046 \"teleios\") work, that ye may be perfect (G5046 \"teleios\") and entire (G3648 \"holokleros\"), wanting nothing."
-   },
+   }
+  ]
+ },
+ {
+  "id": "044-viii-to-be-circumcised-in-heart",
+  "order": 44,
+  "level": 2,
+  "title": "viii) To be Circumcised in Heart",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "viii) To be Circumcised in Heart"
    },
    {
@@ -4944,9 +5008,17 @@
    {
     "role": "scripture",
     "text": "Php 3:3 For we are the circumcision, which worship THE ELOHIM in the spirit, and rejoice in Christ Jesus, and have no confidence in the flesh."
-   },
+   }
+  ]
+ },
+ {
+  "id": "045-ix-obedience-unto-death",
+  "order": 45,
+  "level": 2,
+  "title": "ix) Obedience Unto Death",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "ix) Obedience Unto Death"
    },
    {
@@ -4960,9 +5032,17 @@
    {
     "role": "scripture",
     "text": "Heb 5:7 Who in the days of his flesh, when he had offered up prayers and supplications with strong crying and tears unto him that was able to save him from death, and was heard in that he feared; Heb 5:8 Though he were a Son, yet learned he obedience by the things which he suffered; Heb 5:9 And being made perfect (G5046 \"teleios\"), he became the author of eternal salvation unto all them that obey him;"
-   },
+   }
+  ]
+ },
+ {
+  "id": "046-x-be-entirely-toward-him",
+  "order": 46,
+  "level": 2,
+  "title": "x) Be Entirely Toward Him",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "x) Be Entirely Toward Him"
    },
    {
@@ -4996,8 +5076,8 @@
   ]
  },
  {
-  "id": "037-benefits-of-those-whose-walk-is-perfect",
-  "order": 37,
+  "id": "047-benefits-of-those-whose-walk-is-perfect",
+  "order": 47,
   "level": 2,
   "title": "Benefits of Those Whose Walk is Perfect",
   "segments": [
@@ -5084,8 +5164,8 @@
   ]
  },
  {
-  "id": "038-military-order-and-discipline",
-  "order": 38,
+  "id": "048-military-order-and-discipline",
+  "order": 48,
   "level": 2,
   "title": "Military Order and Discipline",
   "segments": [
@@ -5112,8 +5192,8 @@
   ]
  },
  {
-  "id": "039-vigorous-army-like-disciplinary-training",
-  "order": 39,
+  "id": "049-vigorous-army-like-disciplinary-training",
+  "order": 49,
   "level": 2,
   "title": "Vigorous Army like Disciplinary Training",
   "segments": [
@@ -5124,9 +5204,17 @@
    {
     "role": "decree",
     "text": "Like the discipline imposed by the Military in every countries, We also have Our disciplinary training requirements as dictated by Shekinaih."
-   },
+   }
+  ]
+ },
+ {
+  "id": "050-1-be-timely-in-co-executing-my-orders-with-precision-details",
+  "order": 50,
+  "level": 2,
+  "title": "1) Be Timely In Co-Executing My Orders with Precision Details and Be Careful Not To Miss Out Anything",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "1) Be Timely In Co-Executing My Orders with Precision Details and Be Careful Not To Miss Out Anything"
    },
    {
@@ -5144,9 +5232,17 @@
    {
     "role": "decree",
     "text": "David also understood this principle of victory. As instructed by the Angel of THE YAHWEH, he set an ambush under the mulberry trees and when he heard marching sound of angels in the tops of the mulberry trees, he and his men attack the Philistines and the Angel of THE YAHWEH and the hosts smote the enemies' host with them. (1 Ch 14:14-16)"
-   },
+   }
+  ]
+ },
+ {
+  "id": "051-vision-of-lights-colliding",
+  "order": 51,
+  "level": 2,
+  "title": "Vision of Lights Colliding",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "Vision of Lights Colliding"
    },
    {
@@ -5176,9 +5272,17 @@
    {
     "role": "decree",
     "text": "THE EL who has the final say in every event that is to happen in the Cosmoses, still decides how and when Lucifer and Baal with their angels will be thrown down to earth as scripted by THE FATHER, THE EHYEH who is the Mastermind and the Script Writer of the event of the Cosmoses."
-   },
+   }
+  ]
+ },
+ {
+  "id": "052-2-great-attitude",
+  "order": 52,
+  "level": 2,
+  "title": "2) Great Attitude",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "2) Great Attitude"
    },
    {
@@ -5236,9 +5340,17 @@
    {
     "role": "scripture",
     "text": "Psa 149:1 Praise ye THE YAH. Sing unto THE YAHWEH a new song, and his praise in the congregation of saints. Psa 149:2 Let Israel rejoice in him that made him: let the children of Zion be joyful in their King. Psa 149:3 Let them praise his name in the dance: let them sing praises unto him with the timbrel and harp. Psa 149:4 For THE YAHWEH taketh pleasure in his people: he will beautify the meek with salvation. Psa 149:5 Let the saints be joyful in glory: let them sing aloud upon their beds. Psa 149:6 Let the exaltation (H7318 \"romam\" high praises) of THE EL be in their mouth, and a twoedged sword in their hand; Psa 149:7 To execute vengeance upon the heathen, and punishments upon the people; Psa 149:8 To bind their kings with chains, and their nobles with fetters of iron; Psa 149:9 To execute upon them the judgment written: this honour have all his saints. Praise ye THE YAH"
-   },
+   }
+  ]
+ },
+ {
+  "id": "053-3-be-joyful",
+  "order": 53,
+  "level": 2,
+  "title": "3) Be Joyful",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "3) Be Joyful"
    },
    {
@@ -5276,9 +5388,17 @@
    {
     "role": "scripture",
     "text": "Mat 8:5 And when Jesus was entered into Capernaum, there came unto him a centurion, beseeching him, Mat 8:6 And saying, THE YAHWEH, my servant lieth at home sick of the palsy, grievously tormented. Mat 8:7 And Jesus saith unto him, I will come and heal him. Mat 8:8 The centurion answered and said, THE YAHWEH, I am not worthy that thou shouldest come under my roof: but speak the word only, and my servant shall be healed. Mat 8:9 For I am a man under authority, having soldiers under me: and I say to this man, Go, and he goeth; and to another, Come, and he cometh; and to my servant, Do this, and he doeth it. Mat 8:10 When Jesus heard it, he marvelled, and said to them that followed, Verily I say unto you, I have not found so great faith, no, not in Israel. Mat 8:11 And I say unto you, That many shall come from the east and west, and shall sit down with Abraham, and Isaac, and Jacob, in the kingdom of heaven. Mat 8:12 But the children of the kingdom shall be cast out into outer darkness: there shall be weeping and gnashing of teeth."
-   },
+   }
+  ]
+ },
+ {
+  "id": "054-4-walk-in-line",
+  "order": 54,
+  "level": 2,
+  "title": "4) Walk in Line",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "4) Walk in Line"
    },
    {
@@ -5304,9 +5424,17 @@
    {
     "role": "scripture",
     "text": "2Ti 2:3 Thou therefore endure hardness, as a good soldier of Jesus Christ. 2Ti 2:4 No man that warreth entangleth himself with the affairs of this life; that he may please him who hath chosen him to be a soldier. 2Ti 2:5 And if a man also strive for masteries, yet is he not crowned, except he strive lawfully. 2Ti 2:6 The husbandman that laboureth must be first partaker of the fruits. 2Ti 2:7 Consider what I say; and THE YAHWEH give thee understanding in all things 2Ti 2:8 Remember that Jesus Christ of the seed of David was raised from the dead according to my gospel: 2Ti 2:9 Wherein I suffer trouble, as an evil doer, even unto bonds; but the word of THE ELOHIM is not bound. 2Ti 2:10 Therefore I endure all things for the elect's sakes, that they may also obtain the salvation which is in Christ Jesus with eternal glory."
-   },
+   }
+  ]
+ },
+ {
+  "id": "055-5-in-all-your-ways-acknowledge-me",
+  "order": 55,
+  "level": 2,
+  "title": "5) In All Your Ways, Acknowledge Me",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "5) In All Your Ways, Acknowledge Me"
    },
    {
@@ -5348,9 +5476,17 @@
    {
     "role": "scripture",
     "text": "Jdg 20:26 Then all the children of Israel, and all the people, went up, and came unto Bethel, and wept, and sat there before THE YAHWEH, and fasted that day until even, and offered burnt offerings and peace offerings before THE YAHWEH. Jdg 20:27 And the children of Israel enquired of THE YAHWEH, (for the ark of the covenant of THE ELOHIM was there in those days, Jdg 20:28 And Phinehas, the son of Eleazar, the son of Aaron, stood before it in those days,) saying, Shall I yet again go out to battle against the children of Benjamin my brother, or shall I cease? And THE YAHWEH said, Go up; for tomorrow I will deliver them into thine hand."
-   },
+   }
+  ]
+ },
+ {
+  "id": "056-6-walk-in-100-yieldedness-and-faith",
+  "order": 56,
+  "level": 2,
+  "title": "6) Walk In 100% Yieldedness And Faith.",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "6) Walk In 100% Yieldedness And Faith."
    },
    {
@@ -5372,9 +5508,17 @@
    {
     "role": "scripture",
     "text": "Psa 78:40 How oft did they provoke him in the wilderness, and grieve him in the desert! Psa 78:41 Yea, they turned back and tempted THE EL, and limited the Holy One of Israel. Psa 78:42 They remembered not his hand, nor the day when he delivered them from the enemy. Psa 78:43 How he had wrought his signs in Egypt, and his wonders in the field of Zoan:"
-   },
+   }
+  ]
+ },
+ {
+  "id": "057-7-the-7-squeezes-of-the-adonai-as-the-basic-trainings",
+  "order": 57,
+  "level": 2,
+  "title": "7) The 7 Squeezes of THE ADONAI as the Basic trainings.",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "7) The 7 Squeezes of THE ADONAI as the Basic trainings."
    },
    {
@@ -5424,9 +5568,17 @@
    {
     "role": "scripture",
     "text": "Isa 55:1 Ho, every one that thirsteth, come ye to the waters, and he that hath no money; come ye, buy, and eat; yea, come, buy wine and milk without money and without price. Isa 55:2 Wherefore do ye spend money for that which is not bread? and your labour for that which satisfieth not? hearken diligently unto me, and eat ye that which is good, and let your soul delight itself in fatness. Isa 55:3 Incline your ear, and come unto me: hear, and your soul shall live; and I will make an everlasting covenant with you, even the sure mercies of David. Isa 55:4 Behold, I have given him for a witness to the people, a leader and commander to the people. Isa 55:5 Behold, thou shalt call a nation that thou knowest not, and nations that knew not thee shall run unto thee because of THE YAHWEH thy ELOHIM, and for the Holy One of Israel; for he hath glorified thee. Isa 55:6 Seek ye THE YAHWEH while he may be found, call ye upon him while he is near: Isa 55:7 Let the wicked forsake his way, and the unrighteous man his thoughts: and let him return unto THE YAHWEH, and he will have mercy upon him; and to our ELOHIM, for he will abundantly pardon. Isa 55:8 For my thoughts are not your thoughts, neither are your ways my ways, saith THE YAHWEH. Isa 55:9 For as the heavens are higher than the earth, so are my ways higher than your ways, and my thoughts than your thoughts. Isa 55:10 For as the rain cometh down, and the snow from heaven, and returneth not thither, but watereth the earth, and maketh it bring forth and bud, that it may give seed to the sower, and bread to the eater: Isa 55:11 So shall my word be that goeth forth out of my mouth: it shall not return unto me void, but it shall accomplish that which I please, and it shall prosper in the thing whereto I sent it. Isa 55:12 For ye shall go out with joy, and be led forth with peace: the mountains and the hills shall break forth before you into singing, and all the trees of the field shall clap their hands. Isa 55:13 Instead of the thorn shall come up the fir tree, and instead of the brier shall come up the myrtle tree: and it shall be to THE YAHWEH for a name, for an everlasting sign that shall not be cut off."
-   },
+   }
+  ]
+ },
+ {
+  "id": "058-8-total-100-yieldedness",
+  "order": 58,
+  "level": 2,
+  "title": "8) Total 100% Yieldedness",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "8) Total 100% Yieldedness"
    },
    {
@@ -5444,9 +5596,17 @@
    {
     "role": "decree",
     "text": "Those who will be chosen to be manifested as sons of THE ELOHIM and to be used as vessels of honor are to discipline themselves and not fall into the wiles of the Diabolos/ Accuser which will cause the defeat of the armies as well."
-   },
+   }
+  ]
+ },
+ {
+  "id": "059-9-maturity-training",
+  "order": 59,
+  "level": 2,
+  "title": "9) Maturity Training",
+  "segments": [
    {
-    "role": "heading",
+    "role": "chapter_title",
     "text": "9) Maturity Training"
    },
    {
@@ -6004,8 +6164,8 @@
   ]
  },
  {
-  "id": "040-whirlwind",
-  "order": 40,
+  "id": "060-whirlwind",
+  "order": 60,
   "level": 2,
   "title": "Whirlwind",
   "segments": [
@@ -6692,8 +6852,8 @@
   ]
  },
  {
-  "id": "041-vision-of-a-giant-egg",
-  "order": 41,
+  "id": "061-vision-of-a-giant-egg",
+  "order": 61,
   "level": 2,
   "title": "Vision of a Giant Egg",
   "segments": [
@@ -6964,8 +7124,8 @@
   ]
  },
  {
-  "id": "042-vision-of-the-heavenly-saints",
-  "order": 42,
+  "id": "062-vision-of-the-heavenly-saints",
+  "order": 62,
   "level": 2,
   "title": "Vision of the Heavenly Saints",
   "segments": [
@@ -7088,8 +7248,8 @@
   ]
  },
  {
-  "id": "043-part-2-preparation-of-an-anointed-a-bride",
-  "order": 43,
+  "id": "063-part-2-preparation-of-an-anointed-a-bride",
+  "order": 63,
   "level": 1,
   "title": "Part 2 \nPREPARATION OF AN ANOINTED/A BRIDE",
   "segments": [
@@ -7168,8 +7328,8 @@
   ]
  },
  {
-  "id": "044-the-vision-of-the-tree-of-life-and-the-white-whale",
-  "order": 44,
+  "id": "064-the-vision-of-the-tree-of-life-and-the-white-whale",
+  "order": 64,
   "level": 2,
   "title": "The Vision of the Tree of Life and the White Whale",
   "segments": [
@@ -7336,8 +7496,8 @@
   ]
  },
  {
-  "id": "045-broken-spirit-is-equal-to-unfathomable-power",
-  "order": 45,
+  "id": "065-broken-spirit-is-equal-to-unfathomable-power",
+  "order": 65,
   "level": 2,
   "title": "Broken Spirit Is Equal to Unfathomable Power",
   "segments": [
@@ -7572,8 +7732,8 @@
   ]
  },
  {
-  "id": "046-gradually-magnified-without-as-stars-in-the-universe",
-  "order": 46,
+  "id": "066-gradually-magnified-without-as-stars-in-the-universe",
+  "order": 66,
   "level": 2,
   "title": "Gradually Magnified Without as Stars in the Universe",
   "segments": [
@@ -7944,8 +8104,8 @@
   ]
  },
  {
-  "id": "047-part-3-glorious-future-of-an-anointed-a-bride",
-  "order": 47,
+  "id": "067-part-3-glorious-future-of-an-anointed-a-bride",
+  "order": 67,
   "level": 1,
   "title": "Part 3\nGLORIOUS FUTURE OF AN ANOINTED/A BRIDE",
   "segments": [
@@ -7964,8 +8124,8 @@
   ]
  },
  {
-  "id": "048-from-real-7-dimension-perspective",
-  "order": 48,
+  "id": "068-from-real-7-dimension-perspective",
+  "order": 68,
   "level": 2,
   "title": "From Real 7 Dimension Perspective",
   "segments": [
@@ -8272,8 +8432,8 @@
   ]
  },
  {
-  "id": "049-butterfly-effect",
-  "order": 49,
+  "id": "069-butterfly-effect",
+  "order": 69,
   "level": 2,
   "title": "Butterfly Effect",
   "segments": [
@@ -8400,8 +8560,8 @@
   ]
  },
  {
-  "id": "050-the-righteous-one-that-shall-come",
-  "order": 50,
+  "id": "070-the-righteous-one-that-shall-come",
+  "order": 70,
   "level": 2,
   "title": "The Righteous One That Shall Come",
   "segments": [
@@ -8464,8 +8624,8 @@
   ]
  },
  {
-  "id": "051-the-angel-who-will-come-quickly",
-  "order": 51,
+  "id": "071-the-angel-who-will-come-quickly",
+  "order": 71,
   "level": 2,
   "title": "The Angel Who will come quickly",
   "segments": [
@@ -9688,8 +9848,8 @@
   ]
  },
  {
-  "id": "052-jesus-explained-the-mystery-of-the-two-cherubim-s-coming-thr",
-  "order": 52,
+  "id": "072-jesus-explained-the-mystery-of-the-two-cherubim-s-coming-thr",
+  "order": 72,
   "level": 2,
   "title": "JESUS EXPLAINED THE MYSTERY OF THE TWO CHERUBIM'S COMING THROUGH THE SCRIPTURE",
   "segments": [
@@ -9844,8 +10004,8 @@
   ]
  },
  {
-  "id": "053-epiphaneia-g2016-epiphanes-brightness",
-  "order": 53,
+  "id": "073-epiphaneia-g2016-epiphanes-brightness",
+  "order": 73,
   "level": 2,
   "title": "Epiphaneia (G2016 \"epiphanes\" brightness)",
   "segments": [
@@ -9924,8 +10084,8 @@
   ]
  },
  {
-  "id": "054-shekinaih",
-  "order": 54,
+  "id": "074-shekinaih",
+  "order": 74,
   "level": 2,
   "title": "SHEKINAIH",
   "segments": [
@@ -9952,8 +10112,8 @@
   ]
  },
  {
-  "id": "055-aaron-k-david",
-  "order": 55,
+  "id": "075-aaron-k-david",
+  "order": 75,
   "level": 2,
   "title": "AARON K DAVID",
   "segments": [

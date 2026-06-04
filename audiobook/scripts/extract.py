@@ -102,7 +102,7 @@ def main():
         # --- new track on a part/chapter heading. Supports Heading 1/2 (Books 3/5) AND the
         #     custom manuscript styles in Books 1/2/4: "Part Heading Style" = part (L1),
         #     "Section Heading" = chapter (L2). ---
-        if style in ("Heading 1", "Heading 2", "Part Heading Style", "Section Heading"):
+        if style in ("Heading 1", "Heading 2", "Part Heading Style", "Section Heading", "Section Sub Heading"):
             order += 1
             base = slugify(raw)
             n = seen_slugs.get(base, 0) + 1
@@ -130,7 +130,7 @@ def main():
         #   "God" = divine speech (decree/Father) · "Verse 1/Bold" = scripture (Jesus) ·
         #   sub-titles -> heading. Book 3/5 lack these styles, so this is a no-op there.
         _srole = {"God": "decree", "Verse 1": "scripture", "Verse Bold": "scripture",
-                  "Section Sub Heading": "heading", "Chapter Caption": "heading"}.get(style)
+                  "Chapter Caption": "heading"}.get(style)
         if _srole:
             cur["segments"].append({"role": _srole, "text": raw})
             in_scripture = False; prev_label = None

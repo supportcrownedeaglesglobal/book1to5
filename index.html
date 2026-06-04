@@ -3,57 +3,116 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Behold My Messenger — The Audiobook Series</title>
+<title>Behold My Messenger — The Audiobook Library</title>
 <meta name="description" content="The Behold My Messenger audiobook series by Crowned Eagles Global — five books, narrated with reverence. Listen free.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#0b0a12; --bg2:#13111f; --ink:#f4efe6; --muted:#b6aec6; --dim:#857e96;
-  --gold:#e8b86d; --gold2:#f4d089; --gold-deep:#b07d33;
+  --bg:#0b0a12; --ink:#f4efe6; --muted:#b6aec6; --dim:#857e96;
+  --gold:#e8b86d; --gold2:#f4d089; --gold-deep:#a9772f;
   --gold-metal:linear-gradient(180deg,#fbe7b3 0%,#e8b86d 38%,#a9772f 72%,#f4d089 100%);
-  --line:rgba(232,184,109,.22); --card:#1a1726;
-  --shadow:0 22px 60px rgba(0,0,0,.6);
+  --line:rgba(232,184,109,.22);
+  --shadow:0 26px 64px rgba(0,0,0,.62);
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif;
   font-size:19px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-.bg{position:fixed;inset:0;z-index:-2;background:
-   radial-gradient(1100px 700px at 50% -8%, rgba(232,184,109,.16), transparent 60%),
-   radial-gradient(900px 900px at 85% 20%, rgba(60,46,120,.28), transparent 60%),
-   radial-gradient(900px 900px at 10% 80%, rgba(44,60,142,.22), transparent 60%),
+
+/* ── atmosphere ─────────────────────────────────────────── */
+.bg{position:fixed;inset:0;z-index:-3;background:
+   radial-gradient(1100px 760px at 50% -10%, rgba(232,184,109,.16), transparent 60%),
+   radial-gradient(900px 900px at 86% 18%, rgba(60,46,120,.30), transparent 60%),
+   radial-gradient(900px 900px at 8% 82%, rgba(44,60,142,.22), transparent 60%),
    linear-gradient(180deg,#0b0a12,#0a0913 55%,#0c0a16)}
-.stars{position:fixed;inset:0;z-index:-1;opacity:.5;
+.stars{position:fixed;inset:0;z-index:-2;opacity:.5;
   background-image:radial-gradient(1.4px 1.4px at 20% 30%,#fff,transparent),
    radial-gradient(1.2px 1.2px at 70% 65%,#ffe9c4,transparent),
    radial-gradient(1px 1px at 40% 80%,#fff,transparent),
    radial-gradient(1.3px 1.3px at 85% 25%,#fff,transparent),
    radial-gradient(1px 1px at 55% 12%,#ffe9c4,transparent),
    radial-gradient(1px 1px at 12% 60%,#fff,transparent);
-  background-repeat:repeat;background-size:520px 520px;animation:drift 200s linear infinite}
+  background-repeat:repeat;background-size:520px 520px;animation:drift 220s linear infinite}
 @keyframes drift{to{background-position:520px 520px}}
 
-.wrap{max-width:1120px;margin:0 auto;padding:0 26px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 26px}
 
-.brand{display:flex;align-items:center;justify-content:center;gap:13px;padding:26px 0 6px;text-align:center}
+/* ── brand bar ──────────────────────────────────────────── */
+.brand{display:flex;align-items:center;justify-content:center;gap:13px;padding:28px 0 4px;text-align:center}
 .brand .mark{width:30px;height:30px;border-radius:50%;background:var(--gold-metal);
-  box-shadow:0 0 22px rgba(232,184,109,.45);flex:0 0 auto}
+  box-shadow:0 0 24px rgba(232,184,109,.5);flex:0 0 auto}
 .brand b{font-family:'Cinzel',serif;font-weight:700;letter-spacing:.34em;font-size:14px;
   color:var(--gold2);text-transform:uppercase}
 
-.hero{display:grid;grid-template-columns:minmax(0,300px) 1fr;gap:46px;align-items:center;padding:42px 0 30px}
-.hero-cover{position:relative}
-.hero-cover img{width:100%;border-radius:12px;box-shadow:var(--shadow);
-  border:1px solid rgba(255,255,255,.06);display:block}
-.hero-cover::after{content:"";position:absolute;inset:-1px;border-radius:13px;pointer-events:none;
-  box-shadow:inset 0 0 0 1px rgba(232,184,109,.4), 0 0 60px rgba(232,184,109,.12)}
-.tagline{font-family:'Cinzel',serif;letter-spacing:.3em;font-size:12px;color:var(--gold);
+/* ── 3D book component ──────────────────────────────────── */
+.tome{position:relative;display:block;text-decoration:none;color:inherit;perspective:1600px}
+.tome__3d{position:relative;width:100%;aspect-ratio:1772/2717;transform-style:preserve-3d;
+  transform:rotateY(-23deg) rotateX(3deg);
+  transition:transform .6s cubic-bezier(.2,.75,.2,1)}
+.tome__face{position:absolute;top:0;left:0;width:100%;height:100%}
+.tome__cover{border-radius:2px 6px 6px 2px;overflow:hidden;background:#15111f;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.07)}
+.tome__cover img{width:100%;height:100%;object-fit:cover;display:block}
+/* embossed spine seam down the binding edge of the cover */
+.tome__cover::before{content:"";position:absolute;left:0;top:0;bottom:0;width:8%;z-index:3;
+  background:linear-gradient(90deg,rgba(0,0,0,.55),rgba(0,0,0,.12) 42%,rgba(255,255,255,.12) 58%,transparent 82%)}
+/* gilt frame */
+.tome__cover::after{content:"";position:absolute;inset:0;border-radius:2px 6px 6px 2px;pointer-events:none;
+  box-shadow:inset 0 0 0 1px rgba(232,184,109,.34)}
+.tome__spine{width:var(--d,24px);left:0;transform-origin:left center;transform:rotateY(90deg);
+  background:linear-gradient(180deg,#2a2138,#150f1f 48%,#241b32);
+  box-shadow:inset -7px 0 16px rgba(0,0,0,.65);border-left:1px solid rgba(232,184,109,.3)}
+.tome__pages{width:var(--d,24px);height:96%;top:2%;right:0;transform-origin:right center;transform:rotateY(-90deg);
+  background:repeating-linear-gradient(180deg,#efe7d2 0 1.5px,#cdbf9d 1.5px 3px);
+  box-shadow:inset 6px 0 10px rgba(0,0,0,.25)}
+/* contact shadow on the shelf */
+.tome::after{content:"";position:absolute;left:2%;right:6%;bottom:-12px;height:30px;z-index:-1;
+  background:radial-gradient(52% 60% at 50% 50%,rgba(0,0,0,.6),transparent 74%);filter:blur(3px)}
+/* moving gold gleam (live covers only) */
+.gleam{position:absolute;inset:0;overflow:hidden;border-radius:2px 6px 6px 2px;z-index:4}
+.gleam::before{content:"";position:absolute;top:-30%;left:0;width:42%;height:170%;
+  background:linear-gradient(90deg,transparent,rgba(255,248,230,.22),transparent);
+  transform:translateX(-260%) rotate(16deg);animation:sweep 7s ease-in-out 1.5s infinite}
+@keyframes sweep{0%{transform:translateX(-260%) rotate(16deg)}38%,100%{transform:translateX(480%) rotate(16deg)}}
+
+/* play affordance */
+.tome__play{position:absolute;left:50%;top:50%;width:60px;height:60px;border-radius:50%;z-index:5;
+  display:grid;place-items:center;background:var(--gold-metal);
+  box-shadow:0 12px 30px rgba(0,0,0,.55),0 0 0 8px rgba(232,184,109,.16);
+  transform:translate(-50%,-46%) scale(.6);opacity:0;transition:.3s cubic-bezier(.2,.8,.2,1)}
+.tome__play svg{width:24px;height:24px;fill:#231603;margin-left:3px}
+
+/* status ribbon */
+.ribbon{position:absolute;left:0;top:13px;z-index:6;padding:5px 13px 5px 11px;
+  font-family:'Cinzel',serif;font-size:10.5px;font-weight:700;letter-spacing:.13em;text-transform:uppercase}
+.ribbon.go{background:var(--gold-metal);color:#231603;border-radius:0 4px 4px 0;
+  box-shadow:0 7px 18px rgba(232,184,109,.4)}
+.ribbon.soon{background:rgba(13,11,22,.86);color:var(--gold2);border:1px solid var(--line);border-left:none;border-radius:0 4px 4px 0}
+
+/* states */
+.tome.live{cursor:pointer}
+.tome.live:hover .tome__3d{transform:rotateY(-9deg) rotateX(1deg) translateY(-16px) scale(1.02)}
+.tome.live:hover .tome__play{opacity:1;transform:translate(-50%,-50%) scale(1)}
+.tome.soon .tome__cover img{filter:saturate(.62) brightness(.52)}
+.tome.soon{cursor:default}
+
+/* ── hero / featured ───────────────────────────────────── */
+.hero{display:grid;grid-template-columns:minmax(0,320px) 1fr;gap:54px;align-items:center;padding:30px 0 18px}
+.hero-book{position:relative}
+.hero-book::before{content:"";position:absolute;inset:-14% -10% -4% -10%;z-index:-1;
+  background:radial-gradient(50% 46% at 50% 46%,rgba(232,184,109,.28),transparent 70%);filter:blur(8px)}
+.hero .tome__3d{--d:34px;animation:float 8s ease-in-out infinite}
+@keyframes float{0%,100%{transform:rotateY(-21deg) rotateX(3deg) translateY(0)}
+  50%{transform:rotateY(-16deg) rotateX(2deg) translateY(-14px)}}
+.hero .tome.live:hover .tome__3d{animation-play-state:paused}
+
+.tagline{font-family:'Cinzel',serif;letter-spacing:.32em;font-size:12px;color:var(--gold);
   text-transform:uppercase;margin:0 0 14px}
-.hero h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(34px,5vw,60px);line-height:1.04;
-  margin:0 0 6px;background:var(--gold-metal);-webkit-background-clip:text;background-clip:text;
-  -webkit-text-fill-color:transparent;text-shadow:0 2px 30px rgba(232,184,109,.18)}
+.hero h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(36px,5.2vw,62px);line-height:1.03;
+  margin:0 0 8px;background:var(--gold-metal);-webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;text-shadow:0 2px 34px rgba(232,184,109,.18)}
 .hero .sub{font-size:23px;color:var(--muted);font-style:italic;margin:0 0 22px}
 .meta{display:flex;flex-wrap:wrap;gap:10px 22px;color:var(--dim);font-size:16px;margin:0 0 26px;letter-spacing:.02em}
 .meta span{display:inline-flex;align-items:center;gap:7px}
@@ -61,60 +120,67 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garam
 .cta{display:inline-flex;align-items:center;gap:12px;padding:15px 34px;border-radius:999px;
   background:var(--gold-metal);color:#231603;font-family:'Cinzel',serif;font-weight:700;
   letter-spacing:.12em;text-transform:uppercase;font-size:15px;text-decoration:none;
-  box-shadow:0 14px 36px rgba(232,184,109,.32);transition:transform .18s ease, box-shadow .18s ease}
-.cta:hover{transform:translateY(-2px);box-shadow:0 20px 46px rgba(232,184,109,.45)}
+  box-shadow:0 14px 36px rgba(232,184,109,.32);transition:transform .18s ease,box-shadow .18s ease}
+.cta:hover{transform:translateY(-2px);box-shadow:0 20px 48px rgba(232,184,109,.46)}
 .cta svg{width:17px;height:17px;fill:#231603}
-.blurb{margin-top:22px;max-width:46ch;color:var(--muted);font-size:18px}
+.blurb{margin-top:22px;max-width:48ch;color:var(--muted);font-size:18px}
 
-.shelf{padding:44px 0 70px}
-.shelf-head{display:flex;align-items:baseline;justify-content:space-between;gap:20px;
-  border-top:1px solid var(--line);padding-top:30px;margin-bottom:30px}
-.shelf-head h2{font-family:'Cinzel',serif;font-weight:700;font-size:23px;letter-spacing:.06em;margin:0;color:var(--ink)}
-.shelf-head p{margin:0;color:var(--dim);font-size:16px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(186px,1fr));gap:30px 26px}
-.card{display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:transform .2s ease}
-.card .art{position:relative;border-radius:11px;overflow:hidden;background:var(--card);
-  box-shadow:var(--shadow);aspect-ratio:1772/2717;border:1px solid rgba(255,255,255,.05)}
-.card .art img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s ease}
-.card.live:hover{transform:translateY(-6px)}
-.card.live:hover .art img{transform:scale(1.045)}
-.card .art::after{content:"";position:absolute;inset:0;border-radius:11px;pointer-events:none;
-  box-shadow:inset 0 0 0 1px rgba(232,184,109,.28)}
-.badge{position:absolute;left:11px;top:11px;z-index:2;padding:5px 12px;border-radius:999px;
-  font-family:'Cinzel',serif;font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
-.badge.go{background:var(--gold-metal);color:#231603;box-shadow:0 6px 18px rgba(232,184,109,.4)}
-.badge.soon{background:rgba(16,14,26,.82);color:var(--gold2);border:1px solid var(--line);backdrop-filter:blur(4px)}
-.card.soon .art img{filter:saturate(.7) brightness(.6)}
-.card.soon{cursor:default}
-.play-fab{position:absolute;right:11px;bottom:11px;z-index:2;width:46px;height:46px;border-radius:50%;
-  display:grid;place-items:center;background:var(--gold-metal);box-shadow:0 8px 22px rgba(0,0,0,.5);
-  opacity:0;transform:translateY(8px);transition:.22s ease}
-.card.live:hover .play-fab{opacity:1;transform:none}
-.play-fab svg{width:18px;height:18px;fill:#231603;margin-left:2px}
-.card .label{margin-top:13px}
-.card .bookno{font-family:'Cinzel',serif;font-size:10.5px;letter-spacing:.24em;color:var(--gold);text-transform:uppercase}
-.card .name{font-size:21px;line-height:1.2;margin:3px 0 2px;color:var(--ink)}
-.card .meta2{font-size:14.5px;color:var(--dim)}
+/* ── library shelf ─────────────────────────────────────── */
+.library{padding:46px 0 16px}
+.lib-head{display:flex;align-items:baseline;justify-content:space-between;gap:20px;
+  border-top:1px solid var(--line);padding-top:30px;margin-bottom:42px}
+.lib-head h2{font-family:'Cinzel',serif;font-weight:700;font-size:24px;letter-spacing:.06em;margin:0}
+.lib-head p{margin:0;color:var(--dim);font-size:16px}
 
-footer{border-top:1px solid var(--line);padding:34px 0 60px;color:var(--dim);font-size:15.5px;text-align:center}
+/* align-items:start keeps every book on a common top line; since the tomes are
+   identical in size their BOTTOMS line up too, so they all stand on one shelf —
+   regardless of how many lines each title wraps to below. */
+.shelf{display:grid;grid-template-columns:repeat(5,1fr);column-gap:0;row-gap:46px;align-items:start;padding:0 6px}
+.book-cell{display:flex;flex-direction:column;padding:0 17px}
+.book-cell .tome{--d:20px}
+/* gilded shelf board — bleeds into the cell padding so neighbours' boards meet to
+   form one continuous shelf under each row; sits exactly at the book baseline. */
+.shelfboard{height:21px;margin:18px -17px 0;position:relative;
+  background:linear-gradient(180deg,#3c3019 0%,#28200f 42%,#120d07 100%);
+  box-shadow:0 17px 30px rgba(0,0,0,.5)}
+.shelfboard::before{content:"";position:absolute;left:0;right:0;top:0;height:2px;
+  background:linear-gradient(90deg,rgba(244,208,137,0),rgba(244,208,137,.72) 28%,rgba(244,208,137,.72) 72%,rgba(244,208,137,0))}
+.label{margin-top:18px}
+.bookno{font-family:'Cinzel',serif;font-size:10.5px;letter-spacing:.24em;color:var(--gold);text-transform:uppercase}
+.name{font-size:20px;line-height:1.2;margin:3px 0 2px;color:var(--ink)}
+.meta2{font-size:14px;color:var(--dim)}
+
+/* ── footer ────────────────────────────────────────────── */
+footer{border-top:1px solid var(--line);margin-top:60px;padding:34px 0 60px;color:var(--dim);font-size:15.5px;text-align:center}
 footer b{color:var(--muted);font-weight:600}
 footer .small{font-size:13px;opacity:.7;margin-top:8px}
-/* Author name brand styling — Shekinaih Siew Sin Yap is ALWAYS gold, J Aaron K David ALWAYS silver */
+/* Author brand — Shekinaih Siew Sin Yap ALWAYS gold, J Aaron K David ALWAYS silver */
 .au-gold{background:var(--gold-metal);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;font-weight:700}
 .au-silver{background:linear-gradient(180deg,#ffffff 0%,#c6cad8 55%,#9aa0b6 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;font-weight:700}
 
-.reveal{opacity:0;transform:translateY(16px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+/* ── entrance ──────────────────────────────────────────── */
+.reveal{opacity:0;transform:translateY(18px);animation:rise .8s cubic-bezier(.2,.7,.2,1) forwards}
 @keyframes rise{to{opacity:1;transform:none}}
 
+/* ── responsive ────────────────────────────────────────── */
+@media(max-width:880px){
+  .shelf{grid-template-columns:repeat(3,1fr)}
+}
 @media(max-width:760px){
   body{font-size:18px}
-  .hero{grid-template-columns:1fr;gap:26px;padding-top:26px;text-align:center}
-  .hero-cover{max-width:260px;margin:0 auto}
+  .hero{grid-template-columns:1fr;gap:14px;padding-top:22px;text-align:center}
+  .hero-book{max-width:260px;margin:0 auto}
   .meta{justify-content:center}
   .blurb{margin-left:auto;margin-right:auto}
-  .grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:24px 18px}
 }
-@media (prefers-reduced-motion: reduce){.reveal{animation:none;opacity:1;transform:none}.stars{animation:none}}
+@media(max-width:520px){
+  .shelf{grid-template-columns:repeat(2,1fr)}
+  .name{font-size:18px}
+}
+@media (prefers-reduced-motion: reduce){
+  .reveal{animation:none;opacity:1;transform:none}
+  .stars,.gleam::before,.hero .tome__3d{animation:none}
+}
 </style>
 </head>
 <body>
@@ -122,13 +188,24 @@ footer .small{font-size:13px;opacity:.7;margin-top:8px}
 
 <div class="wrap">
 
-  <div class="brand reveal"><span class="mark"></span><b>Crowned&nbsp;Eagles&nbsp;Global</b></div>
+  <header class="brand reveal"><span class="mark"></span><b>Crowned&nbsp;Eagles&nbsp;Global</b></header>
 
+  <!-- ── Featured ───────────────────────────────────────── -->
   <section class="hero">
-    <div class="hero-cover reveal" style="animation-delay:.05s">
-      <img src="images/book-5/cover.jpg" alt="Behold My Messenger 5 — The Resurrection of the Dead">
+    <div class="hero-book reveal" style="animation-delay:.06s">
+      <a class="tome live" href="book-5.html" aria-label="Listen to Book 5 — The Resurrection of the Dead">
+        <div class="tome__3d">
+          <div class="tome__face tome__spine"></div>
+          <div class="tome__face tome__pages"></div>
+          <div class="tome__face tome__cover">
+            <img src="images/book-5/cover.jpg" alt="Behold My Messenger 5 — The Resurrection of the Dead">
+            <span class="gleam"></span>
+          </div>
+        </div>
+        <span class="tome__play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+      </a>
     </div>
-    <div class="reveal" style="animation-delay:.14s">
+    <div class="hero-copy reveal" style="animation-delay:.16s">
       <p class="tagline">Behold My Messenger &middot; Book Five</p>
       <h1>The Resurrection<br>of the Dead</h1>
       <p class="sub">The Doctrine of the Power of the Age to Come</p>
@@ -146,12 +223,13 @@ footer .small{font-size:13px;opacity:.7;margin-top:8px}
     </div>
   </section>
 
-  <section class="shelf">
-    <div class="shelf-head reveal">
+  <!-- ── The library shelf ──────────────────────────────── -->
+  <section class="library">
+    <div class="lib-head reveal">
       <h2>The Complete Series</h2>
       <p>Five books &middot; narrated with reverence</p>
     </div>
-    <div class="grid" id="grid"></div>
+    <div class="shelf" id="shelf"></div>
   </section>
 
   <footer class="reveal">
@@ -162,26 +240,37 @@ footer .small{font-size:13px;opacity:.7;margin-top:8px}
 
 <script>
 const BOOKS = [
-  {n:1, title:"Behold My Glory",              sub:"The Victory",                    file:null,          status:"soon"},
-  {n:2, title:"Behold My Anointed",           sub:"Take up your cross and follow",  file:null,          status:"soon"},
-  {n:3, title:"Behold My Names",              sub:"The Seven Names of the Trinity", file:null,          status:"soon"},
-  {n:4, title:"Behold My Great White Throne", sub:"Revelation &middot; Judgement",  file:null,          status:"soon"},
-  {n:5, title:"The Resurrection of the Dead", sub:"The Power of the Age to Come",   file:"book-5.html", status:"live", meta:"21h 17m"},
+  {n:1, title:"Behold My Glory",              sub:"The Victory",                   file:null,          status:"soon", meta:"≈20h"},
+  {n:2, title:"Behold My Anointed",           sub:"Take Up Your Cross",            file:null,          status:"soon", meta:"≈17h"},
+  {n:3, title:"Behold My Names",              sub:"Seven Names of the Trinity",    file:null,          status:"soon", meta:"≈18h"},
+  {n:4, title:"Behold My Great White Throne", sub:"Revelation · Judgement",   file:null,          status:"soon", meta:"≈9h"},
+  {n:5, title:"The Resurrection of the Dead", sub:"The Power of the Age to Come",  file:"book-5.html", status:"live", meta:"21h 17m"},
 ];
 const PLAY = '<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
-document.getElementById('grid').innerHTML = BOOKS.map((b,i)=>{
+document.getElementById('shelf').innerHTML = BOOKS.map((b,i)=>{
   const live = b.status==='live';
-  const tag = live ? '<span class="badge go">Listen Now</span>' : '<span class="badge soon">In Production</span>';
-  const fab = live ? `<span class="play-fab">${PLAY}</span>` : '';
-  const meta = live ? (b.meta||'') : 'Coming soon';
+  const ribbon = live ? '<span class="ribbon go">Listen Now</span>'
+                      : '<span class="ribbon soon">In Production</span>';
+  const gleam  = live ? '<span class="gleam"></span>' : '';
+  const play   = live ? `<span class="tome__play">${PLAY}</span>` : '';
+  const metaTxt = live ? b.meta : (b.meta + ' · soon');
+  const tome =
+    `<div class="tome__3d">`+
+      `<div class="tome__face tome__spine"></div>`+
+      `<div class="tome__face tome__pages"></div>`+
+      `<div class="tome__face tome__cover">`+
+        `<img src="images/book-${b.n}/cover.jpg" alt="${b.title}" loading="lazy">${gleam}`+
+      `</div>`+
+    `</div>${ribbon}${play}`;
+  const tomeHtml = live ? `<a class="tome live" href="${b.file}">${tome}</a>`
+                        : `<div class="tome soon">${tome}</div>`;
   const inner =
-    `<div class="art">${tag}<img src="images/book-${b.n}/cover.jpg" alt="${b.title}" loading="lazy">${fab}</div>`+
+    tomeHtml +
+    `<div class="shelfboard"></div>`+
     `<div class="label"><div class="bookno">Book ${b.n}</div>`+
-    `<div class="name">${b.title}</div><div class="meta2">${b.sub} &nbsp;&middot;&nbsp; ${meta}</div></div>`;
-  const cls = `card reveal ${live?'live':'soon'}`;
-  const delay = `style="animation-delay:${.2 + i*.06}s"`;
-  return live ? `<a class="${cls}" ${delay} href="${b.file}">${inner}</a>`
-              : `<div class="${cls}" ${delay}>${inner}</div>`;
+    `<div class="name">${b.title}</div>`+
+    `<div class="meta2">${b.sub} &nbsp;&middot;&nbsp; ${metaTxt}</div></div>`;
+  return `<div class="book-cell reveal" style="animation-delay:${.22 + i*.07}s">${inner}</div>`;
 }).join('');
 </script>
 </body>
