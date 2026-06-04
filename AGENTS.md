@@ -115,24 +115,29 @@ expands references automatically. Whenever the abbreviation map changes, re-rend
 the affected segments with `fix_scripture.py` (re-synthesizes only the segments whose
 text changes, then re-masters only the affected tracks/children).
 
-**Divine pronouns — read short ALL-CAPS words as words, not letters.** The manuscript
-writes divine pronouns in capitals ("MY", "US", "WE", "OUR", …). Short all-caps words get
-**spelled out letter-by-letter** by the TTS — "MY" → "M-Y", "US" → "U-S" (e.g. "BEHOLD MY
-MESSENGER" was heard as "behold M-Y messenger"). Fix by respelling each to the lowercase word
-in `config.py` `LEXICON`: `"US": "us"`, `"MY": "my"`. The match is `\bWORD\b` and
-case-sensitive, so it leaves "JESUS"/"ARMY"/"MYSTERY"/already-lowercase forms alone.
+**ALL-CAPS emphasis → read as normal words (EVERY all-caps word, all 5 books).** The
+manuscript writes divine names / pronouns / emphasis in capitals — "SHE", "MY", "US", "OUR",
+"THE TRINITY", "DOCTRINES", "FATHER", … The TTS otherwise **spells short caps letter-by-letter**
+("MY"→"M-Y", "US"→"U-S", "SHE"→"S-H-E") and mis-stresses longer ones. `render_kokoro.py`
+`normalize_caps()` — called inside `prep()`, AFTER the lexicon — lower-cases every all-caps
+word so it is spoken normally. **Two exceptions kept as-is:** pure-consonant **acronyms**
+(KJV, TV, BC, MT, SG — let the TTS spell them) and **Roman numerals** (II, III, IV, VI).
+Special proper-noun *pronunciations* still live in `config.py LEXICON`
+(SHEKINAIH→Shekinaya, YAHWEH→Yah-weh, ELOHIM, ADONAI) and are applied first; you no longer
+add per-word lowercase entries (US/MY) there — `normalize_caps` covers them generically.
 
-**After adding a lexicon entry you MUST re-render with Kokoro, never edge-tts.**
+**After changing the caps or lexicon rules you MUST re-render with Kokoro, never edge-tts.**
 `fix_scripture.py`'s own re-synthesis path uses edge-tts — off-voice AND not commercial-safe —
-so it would silently reintroduce the wrong voice for those segments. The correct three steps:
+so it would silently reintroduce the wrong voice. Because caps appear in almost every
+paragraph, the all-caps pattern re-renders ≈ the whole book:
 
 ```
-# 1. re-render ONLY the matching segments with Kokoro (.venv-tts) — re-applies the new lexicon
-.venv-tts/Scripts/python render_kokoro.py --pattern '\bMY\b'
-# 2. re-master the affected tracks + rebuild & inline the manifest (3.14 env) — NO re-synthesis
-python fix_scripture.py --pattern '\bMY\b' --remaster-only
-# 3. python build_readalong.py (refresh timings) · bump the changed tracks in data/versions.json ·
-#    re-upload those mp3s to R2 (they're gitignored; the live site streams from the bucket)
+# 1. re-render every segment containing an all-caps word, with Kokoro (.venv-tts):
+.venv-tts/Scripts/python render_kokoro.py --pattern '\b[A-Z]{2,}\b'
+# 2. re-master affected tracks + rebuild & inline the manifest (3.14 env) — NO re-synthesis:
+python fix_scripture.py --pattern '\b[A-Z]{2,}\b' --remaster-only
+# 3. python build_readalong.py (refresh timings) · re-upload those mp3s to R2
+#    (gitignored; the live site streams from the bucket)
 ```
 
 ## Read-along reader view

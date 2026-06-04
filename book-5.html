@@ -196,6 +196,9 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
 .cbtn svg{display:block}
 .cbtn.skip{position:relative}
 .cbtn.skip span{position:absolute; font-size:8px; font-weight:700; font-family:'DM Sans'}
+.cbtn.chap{color:#e8c98a}
+.cbtn.chap:hover{color:#f6dca2; background:rgba(232,184,109,.12)}
+.cbtn:disabled{opacity:.25; pointer-events:none; cursor:default}
 .play{background:var(--gold-metal); color:#1A1205; width:54px; height:54px; border-radius:50%;
   box-shadow:0 8px 26px rgba(200,146,58,.42), inset 0 1px 0 rgba(255,255,255,.45); transition:transform .25s var(--ease)}
 .play:hover{transform:scale(1.06); color:#1A1205}
@@ -223,6 +226,14 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
   .wrap{padding:0 18px}
   .btn{flex:1; justify-content:center; padding:15px 18px; letter-spacing:1.2px}
   .resume .rttl{display:none}
+}
+/* phones: 2-row player so all controls (incl. chapter prev/next) fit with a readable title */
+@media(max-width:500px){
+  :root{--player-h:124px}
+  .pbar{flex-wrap:wrap; align-content:center; justify-content:center; gap:6px 7px; padding:8px 10px}
+  .pinfo{order:-1; flex:0 0 100%; text-align:center}
+  .pinfo .now{font-size:16px}
+  .pinfo .sub{margin-top:1px}
 }
 .empty{text-align:center; color:var(--silver-dim); padding:60px 0; font-style:italic; font-family:'Cormorant Garamond',serif; font-size:20px}
 
@@ -346,12 +357,16 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
   <div class="seek" id="seek"><div class="fill" id="seekFill"></div></div>
   <div class="pbar">
     <div class="ctrls">
+      <button class="cbtn chap" id="prevCh" title="Previous chapter" aria-label="Previous chapter">
+        <svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2.2v12H6zM20 6v12l-9-6z"/></svg></button>
       <button class="cbtn skip" id="back15" title="Back 15 seconds"><span style="top:17px">15</span>
         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M11 8 7 12l4 4"/><path d="M7 12h7a4 4 0 0 1 0 8H9"/></svg></button>
       <button class="cbtn play" id="playBtn" title="Play">
         <svg id="playIco" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
       <button class="cbtn skip" id="fwd15" title="Forward 15 seconds"><span style="top:17px">15</span>
         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 8l4 4-4 4"/><path d="M17 12h-7a4 4 0 0 0 0 8h5"/></svg></button>
+      <button class="cbtn chap" id="nextCh" title="Next chapter" aria-label="Next chapter">
+        <svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor"><path d="M15.8 6H18v12h-2.2zM4 6l9 6-9 6z"/></svg></button>
     </div>
     <div class="pinfo">
       <div class="now" id="nowTtl">Select a chapter to begin</div>
@@ -2475,6 +2490,7 @@ const CHEV = `<svg class="chev" viewBox="0 0 16 16" fill="none" stroke="currentC
 let META = {};
 
 const nextReady = i => { for(let j=i+1;j<chapters.length;j++) if(chapters[j].ready) return j; return -1; };
+const prevReady = i => { for(let j=i-1;j>=0;j--) if(chapters[j].ready) return j; return -1; };
 
 async function init(){
   let data;
@@ -2561,9 +2577,24 @@ function select(i, autoplay, reveal){
   }
   if(autoplay) play();
   setMedia(c);
+  updateChapNav();
   save();
 }
 function play(){ A.play(); }
+// Move to the previous/next PLAYABLE chapter without returning to the list — works in the
+// reader view too (it re-opens the reader on the new chapter). idx<0 means nothing has played
+// yet, so jump to the first ready chapter.
+function goChapter(d){
+  if(idx<0){ const f=nextReady(-1); if(f>=0)(document.body.classList.contains('reading')?openReader(f):select(f,true,true)); return; }
+  const n = d>0 ? nextReady(idx) : prevReady(idx);
+  if(n<0) return;
+  document.body.classList.contains('reading') ? openReader(n) : select(n,true,true);
+}
+function updateChapNav(){
+  const p=document.getElementById('prevCh'), nx=document.getElementById('nextCh');
+  if(p) p.disabled = idx<0 || prevReady(idx)<0;
+  if(nx) nx.disabled = idx<0 || nextReady(idx)<0;
+}
 
 // ---------- read-along reader ----------
 let RA=null, raSpoken=-1, readerFont=23, readerId=null;
@@ -2645,6 +2676,8 @@ function toggle(){ if(!A.src){ const f=nextReady(-1); if(f>=0) select(f,true); r
 document.getElementById('playBtn').onclick=toggle;
 document.getElementById('back15').onclick=()=>A.currentTime=Math.max(0,A.currentTime-15);
 document.getElementById('fwd15').onclick=()=>A.currentTime=Math.min(A.duration||1e9,A.currentTime+15);
+document.getElementById('prevCh').onclick=()=>goChapter(-1);
+document.getElementById('nextCh').onclick=()=>goChapter(1);
 document.getElementById('rateBtn').onclick=()=>{ rateI=(rateI+1)%RATES.length; A.playbackRate=RATES[rateI]; document.getElementById('rateBtn').textContent=RATES[rateI]+"×"; save(); };
 
 const rptBtn=document.getElementById('rptBtn');
@@ -2685,14 +2718,14 @@ function setMedia(c){
   navigator.mediaSession.setActionHandler('pause',()=>A.pause());
   navigator.mediaSession.setActionHandler('seekbackward',()=>A.currentTime-=15);
   navigator.mediaSession.setActionHandler('seekforward',()=>A.currentTime+=15);
-  navigator.mediaSession.setActionHandler('previoustrack',()=>{ if(idx>0) select(idx-1,true); });
-  navigator.mediaSession.setActionHandler('nexttrack',()=>{ if(idx+1<chapters.length) select(idx+1,true); });
+  navigator.mediaSession.setActionHandler('previoustrack',()=>goChapter(-1));
+  navigator.mediaSession.setActionHandler('nexttrack',()=>goChapter(1));
 }
 document.addEventListener('keydown', e=>{
   if(e.target.tagName==='INPUT') return;
   if(e.code==='Space'){ e.preventDefault(); toggle(); }
-  if(e.code==='ArrowLeft') A.currentTime-=15;
-  if(e.code==='ArrowRight') A.currentTime+=15;
+  if(e.code==='ArrowLeft') e.shiftKey?goChapter(-1):(A.currentTime-=15);
+  if(e.code==='ArrowRight') e.shiftKey?goChapter(1):(A.currentTime+=15);
 });
 init();
 </script>
