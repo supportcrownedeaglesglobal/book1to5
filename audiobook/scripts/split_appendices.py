@@ -144,7 +144,7 @@ def targets(chapters, only):
             if t["order"] == only:
                 out.append(t)
             continue
-        if t["level"] != 1 or t["order"] < FIRST_ORDER:
+        if t["level"] != 1 or t["order"] < C.SPLIT_FROM_ORDER:
             continue
         mp3 = C.CHAPTERS / f"{t['id']}.mp3"
         if mp3.exists() and M.duration_sec(mp3) > TARGET_MIN_SEC:

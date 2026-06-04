@@ -61,6 +61,11 @@ MANIFEST_JSON  = DATA / "manifest.json"
 OVERRIDES_JSON = DATA / "overrides.json"                    # optional manual speaker corrections
 PLAYER_HTML    = REPO / f"book-{BOOK}.html"                 # the per-book player page
 
+# split_appendices: lowest track ORDER eligible for sub-splitting. Book 5 only splits
+# its back matter (appendices begin at order 63); books 1-4 have no separate appendix
+# section, so every long chapter from the start is eligible to break at its sub-headings.
+SPLIT_FROM_ORDER = 63 if BOOK == "5" else 1
+
 # ---------------------------------------------------------------- voice cast
 # edge-tts neural voices (dev previews only — NOT shipped). Production audio is Kokoro
 # (render_kokoro.py VOICE map). rate/pitch tuned per speaker.
