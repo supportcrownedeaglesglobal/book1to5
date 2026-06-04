@@ -211,6 +211,16 @@ in `data/versions.json` by 1, (3) `python build_manifest.py && python inline_man
 redeploy. Unlisted chapters default to `version: 1`. The `?v=` change makes the browser and
 edge treat it as a new URL — only that chapter re-downloads.
 
+## Branding
+
+- **Author names are always brand-styled:** **"Shekinaih Siew Sin Yap" → GOLD**,
+  **"J Aaron K David" → SILVER**, on every page and every book. The landing page uses
+  `.au-gold` / `.au-silver`; the book players use `.name-gold` / `.name-silver`. Carry this
+  onto every new book page.
+- **Never advertise the TTS engine on customer-facing pages** (the audiobooks are sold) — no
+  "narrated with Kokoro" / synthetic-voice wording on the landing page or players. Kokoro is
+  documented internally (here + `config.py`) only.
+
 ## Gotchas
 
 - Global git identity is `jjcheng9296` — do **not** pass `-c user.name` (impersonation).
