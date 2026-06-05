@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["156-handover-declaration"]={"id": "156-handover-declaration", "title": "HANDOVER DECLARATION", "paragraphs": [{"role": "chapter_title", "text": "HANDOVER DECLARATION", "start": 0.3, "end": 2.82}, {"role": "body", "text": "Receiving back the authority on behalf of THE TRINITY", "start": 4.22, "end": 8.6}]};

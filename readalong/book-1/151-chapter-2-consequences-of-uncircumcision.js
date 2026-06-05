@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["151-chapter-2-consequences-of-uncircumcision"]={"id": "151-chapter-2-consequences-of-uncircumcision", "title": "Chapter 2 \nConsequences of Uncircumcision", "paragraphs": [{"role": "chapter_title", "text": "Chapter 2 \nConsequences of Uncircumcision", "start": 0.3, "end": 5.33}]};

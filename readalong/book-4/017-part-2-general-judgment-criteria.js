@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["017-part-2-general-judgment-criteria"]={"id": "017-part-2-general-judgment-criteria", "title": "PART 2\nGeneral Judgment Criteria", "paragraphs": [{"role": "chapter_title", "text": "PART 2\nGeneral Judgment Criteria", "start": 0.3, "end": 4.7}]};

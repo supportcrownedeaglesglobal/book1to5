@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["067-3-lowliness-of-mind"]={"id": "067-3-lowliness-of-mind", "title": "3) Lowliness of Mind", "paragraphs": [{"role": "chapter_title", "text": "3) Lowliness of Mind", "start": 0.3, "end": 3.0}]};

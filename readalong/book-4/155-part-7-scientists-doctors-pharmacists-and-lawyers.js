@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["155-part-7-scientists-doctors-pharmacists-and-lawyers"]={"id": "155-part-7-scientists-doctors-pharmacists-and-lawyers", "title": "Part 7 \nScientists, Doctors, Pharmacists, and LAWYERS", "paragraphs": [{"role": "chapter_title", "text": "Part 7 \nScientists, Doctors, Pharmacists, and LAWYERS", "start": 0.3, "end": 5.65}]};

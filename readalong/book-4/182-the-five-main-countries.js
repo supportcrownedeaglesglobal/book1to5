@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["182-the-five-main-countries"]={"id": "182-the-five-main-countries", "title": "THE FIVE Main Countries", "paragraphs": [{"role": "chapter_title", "text": "THE FIVE Main Countries", "start": 0.3, "end": 2.85}]};

@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["181-part-9-powers-of-anti-christ"]={"id": "181-part-9-powers-of-anti-christ", "title": "Part 9 \nPowers of Anti-Christ", "paragraphs": [{"role": "chapter_title", "text": "Part 9 \nPowers of Anti-Christ", "start": 0.3, "end": 4.3}]};

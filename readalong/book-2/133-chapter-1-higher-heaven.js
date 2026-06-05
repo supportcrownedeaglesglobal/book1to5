@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["133-chapter-1-higher-heaven"]={"id": "133-chapter-1-higher-heaven", "title": "Chapter 1 \nHigher Heaven", "paragraphs": [{"role": "chapter_title", "text": "Chapter 1 \nHigher Heaven", "start": 0.3, "end": 3.78}]};

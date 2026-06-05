@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["130-steps-to-resist-the-diabolos"]={"id": "130-steps-to-resist-the-diabolos", "title": "Steps to Resist the Diabolos", "paragraphs": [{"role": "chapter_title", "text": "Steps to Resist the Diabolos", "start": 0.3, "end": 3.22}]};

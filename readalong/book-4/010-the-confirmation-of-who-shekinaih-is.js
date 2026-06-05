@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["010-the-confirmation-of-who-shekinaih-is"]={"id": "010-the-confirmation-of-who-shekinaih-is", "title": "THE CONFIRMATION OF WHO SHEKINAIH IS", "paragraphs": [{"role": "chapter_title", "text": "THE CONFIRMATION OF WHO SHEKINAIH IS", "start": 0.3, "end": 3.72}]};

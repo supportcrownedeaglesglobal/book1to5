@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["062-the-144-000-brides-and-7-000-anointed"]={"id": "062-the-144-000-brides-and-7-000-anointed", "title": "THE 144, 000 BRIDES AND 7,000 ANOINTED", "paragraphs": [{"role": "chapter_title", "text": "THE 144, 000 BRIDES AND 7,000 ANOINTED", "start": 0.3, "end": 5.6}]};

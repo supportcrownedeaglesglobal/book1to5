@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["069-part-5-escape-the-torment-of-hell-fire-in-level-1-2-3"]={"id": "069-part-5-escape-the-torment-of-hell-fire-in-level-1-2-3", "title": "PART 5 \nESCAPE THE TORMENT OF HELL FIRE IN LEVEL 1, 2, 3", "paragraphs": [{"role": "chapter_title", "text": "PART 5 \nESCAPE THE TORMENT OF HELL FIRE IN LEVEL 1, 2, 3", "start": 0.3, "end": 6.35}]};

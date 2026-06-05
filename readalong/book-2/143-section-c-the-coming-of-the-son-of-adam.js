@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["143-section-c-the-coming-of-the-son-of-adam"]={"id": "143-section-c-the-coming-of-the-son-of-adam", "title": "Section C \nThe Coming of the Son of Adam", "paragraphs": [{"role": "chapter_title", "text": "Section C \nThe Coming of the Son of Adam", "start": 0.3, "end": 4.88}]};

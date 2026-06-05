@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["060-part-4-many-are-called-few-are-chosen"]={"id": "060-part-4-many-are-called-few-are-chosen", "title": "Part 4 \nMany are Called, \nFew are Chosen", "paragraphs": [{"role": "chapter_title", "text": "Part 4 \nMany are Called, \nFew are Chosen", "start": 0.3, "end": 5.68}]};

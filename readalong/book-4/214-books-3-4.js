@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["214-books-3-4"]={"id": "214-books-3-4", "title": "BOOKS 3 & 4", "paragraphs": [{"role": "chapter_title", "text": "BOOKS 3 & 4", "start": 0.3, "end": 2.42}, {"role": "heading", "text": "BOOK 5", "start": 3.82, "end": 5.3}]};

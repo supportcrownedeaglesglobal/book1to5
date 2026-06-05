@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["087-section-b-perilous-time-uncoming-appearance-unexpected"]={"id": "087-section-b-perilous-time-uncoming-appearance-unexpected", "title": "Section B\nPerilous Time/\nUncoming Appearance Unexpected", "paragraphs": [{"role": "chapter_title", "text": "Section B\nPerilous Time/\nUncoming Appearance Unexpected", "start": 0.3, "end": 6.95}]};

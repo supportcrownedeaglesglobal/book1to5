@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["114-part-2-preparation-of-an-anointed-a-bride"]={"id": "114-part-2-preparation-of-an-anointed-a-bride", "title": "Part 2 \nPREPARATION OF AN ANOINTED/A BRIDE", "paragraphs": [{"role": "chapter_title", "text": "Part 2 \nPREPARATION OF AN ANOINTED/A BRIDE", "start": 0.3, "end": 4.95}]};

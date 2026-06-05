@@ -6,12 +6,12 @@
 <meta name="theme-color" content="#070815">
 <title>Behold My Messenger 3 — Behold My Names · Audiobook</title>
 <meta name="description" content="Listen free to the audiobook of Behold My Messenger 3 — Behold My Names by Shekinaih Siew Sin Yap & J Aaron K David. Narrated in full, chapter by chapter. A Crowned Eagles Global work.">
-<link rel="canonical" href="https://supportcrownedeaglesglobal.github.io/book5/">
+<link rel="canonical" href="https://crownedeaglesglobal-beholdmymessengerseries-audio.pages.dev/">
 <meta property="og:type" content="book">
-<meta property="og:url" content="https://supportcrownedeaglesglobal.github.io/book5/">
+<meta property="og:url" content="https://crownedeaglesglobal-beholdmymessengerseries-audio.pages.dev/">
 <meta property="og:title" content="Behold My Messenger 3 — Behold My Names · Audiobook">
 <meta property="og:description" content="The Seven Names of the Trinity, narrated in full. A Crowned Eagles Global work.">
-<meta property="og:image" content="https://supportcrownedeaglesglobal.github.io/book5/images/book-3/cover.jpg">
+<meta property="og:image" content="https://crownedeaglesglobal-beholdmymessengerseries-audio.pages.dev/images/book-3/cover.jpg">
 <link rel="preload" as="image" href="images/book-3/cover.jpg" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -209,24 +209,62 @@ h1 .small{display:block; font-family:'Cormorant Garamond',serif; font-style:ital
 .rpt{display:grid; place-items:center; padding:7px 10px}
 .rpt svg{display:block}
 .rpt.on{background:rgba(232,184,109,.14)}
-/* back to the library (index.html) */
-.to-library{display:flex; width:fit-content; margin:26px auto 4px; align-items:center; gap:11px;
-  font-family:'Cinzel',serif; font-size:11.5px; font-weight:600; letter-spacing:.26em; text-transform:uppercase;
-  color:var(--gold2); text-decoration:none; padding:12px 26px; border-radius:100px;
+/* book switcher — dropdown to jump to any book or back to the library (index.html) */
+.booknav{position:relative; width:fit-content; margin:26px auto 4px; z-index:45}
+.to-library{display:flex; align-items:center; gap:10px; cursor:pointer;
+  font-family:'Cinzel',serif; font-size:11.5px; font-weight:600; letter-spacing:.24em; text-transform:uppercase;
+  color:var(--gold2); padding:12px 22px; border-radius:100px;
   background:linear-gradient(180deg, rgba(232,184,109,.07), rgba(232,184,109,.015));
   border:1px solid rgba(232,184,109,.26);
   box-shadow:inset 0 1px 0 rgba(255,255,255,.05), 0 6px 18px rgba(0,0,0,.22);
   transition:color .35s var(--ease), border-color .35s var(--ease), background .35s var(--ease), box-shadow .35s var(--ease)}
-.to-library:hover{color:var(--gold-bright); border-color:rgba(232,184,109,.6);
+.to-library:hover, .booknav.open .to-library{color:var(--gold-bright); border-color:rgba(232,184,109,.6);
   background:linear-gradient(180deg, rgba(232,184,109,.14), rgba(232,184,109,.045));
   box-shadow:inset 0 1px 0 rgba(255,255,255,.08), 0 10px 28px rgba(200,146,58,.22)}
-.to-library svg{width:13px; height:13px; fill:none; stroke:currentColor; stroke-width:2.6;
-  transition:transform .35s var(--ease)}
-.to-library:hover svg{transform:translateX(-4px)}
-body.reading .to-library{display:none}
+.to-library .bn-caret{width:13px; height:13px; fill:none; stroke:currentColor; stroke-width:2.6; transition:transform .3s var(--ease)}
+.booknav.open .bn-caret{transform:rotate(180deg)}
+.booknav-menu{position:absolute; top:calc(100% + 9px); left:50%;
+  transform:translateX(-50%) translateY(-8px); transform-origin:top center;
+  min-width:268px; max-width:88vw; padding:7px; text-align:left;
+  background:rgba(9,13,33,.97); -webkit-backdrop-filter:blur(18px); backdrop-filter:blur(18px);
+  border:1px solid rgba(232,184,109,.3); border-radius:16px;
+  box-shadow:0 24px 56px rgba(0,0,0,.62), inset 0 1px 0 rgba(255,255,255,.05);
+  opacity:0; visibility:hidden; transition:opacity .25s var(--ease), transform .25s var(--ease)}
+.booknav.open .booknav-menu{opacity:1; visibility:visible; transform:translateX(-50%) translateY(0)}
+.booknav-menu{min-width:304px}
+.booknav-menu a{display:flex; align-items:center; gap:13px; padding:9px 13px; border-radius:12px;
+  text-decoration:none; transition:background .18s}
+.booknav-menu a:hover{background:rgba(232,184,109,.12)}
+.bn-cover{width:40px; height:60px; object-fit:cover; border-radius:4px; flex:0 0 auto; background:#15111f;
+  box-shadow:0 4px 12px rgba(0,0,0,.55); border:1px solid rgba(232,184,109,.32);
+  transition:transform .22s var(--ease), box-shadow .22s var(--ease)}
+.booknav-menu a:hover .bn-cover{transform:scale(1.07) translateY(-1px); box-shadow:0 7px 18px rgba(0,0,0,.6)}
+.bn-label{display:flex; flex-direction:column; gap:2px; min-width:0}
+.bn-label b{font-family:'Cinzel',serif; font-size:9.5px; font-weight:700; letter-spacing:.2em; text-transform:uppercase; color:var(--gold2)}
+.bn-label em{font-family:'Cormorant Garamond',serif; font-style:normal; font-weight:600; font-size:19px; color:var(--silver2); line-height:1.12}
+.booknav-menu a:hover .bn-label em{color:#fff}
+.booknav-menu a.current{background:rgba(232,184,109,.15)}
+.booknav-menu a.current .bn-cover{border-color:var(--gold-bright); box-shadow:0 0 0 1.5px var(--gold-bright), 0 5px 16px rgba(200,146,58,.4)}
+.booknav-menu a.current .bn-label b{color:var(--gold-bright)}
+.booknav-menu a.current .bn-label em{font-weight:700; color:#fff}
+.booknav-menu a.current::after{content:"\25B8"; margin-left:auto; color:var(--gold2); font-size:14px}
+.booknav-menu .bn-home{display:flex; align-items:center; gap:11px; color:var(--gold2); font-family:'Cinzel',serif; font-size:11.5px; letter-spacing:.16em; text-transform:uppercase; font-weight:600;
+  border-bottom:1px solid var(--border); border-radius:12px 12px 0 0; margin-bottom:5px; padding:11px 14px 13px}
+.bn-home .bn-ico{font-size:17px; line-height:1}
+.bn-home:hover{color:var(--gold-bright)}
+body.reading .booknav{display:none}
 .reader-home{display:inline-flex; align-items:center; justify-content:center; text-decoration:none;
   color:var(--silver-dim); font-size:19px; line-height:1; padding:9px 11px; border-radius:10px; transition:color .2s,background .2s}
 .reader-home:hover{color:var(--gold2); background:rgba(220,228,245,.06)}
+/* CROWNED EAGLES GLOBAL — brand wordmark: full-caps flowing rainbow (echoes the org logo) */
+.ceg{font-family:'Cinzel',serif; font-weight:700; text-transform:uppercase; letter-spacing:.05em; white-space:nowrap;
+  background:linear-gradient(92deg,#ff5a5a,#ff9a3d,#ffe24d,#5ee06b,#3dd7ff,#6a8bff,#c46bff,#ff6bb8,#ff5a5a);
+  background-size:220% auto; -webkit-background-clip:text; background-clip:text;
+  -webkit-text-fill-color:transparent; color:transparent;
+  filter:drop-shadow(0 0 5px rgba(255,255,255,.22)) drop-shadow(0 1px 1px rgba(0,0,0,.45));
+  animation:cegflow 9s linear infinite}
+@keyframes cegflow{to{background-position:220% center}}
+@media (prefers-reduced-motion: reduce){.ceg{animation:none}}
 
 @media(max-width:860px){
   .hero{grid-template-columns:1fr; gap:36px; text-align:center; padding-top:clamp(48px,12vw,80px)}
@@ -320,7 +358,20 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
 
 <div class="wrap">
 
-  <a class="to-library" href="index.html"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>All&nbsp;Books</a>
+  <div class="booknav">
+    <button class="to-library" aria-haspopup="true" aria-expanded="false" aria-label="Choose a book">
+      All&nbsp;Books
+      <svg class="bn-caret" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+    <nav class="booknav-menu" role="menu" aria-label="Books">
+      <a class="bn-home" href="index.html" role="menuitem"><span class="bn-ico">&#8962;</span>All Books</a>
+      <a href="book-1.html" data-book="1" role="menuitem"><img class="bn-cover" alt="" loading="lazy"><span class="bn-label"><b>Book&nbsp;1</b><em>Behold My Glory</em></span></a>
+      <a href="book-2.html" data-book="2" role="menuitem"><img class="bn-cover" alt="" loading="lazy"><span class="bn-label"><b>Book&nbsp;2</b><em>Behold My Anointed</em></span></a>
+      <a href="book-3.html" data-book="3" role="menuitem"><img class="bn-cover" alt="" loading="lazy"><span class="bn-label"><b>Book&nbsp;3</b><em>Behold My Names</em></span></a>
+      <a href="book-4.html" data-book="4" role="menuitem"><img class="bn-cover" alt="" loading="lazy"><span class="bn-label"><b>Book&nbsp;4</b><em>Great White Throne</em></span></a>
+      <a href="book-5.html" data-book="5" role="menuitem"><img class="bn-cover" alt="" loading="lazy"><span class="bn-label"><b>Book&nbsp;5</b><em>Resurrection of the Dead</em></span></a>
+    </nav>
+  </div>
 
   <header class="hero">
     <div class="hero-art">
@@ -330,7 +381,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
       </a>
     </div>
     <div class="hero-copy">
-      <p class="eyebrow reveal d1">Crowned Eagles Global · The Audiobook</p>
+      <p class="eyebrow reveal d1"><span class="ceg">Crowned&nbsp;Eagles&nbsp;Global</span> · The Audiobook</p>
       <h1 class="reveal d2"><span class="gold">Behold My Messenger 3</span><span class="small">Behold My Names</span></h1>
       <p class="byline reveal d3"><span class="name-gold">Shekinaih Siew Sin Yap</span><span class="amp">&amp;</span><span class="name-silver">J Aaron K David</span></p>
       <p class="blurb reveal d4">The Seven Names of the Trinity, narrated in full, that it may be heard as it was meant to be received.</p>
@@ -352,9 +403,9 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
 
   <section class="band">
     <h2 class="sec-title">Read it in print and digital</h2>
-    <p>The full library of the messengers lives on the Crowned Eagles Global network.</p>
+    <p>The full library of the messengers lives on <span class="ceg">Crowned&nbsp;Eagles&nbsp;Global</span>.</p>
     <a class="btn btn-gold" href="https://www.crownedeaglesglobal.org/book" target="_blank" rel="noopener">Visit Crowned Eagles Global ↗</a>
-    <p class="credit">An audiobook from <a href="https://www.crownedeaglesglobal.org/book" target="_blank" rel="noopener">Crowned Eagles Global</a> · Singapore</p>
+    <p class="credit">An audiobook from <a href="https://www.crownedeaglesglobal.org/book" target="_blank" rel="noopener"><span class="ceg">Crowned&nbsp;Eagles&nbsp;Global</span></a> · Singapore</p>
   </section>
 
   <section id="reader" aria-label="Read along">
@@ -433,7 +484,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "CONTENTS",
    "ready": true,
-   "durationSec": 856.39,
+   "durationSec": 856.66,
    "estSec": 456.8,
    "audioUrl": "audio/book-3/001-02-contents.mp3",
    "version": 1
@@ -455,7 +506,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "FOREWORD 2",
    "ready": true,
-   "durationSec": 258.7,
+   "durationSec": 259.03,
    "estSec": 269.6,
    "audioUrl": "audio/book-3/001-04-foreword-2.mp3",
    "version": 1
@@ -521,7 +572,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE ONE = THE REVENGER",
    "ready": true,
-   "durationSec": 652.4,
+   "durationSec": 653.38,
    "estSec": 713.2,
    "audioUrl": "audio/book-3/001-10-the-one-the-revenger.mp3",
    "version": 1
@@ -565,7 +616,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "IN THE BEGINNING",
    "ready": true,
-   "durationSec": 2025.58,
+   "durationSec": 2025.83,
    "estSec": 2113.6,
    "audioUrl": "audio/book-3/001-14-in-the-beginning.mp3",
    "version": 1
@@ -587,7 +638,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE THRONE OF THE TRINITY",
    "ready": true,
-   "durationSec": 731.81,
+   "durationSec": 732.03,
    "estSec": 756.8,
    "audioUrl": "audio/book-3/001-16-the-throne-of-the-trinity.mp3",
    "version": 1
@@ -620,7 +671,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "CHAPTER 1",
    "ready": true,
-   "durationSec": 246.27,
+   "durationSec": 246.19,
    "estSec": 250.4,
    "audioUrl": "audio/book-3/002-02-chapter-1.mp3",
    "version": 1
@@ -642,7 +693,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE FATHER PLAYING CHESS WITH SATAN",
    "ready": true,
-   "durationSec": 368.09,
+   "durationSec": 368.24,
    "estSec": 381.6,
    "audioUrl": "audio/book-3/002-04-the-father-playing-chess-with-satan.mp3",
    "version": 1
@@ -708,7 +759,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE I/WE",
    "ready": true,
-   "durationSec": 724.66,
+   "durationSec": 725.09,
    "estSec": 785.6,
    "audioUrl": "audio/book-3/003-03-the-i-we.mp3",
    "version": 1
@@ -719,7 +770,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "MOSES WEARING WHITE",
    "ready": true,
-   "durationSec": 390.56,
+   "durationSec": 391.14,
    "estSec": 426.0,
    "audioUrl": "audio/book-3/003-04-moses-wearing-white.mp3",
    "version": 1
@@ -785,7 +836,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE FATHER:",
    "ready": true,
-   "durationSec": 275.33,
+   "durationSec": 275.43,
    "estSec": 277.2,
    "audioUrl": "audio/book-3/003-10-the-father.mp3",
    "version": 1
@@ -829,7 +880,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "TAN KHIAN SENG, A TEACHER/PROPHET IN SINGAPORE",
    "ready": true,
-   "durationSec": 327.52,
+   "durationSec": 328.09,
    "estSec": 317.6,
    "audioUrl": "audio/book-3/003-14-tan-khian-seng-a-teacher-prophet-in-singapore.mp3",
    "version": 1
@@ -917,7 +968,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "A GOLDEN SICKLE AND A PAIR OF WHITE SHOES",
    "ready": true,
-   "durationSec": 867.68,
+   "durationSec": 867.96,
    "estSec": 926.8,
    "audioUrl": "audio/book-3/003-22-a-golden-sickle-and-a-pair-of-white-shoes.mp3",
    "version": 1
@@ -972,7 +1023,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE MIGHTY ANGEL",
    "ready": true,
-   "durationSec": 232.42,
+   "durationSec": 232.82,
    "estSec": 260.0,
    "audioUrl": "audio/book-3/003-27-the-mighty-angel.mp3",
    "version": 1
@@ -1027,7 +1078,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "CONTINENTS IN JUSTICE",
    "ready": true,
-   "durationSec": 712.78,
+   "durationSec": 713.06,
    "estSec": 766.4,
    "audioUrl": "audio/book-3/003-32-continents-in-justice.mp3",
    "version": 1
@@ -1049,7 +1100,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "GOAT MINISTERS AND CHRISTIANS IN THE CONTINENTS",
    "ready": true,
-   "durationSec": 355.8,
+   "durationSec": 356.32,
    "estSec": 342.4,
    "audioUrl": "audio/book-3/003-34-goat-ministers-and-christians-in-the-continents.mp3",
    "version": 1
@@ -1071,7 +1122,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "GALAXIES IN JUSTICE",
    "ready": true,
-   "durationSec": 488.7,
+   "durationSec": 488.28,
    "estSec": 512.8,
    "audioUrl": "audio/book-3/003-36-galaxies-in-justice.mp3",
    "version": 1
@@ -1115,7 +1166,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "REALIZATION OF HOPES/DREAMS/PROMISES",
    "ready": true,
-   "durationSec": 239.98,
+   "durationSec": 238.98,
    "estSec": 246.8,
    "audioUrl": "audio/book-3/003-40-realization-of-hopes-dreams-promises.mp3",
    "version": 1
@@ -1170,7 +1221,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "ACT 4 SCENE 1",
    "ready": true,
-   "durationSec": 148.66,
+   "durationSec": 148.83,
    "estSec": 172.0,
    "audioUrl": "audio/book-3/004-01-act-4-scene-1.mp3",
    "version": 1
@@ -1192,7 +1243,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE SOURCE OF ORIGIN",
    "ready": true,
-   "durationSec": 576.64,
+   "durationSec": 576.92,
    "estSec": 597.2,
    "audioUrl": "audio/book-3/004-03-the-source-of-origin.mp3",
    "version": 1
@@ -1203,7 +1254,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "A RUBIK'S CUBE",
    "ready": true,
-   "durationSec": 487.52,
+   "durationSec": 487.47,
    "estSec": 504.8,
    "audioUrl": "audio/book-3/004-04-a-rubik-s-cube.mp3",
    "version": 1
@@ -1280,7 +1331,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "CHAPTER 3",
    "ready": true,
-   "durationSec": 678.28,
+   "durationSec": 677.41,
    "estSec": 740.8,
    "audioUrl": "audio/book-3/004-11-chapter-3.mp3",
    "version": 1
@@ -1379,7 +1430,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "MAJOR/MINOR EXECUTION POWER OF THE ANCIENT OF DAYS",
    "ready": true,
-   "durationSec": 273.65,
+   "durationSec": 273.25,
    "estSec": 288.4,
    "audioUrl": "audio/book-3/005-04-major-minor-execution-power-of-the-ancient-of-da.mp3",
    "version": 1
@@ -1401,7 +1452,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "CHAPTER 3",
    "ready": true,
-   "durationSec": 752.77,
+   "durationSec": 752.94,
    "estSec": 768.8,
    "audioUrl": "audio/book-3/005-06-chapter-3.mp3",
    "version": 1
@@ -1412,7 +1463,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "CHAPTER 4",
    "ready": true,
-   "durationSec": 317.32,
+   "durationSec": 317.42,
    "estSec": 330.0,
    "audioUrl": "audio/book-3/005-07-chapter-4.mp3",
    "version": 1
@@ -1434,7 +1485,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "1A) THE DISCIPLINE MASTER",
    "ready": true,
-   "durationSec": 602.42,
+   "durationSec": 600.87,
    "estSec": 589.2,
    "audioUrl": "audio/book-3/005-09-1a-the-discipline-master.mp3",
    "version": 1
@@ -1445,7 +1496,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE VOICE OF THE EL",
    "ready": true,
-   "durationSec": 349.39,
+   "durationSec": 349.14,
    "estSec": 352.4,
    "audioUrl": "audio/book-3/005-10-the-voice-of-the-el.mp3",
    "version": 1
@@ -1489,7 +1540,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "GREATLY FEARED BY ALL",
    "ready": true,
-   "durationSec": 360.99,
+   "durationSec": 360.74,
    "estSec": 373.2,
    "audioUrl": "audio/book-3/005-14-greatly-feared-by-all.mp3",
    "version": 1
@@ -1500,7 +1551,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THUNDEROUS EL",
    "ready": true,
-   "durationSec": 139.77,
+   "durationSec": 138.82,
    "estSec": 139.6,
    "audioUrl": "audio/book-3/005-15-thunderous-el.mp3",
    "version": 1
@@ -1522,7 +1573,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "CHAPTER 6",
    "ready": true,
-   "durationSec": 712.32,
+   "durationSec": 712.37,
    "estSec": 797.2,
    "audioUrl": "audio/book-3/005-17-chapter-6.mp3",
    "version": 1
@@ -1544,7 +1595,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "ACT 6 SCENE 1",
    "ready": true,
-   "durationSec": 278.72,
+   "durationSec": 278.69,
    "estSec": 325.2,
    "audioUrl": "audio/book-3/006-01-act-6-scene-1.mp3",
    "version": 1
@@ -1555,7 +1606,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "ACT 6 SCENE 2",
    "ready": true,
-   "durationSec": 118.51,
+   "durationSec": 118.66,
    "estSec": 129.6,
    "audioUrl": "audio/book-3/006-02-act-6-scene-2.mp3",
    "version": 1
@@ -1577,7 +1628,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "HEAVEN",
    "ready": true,
-   "durationSec": 339.02,
+   "durationSec": 339.07,
    "estSec": 369.2,
    "audioUrl": "audio/book-3/006-04-heaven.mp3",
    "version": 1
@@ -1610,7 +1661,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "SHEKINAIH AND DAVID EACH HOLDING A ROD",
    "ready": true,
-   "durationSec": 217.33,
+   "durationSec": 217.6,
    "estSec": 222.4,
    "audioUrl": "audio/book-3/006-07-shekinaih-and-david-each-holding-a-rod.mp3",
    "version": 1
@@ -1654,7 +1705,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "CHAPTER 2",
    "ready": true,
-   "durationSec": 202.3,
+   "durationSec": 202.38,
    "estSec": 198.0,
    "audioUrl": "audio/book-3/006-11-chapter-2.mp3",
    "version": 1
@@ -1665,7 +1716,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "50 COMMANDMENTS FOR THE LAST DAYS' ARMY",
    "ready": true,
-   "durationSec": 763.62,
+   "durationSec": 767.1,
    "estSec": 766.0,
    "audioUrl": "audio/book-3/006-12-50-commandments-for-the-last-days-army.mp3",
    "version": 1
@@ -1687,7 +1738,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE SWORD OF MY EXCELLENCY",
    "ready": true,
-   "durationSec": 160.36,
+   "durationSec": 160.54,
    "estSec": 150.8,
    "audioUrl": "audio/book-3/006-14-the-sword-of-my-excellency.mp3",
    "version": 1
@@ -1753,7 +1804,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE SPIRIT OF PROPHECY",
    "ready": true,
-   "durationSec": 361.32,
+   "durationSec": 361.47,
    "estSec": 392.0,
    "audioUrl": "audio/book-3/006-20-the-spirit-of-prophecy.mp3",
    "version": 1
@@ -1764,7 +1815,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE WORD \"SHEKINAH\"",
    "ready": true,
-   "durationSec": 299.87,
+   "durationSec": 300.14,
    "estSec": 308.8,
    "audioUrl": "audio/book-3/006-21-the-word-shekinah.mp3",
    "version": 1
@@ -1808,7 +1859,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE DRAGON AND THE PHOENIX",
    "ready": true,
-   "durationSec": 1386.21,
+   "durationSec": 1386.51,
    "estSec": 1444.4,
    "audioUrl": "audio/book-3/006-25-the-dragon-and-the-phoenix.mp3",
    "version": 1
@@ -1830,7 +1881,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "ACT 7 SCENE 1",
    "ready": true,
-   "durationSec": 122.06,
+   "durationSec": 122.23,
    "estSec": 136.4,
    "audioUrl": "audio/book-3/007-01-act-7-scene-1.mp3",
    "version": 1
@@ -1885,7 +1936,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE DECREE AND THE TRUMPET",
    "ready": true,
-   "durationSec": 101.88,
+   "durationSec": 102.01,
    "estSec": 96.0,
    "audioUrl": "audio/book-3/007-06-the-decree-and-the-trumpet.mp3",
    "version": 1
@@ -1907,7 +1958,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "CHAPTER 4",
    "ready": true,
-   "durationSec": 539.09,
+   "durationSec": 539.44,
    "estSec": 567.2,
    "audioUrl": "audio/book-3/007-08-chapter-4.mp3",
    "version": 1
@@ -1940,7 +1991,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "CHAPTER 7",
    "ready": true,
-   "durationSec": 211.43,
+   "durationSec": 211.6,
    "estSec": 212.4,
    "audioUrl": "audio/book-3/007-11-chapter-7.mp3",
    "version": 1
@@ -2061,7 +2112,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "DECREE 9: THE 7TH TRUMPET - MEXICO CITY SUNK",
    "ready": true,
-   "durationSec": 302.4,
+   "durationSec": 302.52,
    "estSec": 303.6,
    "audioUrl": "audio/book-3/007-22-decree-9-the-7th-trumpet-mexico-city-sunk.mp3",
    "version": 1
@@ -2160,7 +2211,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "JESUS CUTTING EARTH AND PLANETS WITH A SABER",
    "ready": true,
-   "durationSec": 194.78,
+   "durationSec": 194.08,
    "estSec": 182.4,
    "audioUrl": "audio/book-3/007-31-jesus-cutting-earth-and-planets-with-a-saber.mp3",
    "version": 1
@@ -2193,7 +2244,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "ACT 8 SCENE 2",
    "ready": true,
-   "durationSec": 314.78,
+   "durationSec": 315.33,
    "estSec": 351.6,
    "audioUrl": "audio/book-3/008-02-act-8-scene-2.mp3",
    "version": 1
@@ -2248,7 +2299,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "OH MY ADONAI, WHEREWITH SHALL I SAVE ISRAEL?",
    "ready": true,
-   "durationSec": 141.03,
+   "durationSec": 141.2,
    "estSec": 142.0,
    "audioUrl": "audio/book-3/008-07-oh-my-adonai-wherewith-shall-i-save-israel.mp3",
    "version": 1
@@ -2270,7 +2321,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE ADONAI SHALL LAUGH AT HIM: FOR HE SEETH THAT HIS DAY IS COMING",
    "ready": true,
-   "durationSec": 206.04,
+   "durationSec": 206.37,
    "estSec": 228.8,
    "audioUrl": "audio/book-3/008-09-the-adonai-shall-laugh-at-him-for-he-seeth-that.mp3",
    "version": 1
@@ -2402,7 +2453,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "THE OFFENCES OF JESUS",
    "ready": true,
-   "durationSec": 984.09,
+   "durationSec": 983.81,
    "estSec": 1018.8,
    "audioUrl": "audio/book-3/008-21-the-offences-of-jesus.mp3",
    "version": 1
@@ -2435,7 +2486,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "FINAL EPILOGUE",
    "ready": true,
-   "durationSec": 525.82,
+   "durationSec": 526.17,
    "estSec": 472.8,
    "audioUrl": "audio/book-3/008-24-final-epilogue.mp3",
    "version": 1
@@ -2446,7 +2497,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "ABOUT THE AUTHORS",
    "ready": true,
-   "durationSec": 140.88,
+   "durationSec": 142.15,
    "estSec": 150.4,
    "audioUrl": "audio/book-3/008-25-about-the-authors.mp3",
    "version": 1
@@ -2457,7 +2508,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "level": 2,
    "title": "APPRECIATION WITH THANKS",
    "ready": true,
-   "durationSec": 121.59,
+   "durationSec": 122.21,
    "estSec": 114.0,
    "audioUrl": "audio/book-3/008-26-appreciation-with-thanks.mp3",
    "version": 1
@@ -2542,7 +2593,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
  ],
  "readyCount": 194,
  "totalCount": 194,
- "totalSec": 61055.2,
+ "totalSec": 61063.6,
  "estTotalSec": 63223.2
 }
 </script>
@@ -2555,7 +2606,7 @@ const M_URL = "audio/book-3/manifest.json";
 // right now. When your audio is on Cloudflare R2, paste your bucket URL here (NO trailing
 // slash) and every track loads from it instead, e.g.:
 //   const AUDIO_BASE_URL = "";   // r2.dev, or a custom domain
-const AUDIO_BASE_URL = "https://pub-163ec17fb5564d7a9193345f48fea08f.r2.dev/beholdmymessenger-book5";
+const AUDIO_BASE_URL = "";
 //
 // CACHE-BUSTING BY VERSION: every chapter in the manifest carries a "version" (an integer,
 // default 1). When the audio is served from a REMOTE host (AUDIO_BASE_URL set), audioSrc()
@@ -2825,6 +2876,20 @@ document.addEventListener('keydown', e=>{
   if(e.code==='ArrowLeft') e.shiftKey?goChapter(-1):(A.currentTime-=15);
   if(e.code==='ArrowRight') e.shiftKey?goChapter(1):(A.currentTime+=15);
 });
+// book switcher: dropdown to jump to any book or back to the library
+(function(){
+  const nav=document.querySelector('.booknav'); if(!nav) return;
+  const btn=nav.querySelector('.to-library'), menu=nav.querySelector('.booknav-menu');
+  menu.querySelectorAll('a[data-book]').forEach(a=>{ const im=a.querySelector('.bn-cover'); if(im) im.src='images/book-'+a.dataset.book+'/cover-sm.jpg'; });
+  const cur=(location.pathname.match(/book-(\d+)\.html/)||[])[1];
+  if(cur){ const a=menu.querySelector('a[data-book="'+cur+'"]'); if(a){ a.classList.add('current'); a.setAttribute('aria-current','page'); } }
+  const set=o=>{ nav.classList.toggle('open',o); btn.setAttribute('aria-expanded',o?'true':'false'); };
+  btn.addEventListener('click',e=>{ e.stopPropagation(); set(!nav.classList.contains('open')); });
+  menu.addEventListener('click',e=>e.stopPropagation());
+  document.addEventListener('click',()=>set(false));
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape') set(false); });
+})();
+
 init();
 </script>
 </body>

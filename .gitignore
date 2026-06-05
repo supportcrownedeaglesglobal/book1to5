@@ -14,3 +14,6 @@ Thumbs.db
 
 # local diagram-curation gallery (not deployed)
 _diagram-gallery.html
+
+audio/book-*/*.mp3
+*.bak

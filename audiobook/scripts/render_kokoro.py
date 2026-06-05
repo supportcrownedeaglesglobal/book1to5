@@ -59,9 +59,19 @@ def normalize_caps(t):
         return w.lower()
     return _CAPS.sub(repl, t)
 
+# The messenger is always read in FULL — his name becomes the canonical "J Aaron K David"
+# everywhere it appears (title-case in the narrative, ALL-CAPS in emphatic passages). An optional
+# leading "J"/"J." already present is consumed, so we never double-prefix; the full "Aaron K David"
+# is required so the biblical "Moses and Aaron" and King "David" are never touched. Runs before
+# normalize_caps, so an emphatic "J AARON K DAVID" still de-caps to "J aaron K david" (spoken
+# "Jay Aaron Kay David"), matching the title-case form's pronunciation.
+_JAARON = re.compile(r"\b(?:J\.?\s+)?(AARON|Aaron)\s+K\.?\s+(DAVID|David)\b")
+def _jaaron(m):
+    return "J AARON K DAVID" if m.group(1).isupper() else "J Aaron K David"
 def prep(t):
-    # lexicon first (special proper-noun respellings), then de-cap the emphasis words
-    return scripture.expand(normalize_caps(apply_lexicon(t)))
+    # lexicon first (special proper-noun respellings) → full messenger name → de-cap emphasis words
+    t = _JAARON.sub(_jaaron, apply_lexicon(t))
+    return scripture.expand(normalize_caps(t))
 def speakable(t):
     return any(ch.isalnum() for ch in t)
 

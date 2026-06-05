@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["192-3-mediterranean-countries-the-arabs-hagar-s-offspring"]={"id": "192-3-mediterranean-countries-the-arabs-hagar-s-offspring", "title": "3) mediterranean COUNTRIES (THE ARABS, HAGAR'S OFFSPRING)", "paragraphs": [{"role": "chapter_title", "text": "3) mediterranean COUNTRIES (THE ARABS, HAGAR'S OFFSPRING)", "start": 0.3, "end": 5.08}]};

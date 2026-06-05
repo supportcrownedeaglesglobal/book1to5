@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["147-part-4a-circumcision"]={"id": "147-part-4a-circumcision", "title": "Part 4A \nCIRCUMCISION", "paragraphs": [{"role": "chapter_title", "text": "Part 4A \nCIRCUMCISION", "start": 0.3, "end": 3.95}]};

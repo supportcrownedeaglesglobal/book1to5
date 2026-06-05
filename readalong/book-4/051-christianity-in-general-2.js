@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["051-christianity-in-general-2"]={"id": "051-christianity-in-general-2", "title": "Christianity in General", "paragraphs": [{"role": "chapter_title", "text": "Christianity in General", "start": 0.3, "end": 2.92}, {"role": "body", "text": "Christians in general will be judged based on the following criteria:", "start": 4.32, "end": 9.37}]};

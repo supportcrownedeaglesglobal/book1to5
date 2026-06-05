@@ -58,11 +58,21 @@ def loudnorm(in_wav: Path, out_mp3: Path):
                          "-f", "null", "-"], capture_output=True, text=True)
     m = _re.search(r"\{[^{}]+\}", p1.stderr.replace("\n", " "))
     d = _json.loads(m.group(0))
-    # pass 2 — apply measured values, linear mode
-    af = (f"highpass=f=70,loudnorm={base}:linear=true:"
-          f"measured_I={d['input_i']}:measured_TP={d['input_tp']}:"
-          f"measured_LRA={d['input_lra']}:measured_thresh={d['input_thresh']}:"
-          f"offset={d['target_offset']},aresample={C.SAMPLE_RATE}")
+    # pass 2 — apply measured values, linear mode. BUT a silent / near-silent track (a
+    # heading-only or empty section) measures input_i = -inf, which makes the linear loudnorm
+    # filter invalid (offset=inf) and ffmpeg errors out — that silently dropped 32 Book-2
+    # chapters. Detect it and fall back to a plain transcode so EVERY chapter yields an mp3.
+    try:
+        _ii = float(d.get("input_i", "nan"))
+    except (TypeError, ValueError):
+        _ii = float("nan")
+    if not (_ii > -70):
+        af = f"aresample={C.SAMPLE_RATE}"            # silent input: just transcode, no loudnorm
+    else:
+        af = (f"highpass=f=70,loudnorm={base}:linear=true:"
+              f"measured_I={d['input_i']}:measured_TP={d['input_tp']}:"
+              f"measured_LRA={d['input_lra']}:measured_thresh={d['input_thresh']}:"
+              f"offset={d['target_offset']},aresample={C.SAMPLE_RATE}")
     subprocess.run([FFMPEG, "-y", "-i", str(in_wav),
                     "-af", af, "-ac", str(C.CHANNELS),
                     "-ar", str(C.SAMPLE_RATE), "-b:a", C.BITRATE,

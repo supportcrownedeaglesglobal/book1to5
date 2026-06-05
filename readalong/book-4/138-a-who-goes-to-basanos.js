@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["138-a-who-goes-to-basanos"]={"id": "138-a-who-goes-to-basanos", "title": "A) WHO GOES TO BASANOS", "paragraphs": [{"role": "chapter_title", "text": "A) WHO GOES TO BASANOS", "start": 0.3, "end": 3.03}]};

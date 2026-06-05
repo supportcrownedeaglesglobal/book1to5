@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["163-part-8-judgment-on-the-seven-continents"]={"id": "163-part-8-judgment-on-the-seven-continents", "title": "Part 8 \nJudgment on the Seven Continents", "paragraphs": [{"role": "chapter_title", "text": "Part 8 \nJudgment on the Seven Continents", "start": 0.3, "end": 4.55}]};

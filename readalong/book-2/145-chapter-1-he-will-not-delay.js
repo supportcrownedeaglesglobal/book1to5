@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["145-chapter-1-he-will-not-delay"]={"id": "145-chapter-1-he-will-not-delay", "title": "Chapter 1 \nHe Will Not Delay", "paragraphs": [{"role": "chapter_title", "text": "Chapter 1 \nHe Will Not Delay", "start": 0.3, "end": 3.9}]};

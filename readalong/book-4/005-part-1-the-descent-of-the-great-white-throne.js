@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["005-part-1-the-descent-of-the-great-white-throne"]={"id": "005-part-1-the-descent-of-the-great-white-throne", "title": "PART 1 \nThe Descent of THE GREAT WHITE THRONE", "paragraphs": [{"role": "chapter_title", "text": "PART 1 \nThe Descent of THE GREAT WHITE THRONE", "start": 0.3, "end": 4.83}]};

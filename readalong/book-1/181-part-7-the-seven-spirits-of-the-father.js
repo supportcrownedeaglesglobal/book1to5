@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["181-part-7-the-seven-spirits-of-the-father"]={"id": "181-part-7-the-seven-spirits-of-the-father", "title": "Part 7 \nThe Seven Spirits of THE FATHER", "paragraphs": [{"role": "chapter_title", "text": "Part 7 \nThe Seven Spirits of THE FATHER", "start": 0.3, "end": 4.88}]};

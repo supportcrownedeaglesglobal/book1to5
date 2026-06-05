@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["170-i-norway"]={"id": "170-i-norway", "title": "i) Norway", "paragraphs": [{"role": "chapter_title", "text": "i) Norway", "start": 0.3, "end": 1.95}, {"role": "body", "text": "I saw JESUS writing these words regarding Norway, \"PRACTICAL, RATIONAL, LITTLE RELIGIOUS CONNOTATION, NEUTRAL GROUND\".", "start": 3.35, "end": 12.0}]};

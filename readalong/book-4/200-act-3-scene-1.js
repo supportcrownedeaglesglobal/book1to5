@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["200-act-3-scene-1"]={"id": "200-act-3-scene-1", "title": "Act 3 Scene 1", "paragraphs": [{"role": "chapter_title", "text": "Act 3 Scene 1", "start": 0.3, "end": 2.55}]};

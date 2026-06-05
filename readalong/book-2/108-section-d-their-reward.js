@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["108-section-d-their-reward"]={"id": "108-section-d-their-reward", "title": "Section D \nTheir Reward", "paragraphs": [{"role": "chapter_title", "text": "Section D \nTheir Reward", "start": 0.3, "end": 3.78}]};

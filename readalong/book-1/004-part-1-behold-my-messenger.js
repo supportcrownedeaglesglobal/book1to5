@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["004-part-1-behold-my-messenger"]={"id": "004-part-1-behold-my-messenger", "title": "PART 1\nBEHOLD! MY MESSENGER!", "paragraphs": [{"role": "chapter_title", "text": "PART 1\nBEHOLD! MY MESSENGER!", "start": 0.3, "end": 4.25}]};

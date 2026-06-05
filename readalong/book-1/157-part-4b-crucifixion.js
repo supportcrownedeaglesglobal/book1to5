@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["157-part-4b-crucifixion"]={"id": "157-part-4b-crucifixion", "title": "Part 4B\nCRUCIFIXION", "paragraphs": [{"role": "chapter_title", "text": "Part 4B\nCRUCIFIXION", "start": 0.3, "end": 3.85}]};

@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["070-act-2-scene-2-mid-heaven-the-netherworld"]={"id": "070-act-2-scene-2-mid-heaven-the-netherworld", "title": "ACT 2 SCENE 2 \nMid Heaven, the Netherworld", "paragraphs": [{"role": "chapter_title", "text": "ACT 2 SCENE 2 \nMid Heaven, the Netherworld", "start": 0.3, "end": 4.9}]};

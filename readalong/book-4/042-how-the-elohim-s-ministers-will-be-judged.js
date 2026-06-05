@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["042-how-the-elohim-s-ministers-will-be-judged"]={"id": "042-how-the-elohim-s-ministers-will-be-judged", "title": "How THE ELOHIM's Ministers will be judged", "paragraphs": [{"role": "chapter_title", "text": "How THE ELOHIM's Ministers will be judged", "start": 0.3, "end": 3.85}]};

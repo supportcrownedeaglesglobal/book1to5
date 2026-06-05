@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["124-how-we-can-submit-to-the-elohim"]={"id": "124-how-we-can-submit-to-the-elohim", "title": "How we CAN submit to THE ELOHIM?", "paragraphs": [{"role": "chapter_title", "text": "How we CAN submit to THE ELOHIM?", "start": 0.3, "end": 3.38}]};

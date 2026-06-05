@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["037-part-3-judgment-for-christendom"]={"id": "037-part-3-judgment-for-christendom", "title": "Part 3\nJudgment for Christendom", "paragraphs": [{"role": "chapter_title", "text": "Part 3\nJudgment for Christendom", "start": 0.3, "end": 4.18}]};

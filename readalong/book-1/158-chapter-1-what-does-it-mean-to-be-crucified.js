@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["158-chapter-1-what-does-it-mean-to-be-crucified"]={"id": "158-chapter-1-what-does-it-mean-to-be-crucified", "title": "Chapter 1 \nWhat does it Mean to be Crucified", "paragraphs": [{"role": "chapter_title", "text": "Chapter 1 \nWhat does it Mean to be Crucified", "start": 0.3, "end": 4.97}]};

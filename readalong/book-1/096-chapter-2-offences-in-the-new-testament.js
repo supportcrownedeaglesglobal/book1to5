@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["096-chapter-2-offences-in-the-new-testament"]={"id": "096-chapter-2-offences-in-the-new-testament", "title": "Chapter 2 \nOffences in the New Testament", "paragraphs": [{"role": "chapter_title", "text": "Chapter 2 \nOffences in the New Testament", "start": 0.3, "end": 4.8}]};

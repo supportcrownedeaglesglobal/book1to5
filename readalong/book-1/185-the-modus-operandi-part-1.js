@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["185-the-modus-operandi-part-1"]={"id": "185-the-modus-operandi-part-1", "title": "THE MODUS OPERANDI PART 1", "paragraphs": [{"role": "chapter_title", "text": "THE MODUS OPERANDI PART 1", "start": 0.3, "end": 3.35}]};

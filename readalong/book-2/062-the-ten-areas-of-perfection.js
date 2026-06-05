@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["062-the-ten-areas-of-perfection"]={"id": "062-the-ten-areas-of-perfection", "title": "The Ten Areas of Perfection", "paragraphs": [{"role": "chapter_title", "text": "The Ten Areas of Perfection", "start": 0.3, "end": 3.22}]};

@@ -43,7 +43,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garam
 .brand{display:flex;align-items:center;justify-content:center;gap:13px;padding:28px 0 4px;text-align:center}
 .brand .mark{width:30px;height:30px;border-radius:50%;background:var(--gold-metal);
   box-shadow:0 0 24px rgba(232,184,109,.5);flex:0 0 auto}
-.brand b{font-family:'Cinzel',serif;font-weight:700;letter-spacing:.32em;font-size:16px;
+.brand b{font-family:'Cinzel',serif;font-weight:700;letter-spacing:.3em;font-size:21px;
   color:var(--gold2);text-transform:uppercase}
 
 /* ── 3D book component ──────────────────────────────────── */
@@ -113,8 +113,8 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garam
 .hero h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(36px,5.2vw,62px);line-height:1.03;
   margin:0 0 8px;background:var(--gold-metal);-webkit-background-clip:text;background-clip:text;
   -webkit-text-fill-color:transparent;text-shadow:0 2px 34px rgba(232,184,109,.18)}
-.hero .sub{font-size:28px;color:var(--muted);font-style:italic;margin:0 0 22px}
-.meta{display:flex;flex-wrap:wrap;gap:10px 22px;color:var(--dim);font-size:19px;margin:0 0 26px;letter-spacing:.02em}
+.hero .sub{font-size:31px;color:var(--ink);font-style:italic;font-weight:500;margin:0 0 22px}
+.meta{display:flex;flex-wrap:wrap;gap:11px 24px;color:var(--muted);font-size:20px;margin:0 0 26px;letter-spacing:.02em;font-weight:500}
 .meta span{display:inline-flex;align-items:center;gap:7px}
 .dot{width:5px;height:5px;border-radius:50%;background:var(--gold);opacity:.7}
 .cta{display:inline-flex;align-items:center;gap:12px;padding:15px 34px;border-radius:999px;
@@ -123,7 +123,21 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garam
   box-shadow:0 14px 36px rgba(232,184,109,.32);transition:transform .18s ease,box-shadow .18s ease}
 .cta:hover{transform:translateY(-2px);box-shadow:0 20px 48px rgba(232,184,109,.46)}
 .cta svg{width:17px;height:17px;fill:#231603}
-.blurb{margin-top:22px;max-width:48ch;color:var(--muted);font-size:21px}
+.blurb{margin-top:22px;max-width:48ch;color:var(--ink);font-size:23px;font-weight:500;line-height:1.5}
+
+/* ── series crown: arced BEHOLD MY MESSENGER wordmark (echoes the book cover) ── */
+.series-crown{text-align:center;margin:4px auto 34px;max-width:820px}
+.arc-wordmark{display:block;width:min(740px,96%);height:auto;margin:0 auto;overflow:visible}
+.arc-wordmark .dove{filter:drop-shadow(0 0 12px rgba(255,241,206,.6)) drop-shadow(0 3px 7px rgba(0,0,0,.4))}
+.arc-wordmark .arc-text{font-family:'Cinzel',serif;font-weight:900;font-size:58px;letter-spacing:.03em;
+  fill:url(#goldArc);stroke:rgba(60,38,8,.62);stroke-width:1.1px;paint-order:stroke fill;
+  filter:drop-shadow(0 1px 0 #7c5618) drop-shadow(0 2px 0 #674714) drop-shadow(0 3px 0 #543911)
+    drop-shadow(0 4px 1px #3d2a0c) drop-shadow(0 8px 13px rgba(0,0,0,.55))}
+.series-lead{margin:12px auto 0;max-width:60ch;color:var(--ink);font-size:24px;font-weight:500;line-height:1.5}
+.series-lead b{color:var(--gold2);font-weight:700;font-style:normal}
+.series-authors{margin:20px auto 0;font-family:'Cinzel',serif;font-size:19px;letter-spacing:.05em;color:var(--dim)}
+.series-authors .au-gold,.series-authors .au-silver{font-weight:700}
+.series-authors .amp{opacity:.55;margin:0 7px}
 
 /* ── library shelf ─────────────────────────────────────── */
 .library{padding:46px 0 16px}
@@ -145,16 +159,37 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garam
   box-shadow:0 17px 30px rgba(0,0,0,.5)}
 .shelfboard::before{content:"";position:absolute;left:0;right:0;top:0;height:2px;
   background:linear-gradient(90deg,rgba(244,208,137,0),rgba(244,208,137,.72) 28%,rgba(244,208,137,.72) 72%,rgba(244,208,137,0))}
-.label{margin-top:18px}
-.bookno{font-family:'Cinzel',serif;font-size:12.5px;letter-spacing:.24em;color:var(--gold);text-transform:uppercase}
-.name{font-size:24px;line-height:1.22;margin:4px 0 3px;color:var(--ink)}
-.meta2{font-size:17px;color:var(--dim)}
+.label{margin-top:18px;display:flex;flex-direction:column}
+.bookno{font-family:'Cinzel',serif;font-size:12.5px;letter-spacing:.26em;color:var(--gold);text-transform:uppercase;margin-bottom:8px}
+.name{font-weight:600;font-size:26px;line-height:1.16;margin:0 0 7px;color:var(--ink);min-height:2.32em}
+.sub2{font-style:italic;font-size:18px;line-height:1.28;color:var(--muted);margin:0 0 13px;min-height:2.56em}
+.meta2{display:flex;align-items:center;gap:12px;font-size:15px;color:var(--dim);letter-spacing:.03em}
+.meta2 .dur{white-space:nowrap}
+.meta2 .tag{font-family:'Cinzel',serif;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;padding:3px 11px;border-radius:999px;white-space:nowrap}
+.tag.soon{color:var(--gold2);background:rgba(255,255,255,.045);border:1px solid var(--line)}
+.tag.live{color:#231603;background:var(--gold-metal);border:1px solid transparent;font-weight:700}
+.book-cell.live .name{transition:color .25s}
+.book-cell.live:hover .name{color:var(--gold)}
 
 /* ── footer ────────────────────────────────────────────── */
-footer{border-top:1px solid var(--line);margin-top:60px;padding:34px 0 60px;color:var(--dim);font-size:18px;text-align:center}
-footer b{color:var(--muted);font-weight:600}
+footer{border-top:1px solid var(--line);margin-top:64px;padding:46px 0 66px;color:var(--muted);font-size:22px;text-align:center;line-height:1.5}
+footer b{font-family:'Cinzel',serif;font-weight:700;font-size:30px;letter-spacing:.05em;display:inline-block;
+  background:var(--gold-metal);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+footer .byline{margin:9px 0 18px;font-size:22px;font-weight:500}
+footer .byline .amp{opacity:.5;margin:0 7px}
+footer .copyline{margin:0}
 footer .small{font-size:13px;opacity:.7;margin-top:8px}
 /* Author brand — Shekinaih Siew Sin Yap ALWAYS gold, J Aaron K David ALWAYS silver */
+/* CROWNED EAGLES GLOBAL — brand wordmark: full-caps flowing rainbow (echoes the org logo) */
+.ceg{font-family:'Cinzel',serif;font-weight:700;text-transform:uppercase;letter-spacing:.1em;white-space:nowrap;
+  background:linear-gradient(92deg,#ff4d6d,#ff8a3d,#ffd633,#5cff8f,#3de0ff,#6a8bff,#c46bff,#ff5ce0,#ff4d6d);
+  background-size:220% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;
+  filter:drop-shadow(0 0 9px rgba(255,255,255,.4)) drop-shadow(0 0 22px rgba(150,175,255,.32)) drop-shadow(0 1px 1px rgba(0,0,0,.5));
+  animation:cegflow 7.5s linear infinite}
+@keyframes cegflow{to{background-position:220% center}}
+.brand b.ceg{-webkit-text-fill-color:transparent;color:transparent}
+footer .ceg{font-size:23px;letter-spacing:.12em}
+@media (prefers-reduced-motion:reduce){.ceg{animation:none}}
 .au-gold{background:var(--gold-metal);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;font-weight:700}
 .au-silver{background:linear-gradient(180deg,#ffffff 0%,#c6cad8 55%,#9aa0b6 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;font-weight:700}
 
@@ -174,30 +209,406 @@ footer .small{font-size:13px;opacity:.7;margin-top:8px}
   .hero .sub{font-size:25px}
   .meta{justify-content:center;font-size:19px}
   .blurb{margin-left:auto;margin-right:auto;font-size:21px}
-  .name{font-size:25px}
-  .meta2{font-size:18px}
+  .name{font-size:24px;min-height:0}
+  .sub2{font-size:17px;min-height:0;margin-bottom:11px}
+  .meta2{font-size:16px}
+  .series-lead{font-size:19px;line-height:1.5}
 }
 @media(max-width:520px){
   .shelf{grid-template-columns:repeat(2,1fr)}
   .book-cell{padding:0 12px}
   .shelfboard{margin:18px -12px 0}
-  .name{font-size:22px}
-  .meta2{font-size:16px}
+  .name{font-size:21px}
+  .sub2{font-size:15.5px;margin-bottom:10px}
+  .meta2{font-size:15px;gap:9px}
   .brand{gap:10px}
-  .brand b{font-size:13px;letter-spacing:.16em}
+  .brand b{font-size:16px;letter-spacing:.18em}
+  footer .ceg{font-size:19px}
 }
 @media (prefers-reduced-motion: reduce){
   .reveal{animation:none;opacity:1;transform:none}
   .stars,.gleam::before,.hero .tome__3d{animation:none}
 }
+
+/* ════════════════════════════════════════════════════════════
+   COSMIC ATMOSPHERE & DEPTH  (additive — layers behind .wrap)
+   z-index ladder:  .bg -3  ·  .stars/.cosmos -2  ·  .godrays/.vignette -1  ·  content 0
+   Reuses palette: gold rgba(232,184,109) / rgba(244,208,137) · purple rgba(60,46,120) · blue rgba(44,60,142)
+   ════════════════════════════════════════════════════════════ */
+
+/* (1) Nebula / gradient-mesh — large slow-drifting color clouds, additive over the dark bg */
+.cosmos{position:fixed;inset:-12%;z-index:-2;pointer-events:none;
+  mix-blend-mode:screen;opacity:.9;
+  background:
+    radial-gradient(38% 30% at 22% 26%, rgba(120,86,196,.20), transparent 70%),
+    radial-gradient(34% 28% at 80% 30%, rgba(44,60,142,.22), transparent 72%),
+    radial-gradient(40% 30% at 66% 78%, rgba(60,46,120,.18), transparent 72%),
+    radial-gradient(30% 24% at 16% 74%, rgba(58,70,150,.16), transparent 72%),
+    radial-gradient(46% 30% at 50% 6%,  rgba(232,184,109,.12), transparent 70%);
+  filter:saturate(1.05) blur(8px);
+  animation:cosmosDrift 64s ease-in-out infinite alternate}
+@keyframes cosmosDrift{
+  0%{transform:translate3d(0,0,0) scale(1)}
+  50%{transform:translate3d(-1.4%,1%,0) scale(1.05)}
+  100%{transform:translate3d(1.4%,-1.2%,0) scale(1.08)}}
+
+/* (2) Godrays — pale-gold shafts descending from above the crown, faded out before mid-page */
+.godrays{position:fixed;left:50%;top:-18vh;width:150vw;height:118vh;transform:translateX(-50%);
+  z-index:-1;pointer-events:none;mix-blend-mode:screen;opacity:.5;
+  background:
+    repeating-conic-gradient(from 180deg at 50% -6%,
+      rgba(255,243,214,.10) 0deg 1.4deg,
+      transparent 1.4deg 5deg,
+      rgba(244,208,137,.07) 5deg 6.6deg,
+      transparent 6.6deg 11deg);
+  -webkit-mask-image:radial-gradient(78% 62% at 50% 4%, #000 0%, rgba(0,0,0,.5) 42%, transparent 74%);
+          mask-image:radial-gradient(78% 62% at 50% 4%, #000 0%, rgba(0,0,0,.5) 42%, transparent 74%);
+  transform-origin:50% 0;
+  animation:rayWaft 26s ease-in-out infinite alternate}
+@keyframes rayWaft{
+  0%{transform:translateX(-50%) rotate(-1.6deg);opacity:.42}
+  100%{transform:translateX(-50%) rotate(1.6deg);opacity:.6}}
+
+/* (3) Full-page vignette + soft top-center lift — frames the throne, lensed falloff */
+.vignette{position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:
+    radial-gradient(60% 42% at 50% 0%, rgba(232,184,109,.07), transparent 60%),
+    radial-gradient(120% 120% at 50% 50%, transparent 56%, rgba(5,4,10,.34) 84%, rgba(3,2,8,.62) 100%)}
+
+/* (4) Throne glow — luminous halo BEHIND the locked arc-wordmark + dove */
+.series-crown{position:relative;z-index:0}
+.throne-glow{position:absolute;left:50%;top:34%;width:min(900px,118%);aspect-ratio:5/3;
+  transform:translate(-50%,-50%);z-index:-1;pointer-events:none;mix-blend-mode:screen;
+  background:
+    radial-gradient(46% 50% at 50% 46%, rgba(255,238,198,.34), transparent 66%),
+    radial-gradient(70% 64% at 50% 50%, rgba(232,184,109,.18), transparent 72%);
+  filter:blur(10px);
+  animation:throneBreathe 9s ease-in-out infinite}
+@keyframes throneBreathe{
+  0%,100%{opacity:.78;transform:translate(-50%,-50%) scale(1)}
+  50%{opacity:1;transform:translate(-50%,-50%) scale(1.05)}}
+
+/* ── responsive: ease intensity on small screens ── */
+@media(max-width:760px){
+  .godrays{opacity:.36;width:200vw}
+  .vignette{background:
+    radial-gradient(70% 40% at 50% 0%, rgba(232,184,109,.06), transparent 60%),
+    radial-gradient(130% 120% at 50% 50%, transparent 58%, rgba(4,3,9,.5) 100%)}
+  .throne-glow{top:30%;filter:blur(8px)}
+}
+
+/* ── honor reduced motion: keep the depth, drop the movement ── */
+@media (prefers-reduced-motion:reduce){
+  .cosmos,.godrays,.throne-glow{animation:none}
+  .godrays{opacity:.4}
+  .throne-glow{opacity:.85;transform:translate(-50%,-50%)}
+}
+
+/* ── THE SAGA — illuminated narrative timeline (additive) ──────────── */
+.saga{padding:60px 0 30px;position:relative}
+.saga-head{text-align:center;max-width:64ch;margin:0 auto}
+.saga-eyebrow{font-family:'Cinzel',serif;letter-spacing:.42em;font-size:13px;text-transform:uppercase;
+  color:var(--gold);margin:0 0 16px;padding-left:.42em}
+.saga-eyebrow::before,.saga-eyebrow::after{content:"";display:inline-block;width:34px;height:1px;
+  vertical-align:middle;margin:0 16px;
+  background:linear-gradient(90deg,transparent,rgba(232,184,109,.7),transparent)}
+.saga-intro{margin:0 auto;color:var(--ink);font-size:23px;font-weight:500;line-height:1.55}
+.saga-intro b{color:var(--gold2);font-weight:700;font-style:normal}
+
+/* timeline rail */
+.saga-tl{position:relative;max-width:760px;margin:54px auto 0;padding:4px 0}
+/* the gilt spine running down the medallion column */
+.saga-tl::before{content:"";position:absolute;top:14px;bottom:14px;left:33px;width:2px;
+  background:linear-gradient(180deg,rgba(244,208,137,0),rgba(232,184,109,.55) 9%,
+    rgba(232,184,109,.55) 86%,rgba(244,208,137,0));z-index:0}
+
+/* one chapter row */
+.saga-ch{position:relative;display:grid;grid-template-columns:68px 1fr;column-gap:26px;
+  align-items:start;padding:18px 0}
+.saga-ch + .saga-ch{border-top:1px solid var(--line)}
+
+/* numeral medallion */
+.saga-node{position:relative;z-index:1;width:68px;height:68px;border-radius:50%;
+  display:grid;place-items:center;background:var(--gold-metal);
+  font-family:'Cinzel',serif;font-weight:900;font-size:24px;color:#231603;letter-spacing:.02em;
+  box-shadow:0 10px 26px rgba(0,0,0,.5),0 0 0 6px rgba(232,184,109,.12),
+    inset 0 1px 1px rgba(255,255,255,.55),inset 0 -3px 6px rgba(120,80,20,.4)}
+/* inner gilt ring */
+.saga-node::after{content:"";position:absolute;inset:6px;border-radius:50%;
+  border:1px solid rgba(60,38,8,.32);pointer-events:none}
+
+/* copy column */
+.saga-body{padding-top:4px}
+.saga-title{font-family:'Cinzel',serif;font-weight:700;font-size:clamp(22px,2.6vw,29px);
+  line-height:1.12;margin:0 0 7px;letter-spacing:.012em;
+  background:var(--gold-metal);-webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;text-shadow:0 1px 22px rgba(232,184,109,.14)}
+.saga-sub{font-family:'Cinzel',serif;font-weight:500;font-size:13px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--gold);margin:0 0 11px;line-height:1.35}
+.saga-hook{margin:0;color:var(--ink);font-size:20.5px;font-weight:500;line-height:1.5;
+  max-width:52ch;opacity:.96}
+
+/* "Beyond" — the entry that transcends the five */
+.saga-ch.beyond .saga-node{font-size:30px;line-height:1;
+  box-shadow:0 12px 34px rgba(232,184,109,.42),0 0 0 8px rgba(232,184,109,.16),
+    inset 0 1px 1px rgba(255,255,255,.6),inset 0 -3px 6px rgba(120,80,20,.4)}
+.saga-ch.beyond .saga-node::before{content:"";position:absolute;inset:-12px;border-radius:50%;z-index:-1;
+  background:radial-gradient(50% 50% at 50% 50%,rgba(244,208,137,.5),transparent 72%);
+  filter:blur(3px);animation:sagaPulse 4.5s ease-in-out infinite}
+.saga-ch.beyond .saga-sub{color:var(--gold2)}
+@keyframes sagaPulse{0%,100%{opacity:.55;transform:scale(.94)}50%{opacity:1;transform:scale(1.06)}}
+
+/* gentle hover lift on the node, mirroring the tome interaction language */
+@media(hover:hover){
+  .saga-ch{transition:transform .35s cubic-bezier(.2,.75,.2,1)}
+  .saga-ch:hover{transform:translateX(4px)}
+  .saga-ch:hover .saga-node{box-shadow:0 14px 32px rgba(232,184,109,.4),
+    0 0 0 8px rgba(232,184,109,.18),inset 0 1px 1px rgba(255,255,255,.6),
+    inset 0 -3px 6px rgba(120,80,20,.4)}
+}
+
+/* ── responsive ── */
+@media(max-width:760px){
+  .saga{padding:46px 0 24px}
+  .saga-intro{font-size:20px}
+  .saga-eyebrow::before,.saga-eyebrow::after{width:22px;margin:0 11px}
+  .saga-tl{margin-top:40px}
+  .saga-tl::before{left:27px}
+  .saga-ch{grid-template-columns:56px 1fr;column-gap:18px}
+  .saga-node{width:56px;height:56px;font-size:20px}
+  .saga-ch.beyond .saga-node{font-size:25px}
+  .saga-hook{font-size:18.5px}
+  .saga-sub{font-size:12px;letter-spacing:.13em}
+}
+@media(max-width:520px){
+  .saga-tl::before{display:none}            /* drop the rail; stacked medallions read cleanly */
+  .saga-ch{grid-template-columns:1fr;row-gap:12px;text-align:center;justify-items:center;padding:22px 0}
+  .saga-node{width:54px;height:54px}
+  .saga-ch.beyond .saga-node::before{animation:none}
+  .saga-hook{margin:0 auto}
+  .saga-eyebrow{letter-spacing:.3em}
+}
+@media (prefers-reduced-motion:reduce){
+  .saga-ch.beyond .saga-node::before{animation:none}
+  .saga-ch{transition:none}
+  .saga-ch:hover{transform:none}
+}
+
+/* ════════════════════════════════════════════════════════════════
+   UNIFIED COVER TREATMENT  —  curated gold frame + inner vignette
+   Scoped to .book-cell so the HERO book, .arc-wordmark, .dove and
+   .ceg wordmark are never affected. Re-uses --gold / --gold2 only.
+   Adds NO new pseudo-elements: it raises specificity on the
+   existing .tome__cover::after (gilt frame) so shelf covers get the
+   refined edge + vignette, while every other cover keeps the global.
+   ════════════════════════════════════════════════════════════════ */
+
+/* equal, consistent canvas (aspect-ratio already locks the ratio) */
+.book-cell .tome__3d{width:100%}
+
+/* one palette across all five: gentle, unified grade on LIVE covers
+   only — leaves the existing `.tome.soon` brightness filter intact */
+.book-cell .tome.live .tome__cover img{
+  filter:saturate(.86) contrast(1.03) brightness(.99)
+         sepia(.05) hue-rotate(-4deg);
+  transition:filter .5s cubic-bezier(.2,.75,.2,1);
+}
+
+/* THE FRAME — refined gold edge + inner vignette in one pass.
+   background = vignette (paints first); box-shadow = gilt edge +
+   inner darkening (paints above the artwork). Sits below .gleam(z4),
+   .tome__play(z5) and .ribbon(z6), so those stay perfectly crisp. */
+.book-cell .tome__cover::after{
+  border-radius:2px 6px 6px 2px;
+  /* vignette: pull the busy artwork's own loud text back so the
+     frame — not the cover typography — reads as the silhouette */
+  background:
+    radial-gradient(118% 96% at 50% 34%,
+      transparent 52%, rgba(11,10,18,.20) 82%, rgba(11,10,18,.46) 100%),
+    linear-gradient(180deg,
+      rgba(11,10,18,.30) 0%, transparent 20% 66%, rgba(11,10,18,.40) 100%);
+  /* gilt edge: crisp 1px gold hairline + soft inner gold bloom,
+     plus a faint inner top highlight for a glassed, premium read */
+  box-shadow:
+    inset 0 0 0 1px rgba(244,208,137,.46),
+    inset 0 0 0 2px rgba(11,10,18,.34),
+    inset 0 1px 0 0 rgba(255,247,223,.20),
+    inset 0 0 22px rgba(0,0,0,.34),
+    inset 0 0 60px rgba(169,119,47,.10);
+  transition:box-shadow .45s cubic-bezier(.2,.75,.2,1),
+             background .45s cubic-bezier(.2,.75,.2,1);
+}
+
+/* REFINED HOVER (live only) — the gold warms, the vignette lifts so
+   the artwork brightens and "wakes" as the existing transform tilts
+   the book up. Complements, never replaces, the shared :hover rule. */
+.book-cell .tome.live:hover .tome__cover img{
+  filter:saturate(.98) contrast(1.05) brightness(1.04)
+         sepia(.02) hue-rotate(-2deg);
+}
+.book-cell .tome.live:hover .tome__cover::after{
+  background:
+    radial-gradient(122% 100% at 50% 36%,
+      transparent 60%, rgba(11,10,18,.12) 86%, rgba(11,10,18,.30) 100%),
+    linear-gradient(180deg,
+      rgba(11,10,18,.16) 0%, transparent 24% 70%, rgba(11,10,18,.24) 100%);
+  box-shadow:
+    inset 0 0 0 1px rgba(244,208,137,.78),
+    inset 0 0 0 2px rgba(11,10,18,.30),
+    inset 0 1px 0 0 rgba(255,247,223,.32),
+    inset 0 0 18px rgba(0,0,0,.24),
+    inset 0 0 64px rgba(232,184,109,.18);
+}
+
+/* accessibility: keep the frame & vignette fully static for users
+   who prefer reduced motion (no grade/edge cross-fade) */
+@media (prefers-reduced-motion:reduce){
+  .book-cell .tome.live .tome__cover img,
+  .book-cell .tome__cover::after{transition:none}
+}
+
+/* ════════════════════════════════════════════════════════════════
+   MOTION CHOREOGRAPHY  (additive — no locked element is modified)
+   ════════════════════════════════════════════════════════════════ */
+
+/* (1) One-time gold SHEEN SWEEP across the arc wordmark on load.
+   Implemented as an OVERLAY on .series-crown — the .arc-wordmark fill
+   and stroke are never touched. A narrow diagonal light band travels
+   across the area the arc occupies, then rests. */
+.series-crown{position:relative}
+.series-crown::after{
+  content:"";position:absolute;left:50%;top:8px;
+  width:min(740px,96%);height:230px;transform:translateX(-50%);
+  pointer-events:none;z-index:2;mix-blend-mode:screen;
+  /* a soft, angled gleam band */
+  background:linear-gradient(105deg,
+     transparent 38%,
+     rgba(255,247,223,.0) 44%,
+     rgba(255,247,223,.55) 50%,
+     rgba(255,247,223,.0) 56%,
+     transparent 62%);
+  background-size:260% 100%;background-position:140% 0;background-repeat:no-repeat;
+  /* mask to the upper arc band so the sheen reads as light skating
+     over the lettering, fading out top and bottom */
+  -webkit-mask:radial-gradient(120% 78% at 50% 84%, #000 32%, transparent 76%);
+          mask:radial-gradient(120% 78% at 50% 84%, #000 32%, transparent 76%);
+  opacity:0;
+  animation:arcSheen 2200ms cubic-bezier(.4,.1,.2,1) 600ms 1 both;
+}
+@keyframes arcSheen{
+  0%  {opacity:0;  background-position:140% 0}
+  12% {opacity:1}
+  88% {opacity:1}
+  100%{opacity:0;  background-position:-60% 0}
+}
+
+/* (2) Shelf CARD hover lifts.
+   The inner .tome already tilts/raises on hover; here we lift the whole
+   CELL a touch, float a warm glow under it, and let the gilt frame and
+   title respond — a coordinated, premium response rather than a jolt. */
+.book-cell{
+  transition:transform .5s cubic-bezier(.2,.75,.2,1);
+  will-change:transform;
+}
+.book-cell.live{cursor:pointer}
+.book-cell.live:hover{transform:translateY(-10px)}
+/* warm floor-glow that blooms beneath a lifted live book */
+.book-cell.live .shelfboard::after{
+  content:"";position:absolute;left:14%;right:14%;top:-9px;height:16px;
+  border-radius:50%;pointer-events:none;
+  background:radial-gradient(60% 100% at 50% 50%,rgba(244,208,137,.5),transparent 72%);
+  opacity:0;filter:blur(3px);transition:opacity .45s ease,transform .45s ease;
+  transform:scaleX(.7)}
+.book-cell.live:hover .shelfboard::after{opacity:1;transform:scaleX(1)}
+/* the gilt frame warms as the book rises */
+.book-cell.live:hover .tome__cover::after{
+  box-shadow:inset 0 0 0 1px rgba(244,208,137,.7),
+             inset 0 0 22px rgba(232,184,109,.16)}
+.book-cell.live .tome__cover::after{transition:box-shadow .35s ease}
+/* number adopts the gold accent alongside the title's existing shift */
+.book-cell.live .bookno{transition:color .25s,letter-spacing .35s ease}
+.book-cell.live:hover .bookno{color:var(--gold2);letter-spacing:.3em}
+/* dormant ("soon") books give a quiet, non-clickable acknowledgement */
+.book-cell:not(.live){transition:transform .5s cubic-bezier(.2,.75,.2,1)}
+.book-cell:not(.live):hover{transform:translateY(-3px)}
+.book-cell:not(.live):hover .tome.soon .tome__cover img{
+  filter:saturate(.72) brightness(.6);transition:filter .4s ease}
+
+/* (3) Refined CTA — keep the existing lift+shadow, add a light sweep
+   across the button face plus a gentle play-icon nudge. */
+.cta{position:relative;overflow:hidden;isolation:isolate}
+.cta::before{
+  content:"";position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1;
+  pointer-events:none;mix-blend-mode:screen;
+  background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.55) 50%,transparent 70%);
+  background-size:240% 100%;background-position:160% 0;
+  transition:background-position .8s cubic-bezier(.3,.1,.2,1)}
+.cta:hover::before,.cta:focus-visible::before{background-position:-60% 0}
+.cta svg{transition:transform .25s cubic-bezier(.2,.8,.2,1)}
+.cta:hover svg,.cta:focus-visible svg{transform:translateX(3px) scale(1.06)}
+.cta:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
+
+/* (4) Staggered SCROLL-REVEAL for below-the-fold sections.
+   Gated behind .js-reveal (added by script only when JS + IO exist), so
+   the existing auto-running .reveal entrance is never disturbed. Elements
+   opted in with .sr start hidden and rise when they scroll into view. */
+.__disabled_sr{
+  opacity:0;transform:translateY(26px);
+  transition:opacity .9s cubic-bezier(.2,.7,.2,1),
+             transform .9s cubic-bezier(.2,.7,.2,1);
+  transition-delay:var(--sr-delay,0ms);will-change:opacity,transform}
+.js-reveal .sr.is-in{opacity:1;transform:none}
+
+/* ── graceful degradation ──────────────────────────────── */
+@media (prefers-reduced-motion: reduce){
+  .series-crown::after{animation:none;opacity:0}
+  .book-cell.live:hover,
+  .book-cell:not(.live):hover{transform:none}
+  .book-cell.live:hover .shelfboard::after{opacity:0}
+  .cta::before{display:none}
+  .cta:hover svg,.cta:focus-visible svg{transform:none}
+  .__disabled_sr{opacity:1 !important;transform:none !important;transition:none}
+}
 </style>
 </head>
 <body>
 <div class="bg"></div><div class="stars"></div>
+<div class="cosmos"></div>
+<div class="godrays"></div>
+<div class="vignette"></div>
 
 <div class="wrap">
 
-  <header class="brand reveal"><span class="mark"></span><b>Crowned&nbsp;Eagles&nbsp;Global</b></header>
+  <header class="brand reveal"><span class="mark"></span><b class="ceg">Crowned&nbsp;Eagles&nbsp;Global</b></header>
+
+  <!-- ── Series crown: arced wordmark (echoes the cover) + concise series statement ── -->
+  <div class="series-crown reveal" style="animation-delay:.03s">
+    <div class="throne-glow" aria-hidden="true"></div>
+    <svg class="arc-wordmark" viewBox="0 0 900 430" role="img" aria-label="Behold My Messenger">
+      <defs>
+        <linearGradient id="goldArc" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#fff7df"/><stop offset=".22" stop-color="#fbe3a6"/>
+          <stop offset=".5" stop-color="#edc274"/><stop offset=".74" stop-color="#cf9a3e"/>
+          <stop offset="1" stop-color="#8f6420"/>
+        </linearGradient>
+        <radialGradient id="doveGlow" cx=".5" cy=".5" r=".5">
+          <stop offset="0" stop-color="#ffffff" stop-opacity=".6"/>
+          <stop offset=".45" stop-color="#ffe9bd" stop-opacity=".2"/>
+          <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+        </radialGradient>
+        <path id="bmmArc" d="M 58 196 Q 450 30 842 196" fill="none"/>
+      </defs>
+      <!-- luminous halo + the real cover dove (extracted from Book 1 Cover.psd), behind the wordmark -->
+      <ellipse cx="450" cy="212" rx="262" ry="166" fill="url(#doveGlow)"/>
+      <image class="dove" href="images/series-dove.png" x="90" y="-12" width="720" height="452"
+             preserveAspectRatio="xMidYMid meet"/>
+      <text class="arc-text"><textPath href="#bmmArc" startOffset="50%" text-anchor="middle">BEHOLD MY MESSENGER</textPath></text>
+    </svg>
+    <p class="series-lead">The final mandate of the last days &mdash; the TRINITY&rsquo;s revelation,
+      spoken in and through <span class="au-gold">SHEKINAIH</span> AND <span class="au-silver">J&nbsp;AARON&nbsp;K&nbsp;DAVID</span>. Five books unveil what was hidden since the foundation
+      of the earth: truth, power, and the transformation of all things.</p>
+    <p class="series-authors">by <span class="au-gold">Shekinaih&nbsp;Siew&nbsp;Sin&nbsp;Yap</span> <span class="amp">&amp;</span> <span class="au-silver">J&nbsp;Aaron&nbsp;K&nbsp;David</span></p>
+  </div>
 
   <!-- ── Featured ───────────────────────────────────────── -->
   <section class="hero">
@@ -215,7 +626,7 @@ footer .small{font-size:13px;opacity:.7;margin-top:8px}
       </a>
     </div>
     <div class="hero-copy reveal" style="animation-delay:.16s">
-      <p class="tagline">Behold My Messenger &middot; Book Five</p>
+      <p class="tagline">Now Available &middot; Book Five</p>
       <h1>The Resurrection<br>of the Dead</h1>
       <p class="sub">The Doctrine of the Power of the Age to Come</p>
       <div class="meta">
@@ -233,6 +644,74 @@ footer .small{font-size:13px;opacity:.7;margin-top:8px}
   </section>
 
   <!-- ── The library shelf ──────────────────────────────── -->
+  <!-- ── THE SAGA — the series narrative, told as an illuminated timeline ── -->
+  <section class="saga">
+    <div class="saga-head reveal">
+      <p class="saga-eyebrow">The Saga</p>
+      <p class="saga-intro"><b>Behold My Messenger</b> is the final mandate of the last days &mdash;
+        the TRINITY&rsquo;s revelation, spoken in and through <span class="au-gold">SHEKINAIH</span> AND <span class="au-silver">J&nbsp;AARON&nbsp;K&nbsp;DAVID</span>. Across five books and beyond,
+        it unseals mysteries hidden since the foundation of the earth, each volume rising to a holy
+        crescendo of truth, power, and eternal transformation. The call has gone out for the
+        144,000 Brides and the 7,000 Anointed to arise.</p>
+    </div>
+
+    <div class="saga-tl">
+      <article class="saga-ch reveal" style="animation-delay:.06s">
+        <div class="saga-node" aria-hidden="true">I</div>
+        <div class="saga-body">
+          <h3 class="saga-title">Behold My Glory</h3>
+          <p class="saga-sub">The Victory</p>
+          <p class="saga-hook">The blinding glory of the TRINITY calls the last-days warriors to arise.</p>
+        </div>
+      </article>
+
+      <article class="saga-ch reveal" style="animation-delay:.12s">
+        <div class="saga-node" aria-hidden="true">II</div>
+        <div class="saga-body">
+          <h3 class="saga-title">Behold My Anointed</h3>
+          <p class="saga-sub">Take Up Your Cross</p>
+          <p class="saga-hook">The elect are forged into vessels of honour: trials endured, the flesh overcome, authority received.</p>
+        </div>
+      </article>
+
+      <article class="saga-ch reveal" style="animation-delay:.18s">
+        <div class="saga-node" aria-hidden="true">III</div>
+        <div class="saga-body">
+          <h3 class="saga-title">Behold My Names</h3>
+          <p class="saga-sub">The Seven Names of the TRINITY</p>
+          <p class="saga-hook">The Names of Power are unsealed: authority to overthrow every stronghold.</p>
+        </div>
+      </article>
+
+      <article class="saga-ch reveal" style="animation-delay:.24s">
+        <div class="saga-node" aria-hidden="true">IV</div>
+        <div class="saga-body">
+          <h3 class="saga-title">Behold My Great White Throne</h3>
+          <p class="saga-sub">Revelation &middot; Judgement</p>
+          <p class="saga-hook">All creation stands before the Throne; the elect are crowned to reign for the millennium.</p>
+        </div>
+      </article>
+
+      <article class="saga-ch reveal" style="animation-delay:.30s">
+        <div class="saga-node" aria-hidden="true">V</div>
+        <div class="saga-body">
+          <h3 class="saga-title">The Resurrection of the Dead</h3>
+          <p class="saga-sub">The Power of the Age to Come</p>
+          <p class="saga-hook">The mystery of resurrection unlocked: the seven criteria, the final test of faith, the crown of eternal life.</p>
+        </div>
+      </article>
+
+      <article class="saga-ch beyond reveal" style="animation-delay:.36s">
+        <div class="saga-node" aria-hidden="true">&lowast;</div>
+        <div class="saga-body">
+          <h3 class="saga-title">Beyond</h3>
+          <p class="saga-sub">The Final Cosmic Explosion</p>
+          <p class="saga-hook">Prophecy fulfilled, heaven marching upon earth: the climax of God&rsquo;s eternal plan.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
   <section class="library">
     <div class="lib-head reveal">
       <h2>The Complete Series</h2>
@@ -242,17 +721,18 @@ footer .small{font-size:13px;opacity:.7;margin-top:8px}
   </section>
 
   <footer class="reveal">
-    <b>Behold My Messenger</b> &mdash; by <span class="au-gold">Shekinaih Siew Sin Yap</span> &amp; <span class="au-silver">J Aaron K David</span><br>
-    <span class="small">&copy; Crowned Eagles Global</span>
+    <b>Behold&nbsp;My&nbsp;Messenger</b>
+    <p class="byline">by <span class="au-gold">Shekinaih&nbsp;Siew&nbsp;Sin&nbsp;Yap</span> <span class="amp">&amp;</span> <span class="au-silver">J&nbsp;Aaron&nbsp;K&nbsp;David</span></p>
+    <p class="copyline"><span class="small">&copy;</span> <span class="ceg">Crowned&nbsp;Eagles&nbsp;Global</span></p>
   </footer>
 </div>
 
 <script>
 const BOOKS = [
-  {n:1, title:"Behold My Glory",              sub:"The Victory",                   file:null,          status:"soon", meta:"≈20h"},
-  {n:2, title:"Behold My Anointed",           sub:"Take Up Your Cross",            file:null,          status:"soon", meta:"≈17h"},
-  {n:3, title:"Behold My Names",              sub:"Seven Names of the Trinity",    file:null,          status:"soon", meta:"≈18h"},
-  {n:4, title:"Behold My Great White Throne", sub:"Revelation · Judgement",   file:null,          status:"soon", meta:"≈9h"},
+  {n:1, title:"Behold My Glory",              sub:"The Victory",                   file:"book-1.html", status:"live", meta:"16h 32m"},
+  {n:2, title:"Behold My Anointed",           sub:"Take Up Your Cross",            file:"book-2.html", status:"live", meta:"14h 34m"},
+  {n:3, title:"Behold My Names",              sub:"Seven Names of the TRINITY",    file:"book-3.html", status:"live", meta:"16h 58m"},
+  {n:4, title:"Behold My Great White Throne", sub:"Revelation · Judgement",   file:"book-4.html", status:"live", meta:"7h 33m"},
   {n:5, title:"The Resurrection of the Dead", sub:"The Power of the Age to Come",  file:"book-5.html", status:"live", meta:"21h 17m"},
 ];
 const PLAY = '<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
@@ -278,8 +758,10 @@ document.getElementById('shelf').innerHTML = BOOKS.map((b,i)=>{
     `<div class="shelfboard"></div>`+
     `<div class="label"><div class="bookno">Book ${b.n}</div>`+
     `<div class="name">${b.title}</div>`+
-    `<div class="meta2">${b.sub} &nbsp;&middot;&nbsp; ${metaTxt}</div></div>`;
-  return `<div class="book-cell reveal" style="animation-delay:${.22 + i*.07}s">${inner}</div>`;
+    `<div class="sub2">${b.sub}</div>`+
+    `<div class="meta2"><span class="dur">${b.meta}</span>`+
+      `<span class="tag ${live?'live':'soon'}">${live?'Listen':'Soon'}</span></div></div>`;
+  return `<div class="book-cell reveal${live?' live':''}" style="animation-delay:${.22 + i*.07}s">${inner}</div>`;
 }).join('');
 </script>
 </body>

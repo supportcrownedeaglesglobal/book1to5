@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["023-preliminary-behold-my-anointed"]={"id": "023-preliminary-behold-my-anointed", "title": "PRELIMINARY \nBEHOLD! MY ANOINTED!", "paragraphs": [{"role": "chapter_title", "text": "PRELIMINARY \nBEHOLD! MY ANOINTED!", "start": 0.3, "end": 4.28}]};

@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["060-chapter-9-final-selection-criterias"]={"id": "060-chapter-9-final-selection-criterias", "title": "Chapter 9\nFinal Selection Criterias", "paragraphs": [{"role": "chapter_title", "text": "Chapter 9\nFinal Selection Criterias", "start": 0.3, "end": 4.9}]};

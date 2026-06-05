@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["191-conditions-to-receive-wisdom"]={"id": "191-conditions-to-receive-wisdom", "title": "Conditions to Receive Wisdom", "paragraphs": [{"role": "chapter_title", "text": "Conditions to Receive Wisdom", "start": 0.3, "end": 3.3}]};

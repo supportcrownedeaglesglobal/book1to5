@@ -140,6 +140,20 @@ python fix_scripture.py --pattern '\b[A-Z]{2,}\b' --remaster-only
 #    (gitignored; the live site streams from the bucket)
 ```
 
+**The messenger is always spoken in full as "J Aaron K David"** (the silver-font author). In
+the manuscript his name is title-case "Aaron K David" through the narrative and ALL-CAPS
+"AARON K DAVID" in emphatic passages — both read "J Aaron K David". `render_kokoro.py prep()`'s
+`_JAARON` transform handles both cases, consumes a leading "J"/"J." so it never double-prefixes,
+and requires the full "Aaron K David" so biblical "Moses and Aaron" / King "David" are untouched.
+Apply it to the audio of all five books with the driver — it re-renders only the naming clips,
+re-masters only the affected tracks/children (`apply_name_fix.py` ≈ `fix_scripture --remaster-only`),
+then restages + rebuilds read-along + re-embeds each manifest:
+
+```
+C:\Python314\python.exe audiobook/scripts/run_name_fix_all.py
+```
+(Book 5 is live on R2 — re-upload its changed mp3s after.)
+
 ## Read-along reader view
 
 The player has a second mode (toggle → `body.reading`) that shows the book text in large
@@ -183,11 +197,37 @@ python build_readalong.py            # regenerate all readalong/<id>.js
 python build_readalong.py --check    # verify timing on one track, then exit
 ```
 
+## Building a book's whole page (per-book: `BMM_BOOK=N`)
+
+The full audiobook page for ANY book is this sequence (paths come from `config.py`; book 5 is
+flat, books 1–4 nest under `…/book-N/`). **CRITICAL: run each heavy step ALONE — never the GPU
+render (`render_kokoro`) at the same time as an ffmpeg step (`master`/`build_readalong`). On
+Windows the process-spawn contention crashes ffmpeg with a DLL-init error (`0xC0000142`); it
+silently stalled the render and master more than once. One job at a time.**
+
+1. `extract.py` — docx → `data/book-N/chapters.json`. Track breaks: Heading 1/2 (books 3/5) OR
+   the custom styles in books 1/2/4 — `Part Heading Style` (L1) · `Section Heading` /
+   `Chapter Caption` / `Section Sub Heading` (L2). Roles: `God`→decree, `Verse 1`→scripture.
+   Skips `toc*`. `cap_lengths()` splits any heading-less section over ~2200 words into "(part N)".
+2. `render_kokoro.py` — Kokoro TTS per segment (GPU). `prep()` = lexicon → `normalize_caps` → scripture.
+3. `master.py` — single-pass ffmpeg concat + 2-pass loudnorm → `out/book-N/chapters/*.mp3` + manifest.
+4. `split_appendices.py` — break long tracks at sub-headings + a 15-min hard length cap.
+5. `stage_web.py` — copy mastered mp3s + manifest → the served `audio/book-N/`.
+6. `build_readalong.py` — per-track reader timings → `readalong/book-N/*.js`.
+7. **Figures** (same recipe as the reader-view section, per book): `extract_diagrams.py --pdf
+   <book-N pdf>` → `place_diagrams.py --pdf <book-N pdf>` (default groups `A,D`) → **re-run
+   `build_readalong.py`** so the placed figures attach. Book 5's are placed; do this for each book.
+8. `make_player.py` — generate `book-N.html` from the `book-5.html` template (swaps cover, title,
+   `audio/book-N`, `M_URL`, `readalong/book-N`) → `inline_manifest.py` embeds the manifest.
+9. Light it up: flip the book's card to "Listen Now" in `index.html`, and upload `audio/book-N/`
+   to R2 (the mp3s are gitignored; the live site streams from the bucket).
+
 ## Deployment
 
-Live via **GitHub Pages** at <https://supportcrownedeaglesglobal.github.io/book5/>
-(Deploy-from-branch: `main` / root). The repo is **public** (free-plan Pages requires
-it). `index.html` works offline / over `file://` thanks to the embedded manifest.
+Live via **Cloudflare Pages** at <https://crownedeaglesglobal-beholdmymessengerseries-audio.pages.dev>
+(auto-deploys from `main`; `changev2` gets a preview deployment). Each page — `index.html`
+(the library hub) and `book-N.html` (the players) — works offline / over `file://` via its
+embedded manifest fallback.
 
 **Audio hosting (Cloudflare R2):** the `.mp3` files are gitignored (too large for the
 repo), so the audio is served from a CDN with free egress — **Cloudflare R2**. The
@@ -222,6 +262,19 @@ edge treat it as a new URL — only that chapter re-downloads.
   **"J Aaron K David" → SILVER**, on every page and every book. The landing page uses
   `.au-gold` / `.au-silver`; the book players use `.name-gold` / `.name-silver`. Carry this
   onto every new book page.
+- **"CROWNED EAGLES GLOBAL" is the rainbow wordmark.** Bold, full-caps, with a flowing animated
+  rainbow gradient (the `.ceg` class — `background-clip:text` + the `cegflow` shimmer), echoing
+  the organisation's rainbow logo. It appears on every page: `index.html` (top brand bar +
+  footer) and every `book-N.html` (eyebrow + closing band + credit). Add `.ceg` to every new
+  page, and honour `prefers-reduced-motion` (animation off). On the gold brand bar, the override
+  `.brand b.ceg{color:transparent}` lets the gradient win the cascade.
+- **The landing page (`index.html`) crowns the *series*, not just Book 5.** An arced "BEHOLD MY
+  MESSENGER" wordmark (SVG `textPath` on the `#bmmArc` quadratic, `#goldArc` vertical-gold gradient
+  + dark stroke, Cinzel 900 — class `.arc-wordmark`, echoing the cover's dome arc) sits above the
+  featured book, with a concise, authoritative series statement (`.series-lead`). The shelf cards
+  align across the row by reserving a 2-line `min-height` on the title (`.name`) and subtitle
+  (`.sub2`), and a gold **Listen / Soon** `.tag` chip replaces the old inline "· soon". Those
+  min-heights reset to 0 below 760px so titles flow when columns get narrow.
 - **Never advertise the TTS engine on customer-facing pages** (the audiobooks are sold) — no
   "narrated with Kokoro" / synthetic-voice wording on the landing page or players. Kokoro is
   documented internally (here + `config.py`) only.

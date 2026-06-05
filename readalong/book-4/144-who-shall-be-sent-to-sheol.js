@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["144-who-shall-be-sent-to-sheol"]={"id": "144-who-shall-be-sent-to-sheol", "title": "Who shall be sent to Sheol?", "paragraphs": [{"role": "chapter_title", "text": "Who shall be sent to Sheol?", "start": 0.3, "end": 2.63}]};

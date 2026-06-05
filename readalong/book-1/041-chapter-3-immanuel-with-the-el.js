@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["041-chapter-3-immanuel-with-the-el"]={"id": "041-chapter-3-immanuel-with-the-el", "title": "Chapter 3\nIMMANUEL (With THE EL)", "paragraphs": [{"role": "chapter_title", "text": "Chapter 3\nIMMANUEL (With THE EL)", "start": 0.3, "end": 4.4}]};

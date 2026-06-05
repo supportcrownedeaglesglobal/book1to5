@@ -1,0 +1,1 @@
+(window.RA_CACHE=window.RA_CACHE||{})["019-interlude-3-word-of-wisdom"]={"id": "019-interlude-3-word-of-wisdom", "title": "INTERLUDE 3\nWord of Wisdom", "paragraphs": [{"role": "chapter_title", "text": "INTERLUDE 3\nWord of Wisdom", "start": 0.3, "end": 4.18}]};
