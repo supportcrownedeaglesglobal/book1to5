@@ -123,7 +123,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garam
 .lib-head{text-align:center;border-top:1px solid var(--line);padding-top:38px;margin-bottom:44px}
 .lib-head h2{font-family:'Cinzel',serif;font-weight:700;font-size:var(--fs-h2);letter-spacing:.06em;margin:0;line-height:1.2}
 .lib-head p{margin:12px 0 0;color:var(--dim);font-size:var(--fs-meta)}
-.lib-head p .free{color:var(--gold2);font-weight:600}
+
 
 /* ────────────────────────────────────────────────────────────
    THE SHELF — flex-wrap centering so the trailing partial row is
@@ -152,14 +152,21 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garam
 .meta2 .dur{display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
 .meta2 .dur svg{width:15px;height:15px;fill:none;stroke:var(--gold);stroke-width:1.7;opacity:.85}
 
-/* big friendly "Listen free" button — the one-tap affordance on every card */
-.listen{margin-top:auto;display:flex;align-items:center;justify-content:center;gap:10px;
-  min-height:50px;padding:13px 20px;border-radius:999px;
-  background:var(--gold-metal);color:#231603;
-  font-family:'Cinzel',serif;font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:var(--fs-listen);
-  box-shadow:0 12px 28px rgba(232,184,109,.28);
+/* refined solid gold pill — premium & highly legible one-tap affordance.
+   Sentence-case Cinzel, gentle tracking; inner highlight + soft shadow give depth. */
+.listen{margin-top:auto;display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  min-height:50px;padding:13px 24px;border-radius:999px;
+  background:var(--gold-metal);color:#2a1a04;
+  font-family:'Cinzel',serif;font-weight:600;letter-spacing:.02em;font-size:var(--fs-listen);line-height:1;
+  box-shadow:
+    inset 0 1px 0 rgba(255,250,235,.6),
+    inset 0 -1px 1px rgba(120,80,24,.4),
+    0 8px 22px rgba(169,119,47,.34),
+    0 2px 6px rgba(0,0,0,.28);
   transition:transform .2s ease,box-shadow .2s ease,filter .2s ease}
-.listen svg{width:16px;height:16px;fill:#231603;flex:0 0 auto}
+.listen svg{width:15px;height:15px;fill:#2a1a04;flex:0 0 auto;
+  transform:translateY(.5px);transition:transform .25s ease}
+.book-cell.live:hover .listen svg{transform:translate(2px,.5px)}
 .book-cell.live .name{transition:color .25s}
 
 /* ── footer ────────────────────────────────────────────── */
@@ -211,7 +218,7 @@ footer .ceg{font-size:clamp(20px,1.2vw+15px,24px);letter-spacing:.12em}
   .name{min-height:0}
   .sub2{min-height:0;margin-bottom:10px}
   .meta2{gap:9px;margin-bottom:15px}
-  .listen{letter-spacing:.08em;padding:13px 14px}
+  .listen{padding:13px 16px}
   .brand{gap:11px}
   .series-lead{max-width:38ch}
 }
@@ -495,7 +502,7 @@ footer .ceg{font-size:clamp(20px,1.2vw+15px,24px);letter-spacing:.12em}
   <section class="library">
     <div class="lib-head reveal">
       <h2>The Complete Series</h2>
-      <p>Five books &middot; <span class="free">free to listen</span> &middot; narrated with reverence</p>
+      <p>Five books &middot; narrated with reverence</p>
     </div>
     <div class="shelf" id="shelf"></div>
   </section>
@@ -528,7 +535,7 @@ document.getElementById('shelf').innerHTML = BOOKS.map((b,i)=>{
     `</div>`+
     `<span class="tome__play" aria-hidden="true">${PLAY}</span>`;
   const inner =
-    `<a class="cell-link" href="${b.file}" aria-label="Listen free to Book ${b.n}, ${b.title} — ${b.sub}, ${b.meta}">`+
+    `<a class="cell-link" href="${b.file}" aria-label="Listen to Book ${b.n}, ${b.title} — ${b.sub}, ${b.meta}">`+
       `<span class="tome live">${tome}</span>`+
       `<div class="shelfboard"></div>`+
       `<div class="label">`+
@@ -536,7 +543,7 @@ document.getElementById('shelf').innerHTML = BOOKS.map((b,i)=>{
         `<div class="name">${b.title}</div>`+
         `<div class="sub2">${b.sub}</div>`+
         `<div class="meta2"><span class="dur">${CLOCK}${b.meta}</span></div>`+
-        `<span class="listen">${PLAY} Listen free</span>`+
+        `<span class="listen">${PLAY} Listen</span>`+
       `</div>`+
     `</a>`;
   return `<div class="book-cell live reveal" style="animation-delay:${.18 + i*.07}s">${inner}</div>`;
