@@ -133,8 +133,15 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garam
    shelfboard bleeds into the cell padding so neighbours' boards
    meet to form one continuous shelf within each row.
    Default tier: 5-up (20% each).
+
+   ALIGNMENT: align-items:stretch makes every cell in a row EQUAL
+   HEIGHT (tallest content wins), and .meta2 carries margin-top:auto
+   so the runtime+button group is pinned to the BOTTOM of each cell
+   as one unit. Combined with a .name min-height reserving 3 title
+   lines, the runtime rows AND the Listen buttons land on the same
+   horizontal baseline across every card, at 5-up / 3-up / 2-up.
    ──────────────────────────────────────────────────────────── */
-.shelf{display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;row-gap:50px;padding:0 6px}
+.shelf{display:flex;flex-wrap:wrap;justify-content:center;align-items:stretch;row-gap:50px;padding:0 6px}
 .book-cell{flex:0 0 20%;max-width:20%;width:20%;display:flex;flex-direction:column;padding:0 17px}
 .book-cell .tome{--d:20px}
 /* gilded shelf board — bleeds into the cell padding so neighbours' boards meet to
@@ -146,9 +153,11 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garam
   background:linear-gradient(90deg,rgba(244,208,137,0),rgba(244,208,137,.72) 28%,rgba(244,208,137,.72) 72%,rgba(244,208,137,0))}
 .label{margin-top:20px;display:flex;flex-direction:column;flex:1}
 .bookno{font-family:'Cinzel',serif;font-size:var(--fs-bookno);letter-spacing:.26em;color:var(--gold);text-transform:uppercase;margin-bottom:10px}
-.name{font-weight:600;font-size:var(--fs-name);line-height:1.18;margin:0 0 9px;color:var(--ink);min-height:2.36em}
+.name{font-weight:600;font-size:var(--fs-name);line-height:1.18;margin:0 0 9px;color:var(--ink);min-height:3.54em}
 .sub2{font-style:italic;font-size:var(--fs-sub);line-height:1.32;color:var(--muted);margin:0 0 13px;min-height:2.64em}
-.meta2{display:flex;align-items:center;gap:11px;font-size:var(--fs-meta);color:var(--dim);letter-spacing:.03em;margin-bottom:18px}
+/* margin-top:auto pins the runtime+button group to the bottom of the
+   (equal-height) cell as one block, so both align across all cards. */
+.meta2{margin-top:auto;display:flex;align-items:center;gap:11px;font-size:var(--fs-meta);color:var(--dim);letter-spacing:.03em;margin-bottom:18px}
 .meta2 .dur{display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
 .meta2 .dur svg{width:15px;height:15px;fill:none;stroke:var(--gold);stroke-width:1.7;opacity:.85}
 
@@ -208,15 +217,12 @@ footer .ceg{font-size:clamp(20px,1.2vw+15px,24px);letter-spacing:.12em}
 }
 @media(max-width:760px){
   .wrap{padding:0 20px}
-  .name{min-height:0}
-  .sub2{min-height:0;margin-bottom:11px}
 }
 /* 2-up (small phone): 5 books wrap 2 + 2 + 1 (centered) */
 @media(max-width:520px){
   .book-cell{flex-basis:50%;max-width:50%;width:50%;padding:0 12px}
   .shelfboard{margin:18px -12px 0}
-  .name{min-height:0}
-  .sub2{min-height:0;margin-bottom:10px}
+  .sub2{margin-bottom:10px}
   .meta2{gap:9px;margin-bottom:15px}
   .listen{padding:13px 16px}
   .brand{gap:11px}
@@ -240,7 +246,8 @@ footer .ceg{font-size:clamp(20px,1.2vw+15px,24px);letter-spacing:.12em}
   .bookno{margin-bottom:5px;font-size:12px}
   .name{min-height:0;font-size:21px;line-height:1.2;margin:0 0 4px}
   .sub2{min-height:0;margin-bottom:9px;font-size:16px;line-height:1.3}
-  .meta2{margin-bottom:12px;font-size:15px}
+  /* horizontal card: drop the bottom-pin so the block hugs the title naturally */
+  .meta2{margin-top:0;margin-bottom:12px;font-size:15px}
   .listen{align-self:flex-start;min-height:44px;padding:11px 18px;font-size:13.5px}
 }
 @media (prefers-reduced-motion: reduce){
