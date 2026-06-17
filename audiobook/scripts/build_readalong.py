@@ -73,40 +73,41 @@ def attach_images(track_id, paras, diagrams):
             print(f"    !! diagram {d['image']}: no paragraph in {track_id} contains its after_text")
 
 
-def build_track(t, chapters, sp, parent_state, diagrams):
-    """Return paragraphs for one final track, or None if it has no own/parent cache."""
-    own = C.SEGMENTS / t["id"]
-    if (own / "segments.json").exists():
-        segs = json.loads((own / "segments.json").read_text(encoding="utf-8"))["segments"]
-        return paragraphs(own, segs)
-    # split child: slice of the parent cache, same boundaries as split_appendices
-    parent = parent_state["parent"]
-    pdir = C.SEGMENTS / parent["id"]
-    segs = json.loads((pdir / "segments.json").read_text(encoding="utf-8"))["segments"]
-    if parent_state["parts"] is None:
-        floor = SP.FLOOR_LONG if sum(SP.est_seg(s) for s in segs) > SP.LONG_TRACK_SEC else SP.FLOOR_SHORT
-        parent_state["parts"] = SP.compute_parts(segs, parent["title"], floor)
-    s, e, _ = parent_state["parts"][parent_state["split_k"]]
-    return paragraphs(pdir, segs[s:e])
-
-
 def build_all():
     chapters = json.loads(C.CHAPTERS_JSON.read_text(encoding="utf-8"))
     sp = split_parents(chapters)
     diagrams = load_diagrams()
     READALONG.mkdir(exist_ok=True)
     man = {c["id"]: c["durationSec"] for c in json.loads(WEB_MANIFEST.read_text(encoding="utf-8"))["chapters"]}
-    state = {"parent": None, "parts": None, "split_k": 0}
+    # Split children carry no own segment-dir: each is a contiguous slice of its level-1
+    # parent's cache. chapters.json stores each child's exact segment list, so we tile the
+    # parent's segments by those STORED counts (a moving cursor) — the SAME boundaries
+    # split_appendices mastered into each child's mp3. (Recomputing compute_parts here is
+    # unsafe: if its floors/logic differ from when the book was split, the boundaries drift
+    # and the read-along text desyncs from the audio — which is exactly what happened to
+    # Appendix 8's children.)
+    parent_dir, parent_segs, cursor = None, None, 0
     wrote, drift = 0, []
     for t in chapters:
-        if t["level"] == 1:
-            state.update(parent=t, parts=None, split_k=0)
-        own_exists = (C.SEGMENTS / t["id"] / "segments.json").exists()
-        if t["level"] == 2 and not own_exists:
-            state["split_k"] += 1
-        if t["id"] in sp:                                # title-only header → no reader file
+        own = C.SEGMENTS / t["id"] / "segments.json"
+        own_exists = own.exists()
+        if t["level"] == 1:                              # new top-level track resets the slice cursor
+            parent_dir = (C.SEGMENTS / t["id"]) if own_exists else None
+            parent_segs = json.loads(own.read_text(encoding="utf-8"))["segments"] if own_exists else None
+            cursor = 0
+        if t["id"] in sp:                                # title-only split parent → no reader file,
+            cursor += len(t.get("segments", []))         # but advance past the segment(s) it consumed
             continue
-        paras = build_track(t, chapters, sp, state, diagrams)
+        if own_exists:                                   # standalone track: timed within its own cache
+            segs = json.loads(own.read_text(encoding="utf-8"))["segments"]
+            paras = paragraphs(C.SEGMENTS / t["id"], segs)
+        elif parent_segs is not None:                    # split child: tile the parent cache by stored count
+            n = len(t.get("segments", []))
+            seg_slice = parent_segs[cursor:cursor + n]
+            cursor += n
+            paras = paragraphs(parent_dir, seg_slice)
+        else:
+            continue
         if not paras:
             continue
         attach_images(t["id"], paras, diagrams)

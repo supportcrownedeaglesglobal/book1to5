@@ -17,3 +17,6 @@ _diagram-gallery.html
 
 audio/book-*/*.mp3
 *.bak
+
+voice-samples/
+audiobook/scripts/_voice_sample.py
