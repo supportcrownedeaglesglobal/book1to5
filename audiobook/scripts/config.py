@@ -66,6 +66,13 @@ PLAYER_HTML    = REPO / f"book-{BOOK}.html"                 # the per-book playe
 # section, so every long chapter from the start is eligible to break at its sub-headings.
 SPLIT_FROM_ORDER = 63 if BOOK == "5" else 1
 
+# ---------------------------------------------------------------- Cloudflare R2 (audio host)
+# Audio is served from R2. publish_audio.py uploads each book's mp3s to
+# R2_BUCKET/R2_FOLDER/<id>.mp3 via wrangler (OAuth login — no secret/access key needed).
+R2_BUCKET  = "crownedeaglesglobal-beholdmymessenger-series"
+R2_FOLDER  = f"beholdmymessenger-book{BOOK}"                  # object-key prefix, per book
+R2_ACCOUNT = "4e5aa7eb842d848eba4c95f133160e6a"
+
 # ---------------------------------------------------------------- voice cast
 # edge-tts neural voices (dev previews only — NOT shipped). Production audio is Kokoro
 # (render_kokoro.py VOICE map). rate/pitch tuned per speaker.

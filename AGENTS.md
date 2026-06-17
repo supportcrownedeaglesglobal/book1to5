@@ -242,19 +242,21 @@ uploaded to `…/beholdmymessenger-book5/`, flat). So `audioSrc()` takes just th
 from each manifest `audioUrl` and appends it: `${AUDIO_BASE_URL}/<id>.mp3?v=<version>` — change
 the host/folder in this one place, no manifest regen. (With `AUDIO_BASE_URL=""`, local/same-origin
 keeps serving the mp3s from `audio/book-5/`.) A **custom domain** can replace the `pub-*.r2.dev`
-host later for edge-caching. Upload with `audiobook/scripts/upload_r2.sh` (`BUCKET=… bash upload_r2.sh`), which
-sets `Cache-Control: public, max-age=31536000, immutable` so repeat plays hit Cloudflare's
-edge (free). **Caching only works via a custom domain — the `pub-*.r2.dev` URL does NOT
+host later for edge-caching. Upload with `audiobook/scripts/publish_audio.py` (Wrangler OAuth —
+run `wrangler login` once, no secret/access key to paste), which sets
+`Cache-Control: public, max-age=31536000, immutable` so repeat plays hit Cloudflare's edge (free). **Caching only works via a custom domain — the `pub-*.r2.dev` URL does NOT
 cache.** Verify with the response header `cf-cache-status: HIT`. The static page can stay on
 GitHub Pages, or move to **Cloudflare Pages** (free, no commercial-use restriction) to keep
 site + audio under one Cloudflare account/domain.
 
 **Cache-busting a single chapter** (because `immutable` tells the CDN to cache for a year):
-the site loads every track through `audioSrc(c)`, which appends `?v=<version>`. To push a
-re-recorded chapter: (1) re-master + re-upload that one `.mp3` to R2, (2) bump its number
-in `data/versions.json` by 1, (3) `python build_manifest.py && python inline_manifest.py`,
-redeploy. Unlisted chapters default to `version: 1`. The `?v=` change makes the browser and
-edge treat it as a new URL — only that chapter re-downloads.
+the site loads every track through `audioSrc(c)`, which appends `?v=<version>`. To push
+re-recorded chapters, after re-master + `stage_web.py` run **`python publish_audio.py --changed
+<id…>`** — one step that bumps `data/versions.json`, rebuilds + inlines the manifest, AND uploads
+the changed mp3s to the correct R2 folder (`beholdmymessenger-bookN/`, via Wrangler OAuth) — then
+git-push so the new `?v=` deploys. (`--all` re-publishes the whole book; no args = auto-detect mp3s
+changed since the last publish.) Unlisted chapters default to `version: 1`. The `?v=` change makes
+the browser and edge treat it as a new URL — only that chapter re-downloads.
 
 ## Branding
 
