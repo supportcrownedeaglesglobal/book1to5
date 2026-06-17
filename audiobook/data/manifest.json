@@ -22,7 +22,7 @@
    "durationSec": 95.91,
    "estSec": 87.6,
    "audioUrl": "audio/book-5/003-pre-foreword.mp3",
-   "version": 1
+   "version": 4
   },
   {
    "id": "004-foreword",
@@ -143,7 +143,7 @@
    "durationSec": 213.84,
    "estSec": 221.2,
    "audioUrl": "audio/book-5/014-chapter-1-1.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "015-understanding-prophetic-expectation-of-resurrection-power",
@@ -154,7 +154,7 @@
    "durationSec": 258.27,
    "estSec": 278.4,
    "audioUrl": "audio/book-5/015-understanding-prophetic-expectation-of-resurrection-power.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "016-chapter-1-2",
@@ -165,7 +165,7 @@
    "durationSec": 270.52,
    "estSec": 222.8,
    "audioUrl": "audio/book-5/016-chapter-1-2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "017-chapter-1-3",
@@ -187,7 +187,7 @@
    "durationSec": 173.62,
    "estSec": 169.6,
    "audioUrl": "audio/book-5/018-reflection.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "019-part-2",
@@ -209,7 +209,7 @@
    "durationSec": 155.99,
    "estSec": 162.0,
    "audioUrl": "audio/book-5/020-act-2-scene-1.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "021-chapter-2-1-the-deceased",
@@ -220,7 +220,7 @@
    "durationSec": 317.62,
    "estSec": 308.0,
    "audioUrl": "audio/book-5/021-chapter-2-1-the-deceased.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "022-chapter-2-2",
@@ -253,7 +253,7 @@
    "durationSec": 120.75,
    "estSec": 116.0,
    "audioUrl": "audio/book-5/024-reflection-2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "025-part-3",
@@ -275,7 +275,7 @@
    "durationSec": 155.42,
    "estSec": 151.6,
    "audioUrl": "audio/book-5/026-act-3-scene-1-the-absurd.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "027-practical-reflection-aligning-with-divine-will",
@@ -286,7 +286,7 @@
    "durationSec": 96.63,
    "estSec": 86.0,
    "audioUrl": "audio/book-5/027-practical-reflection-aligning-with-divine-will.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "028-chapter-3-1",
@@ -297,7 +297,7 @@
    "durationSec": 113.88,
    "estSec": 92.0,
    "audioUrl": "audio/book-5/028-chapter-3-1.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "029-chapter-3-2",
@@ -308,7 +308,7 @@
    "durationSec": 121.62,
    "estSec": 97.6,
    "audioUrl": "audio/book-5/029-chapter-3-2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "030-chapter-3-3",
@@ -330,7 +330,7 @@
    "durationSec": 142.16,
    "estSec": 138.4,
    "audioUrl": "audio/book-5/031-reflection-3.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "032-part-4",
@@ -374,7 +374,7 @@
    "durationSec": 245.75,
    "estSec": 247.6,
    "audioUrl": "audio/book-5/035-spiritual-disciplines-for-resurrection-power.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "036-chapter-4-1",
@@ -385,7 +385,7 @@
    "durationSec": 113.27,
    "estSec": 99.2,
    "audioUrl": "audio/book-5/036-chapter-4-1.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "037-chapter-4-2",
@@ -396,7 +396,7 @@
    "durationSec": 119.59,
    "estSec": 110.0,
    "audioUrl": "audio/book-5/037-chapter-4-2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "038-chapter-4-3",
@@ -418,7 +418,7 @@
    "durationSec": 239.73,
    "estSec": 233.6,
    "audioUrl": "audio/book-5/039-reflection-4.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "040-part-5",
@@ -451,7 +451,7 @@
    "durationSec": 130.92,
    "estSec": 130.4,
    "audioUrl": "audio/book-5/042-addressing-doctrinal-controversies.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "043-chapter-5-1",
@@ -462,7 +462,7 @@
    "durationSec": 129.43,
    "estSec": 107.6,
    "audioUrl": "audio/book-5/043-chapter-5-1.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "044-chapter-5-2",
@@ -473,7 +473,7 @@
    "durationSec": 97.1,
    "estSec": 91.6,
    "audioUrl": "audio/book-5/044-chapter-5-2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "045-chapter-5-3",
@@ -495,7 +495,7 @@
    "durationSec": 143.49,
    "estSec": 144.8,
    "audioUrl": "audio/book-5/046-reflection-5.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "047-part-6",
@@ -528,7 +528,7 @@
    "durationSec": 162.99,
    "estSec": 166.8,
    "audioUrl": "audio/book-5/049-universal-yearning-for-resurrection.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "050-chapter-6-1",
@@ -539,7 +539,7 @@
    "durationSec": 97.67,
    "estSec": 81.6,
    "audioUrl": "audio/book-5/050-chapter-6-1.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "051-chapter-6-2",
@@ -550,7 +550,7 @@
    "durationSec": 86.08,
    "estSec": 67.2,
    "audioUrl": "audio/book-5/051-chapter-6-2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "052-chapter-6-3",
@@ -572,7 +572,7 @@
    "durationSec": 121.05,
    "estSec": 114.0,
    "audioUrl": "audio/book-5/053-reflection-6.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "054-part-7",
@@ -594,7 +594,7 @@
    "durationSec": 398.74,
    "estSec": 442.4,
    "audioUrl": "audio/book-5/055-act-7-scene-1.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "056-doctrinal-foundations-for-resurrection",
@@ -605,7 +605,7 @@
    "durationSec": 114.79,
    "estSec": 126.8,
    "audioUrl": "audio/book-5/056-doctrinal-foundations-for-resurrection.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "057-chapter-7-1",
@@ -616,7 +616,7 @@
    "durationSec": 108.66,
    "estSec": 95.6,
    "audioUrl": "audio/book-5/057-chapter-7-1.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "058-chapter-7-2",
@@ -627,7 +627,7 @@
    "durationSec": 114.08,
    "estSec": 99.2,
    "audioUrl": "audio/book-5/058-chapter-7-2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "059-chapter-7-3",
@@ -649,7 +649,7 @@
    "durationSec": 151.26,
    "estSec": 149.6,
    "audioUrl": "audio/book-5/060-reflection-7.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "061-global-events-as-reflections-of-cosmic-judgment-a-wake-up-ca",
@@ -671,7 +671,7 @@
    "durationSec": 420.49,
    "estSec": 398.0,
    "audioUrl": "audio/book-5/062-divine-summon-step-into-your-eternal.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "063-appendix-1",
@@ -682,7 +682,7 @@
    "durationSec": 109.92,
    "estSec": 97.2,
    "audioUrl": "audio/book-5/063-appendix-1.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "064-appendix-2",
@@ -737,7 +737,7 @@
    "durationSec": 343.3,
    "estSec": 315.6,
    "audioUrl": "audio/book-5/066-the-seven-words-to-metamorphosis-into-our-archangel-the.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "067-appendix-3",
@@ -759,7 +759,7 @@
    "durationSec": 107.73,
    "estSec": 106.8,
    "audioUrl": "audio/book-5/068-basic-training-of-the-144-000.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "069-appendix-4",
@@ -814,7 +814,7 @@
    "durationSec": 121.91,
    "estSec": 136.4,
    "audioUrl": "audio/book-5/069-04-decree-three-100-yieldedness.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "070-appendix-5",
@@ -825,7 +825,7 @@
    "durationSec": 1506.57,
    "estSec": 1533.2,
    "audioUrl": "audio/book-5/070-appendix-5.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "071-appendix-6",
@@ -836,7 +836,7 @@
    "durationSec": 406.96,
    "estSec": 402.4,
    "audioUrl": "audio/book-5/071-appendix-6.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "072-appendix-7",
@@ -847,7 +847,7 @@
    "durationSec": 1779.35,
    "estSec": 1872.8,
    "audioUrl": "audio/book-5/072-appendix-7.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "073-appendix-8",
@@ -1023,7 +1023,7 @@
    "durationSec": 967.59,
    "estSec": 1097.2,
    "audioUrl": "audio/book-5/073-15-are-the-consolation-of-the-el-small-with-thee.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "073-16-when-i-said-my-foot-slippeth",
@@ -1155,7 +1155,7 @@
    "durationSec": 2315.82,
    "estSec": 2530.8,
    "audioUrl": "audio/book-5/073-27-peace.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "074-questions-of-men-and-answers-from-the-trinity",
@@ -1188,7 +1188,7 @@
    "durationSec": 752.08,
    "estSec": 676.4,
    "audioUrl": "audio/book-5/074-02-imitate-the-life-of-jesus.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "074-03-be-careful",
@@ -1309,7 +1309,7 @@
    "durationSec": 1604.46,
    "estSec": 1646.8,
    "audioUrl": "audio/book-5/075-how-to-pray-for-yourself-and-others.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "076-bring-fruits-meet-for-repentance",
@@ -1342,7 +1342,7 @@
    "durationSec": 669.31,
    "estSec": 643.2,
    "audioUrl": "audio/book-5/078-the-warrior-victory-proclaimation.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "079-finalogue",
@@ -1386,7 +1386,7 @@
    "durationSec": 774.63,
    "estSec": 772.4,
    "audioUrl": "audio/book-5/081-01-chai-lin-s-24-hour-miracle-from-brink-to-life-in.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-02-reflection-question",
@@ -1408,7 +1408,7 @@
    "durationSec": 90.68,
    "estSec": 90.4,
    "audioUrl": "audio/book-5/081-03-reflection-question.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-04-jason-s-mother-s-gift-briefly-extending-life-bey",
@@ -1430,7 +1430,7 @@
    "durationSec": 151.73,
    "estSec": 154.8,
    "audioUrl": "audio/book-5/081-05-reflection-question.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-06-revived-to-the-brink-organs-failed-yet-restored",
@@ -1441,7 +1441,7 @@
    "durationSec": 1334.69,
    "estSec": 1349.6,
    "audioUrl": "audio/book-5/081-06-revived-to-the-brink-organs-failed-yet-restored.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-07-from-coma-to-life-in-24-hours-a-wow-none-can-den",
@@ -1452,7 +1452,7 @@
    "durationSec": 1325.55,
    "estSec": 1327.6,
    "audioUrl": "audio/book-5/081-07-from-coma-to-life-in-24-hours-a-wow-none-can-den.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-08-1-myr-1-million-miracle-escape-phew-to-his-great",
@@ -1463,7 +1463,7 @@
    "durationSec": 465.33,
    "estSec": 446.0,
    "audioUrl": "audio/book-5/081-08-1-myr-1-million-miracle-escape-phew-to-his-great.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-09-pastor-moses-from-blocked-arteries-to-apostle-a",
@@ -1474,7 +1474,7 @@
    "durationSec": 593.89,
    "estSec": 561.6,
    "audioUrl": "audio/book-5/081-09-pastor-moses-from-blocked-arteries-to-apostle-a.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-10-james-a-miraculous-iq-boost-from-low-to-high-a-b",
@@ -1485,7 +1485,7 @@
    "durationSec": 427.52,
    "estSec": 413.6,
    "audioUrl": "audio/book-5/081-10-james-a-miraculous-iq-boost-from-low-to-high-a-b.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-11-christina-s-immediate-miracle-dislocated-leg-and",
@@ -1496,7 +1496,7 @@
    "durationSec": 774.3,
    "estSec": 751.6,
    "audioUrl": "audio/book-5/081-11-christina-s-immediate-miracle-dislocated-leg-and.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-12-jeremyrl-3-am-aliens-attack-6-months-torment-gri",
@@ -1518,7 +1518,7 @@
    "durationSec": 223.84,
    "estSec": 223.2,
    "audioUrl": "audio/book-5/081-13-reflection-question.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-14-jose-s-quantum-leap-on-the-rise-166x-increased-f",
@@ -1529,7 +1529,7 @@
    "durationSec": 464.77,
    "estSec": 450.0,
    "audioUrl": "audio/book-5/081-14-jose-s-quantum-leap-on-the-rise-166x-increased-f.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-15-reflection-question",
@@ -1540,7 +1540,7 @@
    "durationSec": 188.47,
    "estSec": 189.2,
    "audioUrl": "audio/book-5/081-15-reflection-question.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-16-davidis-s-unbelievable-turnaround-from-total-fai",
@@ -1551,7 +1551,7 @@
    "durationSec": 534.63,
    "estSec": 494.4,
    "audioUrl": "audio/book-5/081-16-davidis-s-unbelievable-turnaround-from-total-fai.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-17-tiatemjen-s-from-failing-to-flying-10yearold-s-m",
@@ -1573,7 +1573,7 @@
    "durationSec": 110.13,
    "estSec": 104.0,
    "audioUrl": "audio/book-5/081-18-reflection-question.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-19-cape-town-s-3-year-drought-miraculously-crushed",
@@ -1595,7 +1595,7 @@
    "durationSec": 147.5,
    "estSec": 149.6,
    "audioUrl": "audio/book-5/081-20-reflection-question.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-21-cosmic-decree-of-2016-the-trinity-in-shekinaih-u",
@@ -1606,7 +1606,7 @@
    "durationSec": 616.3,
    "estSec": 515.2,
    "audioUrl": "audio/book-5/081-21-cosmic-decree-of-2016-the-trinity-in-shekinaih-u.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-22-a-cosmic-decree-of-malaysia-s-election-2022-the",
@@ -1617,7 +1617,7 @@
    "durationSec": 1376.85,
    "estSec": 1203.2,
    "audioUrl": "audio/book-5/081-22-a-cosmic-decree-of-malaysia-s-election-2022-the.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-23-a-cosmic-decree-of-singapore-election-2023-the-t",
@@ -1628,7 +1628,7 @@
    "durationSec": 1760.73,
    "estSec": 1444.0,
    "audioUrl": "audio/book-5/081-23-a-cosmic-decree-of-singapore-election-2023-the-t.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-24-a-cosmic-judgment-imploding-on-the-earth-the-tri",
@@ -1639,7 +1639,7 @@
    "durationSec": 1673.31,
    "estSec": 1551.6,
    "audioUrl": "audio/book-5/081-24-a-cosmic-judgment-imploding-on-the-earth-the-tri.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-25-a-cosmic-annihilation-judgment-sending-shockwave",
@@ -1650,7 +1650,7 @@
    "durationSec": 3659.32,
    "estSec": 3341.6,
    "audioUrl": "audio/book-5/081-25-a-cosmic-annihilation-judgment-sending-shockwave.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "082-additional-testimonies",
@@ -1661,7 +1661,7 @@
    "durationSec": 167.46,
    "estSec": 159.2,
    "audioUrl": "audio/book-5/082-additional-testimonies.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "083-final-cosmic-decree-the-last-seal-of-fate",
@@ -1969,7 +1969,7 @@
    "durationSec": 1113.17,
    "estSec": 960.0,
    "audioUrl": "audio/book-5/086-glossary-of-terms-part-3.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "087-handover-declaration",
@@ -1980,7 +1980,7 @@
    "durationSec": 25.89,
    "estSec": 16.0,
    "audioUrl": "audio/book-5/087-handover-declaration.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "088-about-the-authors",

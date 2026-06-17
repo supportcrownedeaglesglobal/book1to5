@@ -64,7 +64,7 @@ def upload(local: Path, key: str):
     r = subprocess.run([wr, "r2", "object", "put", obj, f"--file={local}",
                         "--remote", "--content-type", "audio/mpeg",
                         "--cache-control", "public, max-age=31536000, immutable"],
-                       env=env, capture_output=True, text=True)
+                       env=env, capture_output=True, text=True, encoding="utf-8", errors="replace")
     tail = ((r.stderr or r.stdout) or "").strip().splitlines()
     return r.returncode == 0, (tail[-1] if tail else "")
 
