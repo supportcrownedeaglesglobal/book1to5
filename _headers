@@ -1,0 +1,18 @@
+# Behold My Messenger — Cloudflare Pages caching policy.
+#
+# The app shell + data files (HTML, manifests, read-along, images) are small and change
+# often, so we tell every device to REVALIDATE them on each load (a cheap 304 if unchanged).
+# This guarantees that fixes, new read-along, and bumped audio ?v=<version> numbers reach
+# EVERY visitor immediately — including old phones that would otherwise serve a stale cache.
+#
+# The large .mp3 files are NOT served from here — they live on Cloudflare R2 with a 1-year
+# immutable cache, and are busted per-chapter by the ?v=<version> query that audioSrc()
+# appends (bumped in data/versions.json whenever a chapter's audio changes). So a re-voiced
+# chapter is fetched fresh the instant its version increments, even on a cached phone.
+
+/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Manifests drive which audio ?v= the player requests — never let one go stale.
+/audio/*/manifest.json
+  Cache-Control: no-cache

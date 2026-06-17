@@ -16,7 +16,7 @@ no read-along file. Diagrams are attached from data/diagrams.json (see attach_im
 Run (3.14 env):  python build_readalong.py --check   # verify timing on one track
                  python build_readalong.py            # generate all
 """
-import argparse, io, json, sys
+import argparse, io, json, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import config as C
@@ -59,14 +59,28 @@ def load_diagrams():
     return json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
 
 
+def _norm(x):
+    """Collapse case + runs of non-alphanumerics to single spaces — tolerates the PDF's
+    hyphenation / line-break artifacts in a diagram's after_text (e.g. 'ma- keth', 'YAH- WEH')
+    that don't appear verbatim in the spoken segment text."""
+    return re.sub(r"[^a-z0-9]+", " ", (x or "").lower()).strip()
+
+
 def attach_images(track_id, paras, diagrams):
     """Attach each diagram (matched by its unique after_text) to a paragraph's image list.
     Several diagrams may land on one paragraph (e.g. a run of testimony screenshots) — they
-    stack in diagrams.json order, which is book page order."""
+    stack in diagrams.json order, which is book page order. Falls back to a normalized
+    (case/whitespace/punctuation-insensitive) substring match so PDF artifacts don't drop figures."""
     for d in diagrams:
         if d.get("track") != track_id:
             continue
-        hits = [p for p in paras if d.get("after_text") and d["after_text"] in p["text"]]
+        at = d.get("after_text") or ""
+        if not at:
+            continue
+        hits = [p for p in paras if at in p["text"]]                        # exact substring
+        if not hits:                                                        # tolerate PDF artifacts
+            nat = _norm(at)
+            hits = [p for p in paras if nat and nat in _norm(p["text"])]
         if hits:
             hits[0].setdefault("images", []).append(d["image"])
         else:

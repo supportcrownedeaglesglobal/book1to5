@@ -29,8 +29,8 @@ import scripture
 VOICE = {
     "chapter_title": ("bm_george", "b"), "heading": ("bm_george", "b"), "body": ("bm_george", "b"),
     "scripture": ("bm_daniel", "b"),     # Jesus
-    "decree":    ("am_onyx",  "a"),      # Heavenly Father (deep)
-    "shekinaih": ("bf_emma",  "b"),
+    "decree":    ("am_fenrir", "a"),     # Heavenly Father — anointing & clear (was am_onyx, too deep)
+    "shekinaih": ("af_heart", "a"),      # elegant, warm female (was bf_emma)
     "aaron":     ("am_michael", "a"),
 }
 DEFAULT = ("bm_george", "b")
@@ -109,9 +109,14 @@ def main():
                     help="re-render ONLY segments whose RAW text matches this regex, across all dirs, "
                          r"ignoring .kokoro_done — for targeted lexicon fixes (e.g. --pattern '\bMY\b'). "
                          "Re-applies the full text pipeline so a new lexicon entry takes effect.")
+    ap.add_argument("--role", nargs="*", default=None,
+                    help="re-render ONLY segments whose ROLE is in this set, across all dirs, ignoring "
+                         ".kokoro_done — for a voice change (after editing the VOICE map for that role).")
     args = ap.parse_args()
     pat = re.compile(args.pattern) if args.pattern else None
-    if pat is None:
+    roles = set(args.role) if args.role else None
+    targeted = pat is not None or roles is not None       # targeted modes ignore .kokoro_done
+    if not targeted:
         plan_segments()                 # Kokoro-only: derive segment plans from chapters.json first
 
     from kokoro import KPipeline
@@ -131,7 +136,7 @@ def main():
     import json
     total = 0
     for d in dirs:
-        if pat is None and (d / ".kokoro_done").exists():
+        if not targeted and (d / ".kokoro_done").exists():
             continue                                  # whole-dir resume skip (full-render mode only)
         plan = json.loads((d / "segments.json").read_text(encoding="utf-8"))
         segs = plan["segments"]
@@ -143,6 +148,8 @@ def main():
                 continue
             if pat is not None and not pat.search(seg["text"]):
                 continue                              # targeted mode: only segments matching the pattern
+            if roles is not None and seg["role"] not in roles:
+                continue                              # role mode: only segments of the requested role(s)
             voice, lang = VOICE.get(seg["role"], DEFAULT)
             spoken = prep(text)
             try:
@@ -152,7 +159,7 @@ def main():
                 ok += 1
             except Exception as e:
                 print(f"    !! {d.name}/{seg['file']}: {e}")
-        if pat is None:
+        if not targeted:
             (d / ".kokoro_done").write_text("ok", encoding="utf-8")
         if ok:
             total += ok
