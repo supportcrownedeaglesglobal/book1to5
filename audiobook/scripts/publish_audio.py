@@ -70,6 +70,9 @@ def upload(local: Path, key: str):
 
 
 def main():
+    for _s in (sys.stdout, sys.stderr):                  # Windows console is cp1252; wrangler
+        try: _s.reconfigure(encoding="utf-8", errors="replace")   # emits emoji -> encode-safe
+        except Exception: pass
     ap = argparse.ArgumentParser()
     ap.add_argument("--changed", nargs="*", help="explicit chapter ids whose audio changed")
     ap.add_argument("--all", action="store_true", help="publish every staged mp3 for this book")

@@ -19,10 +19,10 @@
    "level": 2,
    "title": "FOREWORD",
    "ready": true,
-   "durationSec": 134.2,
+   "durationSec": 138.52,
    "estSec": 145.2,
    "audioUrl": "audio/book-2/002-foreword.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "003-preface",
@@ -30,10 +30,10 @@
    "level": 2,
    "title": "PREFACE",
    "ready": true,
-   "durationSec": 193.83,
+   "durationSec": 200.58,
    "estSec": 206.8,
    "audioUrl": "audio/book-2/003-preface.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "004-introduction",
@@ -41,10 +41,10 @@
    "level": 2,
    "title": "INTRODUCTION",
    "ready": true,
-   "durationSec": 496.83,
+   "durationSec": 498.78,
    "estSec": 656.0,
    "audioUrl": "audio/book-2/004-introduction.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "004-introduction-p2",
@@ -52,10 +52,10 @@
    "level": 2,
    "title": "INTRODUCTION (part 2)",
    "ready": true,
-   "durationSec": 433.53,
+   "durationSec": 442.3,
    "estSec": 532.8,
    "audioUrl": "audio/book-2/004-introduction-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "005-prologue",
@@ -74,10 +74,10 @@
    "level": 2,
    "title": "BACK TO THE FUTURE AND THE PAST",
    "ready": true,
-   "durationSec": 57.88,
+   "durationSec": 62.35,
    "estSec": 75.6,
    "audioUrl": "audio/book-2/006-back-to-the-future-and-the-past.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "007-the-vision-of-a-bible",
@@ -85,10 +85,10 @@
    "level": 2,
    "title": "The Vision of a Bible",
    "ready": true,
-   "durationSec": 28.6,
+   "durationSec": 28.88,
    "estSec": 30.8,
    "audioUrl": "audio/book-2/007-the-vision-of-a-bible.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "008-act-1-scene-1-the-four-fold-ministry",
@@ -140,10 +140,10 @@
    "level": 2,
    "title": "Doctrine of Incarnation",
    "ready": true,
-   "durationSec": 560.3,
+   "durationSec": 572.45,
    "estSec": 686.0,
    "audioUrl": "audio/book-2/011-doctrine-of-incarnation.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "012-the-incarnation-of-jesus",
@@ -151,10 +151,10 @@
    "level": 2,
    "title": "The Incarnation of JESUS",
    "ready": true,
-   "durationSec": 694.15,
+   "durationSec": 708.88,
    "estSec": 839.2,
    "audioUrl": "audio/book-2/012-the-incarnation-of-jesus.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "013-the-doctrine-of-the-only-begotten-son",
@@ -165,7 +165,7 @@
    "durationSec": 39.02,
    "estSec": 36.8,
    "audioUrl": "audio/book-2/013-the-doctrine-of-the-only-begotten-son.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "014-the-truth-of-who-i-am",
@@ -173,10 +173,10 @@
    "level": 2,
    "title": "THE TRUTH OF WHO I AM",
    "ready": true,
-   "durationSec": 705.45,
+   "durationSec": 712.32,
    "estSec": 821.6,
    "audioUrl": "audio/book-2/014-the-truth-of-who-i-am.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "014-the-truth-of-who-i-am-p2",
@@ -184,10 +184,10 @@
    "level": 2,
    "title": "THE TRUTH OF WHO I AM (part 2)",
    "ready": true,
-   "durationSec": 658.76,
+   "durationSec": 666.03,
    "estSec": 806.8,
    "audioUrl": "audio/book-2/014-the-truth-of-who-i-am-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "014-the-truth-of-who-i-am-p3",
@@ -195,10 +195,10 @@
    "level": 2,
    "title": "THE TRUTH OF WHO I AM (part 3)",
    "ready": true,
-   "durationSec": 630.88,
+   "durationSec": 634.78,
    "estSec": 789.2,
    "audioUrl": "audio/book-2/014-the-truth-of-who-i-am-p3.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "015-act-1-scene-2-the-incarnation-reincarnation-of-the-father-th",
@@ -217,10 +217,10 @@
    "level": 2,
    "title": "The Incarnation of Shekinaih and Aaron K David",
    "ready": true,
-   "durationSec": 657.74,
+   "durationSec": 671.39,
    "estSec": 769.6,
    "audioUrl": "audio/book-2/016-the-incarnation-of-shekinaih-and-aaron-k-david.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "016-the-incarnation-of-shekinaih-and-aaron-k-david-p2",
@@ -228,10 +228,10 @@
    "level": 2,
    "title": "The Incarnation of Shekinaih and Aaron K David (part 2)",
    "ready": true,
-   "durationSec": 635.43,
+   "durationSec": 640.03,
    "estSec": 792.4,
    "audioUrl": "audio/book-2/016-the-incarnation-of-shekinaih-and-aaron-k-david-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "016-the-incarnation-of-shekinaih-and-aaron-k-david-p3",
@@ -239,10 +239,10 @@
    "level": 2,
    "title": "The Incarnation of Shekinaih and Aaron K David (part 3)",
    "ready": true,
-   "durationSec": 680.5,
+   "durationSec": 694.62,
    "estSec": 802.8,
    "audioUrl": "audio/book-2/016-the-incarnation-of-shekinaih-and-aaron-k-david-p3.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "016-the-incarnation-of-shekinaih-and-aaron-k-david-p4",
@@ -250,10 +250,10 @@
    "level": 2,
    "title": "The Incarnation of Shekinaih and Aaron K David (part 4)",
    "ready": true,
-   "durationSec": 579.7,
+   "durationSec": 590.68,
    "estSec": 695.6,
    "audioUrl": "audio/book-2/016-the-incarnation-of-shekinaih-and-aaron-k-david-p4.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "017-interlude-2-word-of-endorsement",
@@ -272,10 +272,10 @@
    "level": 2,
    "title": "Visions by Jessie, Abraham's Mother on 16th July 2015",
    "ready": true,
-   "durationSec": 432.91,
+   "durationSec": 436.23,
    "estSec": 478.8,
    "audioUrl": "audio/book-2/018-visions-by-jessie-abraham-s-mother-on-16th-july-2015.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "018-visions-by-jessie-abraham-s-mother-on-16th-july-2015-p2",
@@ -283,10 +283,10 @@
    "level": 2,
    "title": "Visions by Jessie, Abraham's Mother on 16th July 2015 (part 2)",
    "ready": true,
-   "durationSec": 379.78,
+   "durationSec": 380.81,
    "estSec": 429.6,
    "audioUrl": "audio/book-2/018-visions-by-jessie-abraham-s-mother-on-16th-july-2015-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "019-interlude-3-word-of-wisdom",
@@ -305,10 +305,10 @@
    "level": 2,
    "title": "David vomited out of Shekinaih's womb (16th July 2015)",
    "ready": true,
-   "durationSec": 534.45,
+   "durationSec": 549.65,
    "estSec": 662.8,
    "audioUrl": "audio/book-2/020-david-vomited-out-of-shekinaih-s-womb-16th-july-2015.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "020-david-vomited-out-of-shekinaih-s-womb-16th-july-2015-p2",
@@ -316,10 +316,10 @@
    "level": 2,
    "title": "David vomited out of Shekinaih's womb (16th July 2015) (part 2)",
    "ready": true,
-   "durationSec": 559.15,
+   "durationSec": 560.42,
    "estSec": 657.2,
    "audioUrl": "audio/book-2/020-david-vomited-out-of-shekinaih-s-womb-16th-july-2015-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "020-david-vomited-out-of-shekinaih-s-womb-16th-july-2015-p3",
@@ -327,10 +327,10 @@
    "level": 2,
    "title": "David vomited out of Shekinaih's womb (16th July 2015) (part 3)",
    "ready": true,
-   "durationSec": 508.15,
+   "durationSec": 507.35,
    "estSec": 619.2,
    "audioUrl": "audio/book-2/020-david-vomited-out-of-shekinaih-s-womb-16th-july-2015-p3.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "021-home-run",
@@ -338,10 +338,10 @@
    "level": 2,
    "title": "Home Run",
    "ready": true,
-   "durationSec": 421.82,
+   "durationSec": 424.72,
    "estSec": 492.8,
    "audioUrl": "audio/book-2/021-home-run.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "022-the-secret-to-make-it-in-my-kingdom",
@@ -349,10 +349,10 @@
    "level": 2,
    "title": "The Secret to make it in My Kingdom",
    "ready": true,
-   "durationSec": 78.47,
+   "durationSec": 77.9,
    "estSec": 81.6,
    "audioUrl": "audio/book-2/022-the-secret-to-make-it-in-my-kingdom.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "023-preliminary-behold-my-anointed",
@@ -382,10 +382,10 @@
    "level": 2,
    "title": "Chapter 1\nThe Two Anointed",
    "ready": true,
-   "durationSec": 160.03,
+   "durationSec": 161.6,
    "estSec": 185.6,
    "audioUrl": "audio/book-2/025-chapter-1-the-two-anointed.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "026-my-last-days-tabernacle",
@@ -415,10 +415,10 @@
    "level": 2,
    "title": "Jachin and Boaz (Speedy)",
    "ready": true,
-   "durationSec": 495.04,
+   "durationSec": 501.06,
    "estSec": 600.4,
    "audioUrl": "audio/book-2/027-jachin-and-boaz-speedy.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "028-chapter-2-the-morning-star",
@@ -426,10 +426,10 @@
    "level": 2,
    "title": "Chapter 2\nThe Morning Star",
    "ready": true,
-   "durationSec": 513.1,
+   "durationSec": 519.87,
    "estSec": 638.4,
    "audioUrl": "audio/book-2/028-chapter-2-the-morning-star.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "028-chapter-2-the-morning-star-p2",
@@ -437,10 +437,10 @@
    "level": 2,
    "title": "Chapter 2\nThe Morning Star (part 2)",
    "ready": true,
-   "durationSec": 525.72,
+   "durationSec": 528.85,
    "estSec": 624.0,
    "audioUrl": "audio/book-2/028-chapter-2-the-morning-star-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "029-act-1-scene-4-the-conqueror-the-champion",
@@ -459,10 +459,10 @@
    "level": 2,
    "title": "Chapter 3 \nMy Champion",
    "ready": true,
-   "durationSec": 506.5,
+   "durationSec": 507.45,
    "estSec": 644.8,
    "audioUrl": "audio/book-2/030-chapter-3-my-champion.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "031-angel-wonder",
@@ -470,10 +470,10 @@
    "level": 2,
    "title": "Angel Wonder",
    "ready": true,
-   "durationSec": 620.55,
+   "durationSec": 624.55,
    "estSec": 708.8,
    "audioUrl": "audio/book-2/031-angel-wonder.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "032-act-1-scene-5-the-offensive-rock",
@@ -481,10 +481,10 @@
    "level": 2,
    "title": "ACT 1 SCENE 5 \nThe Offensive Rock",
    "ready": true,
-   "durationSec": 631.0,
+   "durationSec": 631.8,
    "estSec": 750.0,
    "audioUrl": "audio/book-2/032-act-1-scene-5-the-offensive-rock.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "033-the-eloah",
@@ -492,10 +492,10 @@
    "level": 2,
    "title": "THE ELOAH",
    "ready": true,
-   "durationSec": 729.44,
+   "durationSec": 742.06,
    "estSec": 866.8,
    "audioUrl": "audio/book-2/033-the-eloah.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "034-part-1-behold-i-will-send-my-messenger",
@@ -525,10 +525,10 @@
    "level": 2,
    "title": "Chapter 1 \nSynchronise With All Times",
    "ready": true,
-   "durationSec": 496.49,
+   "durationSec": 505.04,
    "estSec": 610.8,
    "audioUrl": "audio/book-2/036-chapter-1-synchronise-with-all-times.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "037-a-time-to-be-born-and-a-time-to-die",
@@ -536,10 +536,10 @@
    "level": 2,
    "title": "A time to be born, and a time to die;",
    "ready": true,
-   "durationSec": 64.25,
+   "durationSec": 64.68,
    "estSec": 78.0,
    "audioUrl": "audio/book-2/037-a-time-to-be-born-and-a-time-to-die.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "038-a-time-to-plant-and-a-time-to-pluck-up-that-which-is-planted",
@@ -558,10 +558,10 @@
    "level": 2,
    "title": "A time to kill, and a time to heal;",
    "ready": true,
-   "durationSec": 116.93,
+   "durationSec": 118.35,
    "estSec": 144.0,
    "audioUrl": "audio/book-2/039-a-time-to-kill-and-a-time-to-heal.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "040-a-time-to-break-down-and-a-time-to-build-up",
@@ -569,10 +569,10 @@
    "level": 2,
    "title": "A time to break down, and a time to build up;",
    "ready": true,
-   "durationSec": 116.45,
+   "durationSec": 118.4,
    "estSec": 135.6,
    "audioUrl": "audio/book-2/040-a-time-to-break-down-and-a-time-to-build-up.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "041-a-time-to-weep-and-a-time-to-laugh",
@@ -580,10 +580,10 @@
    "level": 2,
    "title": "A time to weep, and a time to laugh;",
    "ready": true,
-   "durationSec": 113.73,
+   "durationSec": 115.03,
    "estSec": 130.0,
    "audioUrl": "audio/book-2/041-a-time-to-weep-and-a-time-to-laugh.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "042-a-time-to-mourn-and-a-time-to-dance",
@@ -591,10 +591,10 @@
    "level": 2,
    "title": "A time to mourn, and a time to dance;",
    "ready": true,
-   "durationSec": 60.6,
+   "durationSec": 61.95,
    "estSec": 72.0,
    "audioUrl": "audio/book-2/042-a-time-to-mourn-and-a-time-to-dance.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "043-a-time-to-cast-away-stones-and-a-time-to-gather-stones-toget",
@@ -602,10 +602,10 @@
    "level": 2,
    "title": "A time to cast away stones, \nand a time to gather stones together;",
    "ready": true,
-   "durationSec": 94.0,
+   "durationSec": 94.98,
    "estSec": 108.8,
    "audioUrl": "audio/book-2/043-a-time-to-cast-away-stones-and-a-time-to-gather-stones-toget.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "044-a-time-to-embrace-and-a-time-to-refrain-from-embracing",
@@ -613,10 +613,10 @@
    "level": 2,
    "title": "a time to embrace, \nand a time to refrain from embracing;",
    "ready": true,
-   "durationSec": 98.35,
+   "durationSec": 100.98,
    "estSec": 114.8,
    "audioUrl": "audio/book-2/044-a-time-to-embrace-and-a-time-to-refrain-from-embracing.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "045-a-time-to-seek-h1245-baqash-and-a-time-to-lose-perish-h6-aba",
@@ -624,10 +624,10 @@
    "level": 2,
    "title": "A time to seek (H1245 \"baqash\"), \nand a time to lose/perish (H6 \"abad\");",
    "ready": true,
-   "durationSec": 151.78,
+   "durationSec": 154.6,
    "estSec": 186.4,
    "audioUrl": "audio/book-2/045-a-time-to-seek-h1245-baqash-and-a-time-to-lose-perish-h6-aba.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "046-a-time-to-keep-h8104-shamar-beware-take-heed-and-a-time-to-c",
@@ -638,7 +638,7 @@
    "durationSec": 129.63,
    "estSec": 153.2,
    "audioUrl": "audio/book-2/046-a-time-to-keep-h8104-shamar-beware-take-heed-and-a-time-to-c.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "047-a-time-to-rend-and-a-time-to-sew",
@@ -646,10 +646,10 @@
    "level": 2,
    "title": "A time to rend, and a time to sew;",
    "ready": true,
-   "durationSec": 245.83,
+   "durationSec": 248.33,
    "estSec": 308.4,
    "audioUrl": "audio/book-2/047-a-time-to-rend-and-a-time-to-sew.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "048-a-time-to-keep-silence-and-a-time-to-speak",
@@ -657,10 +657,10 @@
    "level": 2,
    "title": "A time to keep silence, and a time to speak;",
    "ready": true,
-   "durationSec": 94.75,
+   "durationSec": 96.73,
    "estSec": 112.8,
    "audioUrl": "audio/book-2/048-a-time-to-keep-silence-and-a-time-to-speak.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "049-a-time-to-love-and-a-time-to-hate",
@@ -668,10 +668,10 @@
    "level": 2,
    "title": "A time to love, and a time to hate;",
    "ready": true,
-   "durationSec": 141.13,
+   "durationSec": 142.5,
    "estSec": 155.2,
    "audioUrl": "audio/book-2/049-a-time-to-love-and-a-time-to-hate.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "050-a-time-of-war-h4421-milchamah-and-a-time-of-peace",
@@ -679,10 +679,10 @@
    "level": 2,
    "title": "A time of war (H4421 \"milchamah\"), and a time of peace.",
    "ready": true,
-   "durationSec": 273.18,
+   "durationSec": 277.8,
    "estSec": 310.0,
    "audioUrl": "audio/book-2/050-a-time-of-war-h4421-milchamah-and-a-time-of-peace.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "051-chapter-2-undercover-hidden-during-infancy",
@@ -690,10 +690,10 @@
    "level": 2,
    "title": "Chapter 2 \nUndercover/Hidden During Infancy",
    "ready": true,
-   "durationSec": 392.08,
+   "durationSec": 396.03,
    "estSec": 473.2,
    "audioUrl": "audio/book-2/051-chapter-2-undercover-hidden-during-infancy.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "052-vision-of-the-queen",
@@ -701,10 +701,10 @@
    "level": 2,
    "title": "Vision of the Queen",
    "ready": true,
-   "durationSec": 124.35,
+   "durationSec": 125.97,
    "estSec": 145.2,
    "audioUrl": "audio/book-2/052-vision-of-the-queen.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "053-vision-of-the-battle-of-psalms-83",
@@ -712,10 +712,10 @@
    "level": 2,
    "title": "Vision of the Battle of Psalms 83",
    "ready": true,
-   "durationSec": 368.47,
+   "durationSec": 368.4,
    "estSec": 463.6,
    "audioUrl": "audio/book-2/053-vision-of-the-battle-of-psalms-83.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "054-chapter-3-servant-hood-kind-of-character-during-moulding",
@@ -723,10 +723,10 @@
    "level": 2,
    "title": "Chapter 3 \nServant Hood Kind of Character During Moulding",
    "ready": true,
-   "durationSec": 227.33,
+   "durationSec": 227.43,
    "estSec": 254.0,
    "audioUrl": "audio/book-2/054-chapter-3-servant-hood-kind-of-character-during-moulding.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "055-chapter-4-ordinary-people-least-expected-candidate",
@@ -734,10 +734,10 @@
    "level": 2,
    "title": "Chapter 4 \nOrdinaRy People Least Expected Candidate",
    "ready": true,
-   "durationSec": 489.78,
+   "durationSec": 491.3,
    "estSec": 558.8,
    "audioUrl": "audio/book-2/055-chapter-4-ordinary-people-least-expected-candidate.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "055-chapter-4-ordinary-people-least-expected-candidate-p2",
@@ -745,10 +745,10 @@
    "level": 2,
    "title": "Chapter 4 \nOrdinaRy People Least Expected Candidate (part 2)",
    "ready": true,
-   "durationSec": 305.38,
+   "durationSec": 305.2,
    "estSec": 355.6,
    "audioUrl": "audio/book-2/055-chapter-4-ordinary-people-least-expected-candidate-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "056-chapter-5-least-comeliness-endowed-with-highest-honour-gifti",
@@ -756,10 +756,10 @@
    "level": 2,
    "title": "Chapter 5 \nLeast Comeliness Endowed with Highest Honour Gifting",
    "ready": true,
-   "durationSec": 652.88,
+   "durationSec": 656.4,
    "estSec": 797.6,
    "audioUrl": "audio/book-2/056-chapter-5-least-comeliness-endowed-with-highest-honour-gifti.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "057-chapter-6-vessel-of-honour-selection-as-i-am-pleased",
@@ -767,10 +767,10 @@
    "level": 2,
    "title": "Chapter 6 \nVessel of Honour Selection As I am Pleased",
    "ready": true,
-   "durationSec": 429.78,
+   "durationSec": 441.25,
    "estSec": 507.6,
    "audioUrl": "audio/book-2/057-chapter-6-vessel-of-honour-selection-as-i-am-pleased.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "058-chapter-7-like-shepherd-like-sheep-kind-of-training-during-i",
@@ -778,10 +778,10 @@
    "level": 2,
    "title": "Chapter 7 \nLike Shepherd Like Sheep Kind of Training During Infancy",
    "ready": true,
-   "durationSec": 663.53,
+   "durationSec": 672.53,
    "estSec": 791.6,
    "audioUrl": "audio/book-2/058-chapter-7-like-shepherd-like-sheep-kind-of-training-during-i.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "059-chapter-8-total-obedience-yieldedness-prerequisite-no-other-",
@@ -789,10 +789,10 @@
    "level": 2,
    "title": "Chapter 8 \nTotal Obedience/Yieldedness Prerequisite, No Other Option",
    "ready": true,
-   "durationSec": 555.9,
+   "durationSec": 555.38,
    "estSec": 674.8,
    "audioUrl": "audio/book-2/059-chapter-8-total-obedience-yieldedness-prerequisite-no-other-.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "060-chapter-9-final-selection-criterias",
@@ -811,10 +811,10 @@
    "level": 2,
    "title": "Be Perfect",
    "ready": true,
-   "durationSec": 387.93,
+   "durationSec": 391.13,
    "estSec": 401.2,
    "audioUrl": "audio/book-2/061-be-perfect.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "062-the-ten-areas-of-perfection",
@@ -844,10 +844,10 @@
    "level": 2,
    "title": "ii) Be Completely Truthful in THE ELOHIM",
    "ready": true,
-   "durationSec": 45.88,
+   "durationSec": 45.33,
    "estSec": 49.2,
    "audioUrl": "audio/book-2/064-ii-be-completely-truthful-in-the-elohim.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "065-iii-be-yielded-100",
@@ -855,10 +855,10 @@
    "level": 2,
    "title": "iii) Be Yielded 100%",
    "ready": true,
-   "durationSec": 124.43,
+   "durationSec": 127.05,
    "estSec": 150.0,
    "audioUrl": "audio/book-2/065-iii-be-yielded-100.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "066-iv-be-lowly-zero-self",
@@ -866,10 +866,10 @@
    "level": 2,
    "title": "iv) Be Lowly Zero Self",
    "ready": true,
-   "durationSec": 127.28,
+   "durationSec": 126.43,
    "estSec": 166.0,
    "audioUrl": "audio/book-2/066-iv-be-lowly-zero-self.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "067-v-be-completely-sincere-before-the-elohim-and-men",
@@ -877,10 +877,10 @@
    "level": 2,
    "title": "v) Be Completely Sincere Before THE ELOHIM and Men",
    "ready": true,
-   "durationSec": 121.55,
+   "durationSec": 121.9,
    "estSec": 134.0,
    "audioUrl": "audio/book-2/067-v-be-completely-sincere-before-the-elohim-and-men.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "068-vi-meekness-of-love",
@@ -888,10 +888,10 @@
    "level": 2,
    "title": "vi) Meekness of Love",
    "ready": true,
-   "durationSec": 149.25,
+   "durationSec": 150.55,
    "estSec": 164.8,
    "audioUrl": "audio/book-2/068-vi-meekness-of-love.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "069-vii-be-patient",
@@ -899,10 +899,10 @@
    "level": 2,
    "title": "vii) Be Patient",
    "ready": true,
-   "durationSec": 56.93,
+   "durationSec": 58.43,
    "estSec": 52.0,
    "audioUrl": "audio/book-2/069-vii-be-patient.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "070-viii-to-be-circumcised-in-heart",
@@ -910,10 +910,10 @@
    "level": 2,
    "title": "viii) To be Circumcised in Heart",
    "ready": true,
-   "durationSec": 36.0,
+   "durationSec": 37.18,
    "estSec": 40.8,
    "audioUrl": "audio/book-2/070-viii-to-be-circumcised-in-heart.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "071-ix-obedience-unto-death",
@@ -921,10 +921,10 @@
    "level": 2,
    "title": "ix) Obedience Unto Death",
    "ready": true,
-   "durationSec": 48.43,
+   "durationSec": 50.38,
    "estSec": 57.2,
    "audioUrl": "audio/book-2/071-ix-obedience-unto-death.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "072-x-be-entirely-toward-him",
@@ -932,10 +932,10 @@
    "level": 2,
    "title": "x) Be Entirely Toward Him",
    "ready": true,
-   "durationSec": 167.5,
+   "durationSec": 171.55,
    "estSec": 197.6,
    "audioUrl": "audio/book-2/072-x-be-entirely-toward-him.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "073-benefits-of-those-whose-walk-is-perfect",
@@ -943,10 +943,10 @@
    "level": 2,
    "title": "Benefits of Those Whose Walk is Perfect",
    "ready": true,
-   "durationSec": 91.15,
+   "durationSec": 92.7,
    "estSec": 99.6,
    "audioUrl": "audio/book-2/073-benefits-of-those-whose-walk-is-perfect.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "074-chapter-10-vigorous-army-like-disciplinary-training",
@@ -954,10 +954,10 @@
    "level": 2,
    "title": "Chapter 10 \nVigorous Army like Disciplinary Training",
    "ready": true,
-   "durationSec": 284.15,
+   "durationSec": 288.18,
    "estSec": 341.6,
    "audioUrl": "audio/book-2/074-chapter-10-vigorous-army-like-disciplinary-training.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "075-military-order-and-discipline",
@@ -965,10 +965,10 @@
    "level": 2,
    "title": "Military Order and Discipline",
    "ready": true,
-   "durationSec": 106.23,
+   "durationSec": 108.53,
    "estSec": 119.2,
    "audioUrl": "audio/book-2/075-military-order-and-discipline.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "076-vigorous-army-like-disciplinary-training",
@@ -976,10 +976,10 @@
    "level": 2,
    "title": "Vigorous Army like Disciplinary Training",
    "ready": true,
-   "durationSec": 15.4,
+   "durationSec": 15.8,
    "estSec": 10.4,
    "audioUrl": "audio/book-2/076-vigorous-army-like-disciplinary-training.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "077-1-be-timely-in-co-executing-my-orders-with-precision-details",
@@ -987,10 +987,10 @@
    "level": 2,
    "title": "1) Be Timely In Co-Executing My Orders with Precision Details and Be Careful Not To Miss Out Anything",
    "ready": true,
-   "durationSec": 128.0,
+   "durationSec": 131.83,
    "estSec": 152.8,
    "audioUrl": "audio/book-2/077-1-be-timely-in-co-executing-my-orders-with-precision-details.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "078-vision-of-lights-colliding",
@@ -998,10 +998,10 @@
    "level": 2,
    "title": "Vision of Lights Colliding",
    "ready": true,
-   "durationSec": 133.07,
+   "durationSec": 134.79,
    "estSec": 150.0,
    "audioUrl": "audio/book-2/078-vision-of-lights-colliding.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "079-2-great-attitude",
@@ -1009,10 +1009,10 @@
    "level": 2,
    "title": "2) Great Attitude",
    "ready": true,
-   "durationSec": 397.9,
+   "durationSec": 402.35,
    "estSec": 490.0,
    "audioUrl": "audio/book-2/079-2-great-attitude.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "080-3-be-joyful",
@@ -1020,10 +1020,10 @@
    "level": 2,
    "title": "3) Be Joyful",
    "ready": true,
-   "durationSec": 234.83,
+   "durationSec": 239.85,
    "estSec": 286.4,
    "audioUrl": "audio/book-2/080-3-be-joyful.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "081-4-walk-in-line",
@@ -1031,10 +1031,10 @@
    "level": 2,
    "title": "4) Walk in Line",
    "ready": true,
-   "durationSec": 210.4,
+   "durationSec": 210.35,
    "estSec": 260.8,
    "audioUrl": "audio/book-2/081-4-walk-in-line.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "082-5-in-all-your-ways-acknowledge-me",
@@ -1042,10 +1042,10 @@
    "level": 2,
    "title": "5) In All Your Ways, Acknowledge Me",
    "ready": true,
-   "durationSec": 205.85,
+   "durationSec": 207.55,
    "estSec": 248.4,
    "audioUrl": "audio/book-2/082-5-in-all-your-ways-acknowledge-me.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "083-6-walk-in-100-yieldedness-and-faith",
@@ -1053,10 +1053,10 @@
    "level": 2,
    "title": "6) Walk In 100% Yieldedness And Faith.",
    "ready": true,
-   "durationSec": 104.34,
+   "durationSec": 104.66,
    "estSec": 114.4,
    "audioUrl": "audio/book-2/083-6-walk-in-100-yieldedness-and-faith.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "084-7-the-7-squeezes-of-the-adonai-as-the-basic-trainings",
@@ -1064,10 +1064,10 @@
    "level": 2,
    "title": "7) The 7 Squeezes of THE ADONAI as the Basic trainings.",
    "ready": true,
-   "durationSec": 213.38,
+   "durationSec": 208.98,
    "estSec": 265.2,
    "audioUrl": "audio/book-2/084-7-the-7-squeezes-of-the-adonai-as-the-basic-trainings.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "085-8-total-100-yieldedness",
@@ -1075,10 +1075,10 @@
    "level": 2,
    "title": "8) Total 100% Yieldedness",
    "ready": true,
-   "durationSec": 70.42,
+   "durationSec": 71.85,
    "estSec": 76.0,
    "audioUrl": "audio/book-2/085-8-total-100-yieldedness.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "086-9-maturity-training",
@@ -1086,10 +1086,10 @@
    "level": 2,
    "title": "9) Maturity Training",
    "ready": true,
-   "durationSec": 299.03,
+   "durationSec": 305.6,
    "estSec": 329.6,
    "audioUrl": "audio/book-2/086-9-maturity-training.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "087-section-b-perilous-time-uncoming-appearance-unexpected",
@@ -1130,10 +1130,10 @@
    "level": 2,
    "title": "Chapter 1 \nSudden Appearance From No Where",
    "ready": true,
-   "durationSec": 537.6,
+   "durationSec": 529.78,
    "estSec": 666.8,
    "audioUrl": "audio/book-2/090-chapter-1-sudden-appearance-from-no-where.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "091-chapter-2-irritate-the-mainstream-churches",
@@ -1141,10 +1141,10 @@
    "level": 2,
    "title": "Chapter 2 \nIrritate The Mainstream Churches",
    "ready": true,
-   "durationSec": 606.2,
+   "durationSec": 613.15,
    "estSec": 720.8,
    "audioUrl": "audio/book-2/091-chapter-2-irritate-the-mainstream-churches.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "092-chapter-3-new-doctrine-in-the-last-days",
@@ -1152,10 +1152,10 @@
    "level": 2,
    "title": "Chapter 3 \nNew Doctrine in the Last Days",
    "ready": true,
-   "durationSec": 430.08,
+   "durationSec": 429.55,
    "estSec": 538.4,
    "audioUrl": "audio/book-2/092-chapter-3-new-doctrine-in-the-last-days.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "092-chapter-3-new-doctrine-in-the-last-days-p2",
@@ -1163,10 +1163,10 @@
    "level": 2,
    "title": "Chapter 3 \nNew Doctrine in the Last Days (part 2)",
    "ready": true,
-   "durationSec": 394.35,
+   "durationSec": 394.23,
    "estSec": 493.6,
    "audioUrl": "audio/book-2/092-chapter-3-new-doctrine-in-the-last-days-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "093-chapter-4-they-uproot-evil-false-partial-incomplete-doctrine",
@@ -1174,10 +1174,10 @@
    "level": 2,
    "title": "Chapter 4 \nThey Uproot Evil/False/Partial Incomplete Doctrines",
    "ready": true,
-   "durationSec": 87.13,
+   "durationSec": 92.33,
    "estSec": 92.4,
    "audioUrl": "audio/book-2/093-chapter-4-they-uproot-evil-false-partial-incomplete-doctrine.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "094-chapter-5-the-true-gospel-established-by-last-days-messenger",
@@ -1185,10 +1185,10 @@
    "level": 2,
    "title": "Chapter 5 \nThe True Gospel Established By Last Days Messenger",
    "ready": true,
-   "durationSec": 229.73,
+   "durationSec": 227.28,
    "estSec": 289.2,
    "audioUrl": "audio/book-2/094-chapter-5-the-true-gospel-established-by-last-days-messenger.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "095-act-2-scene-3-tornado-es-hurricanes",
@@ -1196,10 +1196,10 @@
    "level": 2,
    "title": "ACT 2 SCENE 3\nTornado(es)/Hurricanes",
    "ready": true,
-   "durationSec": 187.53,
+   "durationSec": 195.45,
    "estSec": 197.2,
    "audioUrl": "audio/book-2/095-act-2-scene-3-tornado-es-hurricanes.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "096-whirlwind",
@@ -1207,10 +1207,10 @@
    "level": 2,
    "title": "Whirlwind",
    "ready": true,
-   "durationSec": 181.6,
+   "durationSec": 184.75,
    "estSec": 222.4,
    "audioUrl": "audio/book-2/096-whirlwind.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "097-section-c-rejected-by-many-who-look-for-outward-charm-or-per",
@@ -1240,10 +1240,10 @@
    "level": 2,
    "title": "Chapter 1 \nRejected by the Intellectual Christians",
    "ready": true,
-   "durationSec": 224.15,
+   "durationSec": 224.9,
    "estSec": 277.6,
    "audioUrl": "audio/book-2/099-chapter-1-rejected-by-the-intellectual-christians.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "100-chapter-2-rejected-by-those-who-seek-the-easy-way",
@@ -1251,10 +1251,10 @@
    "level": 2,
    "title": "Chapter 2 \nRejected By Those Who Seek the Easy Way",
    "ready": true,
-   "durationSec": 506.73,
+   "durationSec": 503.13,
    "estSec": 642.4,
    "audioUrl": "audio/book-2/100-chapter-2-rejected-by-those-who-seek-the-easy-way.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "100-chapter-2-rejected-by-those-who-seek-the-easy-way-p2",
@@ -1262,10 +1262,10 @@
    "level": 2,
    "title": "Chapter 2 \nRejected By Those Who Seek the Easy Way (part 2)",
    "ready": true,
-   "durationSec": 470.0,
+   "durationSec": 469.0,
    "estSec": 618.8,
    "audioUrl": "audio/book-2/100-chapter-2-rejected-by-those-who-seek-the-easy-way-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "100-chapter-2-rejected-by-those-who-seek-the-easy-way-p3",
@@ -1273,10 +1273,10 @@
    "level": 2,
    "title": "Chapter 2 \nRejected By Those Who Seek the Easy Way (part 3)",
    "ready": true,
-   "durationSec": 467.63,
+   "durationSec": 465.18,
    "estSec": 593.6,
    "audioUrl": "audio/book-2/100-chapter-2-rejected-by-those-who-seek-the-easy-way-p3.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "101-chapter-3-rejected-by-those-who-seek-approval-honour-from-me",
@@ -1284,10 +1284,10 @@
    "level": 2,
    "title": "Chapter 3 \nRejected By Those Who Seek Approval/Honour from Men",
    "ready": true,
-   "durationSec": 263.23,
+   "durationSec": 265.98,
    "estSec": 331.6,
    "audioUrl": "audio/book-2/101-chapter-3-rejected-by-those-who-seek-approval-honour-from-me.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "102-chapter-4-rejected-by-the-occult-circle",
@@ -1295,10 +1295,10 @@
    "level": 2,
    "title": "Chapter 4 \nRejected by the Occult Circle",
    "ready": true,
-   "durationSec": 567.58,
+   "durationSec": 573.08,
    "estSec": 688.4,
    "audioUrl": "audio/book-2/102-chapter-4-rejected-by-the-occult-circle.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "102-chapter-4-rejected-by-the-occult-circle-p2",
@@ -1306,10 +1306,10 @@
    "level": 2,
    "title": "Chapter 4 \nRejected by the Occult Circle (part 2)",
    "ready": true,
-   "durationSec": 463.13,
+   "durationSec": 465.98,
    "estSec": 567.2,
    "audioUrl": "audio/book-2/102-chapter-4-rejected-by-the-occult-circle-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "103-chapter-5-rejected-by-the-ruling-spiritual-and-religious-lea",
@@ -1317,10 +1317,10 @@
    "level": 2,
    "title": "Chapter 5 \nRejected by the Ruling Spiritual and Religious Leaders",
    "ready": true,
-   "durationSec": 676.1,
+   "durationSec": 673.63,
    "estSec": 863.6,
    "audioUrl": "audio/book-2/103-chapter-5-rejected-by-the-ruling-spiritual-and-religious-lea.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "104-chapter-6-rejected-by-the-mainstream-churches",
@@ -1328,10 +1328,10 @@
    "level": 2,
    "title": "Chapter 6 \nRejected by the Mainstream Churches",
    "ready": true,
-   "durationSec": 628.54,
+   "durationSec": 630.32,
    "estSec": 776.0,
    "audioUrl": "audio/book-2/104-chapter-6-rejected-by-the-mainstream-churches.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "105-chapter-7-all-camps-will-be-against-their-unrecognized-doctr",
@@ -1339,10 +1339,10 @@
    "level": 2,
    "title": "Chapter 7 \nAll Camps will be Against Their Unrecognized Doctrines",
    "ready": true,
-   "durationSec": 119.07,
+   "durationSec": 118.8,
    "estSec": 165.2,
    "audioUrl": "audio/book-2/105-chapter-7-all-camps-will-be-against-their-unrecognized-doctr.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "106-act-2-scene-5-the-great-awakening",
@@ -1361,10 +1361,10 @@
    "level": 2,
    "title": "Vision of a Giant Egg",
    "ready": true,
-   "durationSec": 399.97,
+   "durationSec": 395.99,
    "estSec": 465.2,
    "audioUrl": "audio/book-2/107-vision-of-a-giant-egg.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "108-section-d-their-reward",
@@ -1383,10 +1383,10 @@
    "level": 2,
    "title": "Chapter 1\nThe Blessed Life",
    "ready": true,
-   "durationSec": 550.1,
+   "durationSec": 555.45,
    "estSec": 646.0,
    "audioUrl": "audio/book-2/109-chapter-1-the-blessed-life.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "109-chapter-1-the-blessed-life-p2",
@@ -1394,10 +1394,10 @@
    "level": 2,
    "title": "Chapter 1\nThe Blessed Life (part 2)",
    "ready": true,
-   "durationSec": 498.85,
+   "durationSec": 495.88,
    "estSec": 627.6,
    "audioUrl": "audio/book-2/109-chapter-1-the-blessed-life-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "109-chapter-1-the-blessed-life-p3",
@@ -1405,10 +1405,10 @@
    "level": 2,
    "title": "Chapter 1\nThe Blessed Life (part 3)",
    "ready": true,
-   "durationSec": 432.78,
+   "durationSec": 428.2,
    "estSec": 576.0,
    "audioUrl": "audio/book-2/109-chapter-1-the-blessed-life-p3.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "110-chapter-2-all-will-enter-heaven-gates",
@@ -1416,10 +1416,10 @@
    "level": 2,
    "title": "Chapter 2 \nAll Will Enter Heaven Gates",
    "ready": true,
-   "durationSec": 54.08,
+   "durationSec": 50.13,
    "estSec": 68.8,
    "audioUrl": "audio/book-2/110-chapter-2-all-will-enter-heaven-gates.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "111-vision-of-the-heavenly-saints",
@@ -1427,10 +1427,10 @@
    "level": 2,
    "title": "Vision of the Heavenly Saints",
    "ready": true,
-   "durationSec": 450.7,
+   "durationSec": 452.97,
    "estSec": 554.8,
    "audioUrl": "audio/book-2/111-vision-of-the-heavenly-saints.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "112-chapter-3-given-the-authority-and-power-to-rule-in-the-three",
@@ -1438,10 +1438,10 @@
    "level": 2,
    "title": "Chapter 3 \nGiven The Authority and Power To Rule In The Three Realms As They Obey/Yield 100% To Our Representatives",
    "ready": true,
-   "durationSec": 377.8,
+   "durationSec": 378.85,
    "estSec": 449.2,
    "audioUrl": "audio/book-2/112-chapter-3-given-the-authority-and-power-to-rule-in-the-three.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "113-chapter-4-no-request-will-be-withheld-from-them",
@@ -1449,10 +1449,10 @@
    "level": 2,
    "title": "Chapter 4 \nNo Request Will Be Withheld From Them",
    "ready": true,
-   "durationSec": 151.0,
+   "durationSec": 154.48,
    "estSec": 184.4,
    "audioUrl": "audio/book-2/113-chapter-4-no-request-will-be-withheld-from-them.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "114-part-2-preparation-of-an-anointed-a-bride",
@@ -1482,10 +1482,10 @@
    "level": 2,
    "title": "Act 3 Scene 1 \nThe Restoration",
    "ready": true,
-   "durationSec": 265.09,
+   "durationSec": 264.07,
    "estSec": 285.6,
    "audioUrl": "audio/book-2/116-act-3-scene-1-the-restoration.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "117-the-vision-of-the-tree-of-life-and-the-white-whale",
@@ -1493,10 +1493,10 @@
    "level": 2,
    "title": "The Vision of the Tree of Life and the White Whale",
    "ready": true,
-   "durationSec": 630.09,
+   "durationSec": 632.11,
    "estSec": 740.0,
    "audioUrl": "audio/book-2/117-the-vision-of-the-tree-of-life-and-the-white-whale.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "118-chapter-1-the-breaking",
@@ -1515,10 +1515,10 @@
    "level": 2,
    "title": "Broken Spirit Is Equal to Unfathomable Power",
    "ready": true,
-   "durationSec": 141.82,
+   "durationSec": 140.22,
    "estSec": 148.4,
    "audioUrl": "audio/book-2/119-broken-spirit-is-equal-to-unfathomable-power.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "120-chapter-2-powder-and-refine",
@@ -1526,10 +1526,10 @@
    "level": 2,
    "title": "Chapter 2 \nPowder and Refine",
    "ready": true,
-   "durationSec": 251.0,
+   "durationSec": 249.88,
    "estSec": 301.6,
    "audioUrl": "audio/book-2/120-chapter-2-powder-and-refine.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "121-chapter-3-the-purification",
@@ -1537,10 +1537,10 @@
    "level": 2,
    "title": "Chapter 3 \nThe Purification",
    "ready": true,
-   "durationSec": 244.18,
+   "durationSec": 244.75,
    "estSec": 307.6,
    "audioUrl": "audio/book-2/121-chapter-3-the-purification.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "122-chapter-4-the-glory-garment-the-light-bulb",
@@ -1548,10 +1548,10 @@
    "level": 2,
    "title": "Chapter 4 \nThe Glory Garment/The Light Bulb",
    "ready": true,
-   "durationSec": 208.15,
+   "durationSec": 209.68,
    "estSec": 264.0,
    "audioUrl": "audio/book-2/122-chapter-4-the-glory-garment-the-light-bulb.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "123-chapter-5-the-source-of-power-of-the-light-bulb",
@@ -1559,10 +1559,10 @@
    "level": 2,
    "title": "Chapter 5 \nThe Source of Power of the Light Bulb",
    "ready": true,
-   "durationSec": 395.08,
+   "durationSec": 393.3,
    "estSec": 527.2,
    "audioUrl": "audio/book-2/123-chapter-5-the-source-of-power-of-the-light-bulb.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "124-gradually-magnified-without-as-stars-in-the-universe",
@@ -1570,10 +1570,10 @@
    "level": 2,
    "title": "Gradually Magnified Without as Stars in the Universe",
    "ready": true,
-   "durationSec": 512.08,
+   "durationSec": 511.8,
    "estSec": 629.2,
    "audioUrl": "audio/book-2/124-gradually-magnified-without-as-stars-in-the-universe.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "125-section-b-advance-training",
@@ -1592,10 +1592,10 @@
    "level": 2,
    "title": "Chapter 1 \nUnmoved Anymore By Earthly Relations/Attachments",
    "ready": true,
-   "durationSec": 508.88,
+   "durationSec": 512.93,
    "estSec": 628.8,
    "audioUrl": "audio/book-2/126-chapter-1-unmoved-anymore-by-earthly-relations-attachments.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "127-chapter-2-well-seasoned-warriors",
@@ -1603,10 +1603,10 @@
    "level": 2,
    "title": "Chapter 2 \nWell-Seasoned Warriors",
    "ready": true,
-   "durationSec": 267.55,
+   "durationSec": 273.95,
    "estSec": 306.8,
    "audioUrl": "audio/book-2/127-chapter-2-well-seasoned-warriors.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "128-chapter-3-insider-information",
@@ -1614,10 +1614,10 @@
    "level": 2,
    "title": "Chapter 3 \nInsider Information",
    "ready": true,
-   "durationSec": 531.2,
+   "durationSec": 529.22,
    "estSec": 626.4,
    "audioUrl": "audio/book-2/128-chapter-3-insider-information.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "129-chapter-4-unquestionable-submission-to-our-representatives",
@@ -1625,10 +1625,10 @@
    "level": 2,
    "title": "Chapter 4 \nUnquestionable Submission To our Representatives",
    "ready": true,
-   "durationSec": 534.28,
+   "durationSec": 542.83,
    "estSec": 646.0,
    "audioUrl": "audio/book-2/129-chapter-4-unquestionable-submission-to-our-representatives.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "130-chapter-5-unbroken-rank",
@@ -1636,10 +1636,10 @@
    "level": 2,
    "title": "Chapter 5 \nUnbroken Rank",
    "ready": true,
-   "durationSec": 378.4,
+   "durationSec": 378.65,
    "estSec": 504.8,
    "audioUrl": "audio/book-2/130-chapter-5-unbroken-rank.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "131-part-3-glorious-future-of-an-anointed-a-bride",
@@ -1680,10 +1680,10 @@
    "level": 2,
    "title": "From Real 7 Dimension Perspective",
    "ready": true,
-   "durationSec": 92.94,
+   "durationSec": 91.64,
    "estSec": 101.6,
    "audioUrl": "audio/book-2/134-from-real-7-dimension-perspective.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "135-chapter-2-lower-heaven",
@@ -1691,10 +1691,10 @@
    "level": 2,
    "title": "Chapter 2 \nLower Heaven",
    "ready": true,
-   "durationSec": 572.25,
+   "durationSec": 576.03,
    "estSec": 728.4,
    "audioUrl": "audio/book-2/135-chapter-2-lower-heaven.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "136-chapter-3-thrones-prepared-before-the-foundation-of-the-eart",
@@ -1702,10 +1702,10 @@
    "level": 2,
    "title": "Chapter 3 \nThrones Prepared Before the Foundation of the Earth",
    "ready": true,
-   "durationSec": 318.08,
+   "durationSec": 321.6,
    "estSec": 374.0,
    "audioUrl": "audio/book-2/136-chapter-3-thrones-prepared-before-the-foundation-of-the-eart.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "137-chapter-4-the-commendation",
@@ -1713,10 +1713,10 @@
    "level": 2,
    "title": "Chapter 4 \nThe Commendation",
    "ready": true,
-   "durationSec": 513.7,
+   "durationSec": 516.75,
    "estSec": 578.0,
    "audioUrl": "audio/book-2/137-chapter-4-the-commendation.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "138-section",
@@ -1746,10 +1746,10 @@
    "level": 2,
    "title": "Chapter 1 \nKairos Time, Pre-Ordained, \nPredestined Times",
    "ready": true,
-   "durationSec": 423.05,
+   "durationSec": 425.37,
    "estSec": 550.4,
    "audioUrl": "audio/book-2/140-chapter-1-kairos-time-pre-ordained-predestined-times.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "140-chapter-1-kairos-time-pre-ordained-predestined-times-p2",
@@ -1757,10 +1757,10 @@
    "level": 2,
    "title": "Chapter 1 \nKairos Time, Pre-Ordained, \nPredestined Times (part 2)",
    "ready": true,
-   "durationSec": 309.75,
+   "durationSec": 311.1,
    "estSec": 395.2,
    "audioUrl": "audio/book-2/140-chapter-1-kairos-time-pre-ordained-predestined-times-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "141-chapter-2-delay-in-time",
@@ -1768,10 +1768,10 @@
    "level": 2,
    "title": "Chapter 2 \nDelay In Time",
    "ready": true,
-   "durationSec": 61.5,
+   "durationSec": 65.1,
    "estSec": 64.0,
    "audioUrl": "audio/book-2/141-chapter-2-delay-in-time.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "142-butterfly-effect",
@@ -1779,10 +1779,10 @@
    "level": 2,
    "title": "Butterfly Effect",
    "ready": true,
-   "durationSec": 87.43,
+   "durationSec": 90.23,
    "estSec": 104.4,
    "audioUrl": "audio/book-2/142-butterfly-effect.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "143-section-c-the-coming-of-the-son-of-adam",
@@ -1823,10 +1823,10 @@
    "level": 2,
    "title": "The Righteous One That Shall Come",
    "ready": true,
-   "durationSec": 409.25,
+   "durationSec": 409.6,
    "estSec": 527.2,
    "audioUrl": "audio/book-2/146-the-righteous-one-that-shall-come.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "147-the-angel-who-will-come-quickly",
@@ -1834,10 +1834,10 @@
    "level": 2,
    "title": "The Angel Who will come quickly",
    "ready": true,
-   "durationSec": 624.28,
+   "durationSec": 635.08,
    "estSec": 792.0,
    "audioUrl": "audio/book-2/147-the-angel-who-will-come-quickly.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "147-the-angel-who-will-come-quickly-p2",
@@ -1845,10 +1845,10 @@
    "level": 2,
    "title": "The Angel Who will come quickly (part 2)",
    "ready": true,
-   "durationSec": 613.5,
+   "durationSec": 617.88,
    "estSec": 753.6,
    "audioUrl": "audio/book-2/147-the-angel-who-will-come-quickly-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "148-chapter-2-the-cloud-of-witnesses",
@@ -1856,10 +1856,10 @@
    "level": 2,
    "title": "Chapter 2 \nThe Cloud of Witnesses",
    "ready": true,
-   "durationSec": 376.25,
+   "durationSec": 375.6,
    "estSec": 452.8,
    "audioUrl": "audio/book-2/148-chapter-2-the-cloud-of-witnesses.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "148-chapter-2-the-cloud-of-witnesses-p2",
@@ -1867,10 +1867,10 @@
    "level": 2,
    "title": "Chapter 2 \nThe Cloud of Witnesses (part 2)",
    "ready": true,
-   "durationSec": 335.13,
+   "durationSec": 334.15,
    "estSec": 440.8,
    "audioUrl": "audio/book-2/148-chapter-2-the-cloud-of-witnesses-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "149-chapter-3-glorious-appearance-in-the-sky-in-the-last-days",
@@ -1878,10 +1878,10 @@
    "level": 2,
    "title": "Chapter 3 \nGlorious Appearance in the Sky\nin the last days",
    "ready": true,
-   "durationSec": 500.51,
+   "durationSec": 512.19,
    "estSec": 612.0,
    "audioUrl": "audio/book-2/149-chapter-3-glorious-appearance-in-the-sky-in-the-last-days.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "149-chapter-3-glorious-appearance-in-the-sky-in-the-last-days-p2",
@@ -1889,10 +1889,10 @@
    "level": 2,
    "title": "Chapter 3 \nGlorious Appearance in the Sky\nin the last days (part 2)",
    "ready": true,
-   "durationSec": 250.57,
+   "durationSec": 253.55,
    "estSec": 296.8,
    "audioUrl": "audio/book-2/149-chapter-3-glorious-appearance-in-the-sky-in-the-last-days-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "150-epilogue-mystery-of-the-two-cherubim-21-7-2015",
@@ -1933,10 +1933,10 @@
    "level": 2,
    "title": "MY ARISING",
    "ready": true,
-   "durationSec": 93.35,
+   "durationSec": 96.83,
    "estSec": 108.4,
    "audioUrl": "audio/book-2/152-my-arising.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "153-jesus-explained-the-mystery-of-the-two-cherubim-s-coming-thr",
@@ -1944,10 +1944,10 @@
    "level": 2,
    "title": "JESUS EXPLAINED THE MYSTERY OF THE TWO CHERUBIM'S COMING THROUGH THE SCRIPTURE",
    "ready": true,
-   "durationSec": 499.11,
+   "durationSec": 501.43,
    "estSec": 571.6,
    "audioUrl": "audio/book-2/153-jesus-explained-the-mystery-of-the-two-cherubim-s-coming-thr.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "153-jesus-explained-the-mystery-of-the-two-cherubim-s-coming-thr-p2",
@@ -1955,10 +1955,10 @@
    "level": 2,
    "title": "JESUS EXPLAINED THE MYSTERY OF THE TWO CHERUBIM'S COMING THROUGH THE SCRIPTURE (part 2)",
    "ready": true,
-   "durationSec": 450.15,
+   "durationSec": 453.65,
    "estSec": 512.0,
    "audioUrl": "audio/book-2/153-jesus-explained-the-mystery-of-the-two-cherubim-s-coming-thr-p2.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "154-epiphaneia-g2016-epiphanes-brightness",
@@ -1966,10 +1966,10 @@
    "level": 2,
    "title": "Epiphaneia (G2016 \"epiphanes\" brightness)",
    "ready": true,
-   "durationSec": 223.47,
+   "durationSec": 224.05,
    "estSec": 264.4,
    "audioUrl": "audio/book-2/154-epiphaneia-g2016-epiphanes-brightness.mp3",
-   "version": 1
+   "version": 3
   },
   {
    "id": "155-my-warning",
@@ -2073,6 +2073,6 @@
  ],
  "readyCount": 188,
  "totalCount": 188,
- "totalSec": 52426.1,
+ "totalSec": 52791.1,
  "estTotalSec": 62220.4
 }
