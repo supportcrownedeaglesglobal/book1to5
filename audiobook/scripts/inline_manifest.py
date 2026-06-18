@@ -23,6 +23,7 @@ CLOSE = "</script>"
 def main():
     html = io.open(INDEX, encoding="utf-8").read()
     manifest = io.open(MANIFEST, encoding="utf-8").read().rstrip()
+    manifest = manifest.replace("</script>", r"<\/script>")   # a title can't break out of the <script> tag (valid JSON)
     block = f"{OPEN}\n{manifest}\n{CLOSE}"
 
     if OPEN in html:                                   # replace existing block

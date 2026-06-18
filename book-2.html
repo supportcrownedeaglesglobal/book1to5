@@ -350,6 +350,9 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
   *{scroll-behavior:auto}
   .row .bars rect{animation:none}
 }
+
+/* a11y: 44px option-button width */
+.rate,.sleep,.rpt{min-width:44px}
 </style>
 </head>
 <body>
@@ -563,7 +566,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "title": "The Four Living Creatures",
    "ready": true,
    "durationSec": 540.21,
-   "estSec": 588.4,
+   "estSec": 588.0,
    "audioUrl": "audio/book-2/009-the-four-living-creatures.mp3",
    "version": 1
   },
@@ -2174,17 +2177,6 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "version": 3
   },
   {
-   "id": "138-section",
-   "order": 157,
-   "level": 2,
-   "title": ".",
-   "ready": true,
-   "durationSec": 0.3,
-   "estSec": 0.4,
-   "audioUrl": "audio/book-2/138-section.mp3",
-   "version": 1
-  },
-  {
    "id": "139-section-b-perilous-crucial-times-in-my-calendar-divine-calen",
    "order": 158,
    "level": 2,
@@ -2526,10 +2518,10 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "version": 1
   }
  ],
- "readyCount": 188,
- "totalCount": 188,
- "totalSec": 52791.1,
- "estTotalSec": 62220.4
+ "readyCount": 187,
+ "totalCount": 187,
+ "totalSec": 52790.8,
+ "estTotalSec": 62219.6
 }
 </script>
 
@@ -2714,7 +2706,7 @@ async function openReader(i){
     const figAlt=('Figure from '+(c.title||'the book')).replace(/[\r\n]+/g,' ').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
     readerBody.innerHTML=RA.paragraphs.map((p,k)=>{
       const imgs=p.images||(p.image?[p.image]:[]);   // a paragraph may carry several figures
-      const img=imgs.map(src=>`<figure class="rfig"><img class="rdiagram" src="${src}" alt="${figAlt}" loading="lazy" onload="this.style.setProperty('--nat-w',(this.naturalWidth+10)+'px')"><figcaption>⤢ Tap to enlarge</figcaption></figure>`).join('');
+      const img=imgs.map(src=>`<figure class="rfig"><img class="rdiagram" src="${escHtml(src)}" alt="${figAlt}" loading="lazy" onload="this.style.setProperty('--nat-w',(this.naturalWidth+10)+'px')"><figcaption>⤢ Tap to enlarge</figcaption></figure>`).join('');
       return `<p class="rpara role-${p.role}" data-k="${k}" data-start="${p.start}" data-end="${p.end}">${escHtml(p.text)}</p>`+img;
     }).join('');
     readerBody.style.setProperty('--reader-font',readerFont+'px');
@@ -2726,7 +2718,7 @@ async function openReader(i){
 function syncReader(t){
   if(!RA || !document.body.classList.contains('reading')) return;
   const ps=RA.paragraphs; let k=-1;
-  for(let j=0;j<ps.length;j++){ if(t>=ps[j].start && t<ps[j].end){ k=j; break; } }
+  for(let j=0;j<ps.length;j++){ if(t>=ps[j].start && t<=ps[j].end){ k=j; break; } }
   if(k===raSpoken) return; raSpoken=k;
   const prev=readerBody.querySelector('.rpara.speaking'); if(prev) prev.classList.remove('speaking');
   if(k>=0){ const el=readerBody.querySelector('.rpara[data-k="'+k+'"]');

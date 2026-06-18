@@ -108,7 +108,7 @@
    "title": "The Four Living Creatures",
    "ready": true,
    "durationSec": 540.21,
-   "estSec": 588.4,
+   "estSec": 588.0,
    "audioUrl": "audio/book-2/009-the-four-living-creatures.mp3",
    "version": 1
   },
@@ -1719,17 +1719,6 @@
    "version": 3
   },
   {
-   "id": "138-section",
-   "order": 157,
-   "level": 2,
-   "title": ".",
-   "ready": true,
-   "durationSec": 0.3,
-   "estSec": 0.4,
-   "audioUrl": "audio/book-2/138-section.mp3",
-   "version": 1
-  },
-  {
    "id": "139-section-b-perilous-crucial-times-in-my-calendar-divine-calen",
    "order": 158,
    "level": 2,
@@ -2071,8 +2060,8 @@
    "version": 1
   }
  ],
- "readyCount": 188,
- "totalCount": 188,
- "totalSec": 52791.1,
- "estTotalSec": 62220.4
+ "readyCount": 187,
+ "totalCount": 187,
+ "totalSec": 52790.8,
+ "estTotalSec": 62219.6
 }

@@ -38,7 +38,7 @@ def paragraphs(seg_dir: Path, seg_slice):
         dur = M.duration_sec(f) if f.exists() else 0.0
         start = t
         t += dur
-        out.append({"role": s["role"], "text": s["text"], "start": round(start, 2), "end": round(t, 2)})
+        out.append({"role": s["role"], "text": _dehyph(s["text"]), "start": round(start, 2), "end": round(t, 2)})
         gap = C.SCENE_GAP_MS if (s["role"] == "chapter_title" or j == n - 1) else M.pause_for(s["role"])
         t += M.pause_sec(int(gap))
     return out
@@ -59,11 +59,17 @@ def load_diagrams():
     return json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
 
 
+def _dehyph(t):
+    """Rejoin PDF line-break hyphenation in DISPLAY text: 'ma- keth' -> 'maketh', 'YAH- WEH'
+    -> 'YAHWEH'. A real compound ('Anti-Christ') has no space after the hyphen, so it's kept."""
+    return re.sub(r"([A-Za-z])-\s+([A-Za-z])", r"\1\2", t or "")
+
+
 def _norm(x):
-    """Collapse case + runs of non-alphanumerics to single spaces — tolerates the PDF's
-    hyphenation / line-break artifacts in a diagram's after_text (e.g. 'ma- keth', 'YAH- WEH')
-    that don't appear verbatim in the spoken segment text."""
-    return re.sub(r"[^a-z0-9]+", " ", (x or "").lower()).strip()
+    """Lowercase, drop hyphens (incl. line-break 'ma- keth'), collapse runs of non-alphanumerics
+    to single spaces — so a diagram's after_text matches its paragraph regardless of hyphenation."""
+    x = re.sub(r"-\s*", "", (x or "").lower())
+    return re.sub(r"[^a-z0-9]+", " ", x).strip()
 
 
 def attach_images(track_id, paras, diagrams):

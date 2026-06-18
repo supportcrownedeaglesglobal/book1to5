@@ -350,6 +350,9 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
   *{scroll-behavior:auto}
   .row .bars rect{animation:none}
 }
+
+/* a11y: 44px option-button width */
+.rate,.sleep,.rpt{min-width:44px}
 </style>
 </head>
 <body>
@@ -2840,7 +2843,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "title": "APPRECIATION WITH THANKS",
    "ready": true,
    "durationSec": 127.67,
-   "estSec": 119.2,
+   "estSec": 118.8,
    "audioUrl": "audio/book-4/212-appreciation-with-thanks.mp3",
    "version": 1
   },
@@ -2881,7 +2884,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
  "readyCount": 220,
  "totalCount": 220,
  "totalSec": 27410.0,
- "estTotalSec": 30342.4
+ "estTotalSec": 30342.0
 }
 </script>
 
@@ -3065,7 +3068,7 @@ async function openReader(i){
     RA=data;
     readerBody.innerHTML=RA.paragraphs.map((p,k)=>{
       const imgs=p.images||(p.image?[p.image]:[]);   // a paragraph may carry several figures
-      const img=imgs.map(src=>`<figure class="rfig"><img class="rdiagram" src="${src}" alt="${escHtml('Figure from '+c.title)}" loading="lazy" onload="this.style.setProperty('--nat-w',(this.naturalWidth+10)+'px')"><figcaption>⤢ Tap to enlarge</figcaption></figure>`).join('');
+      const img=imgs.map(src=>`<figure class="rfig"><img class="rdiagram" src="${escHtml(src)}" alt="${escHtml('Figure from '+c.title)}" loading="lazy" onload="this.style.setProperty('--nat-w',(this.naturalWidth+10)+'px')"><figcaption>⤢ Tap to enlarge</figcaption></figure>`).join('');
       return `<p class="rpara role-${p.role}" data-k="${k}" data-start="${p.start}" data-end="${p.end}">${escHtml(p.text)}</p>`+img;
     }).join('');
     readerBody.style.setProperty('--reader-font',readerFont+'px');
@@ -3077,7 +3080,7 @@ async function openReader(i){
 function syncReader(t){
   if(!RA || !document.body.classList.contains('reading')) return;
   const ps=RA.paragraphs; let k=-1;
-  for(let j=0;j<ps.length;j++){ if(t>=ps[j].start && t<ps[j].end){ k=j; break; } }
+  for(let j=0;j<ps.length;j++){ if(t>=ps[j].start && t<=ps[j].end){ k=j; break; } }
   if(k===raSpoken) return; raSpoken=k;
   const prev=readerBody.querySelector('.rpara.speaking'); if(prev) prev.classList.remove('speaking');
   if(k>=0){ const el=readerBody.querySelector('.rpara[data-k="'+k+'"]');

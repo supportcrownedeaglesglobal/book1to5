@@ -350,6 +350,9 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
   *{scroll-behavior:auto}
   .row .bars rect{animation:none}
 }
+
+/* a11y: 44px option-button width */
+.rate,.sleep,.rpt{min-width:44px}
 </style>
 </head>
 <body>
@@ -2455,7 +2458,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
    "title": "Act 2 Scene 5 \nThe Crucifixion",
    "ready": true,
    "durationSec": 165.22,
-   "estSec": 176.4,
+   "estSec": 176.0,
    "audioUrl": "audio/book-1/163-act-2-scene-5-the-crucifixion.mp3",
    "version": 2
   },
@@ -2892,7 +2895,7 @@ body.reading #reader{display:block; animation:rise .5s var(--ease) both}
  "readyCount": 221,
  "totalCount": 221,
  "totalSec": 59839.4,
- "estTotalSec": 70593.6
+ "estTotalSec": 70593.2
 }
 </script>
 
@@ -3077,7 +3080,7 @@ async function openReader(i){
     readerBody.innerHTML=RA.paragraphs.map((p,k)=>{
       const imgs=p.images||(p.image?[p.image]:[]);   // a paragraph may carry several figures
       const figAlt=escHtml('Figure from '+(c.title||'the book').replace(/\n/g,' '));
-      const img=imgs.map(src=>`<figure class="rfig"><img class="rdiagram" src="${src}" alt="${figAlt}" loading="lazy" onload="this.style.setProperty('--nat-w',(this.naturalWidth+10)+'px')"><figcaption>⤢ Tap to enlarge</figcaption></figure>`).join('');
+      const img=imgs.map(src=>`<figure class="rfig"><img class="rdiagram" src="${escHtml(src)}" alt="${figAlt}" loading="lazy" onload="this.style.setProperty('--nat-w',(this.naturalWidth+10)+'px')"><figcaption>⤢ Tap to enlarge</figcaption></figure>`).join('');
       return `<p class="rpara role-${p.role}" data-k="${k}" data-start="${p.start}" data-end="${p.end}">${escHtml(p.text)}</p>`+img;
     }).join('');
     readerBody.style.setProperty('--reader-font',readerFont+'px');
@@ -3089,7 +3092,7 @@ async function openReader(i){
 function syncReader(t){
   if(!RA || !document.body.classList.contains('reading')) return;
   const ps=RA.paragraphs; let k=-1;
-  for(let j=0;j<ps.length;j++){ if(t>=ps[j].start && t<ps[j].end){ k=j; break; } }
+  for(let j=0;j<ps.length;j++){ if(t>=ps[j].start && t<=ps[j].end){ k=j; break; } }
   if(k===raSpoken) return; raSpoken=k;
   const prev=readerBody.querySelector('.rpara.speaking'); if(prev) prev.classList.remove('speaking');
   if(k>=0){ const el=readerBody.querySelector('.rpara[data-k="'+k+'"]');

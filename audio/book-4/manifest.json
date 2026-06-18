@@ -2385,7 +2385,7 @@
    "title": "APPRECIATION WITH THANKS",
    "ready": true,
    "durationSec": 127.67,
-   "estSec": 119.2,
+   "estSec": 118.8,
    "audioUrl": "audio/book-4/212-appreciation-with-thanks.mp3",
    "version": 1
   },
@@ -2426,5 +2426,5 @@
  "readyCount": 220,
  "totalCount": 220,
  "totalSec": 27410.0,
- "estTotalSec": 30342.4
+ "estTotalSec": 30342.0
 }

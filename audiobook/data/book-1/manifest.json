@@ -2000,7 +2000,7 @@
    "title": "Act 2 Scene 5 \nThe Crucifixion",
    "ready": true,
    "durationSec": 165.22,
-   "estSec": 176.4,
+   "estSec": 176.0,
    "audioUrl": "audio/book-1/163-act-2-scene-5-the-crucifixion.mp3",
    "version": 2
   },
@@ -2437,5 +2437,5 @@
  "readyCount": 221,
  "totalCount": 221,
  "totalSec": 59839.4,
- "estTotalSec": 70593.6
+ "estTotalSec": 70593.2
 }
