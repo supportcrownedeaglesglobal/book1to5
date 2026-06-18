@@ -18,7 +18,8 @@
   "track": "001-15-benefits-of-knowing-his-name",
   "after_text": "THE MODUS OPERANDI OF THE TRINITY",
   "page": 61,
-  "how": "page"
+  "how": "page",
+  "occ": 2
  },
  {
   "image": "images/book-3/diagrams/p062-1.jpg",
@@ -32,7 +33,8 @@
   "track": "001-16-the-throne-of-the-trinity",
   "after_text": "THE MODUS OPERANDI OF THE TRINITY",
   "page": 66,
-  "how": "page"
+  "how": "page",
+  "occ": 1
  },
  {
   "image": "images/book-3/diagrams/p067-1.jpg",
@@ -46,7 +48,8 @@
   "track": "002-02-chapter-1",
   "after_text": "THE SOURCE OF LIFE",
   "page": 74,
-  "how": "text"
+  "how": "text",
+  "occ": 1
  },
  {
   "image": "images/book-3/diagrams/p077-1.jpg",
@@ -74,14 +77,16 @@
   "track": "003-02-chapter-1",
   "after_text": "THE RIGHTEOUS JUDGE",
   "page": 101,
-  "how": "text"
+  "how": "text",
+  "occ": 1
  },
  {
   "image": "images/book-3/diagrams/p166-1.jpg",
   "track": "003-21-chapter-3",
   "after_text": "THE SEVEN ANGELS",
   "page": 166,
-  "how": "text"
+  "how": "text",
+  "occ": 1
  },
  {
   "image": "images/book-3/diagrams/p174-1.jpg",
@@ -151,7 +156,8 @@
   "track": "003-37-chapter-8",
   "after_text": "THE UNDERWORLD IN JUSTICE",
   "page": 210,
-  "how": "text"
+  "how": "text",
+  "occ": 1
  },
  {
   "image": "images/book-3/diagrams/p212-1.jpg",
@@ -165,7 +171,8 @@
   "track": "003-39-chapter-10",
   "after_text": "RAINBOW OF HOPE",
   "page": 217,
-  "how": "text"
+  "how": "text",
+  "occ": 1
  },
  {
   "image": "images/book-3/diagrams/p229-1.jpg",
@@ -242,7 +249,8 @@
   "track": "005-02-chapter-1",
   "after_text": "FIVE-FOLD POWER OF HOLINESS",
   "page": 278,
-  "how": "text"
+  "how": "text",
+  "occ": 1
  },
  {
   "image": "images/book-3/diagrams/p281-1.jpg",
@@ -263,7 +271,8 @@
   "track": "005-07-chapter-4",
   "after_text": "THE EL IN THE STAR OF DAVID",
   "page": 295,
-  "how": "text"
+  "how": "text",
+  "occ": 1
  },
  {
   "image": "images/book-3/diagrams/p298-1.jpg",
@@ -305,7 +314,8 @@
   "track": "006-11-chapter-2",
   "after_text": "THE FORMATION OF THE HOSTS",
   "page": 342,
-  "how": "text"
+  "how": "text",
+  "occ": 1
  },
  {
   "image": "images/book-3/diagrams/p344-1.jpg",
@@ -375,7 +385,8 @@
   "track": "007-08-chapter-4",
   "after_text": "JUDGMENT ON THE HOSTS OF HEAVEN",
   "page": 404,
-  "how": "text"
+  "how": "text",
+  "occ": 1
  },
  {
   "image": "images/book-3/diagrams/p417-1.jpg",
@@ -431,7 +442,8 @@
   "track": "007-28-chapter-8",
   "after_text": "THE DESTRUCTIVE PATTERNS OF THE SHADDAI",
   "page": 446,
-  "how": "text"
+  "how": "text",
+  "occ": 1
  },
  {
   "image": "images/book-3/diagrams/p449-1.jpg",
@@ -445,7 +457,8 @@
   "track": "008-15-chapter-6",
   "after_text": "THE PERFECT DIAMOND",
   "page": 486,
-  "how": "text"
+  "how": "text",
+  "occ": 1
  },
  {
   "image": "images/book-3/diagrams/p491-1.jpg",
@@ -466,7 +479,8 @@
   "track": "008-18-chapter-7",
   "after_text": "THE OFFENCES OF THE ADONAI",
   "page": 494,
-  "how": "text"
+  "how": "text",
+  "occ": 1
  },
  {
   "image": "images/book-3/diagrams/p508-1.jpg",

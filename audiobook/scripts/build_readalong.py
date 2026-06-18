@@ -100,15 +100,20 @@ def attach_images(track_id, paras, diagrams):
         if not idxs:
             print(f"    !! diagram {d['image']}: no paragraph in {track_id} contains its after_text")
             continue
-        # When the anchor occurs more than once (e.g. a heading repeated in the track), prefer the
-        # first occurrence AT/AFTER the previous figure — that disambiguates to the later, correct
-        # occurrence instead of an early duplicate, and keeps figures in page order.
-        forward = [i for i in idxs if i >= last_idx]
-        if forward:
-            idx = forward[0]
-        else:                                        # anchor only matches before the prior figure -> clamp + warn
-            idx = last_idx
-            print(f"    .. diagram {d['image']}: after_text only matches before para {last_idx} in {track_id}; clamped to keep page order")
+        # When the anchor occurs more than once (e.g. a heading repeated in the track):
+        #  1) if place_diagrams recorded which occurrence it meant (d["occ"], 1-based), use that;
+        #  2) else prefer the first occurrence AT/AFTER the previous figure (disambiguates to the
+        #     later, correct occurrence instead of an early duplicate and keeps page order).
+        occ = d.get("occ")
+        if isinstance(occ, int) and 1 <= occ <= len(idxs):
+            idx = max(idxs[occ - 1], last_idx)       # honor the recorded occurrence (never invert)
+        else:
+            forward = [i for i in idxs if i >= last_idx]
+            if forward:
+                idx = forward[0]
+            else:                                    # anchor only matches before the prior figure -> clamp + warn
+                idx = last_idx
+                print(f"    .. diagram {d['image']}: after_text only matches before para {last_idx} in {track_id}; clamped to keep page order")
         paras[idx].setdefault("images", []).append(d["image"])
         last_idx = idx
 
@@ -117,6 +122,11 @@ def build_all():
     chapters = json.loads(C.CHAPTERS_JSON.read_text(encoding="utf-8"))
     sp = split_parents(chapters)
     diagrams = load_diagrams()
+    valid_tracks = {c["id"] for c in chapters}                          # surface mis-keyed diagrams
+    orphan_diag = [d for d in diagrams if d.get("track") not in valid_tracks]
+    if orphan_diag:
+        print(f"    !! {len(orphan_diag)} diagram(s) reference a missing/invalid track (won't display): "
+              + ", ".join(Path(d.get("image", "?")).name for d in orphan_diag[:8]))
     READALONG.mkdir(exist_ok=True)
     man = {c["id"]: c["durationSec"] for c in json.loads(WEB_MANIFEST.read_text(encoding="utf-8"))["chapters"]}
     # Split children carry no own segment-dir: each is a contiguous slice of its level-1

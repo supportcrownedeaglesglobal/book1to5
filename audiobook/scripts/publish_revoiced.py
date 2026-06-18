@@ -34,9 +34,12 @@ for book in BOOKS:
     for line in (r.stdout or "").splitlines():
         if any(k in line for k in ("R2 upload:", "FAIL", "bumped", "nothing to publish", "not staged")):
             print("   " + line, flush=True)
-    if r.returncode != 0:
-        print(f"   !! publish_audio exited {r.returncode}; stderr tail:", flush=True)
-        for line in (r.stderr or "").splitlines()[-5:]:
+    if r.returncode != 0:                                   # on failure show the FULL stderr + stdout (don't hide the cause)
+        print(f"   !! publish_audio exited {r.returncode}; full stderr:", flush=True)
+        for line in (r.stderr or "(empty)").splitlines():
+            print("      " + line, flush=True)
+        print(f"   -- full stdout for book {book}:", flush=True)
+        for line in (r.stdout or "(empty)").splitlines():
             print("      " + line, flush=True)
     print(f"===== BOOK {book} done (exit {r.returncode}) =====", flush=True)
 

@@ -7,6 +7,9 @@ try:
 except Exception:
     havePIL = False
 print("PIL available:", havePIL)
+if not havePIL:
+    print("   !! Pillow NOT installed — decodability is NOT verified (JPEG magic-bytes + size only). "
+          "A truncated/corrupt file with a valid header would pass; install Pillow before trusting a clean result.")
 
 issues, total = [], 0
 for b in (1, 2, 3, 4, 5):

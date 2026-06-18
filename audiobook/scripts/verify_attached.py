@@ -1,4 +1,4 @@
-import json
+import json, re
 from pathlib import Path
 
 ROOT = Path(r"C:\Users\jda61\Documents\book5"); DATA = ROOT / "audiobook" / "data"
@@ -11,8 +11,11 @@ for b in (1, 2, 3, 4, 5):
     attached = set()
     for jf in radir(b).glob("*.js"):
         t = jf.read_text(encoding="utf-8").strip()
+        m = re.search(r"\]\s*=\s*(\{.*\})\s*;?\s*$", t, re.S)   # robust even if an id contains ']='
+        if not m:
+            continue
         try:
-            o = json.loads(t[t.index("]=") + 2:].rstrip().rstrip(";"))
+            o = json.loads(m.group(1))
         except Exception:
             continue
         for p in o.get("paragraphs", []):

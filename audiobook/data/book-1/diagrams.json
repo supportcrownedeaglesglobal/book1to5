@@ -319,7 +319,8 @@
   "track": "198-spirit-of-knowledge-and-the-fear-of-the-yahweh",
   "after_text": "Spirit of Knowledge and the Fear of THE YAHWEH",
   "page": 441,
-  "how": "text"
+  "how": "text",
+  "occ": 1
  },
  {
   "image": "images/book-1/diagrams/p451-1.jpg",
@@ -340,7 +341,8 @@
   "track": "201-finalogue",
   "after_text": "THE TRINITY",
   "page": 455,
-  "how": "page"
+  "how": "page",
+  "occ": 4
  },
  {
   "image": "images/book-1/diagrams/p457-1.jpg",

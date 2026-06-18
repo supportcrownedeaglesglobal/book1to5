@@ -19,8 +19,11 @@ for b, cid in fixed:
     st, body = fetch(ra_url(b, cid))
     if st != 200:
         print(f"book {b}/{cid}: HTTP {st}"); allok = False; continue
+    m = re.search(r"\]\s*=\s*(\{.*\})\s*;?\s*$", body, re.S)   # robust even if an id contains ']='
+    if not m:
+        print(f"book {b}/{cid}: parse error (no payload)"); allok = False; continue
     try:
-        o = json.loads(body[body.index("]=") + 2:].rstrip().rstrip(";"))
+        o = json.loads(m.group(1))
     except Exception as e:
         print(f"book {b}/{cid}: parse error {e}"); allok = False; continue
     seq = [(page_of(im), Path(im).name) for p in o["paragraphs"] for im in (p.get("images") or [])]
