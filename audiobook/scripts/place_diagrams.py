@@ -151,6 +151,8 @@ def main():
     ap.add_argument("--dry", action="store_true")
     ap.add_argument("--groups", default="A,D",
                     help="figure groups to place: A=diagrams, D=photos/art, BC=testimonies+text (default A,D)")
+    ap.add_argument("--merge", action="store_true",
+                    help="keep existing diagrams.json entries unchanged; only ADD placements for images not already present")
     args = ap.parse_args()
     keep = set(g.strip().upper() for g in args.groups.split(","))
 
@@ -207,8 +209,17 @@ def main():
         return
     out = [{"image": r["image"], "track": r["track"], "after_text": r["after_text"],
             "page": r["page"], "how": r["how"]} for r in rows]
-    DIAGRAMS_JSON.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"wrote {len(out)} placements -> {DIAGRAMS_JSON}")
+    if args.merge and DIAGRAMS_JSON.exists():
+        existing = json.loads(DIAGRAMS_JSON.read_text(encoding="utf-8"))
+        have = {e["image"] for e in existing}
+        additions = [r for r in out if r["image"] not in have]
+        merged = existing + additions
+        merged.sort(key=lambda e: (int(e.get("page", 0)), e["image"]))   # page order; attach stacks in order
+        DIAGRAMS_JSON.write_text(json.dumps(merged, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"merged: {len(existing)} existing kept + {len(additions)} new added = {len(merged)} -> {DIAGRAMS_JSON}")
+    else:
+        DIAGRAMS_JSON.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"wrote {len(out)} placements -> {DIAGRAMS_JSON}")
 
 
 if __name__ == "__main__":
