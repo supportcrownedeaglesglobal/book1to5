@@ -67,24 +67,31 @@ def _norm(x):
 
 
 def attach_images(track_id, paras, diagrams):
-    """Attach each diagram (matched by its unique after_text) to a paragraph's image list.
-    Several diagrams may land on one paragraph (e.g. a run of testimony screenshots) — they
-    stack in diagrams.json order, which is book page order. Falls back to a normalized
-    (case/whitespace/punctuation-insensitive) substring match so PDF artifacts don't drop figures."""
-    for d in diagrams:
-        if d.get("track") != track_id:
-            continue
+    """Attach each diagram (matched by its after_text) to a paragraph's image list.
+    Figures are processed in PAGE order; several may land on one paragraph (a run of testimony
+    screenshots) and stack in that order. Falls back to a normalized (case/whitespace/punctuation
+    -insensitive) substring match so PDF artifacts don't drop figures. A figure whose anchor matches
+    an EARLIER paragraph than a previous (lower-page) figure is clamped forward, so figures can never
+    display out of page order even when an anchor (e.g. a generic 'THE TRINITY') matches too early."""
+    mine = sorted((d for d in diagrams if d.get("track") == track_id),
+                  key=lambda d: int(d.get("page", 0)))
+    last_idx = -1
+    for d in mine:
         at = d.get("after_text") or ""
         if not at:
             continue
-        hits = [p for p in paras if at in p["text"]]                        # exact substring
-        if not hits:                                                        # tolerate PDF artifacts
+        idxs = [i for i, p in enumerate(paras) if at in p["text"]]           # exact substring
+        if not idxs:                                                        # tolerate PDF artifacts
             nat = _norm(at)
-            hits = [p for p in paras if nat and nat in _norm(p["text"])]
-        if hits:
-            hits[0].setdefault("images", []).append(d["image"])
-        else:
+            idxs = [i for i, p in enumerate(paras) if nat and nat in _norm(p["text"])]
+        if not idxs:
             print(f"    !! diagram {d['image']}: no paragraph in {track_id} contains its after_text")
+            continue
+        idx = idxs[0]
+        if idx < last_idx:                          # keep figures in page order (never invert)
+            idx = last_idx
+        paras[idx].setdefault("images", []).append(d["image"])
+        last_idx = idx
 
 
 def build_all():
