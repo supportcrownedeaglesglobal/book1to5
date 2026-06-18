@@ -61,14 +61,21 @@ def load_diagrams():
 
 def _dehyph(t):
     """Rejoin PDF line-break hyphenation in DISPLAY text: 'ma- keth' -> 'maketh', 'YAH- WEH'
-    -> 'YAHWEH'. A real compound ('Anti-Christ') has no space after the hyphen, so it's kept."""
-    return re.sub(r"([A-Za-z])-\s+([A-Za-z])", r"\1\2", t or "")
+    -> 'YAHWEH'. A real compound ('Anti-Christ') has no space after the hyphen, so it's kept.
+    Numeric ranges KEEP their hyphen ('Rev 10:1- 2' -> 'Rev 10:1-2'); only the line-break space
+    is dropped — joining the digits ('10:12') would corrupt the verse reference."""
+    t = t or ""
+    t = re.sub(r"([A-Za-z])-\s+([A-Za-z])", r"\1\2", t)     # broken word: ma- keth -> maketh
+    t = re.sub(r"(\d)-\s+(\d)", r"\1-\2", t)                 # verse/number range: 10:1- 2 -> 10:1-2
+    return t
 
 
 def _norm(x):
-    """Lowercase, drop hyphens (incl. line-break 'ma- keth'), collapse runs of non-alphanumerics
-    to single spaces — so a diagram's after_text matches its paragraph regardless of hyphenation."""
-    x = re.sub(r"-\s*", "", (x or "").lower())
+    """Lowercase, fold line-break hyphenation ('ma- keth' -> 'maketh'), collapse runs of
+    non-alphanumerics to single spaces — so a diagram's after_text matches its paragraph regardless
+    of hyphenation. Requires a space after the hyphen so a real compound ('Anti-Christ') stays two
+    tokens ('anti christ') and does not collapse to 'antichrist' (which would false-match)."""
+    x = re.sub(r"-\s+", "", (x or "").lower())
     return re.sub(r"[^a-z0-9]+", " ", x).strip()
 
 
@@ -83,19 +90,25 @@ def attach_images(track_id, paras, diagrams):
                   key=lambda d: int(d.get("page", 0)))
     last_idx = -1
     for d in mine:
-        at = d.get("after_text") or ""
+        at = _dehyph(d.get("after_text") or "")      # match on the dehyphenated anchor (same form as paras)
         if not at:
             continue
-        idxs = [i for i, p in enumerate(paras) if at in p["text"]]           # exact substring
+        idxs = [i for i, p in enumerate(paras) if at in p["text"]]           # exact substring (all occurrences)
         if not idxs:                                                        # tolerate PDF artifacts
             nat = _norm(at)
             idxs = [i for i, p in enumerate(paras) if nat and nat in _norm(p["text"])]
         if not idxs:
             print(f"    !! diagram {d['image']}: no paragraph in {track_id} contains its after_text")
             continue
-        idx = idxs[0]
-        if idx < last_idx:                          # keep figures in page order (never invert)
+        # When the anchor occurs more than once (e.g. a heading repeated in the track), prefer the
+        # first occurrence AT/AFTER the previous figure — that disambiguates to the later, correct
+        # occurrence instead of an early duplicate, and keeps figures in page order.
+        forward = [i for i in idxs if i >= last_idx]
+        if forward:
+            idx = forward[0]
+        else:                                        # anchor only matches before the prior figure -> clamp + warn
             idx = last_idx
+            print(f"    .. diagram {d['image']}: after_text only matches before para {last_idx} in {track_id}; clamped to keep page order")
         paras[idx].setdefault("images", []).append(d["image"])
         last_idx = idx
 
