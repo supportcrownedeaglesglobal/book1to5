@@ -1,5 +1,5 @@
 """Build functions/api/_chapters.json (compact grounding map) from all books' chapters.json."""
-import json
+import json, hashlib
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -16,8 +16,11 @@ def build_map(books):  # books: {book_num: [tracks]}
     for n, tracks in books.items():
         for t in tracks:
             if not t.get("segments"): continue
-            m[t["id"]] = {"book": n, "title": t["title"],
-                          "url": f"book-{n}.html#{t['id']}", "excerpt": _excerpt(t)}
+            key = t["id"]        # Vectorize vector ids must be <= 64 bytes
+            if len(key.encode()) > 64:   # hash the rare over-long id to stay unique (truncation alone collides)
+                key = key[:55] + "-" + hashlib.sha1(key.encode()).hexdigest()[:8]
+            m[key] = {"book": n, "title": t["title"],
+                      "url": f"book-{n}.html#{t['id']}", "excerpt": _excerpt(t)}
     return m
 
 def _load(n):

@@ -24,8 +24,15 @@ export function buildMessages({ message, history = [], retrieved = [] }) {
 
 export function shapeReply(modelText, knownIds, chapterMap) {
   let data = null;
-  try { const m = modelText.match(/\{[\s\S]*\}/); if (m) data = JSON.parse(m[0]); } catch { /* fall through */ }
-  if (!data || typeof data.reply !== "string") return { reply: String(modelText).trim(), chapters: [], plan: [] };
+  if (modelText && typeof modelText === "object") {
+    data = modelText;                                    // Workers AI sometimes returns an already-parsed JSON object
+  } else {
+    try { const m = String(modelText).match(/\{[\s\S]*\}/); if (m) data = JSON.parse(m[0]); } catch { /* fall through */ }
+  }
+  if (!data || typeof data.reply !== "string") {
+    const txt = typeof modelText === "string" ? modelText.trim() : "";
+    return { reply: txt || "I'm sorry, I couldn't form a reply just now — please try rephrasing.", chapters: [], plan: [] };
+  }
   const resolve = (id) => { const c = chapterMap[id]; return c ? { id, book: c.book, title: c.title, url: c.url } : null; };
   const chapters = (data.chapters || []).map(x => x && x.id).filter(id => knownIds.has(id)).map(resolve).filter(Boolean);
   const plan = (data.plan || []).filter(p => p && knownIds.has(p.id))
