@@ -1,0 +1,11 @@
+name = "bmm-guide"
+pages_build_output_dir = "."
+compatibility_date = "2025-06-01"
+[ai]
+binding = "AI"
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "bmm-guide"
+[[kv_namespaces]]
+binding = "GUIDE_RATE"
+id = "PLACEHOLDER_SET_IN_TASK_0"

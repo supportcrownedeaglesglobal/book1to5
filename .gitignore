@@ -20,3 +20,7 @@ audio/book-*/*.mp3
 
 voice-samples/
 audiobook/scripts/_voice_sample.py
+
+# Node / JS tooling
+node_modules/
+package-lock.json
