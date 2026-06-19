@@ -2593,12 +2593,7 @@ async function init(){
     const id = decodeURIComponent((location.hash||'').replace(/^#/,''));
     if(!id) return false;
     const k = chapters.findIndex(c=>c.id===id);
-    if(k>=0 && chapters[k].ready){
-      select(k,false,true);
-      document.getElementById('listen').scrollIntoView({behavior:'smooth'});
-      A.play().catch(()=>{});   // best-effort; mobile browsers may require a tap first
-      return true;
-    }
+    if(k>=0 && chapters[k].ready){ openReader(k); return true; }   // open the focused read-along view + play this chapter
     return false;
   }
   addEventListener('hashchange', openFromHash);
