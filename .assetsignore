@@ -1,0 +1,18 @@
+# Files NOT to upload as static assets on `wrangler pages deploy` (Direct Upload).
+# Keeps the deploy to the actual site: *.html, assets/, images/, readalong/, _headers.
+# functions/ is compiled separately by Pages and is unaffected by this file.
+.git
+node_modules
+.wrangler
+.venv-tts
+audiobook
+out
+audio
+*.mp3
+docs
+.claude
+voice-samples
+_diagram-gallery.html
+*.bak
+package-lock.json
+.dev.vars
