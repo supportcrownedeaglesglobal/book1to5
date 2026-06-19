@@ -2,7 +2,7 @@
 // Embeds a slice of the grounding index into Vectorize. Sliced to stay well under
 // the Workers subrequest cap; repeat with the returned nextStart until it is null.
 import { MODEL_EMBED } from "./_config.js";
-import CHAPTERS from "./_chapters.json" with { type: "json" };
+import CHAPTERS from "./_chapters.json";
 
 const BATCH = 50; // texts per embedding call
 
