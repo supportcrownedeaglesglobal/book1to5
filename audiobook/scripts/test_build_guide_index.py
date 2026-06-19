@@ -11,5 +11,5 @@ class T(unittest.TestCase):
         e = m["001-intro"]
         self.assertEqual(e["book"], 5)
         self.assertEqual(e["url"], "book-5.html#001-intro")
-        self.assertLessEqual(len(e["excerpt"].split()), 160)
+        self.assertLessEqual(len(e["excerpt"].split()), 150)
 if __name__ == "__main__": unittest.main()

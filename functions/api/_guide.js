@@ -33,8 +33,11 @@ export function shapeReply(modelText, knownIds, chapterMap) {
   return { reply: data.reply.trim(), chapters, plan };
 }
 
-export async function checkRate(kv, key, rate, now = 0) {
-  const t = now || Date.now();
+export async function checkRate(kv, key, rate, now) {
+  // KV is eventually-consistent and has no atomic increment, so this window
+  // counter is best-effort: a burst of simultaneous requests may slip a few
+  // over the per-window cap. The per-DAY cap below is the hard cost backstop.
+  const t = now ?? Date.now();
   const win = Math.floor(t / 1000 / rate.windowSec);
   const day = Math.floor(t / 1000 / 86400);
   const wk = `w:${key}:${win}`, dk = `d:${key}:${day}`;
