@@ -29,7 +29,7 @@ export function shapeReply(modelText, knownIds, chapterMap) {
   const resolve = (id) => { const c = chapterMap[id]; return c ? { id, book: c.book, title: c.title, url: c.url } : null; };
   const chapters = (data.chapters || []).map(x => x && x.id).filter(id => knownIds.has(id)).map(resolve).filter(Boolean);
   const plan = (data.plan || []).filter(p => p && knownIds.has(p.id))
-      .map(p => { const c = chapterMap[p.id]; return { id: p.id, title: c?.title || p.id, why: String(p.why || "") }; });
+      .map(p => { const c = chapterMap[p.id]; return { id: p.id, title: c?.title || p.id, url: c?.url || "", why: String(p.why || "") }; });
   return { reply: data.reply.trim(), chapters, plan };
 }
 

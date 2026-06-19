@@ -1,0 +1,24 @@
+.guide-fab{position:fixed;right:18px;bottom:18px;z-index:2147483000;min-width:56px;min-height:56px;border-radius:30px;
+  padding:0 22px;font:600 17px/1 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1a1205;
+  background:linear-gradient(180deg,#f6d774,#c79a2e);border:1px solid #a87f1f;box-shadow:0 6px 20px rgba(0,0,0,.35);cursor:pointer}
+.guide-fab:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.guide-panel{position:fixed;right:18px;bottom:84px;z-index:2147483000;width:min(420px,94vw);max-height:74vh;display:none;
+  flex-direction:column;background:#0f0c06;border:1px solid #6b531c;border-radius:16px;overflow:hidden;
+  box-shadow:0 12px 40px rgba(0,0,0,.5)}
+.guide-panel.open{display:flex}
+.guide-head{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;
+  font:600 16px/1 system-ui;color:#f6d774;border-bottom:1px solid #3a2f12;background:#15100a}
+.guide-x{background:none;border:none;color:#caa64a;font-size:24px;line-height:1;cursor:pointer;padding:0 4px}
+.guide-log{flex:1;overflow:auto;padding:14px;display:flex;flex-direction:column;gap:10px}
+.guide-msg{font-size:17px;line-height:1.5;color:#f3e8c8;white-space:pre-wrap;max-width:90%}
+.guide-msg.me{align-self:flex-end;color:#fff;background:#2a2110;border-radius:12px;padding:8px 12px}
+.guide-card{display:block;padding:10px 12px;border:1px solid #6b531c;border-radius:10px;color:#f6d774;text-decoration:none;font-size:16px}
+.guide-card:hover{background:#1c1609}
+.guide-plan{margin:4px 0;padding-left:22px;color:#e8d9ad;font-size:16px;line-height:1.5}
+.guide-plan a{color:#f6d774}
+.guide-form{display:flex;gap:8px;padding:10px;border-top:1px solid #3a2f12;background:#15100a}
+.guide-in{flex:1;font-size:17px;padding:11px;border-radius:10px;border:1px solid #6b531c;background:#1a1408;color:#fff}
+.guide-send{font:600 16px/1 system-ui;padding:0 16px;border-radius:10px;border:1px solid #a87f1f;
+  background:linear-gradient(180deg,#f6d774,#c79a2e);color:#1a1205;cursor:pointer}
+@media (prefers-reduced-motion: reduce){.guide-panel,.guide-fab{transition:none}}
+@media (max-width:480px){.guide-panel{right:3vw;left:3vw;width:auto;bottom:80px}}
