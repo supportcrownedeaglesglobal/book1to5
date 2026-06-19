@@ -8,4 +8,4 @@ binding = "VECTORIZE"
 index_name = "bmm-guide"
 [[kv_namespaces]]
 binding = "GUIDE_RATE"
-id = "PLACEHOLDER_SET_IN_TASK_0"
+id = "8123cb248fec4f66838d5a5e5c1cc0e2"

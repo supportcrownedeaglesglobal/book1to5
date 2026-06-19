@@ -24,3 +24,6 @@ audiobook/scripts/_voice_sample.py
 # Node / JS tooling
 node_modules/
 package-lock.json
+
+# Local dev secrets for wrangler pages dev (never commit)
+.dev.vars
