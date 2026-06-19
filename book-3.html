@@ -2670,7 +2670,12 @@ async function init(){
     const id = decodeURIComponent((location.hash||'').replace(/^#/,''));
     if(!id) return false;
     const k = chapters.findIndex(c=>c.id===id);
-    if(k>=0 && chapters[k].ready){ openReader(k); return true; }   // open the focused read-along view + play this chapter
+    if(k>=0 && chapters[k].ready){
+      select(k,false,false);                                 // cue this chapter on the player (no competing TOC scroll)
+      document.getElementById('listen').scrollIntoView({behavior:'smooth'});
+      const _p=A.play(); if(_p&&_p.catch)_p.catch(()=>{});   // auto-play where allowed; otherwise the ▶ button is right there
+      return true;
+    }
     return false;
   }
   addEventListener('hashchange', openFromHash);
