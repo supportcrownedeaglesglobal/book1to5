@@ -39,6 +39,7 @@
         try {
           tsId = window.turnstile.render(tsHost, {
             sitekey: siteKey,
+            size: "invisible",
             callback: (t) => { tsToken = t || ""; },
             "error-callback": () => { tsToken = ""; },
             "expired-callback": () => { tsToken = ""; },
@@ -49,6 +50,7 @@
     const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     async function getToken() {
       renderTS();
+      if (window.turnstile && tsId !== null && !tsToken) { try { window.turnstile.execute(tsId); } catch (e) {} }
       for (let i = 0; i < 50 && !tsToken; i++) await sleep(200); // wait up to ~10s for the token
       return tsToken;
     }

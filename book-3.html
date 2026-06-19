@@ -2673,6 +2673,7 @@ async function init(){
     if(k>=0 && chapters[k].ready){
       select(k,false,false);                                 // cue this chapter on the player (no competing TOC scroll)
       document.getElementById('listen').scrollIntoView({behavior:'smooth'});
+      const _pb=document.getElementById('playBtn'); if(_pb) _pb.focus({preventScroll:true});  // make the ▶ the obvious next tap
       const _p=A.play(); if(_p&&_p.catch)_p.catch(()=>{});   // auto-play where allowed; otherwise the ▶ button is right there
       return true;
     }
@@ -2911,9 +2912,9 @@ document.addEventListener('keydown', e=>{
 
 init();
 </script>
-<link rel="stylesheet" href="assets/guide.css?v=2">
+<link rel="stylesheet" href="assets/guide.css?v=3">
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-<script src="assets/guide.js?v=2" defer></script>
+<script src="assets/guide.js?v=3" defer></script>
 <script>addEventListener("DOMContentLoaded",function(){window.BMMGuide.mount({siteKey:"1x00000000000000000000AA"});});</script>
 </body>
 </html>
